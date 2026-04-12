@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-04-12T15:05:22.092Z",
+  "generatedAt": "2026-04-12T18:23:41.150Z",
   "window": {
-    "start": "2026-04-05T15:05:08.951Z",
-    "end": "2026-04-12T15:05:08.951Z",
+    "start": "2026-04-05T18:23:28.545Z",
+    "end": "2026-04-12T18:23:28.545Z",
     "label": "Ultimos 7 dias"
   },
   "source": {
     "name": "datos.gob.es API",
-    "url": "https://datos.gob.es/apidata/catalog/dataset/modified/begin/2026-04-05T15:05Z/end/2026-04-12T15:05Z.json?_sort=-modified&_pageSize=50&_page=0"
+    "url": "https://datos.gob.es/apidata/catalog/dataset/modified/begin/2026-04-05T18:23Z/end/2026-04-12T18:23Z.json?_sort=-modified&_pageSize=50&_page=0"
   },
   "summary": {
     "totalReviewed": 24,
