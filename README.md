@@ -1,53 +1,59 @@
 # Datos Gob Watch
 
-> Weekly watchtower for interesting datasets published or updated on `datos.gob.es`.
+> Radar semanal de datasets interesantes publicados o actualizados en `datos.gob.es`.
 
-![Status](https://img.shields.io/badge/status-live-2563eb)
-![Pages](https://img.shields.io/badge/pages-active-f97316)
+![Estado](https://img.shields.io/badge/status-live-2563eb)
+![Pages](https://img.shields.io/badge/pages-activo-f97316)
 ![Stack](https://img.shields.io/badge/stack-node%20%2B%20html%20%2B%20css-0f1729)
-![Schedule](https://img.shields.io/badge/refresh-weekly-16a34a)
+![Frecuencia](https://img.shields.io/badge/refresh-semanal-16a34a)
 
-`Ntizar theme` · `GitHub Pages` · `Weekly digest` · `datos.gob.es`
+`Tema Ntizar` · `GitHub Pages` · `Digest semanal` · `datos.gob.es`
+
+## Enlaces
+
+- GitHub: `https://github.com/Ntizar/datos-gob-watch`
+- Pages: `https://ntizar.github.io/datos-gob-watch/`
+- Design source: `https://github.com/Ntizar/Ntizar-Design`
 
 ## Snapshot
 
-| Block | Value |
+| Bloque | Valor |
 |---|---|
-| Site | `https://ntizar.github.io/datos-gob-watch/` |
-| Source | `datos.gob.es` public catalog API |
-| Output | `data/latest.json` + static homepage |
-| Runtime | Node script + GitHub Actions |
-| Goal | Spot reusable datasets with product potential |
+| Sitio | `https://ntizar.github.io/datos-gob-watch/` |
+| Fuente | API pública del catálogo de `datos.gob.es` |
+| Output | `data/latest.json` + homepage estática |
+| Runtime | Script Node + GitHub Actions |
+| Objetivo | Detectar datasets reutilizables con potencial de producto |
 
-## What It Does
+## Qué Hace
 
-- fetches datasets modified in the last 7 days
-- normalizes metadata and distribution formats
-- scores datasets with simple reuse heuristics
-- publishes a compact weekly digest in GitHub Pages
+- consulta datasets modificados en los últimos 7 días
+- normaliza metadatos y formatos de distribución
+- puntúa datasets con heurísticas simples de reutilización
+- publica un resumen semanal compacto en GitHub Pages
 
-## Why It Exists
+## Por Qué Existe
 
-The point is not just to list datasets. The point is to surface data that looks useful for building small products, prototypes or public-interest tools.
+La idea no es solo listar datasets. La idea es destacar datos que parezcan útiles para construir productos pequeños, prototipos o herramientas de interés público.
 
 ## Stack
 
-| Layer | Choice |
+| Capa | Elección |
 |---|---|
 | Fetch/build | Node.js |
-| UI | Plain HTML + `ntizar.css` |
+| UI | HTML plano + `ntizar.css` |
 | Deploy | GitHub Pages |
-| Automation | GitHub Actions |
+| Automatización | GitHub Actions |
 
-## Local Run
+## Ejecución Local
 
 ```bash
 npm run build
 ```
 
-This refreshes `data/latest.json`.
+Esto regenera `data/latest.json`.
 
-## Core Flow
+## Flujo Principal
 
 ```text
 datos.gob.es API
@@ -57,41 +63,35 @@ datos.gob.es API
   -> GitHub Pages
 ```
 
-## Main Files
+## Archivos Principales
 
-| File | Role |
+| Archivo | Rol |
 |---|---|
-| `scripts/fetch-weekly.mjs` | Fetch + normalize + rank datasets |
-| `data/latest.json` | Generated digest payload |
-| `index.html` | Static Ntizar-styled frontend |
-| `ntizar.css` | Synced design layer from `Ntizar-Design` |
-| `.github/workflows/weekly.yml` | Weekly refresh + Pages deploy |
+| `scripts/fetch-weekly.mjs` | Fetch + normalización + ranking |
+| `data/latest.json` | Payload generado del digest |
+| `index.html` | Frontend estático con estilo Ntizar |
+| `ntizar.css` | Capa visual sincronizada desde `Ntizar-Design` |
+| `.github/workflows/weekly.yml` | Refresh semanal + deploy de Pages |
 
-## Data Source
+## Fuente de Datos
 
-- base catalog endpoint:
+- endpoint base del catálogo:
   - `https://datos.gob.es/apidata/catalog/dataset.json`
-- weekly modified window:
+- ventana semanal por modificados:
   - `https://datos.gob.es/apidata/catalog/dataset/modified/begin/{YYYY-MM-DDTHH:mmZ}/end/{YYYY-MM-DDTHH:mmZ}.json?_sort=-modified&_pageSize=50&_page=0`
 
-## Ranking Heuristics
+## Heurísticas de Ranking
 
-Datasets score higher when they include:
-- reusable formats like `JSON`, `CSV`, `XML`, `GEOJSON`, `XLSX`
-- themes with product potential
-- multiple distributions
-- decent metadata coverage
+Suben más en ranking los datasets que traen:
+- formatos reutilizables como `JSON`, `CSV`, `XML`, `GEOJSON`, `XLSX`
+- temáticas con potencial de producto
+- varias distribuciones
+- metadatos razonablemente completos
 
-## Ntizar Fit
+## Encaje con Ntizar
 
-This repo uses the Ntizar visual language in a lighter, more editorial way:
-- bright default canvas
-- blue/orange accents
-- compact glass panels
-- readable contrast for data-heavy cards
-
-## Repo Links
-
-- Repo: `https://github.com/Ntizar/datos-gob-watch`
-- Live site: `https://ntizar.github.io/datos-gob-watch/`
-- Design source: `https://github.com/Ntizar/Ntizar-Design`
+Este repo usa el lenguaje visual Ntizar en una versión más ligera y editorial:
+- base clara
+- acentos azul/naranja
+- panels compactos glass
+- contraste legible para tarjetas con bastante contenido
