@@ -1,0 +1,1749 @@
+{
+  "generatedAt": "2026-04-12T14:16:54.604Z",
+  "window": {
+    "start": "2026-04-05T14:16:50.423Z",
+    "end": "2026-04-12T14:16:50.423Z",
+    "label": "Ultimos 7 dias"
+  },
+  "source": {
+    "name": "datos.gob.es API",
+    "url": "https://datos.gob.es/apidata/catalog/dataset/modified/begin/2026-04-05T14:16Z/end/2026-04-12T14:16Z.json?_sort=-modified&_pageSize=50&_page=0"
+  },
+  "summary": {
+    "totalReviewed": 24,
+    "topScore": 71,
+    "topFormats": [
+      {
+        "label": "JSON",
+        "count": 24
+      },
+      {
+        "label": "XLSX",
+        "count": 16
+      },
+      {
+        "label": "XML",
+        "count": 16
+      },
+      {
+        "label": "RDF",
+        "count": 11
+      }
+    ],
+    "topThemes": [
+      {
+        "label": "Empleo",
+        "count": 10
+      },
+      {
+        "label": "Sector Publico",
+        "count": 7
+      },
+      {
+        "label": "Turismo",
+        "count": 6
+      },
+      {
+        "label": "Cultura Ocio",
+        "count": 3
+      }
+    ],
+    "headline": "Se han detectado 24 datasets recientes con JSON como formato dominante."
+  },
+  "items": [
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/agenda-turistica-de-euskadi/",
+      "title": "Agenda turística de Euskadi",
+      "description": "Información para acceder a los principales eventos que se celebran en Euskadi: fiestas, conciertos, exposiciones, festivales de música, cine, mercados gastronómicos, etc.",
+      "issued": "lun, 19 ene 2015 23:00:00 GMT+0000",
+      "modified": "vie, 10 abr 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "agenda",
+        "agenda",
+        "ekitaldiak",
+        "eventos",
+        "festak",
+        "festividades"
+      ],
+      "formats": [
+        "GEOJSON",
+        "JSON",
+        "XLSX",
+        "XML"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-agenda-turistica-de-euskadi1",
+      "distributions": [
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_turisticos/opendata/agenda-padding.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_turisticos/opendata/agenda.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_turisticos/opendata/agenda.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_turisticos/opendata/agenda.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_turisticos/opendata/agenda.jsonp",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_turisticos/opendata/agenda.xml",
+          "format": "XML",
+          "identifier": ""
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/albergues-turisticos-de-euskadi/",
+      "title": "Albergues turisticos de Euskadi",
+      "description": "Información sobre los albergues turísticos de Euskadi.",
+      "issued": "lun, 07 mar 2016 23:00:00 GMT+0000",
+      "modified": "vie, 10 abr 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "albergues",
+        "albergues turísticos",
+        "alojamientos",
+        "aterpe-turistikoak",
+        "aterpeak",
+        "aterpetxeak"
+      ],
+      "formats": [
+        "XLSX",
+        "JSON",
+        "XML",
+        "GEOJSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-albergues-turisticos-de-euskadi",
+      "distributions": [
+        {
+          "title": "Albergues",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tF:turismo;tT:a_alojamiento;m:documentLanguage.EQ.es,lodgingType.IN.%28B%29;p:Inter_portal,Inter;",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Albergues",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/albergues_de_euskadi/opendata/alojamientos.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Albergues",
+          "accessUrl": "http://www.euskadi.net/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&r01kQry=tC:euskadi;tF:turismo;tT:a_alojamiento;m:documentLanguage.EQ.es,lodgingType.IN.%28B%29;p:Inter_portal,Inter;pp:r01NavBarBlockSize.10,r01PageSize.100",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Albergues",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/albergues_de_euskadi/opendata/alojamientos.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Albergues",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/albergues_de_euskadi/opendata/alojamientos.xml",
+          "format": "XML",
+          "identifier": ""
+        },
+        {
+          "title": "Albergues",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/albergues_de_euskadi/opendata/alojamientos-padding.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/alojamientos-rurales-de-euskadi/",
+      "title": "Alojamientos rurales de Euskadi",
+      "description": "Información sobre agroturismos y casas rurales de Euskadi.",
+      "issued": "lun, 07 mar 2016 23:00:00 GMT+0000",
+      "modified": "vie, 10 abr 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "agroturismo",
+        "alojamientos",
+        "casas rurales",
+        "landa",
+        "landa-etxeak",
+        "nekazal"
+      ],
+      "formats": [
+        "GEOJSON",
+        "XML",
+        "JSON",
+        "XLSX"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-alojamientos-rurales-de-euskadi",
+      "distributions": [
+        {
+          "title": "Alojamientos rurales",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamientos_rurales_euskadi/opendata/alojamientos.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Aeropuertos",
+          "accessUrl": "http://turismo.euskadi.net/x65-15809/es/s12GoogleMapsWar/gMapsJSP/VisorGMapsNP.jsp?lang=es",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Alojamientos rurales",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamientos_rurales_euskadi/opendata/alojamientos.xml",
+          "format": "XML",
+          "identifier": ""
+        },
+        {
+          "title": "Alojamientos rurales",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamientos_rurales_euskadi/opendata/alojamientos-padding.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Alojamientos rurales",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamientos_rurales_euskadi/opendata/alojamientos.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Alojamientos rurales",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamientos_rurales_euskadi/opendata/alojamientos.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/alojamientos/",
+      "title": "Alojamientos turísticos de Euskadi",
+      "description": "Información sobre los distintos tipos de alojamientos turísticos de Euskadi: hoteles, pensiones, apartamentos, alojamientos rurales, campings y albergues turísticos. Los datos se extraen del Registro de Empresas y Actividades Turísticas de Euskadi (REATE).",
+      "issued": "mié, 24 mar 2010 23:00:00 GMT+0000",
+      "modified": "vie, 10 abr 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "albergues turísticos",
+        "apartamentos",
+        "apartamentuak",
+        "aterpetxe turistikoak",
+        "camping",
+        "casas rurales"
+      ],
+      "formats": [
+        "JSON",
+        "GEOJSON",
+        "XLSX",
+        "XML"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-alojamientos-turisticos-de-euskadi",
+      "distributions": [
+        {
+          "title": "Aeropuertos",
+          "accessUrl": "http://turismo.euskadi.net/x65-15809/es/s12GoogleMapsWar/gMapsJSP/VisorGMapsNP.jsp?lang=es",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Alojamientos",
+          "accessUrl": "http://www.euskadi.net/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&r01kQry=tC:euskadi;tT:a_alojamiento;m:documentLanguage.EQ.es;p:Inter_portal,Inter;pp:r01NavBarBlockSize.10,r01PageSize.100",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Alojamientos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamiento_de_euskadi/opendata/alojamientos.jsonp",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Alojamientos",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tF:turismo;tT:a_alojamiento;m:documentLanguage.EQ.es;p:Inter_portal,Inter;",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Alojamientos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamiento_de_euskadi/opendata/alojamientos.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Alojamientos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamiento_de_euskadi/opendata/alojamientos-padding.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/cursos-jornadas-congresos-y-ferias-organizadas-por-el-ivap/",
+      "title": "Cursos, jornadas, congresos y ferias organizadas por el IVAP",
+      "description": "En este conjunto de datos puedes acceder a los cursos, jornadas, congresos y ferias que organiza el IVAP (Instituto Vasco de Administración Pública). Los eventos están dirigidos principalmente a trabajadores públicos y se encuentran en diversos formatos.",
+      "issued": "lun, 19 ene 2015 23:00:00 GMT+0000",
+      "modified": "vie, 10 abr 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Empleo",
+        "Sector Publico"
+      ],
+      "keywords": [
+        "agenda",
+        "agenda",
+        "azokak",
+        "congresos",
+        "cursos",
+        "ekitaldiak"
+      ],
+      "formats": [
+        "JSON",
+        "GEOJSON",
+        "XLSX",
+        "XML"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-cursos-jornadas-congresos-y-ferias-organizadas-por-el-ivap1",
+      "distributions": [
+        {
+          "title": "Cursos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/cursos_jornadas_ivap/opendata/cursos.jsonp",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Cursos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/cursos_jornadas_ivap/opendata/cursos.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Cursos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/cursos_jornadas_ivap/opendata/cursos.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Cursos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/cursos_jornadas_ivap/opendata/cursos.xml",
+          "format": "XML",
+          "identifier": ""
+        },
+        {
+          "title": "Cursos",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tT:evento;cA:r01e00000ff26d461d4a470b89cb18e96d2ace15a;m:documentLanguage.EQ.es;p:Inter",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Cursos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/cursos_jornadas_ivap/opendata/cursos.json",
+          "format": "JSON",
+          "identifier": ""
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Empleo, Sector Publico.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/informes-de-inspeccion-ambiental/",
+      "title": "Informes de inspección ambiental",
+      "description": "Este conjunto de datos ofrece las inspecciones ambientales realizadas por el área de Medio Ambiente del Gobierno Vasco.",
+      "issued": "jue, 14 jul 2016 22:00:00 GMT+0000",
+      "modified": "vie, 10 abr 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Medio Ambiente"
+      ],
+      "keywords": [
+        "contaminación",
+        "empresas",
+        "enpresak",
+        "ikuskaritza",
+        "ingurumena",
+        "inspecciones"
+      ],
+      "formats": [
+        "GEOJSON",
+        "JSON",
+        "XLSX",
+        "XML"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-informes-de-inspeccion-ambiental1",
+      "distributions": [
+        {
+          "title": "Informes",
+          "accessUrl": "http://www.euskadi.net/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&r01kQry=tC:euskadi;tF:documentacion_expedientes;tT:documentacion_autorizacion;m:documentLanguage.EQ.es;p:Inter;",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Informes",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_informes_estudios/informes_aai/opendata/informes.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Informes",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_informes_estudios/informes_aai/opendata/informes-padding.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Informes",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_informes_estudios/informes_aai/opendata/informes_aai.jsonp",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Informes",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_informes_estudios/informes_aai/opendata/informes_aai.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Informes",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_informes_estudios/informes_aai/opendata/informes_aai.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Medio Ambiente.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/restaurantes-asadores-y-sidrerias-de-euskadi/",
+      "title": "Restaurantes, asadores y sidrerías de Euskadi",
+      "description": "Información sobre los restaurantes, asadores y sidrerías de Euskadi.",
+      "issued": "lun, 07 mar 2016 23:00:00 GMT+0000",
+      "modified": "vie, 10 abr 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "asadores",
+        "erretegiak",
+        "jatetxeak",
+        "restauración",
+        "restaurantes",
+        "sagardotegiak"
+      ],
+      "formats": [
+        "GEOJSON",
+        "JSON",
+        "XLSX",
+        "XML"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-restaurantes-asadores-y-sidrerias-de-euskadi",
+      "distributions": [
+        {
+          "title": "Aeropuertos",
+          "accessUrl": "http://turismo.euskadi.net/x65-15809/es/s12GoogleMapsWar/gMapsJSP/VisorGMapsNP.jsp?lang=es",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Restaurantes, asadores y sidrerías",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/restaurantes_asador_sidrerias/opendata/restaurantes-padding.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Restaurantes, asadores y sidrerías",
+          "accessUrl": "https://www.euskadi.eus/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&r01kQry=tT:b_restauracion;m:documentLanguage.EQ.es,templateType.EQ.B1&restorationType.IN.(1,3,42);p:Inter_portal,Inter;pp:r01NavBarBlockSize.10,r01PageSize.100",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Restaurantes, asadores y sidrerías",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/restaurantes_asador_sidrerias/opendata/restaurantes.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Restaurantes, asadores y sidrerías",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/restaurantes_asador_sidrerias/opendata/restaurantes.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Restaurantes, asadores y sidrerías",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/restaurantes_asador_sidrerias/opendata/restaurantes.xml",
+          "format": "XML",
+          "identifier": ""
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/agenda-de-interes-para-jovenes-en-euskadi/",
+      "title": "Agenda de interés para jóvenes en Euskadi",
+      "description": "Gazte Informazioa es una red de más de 70 servicios que componen el Servicio de Información juvenil de Euskadi, formado por entidades dependientes de administraciones públicas (como Gobierno Vasco diputaciones o ayuntamientos), universidad y entidades privadas (asociaciones).",
+      "issued": "dom, 18 ene 2015 23:00:00 GMT+0000",
+      "modified": "vie, 10 abr 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Cultura Ocio",
+        "Turismo"
+      ],
+      "keywords": [
+        "actividades",
+        "agenda",
+        "agenda",
+        "conciertos",
+        "cursos",
+        "ekitaldiak"
+      ],
+      "formats": [
+        "XML",
+        "JSON",
+        "XLSX"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-agenda-de-interes-para-jovenes-en-euskadi1",
+      "distributions": [
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tT:evento;cA:r01epd012982674f7923a83e0e9ab363a0790c534;o:documentCreateDate.DESC;m:documentLanguage.EQ.es;p:Inter",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_gazte_informazioa/opendata/agenda.xml",
+          "format": "XML",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_gazte_informazioa/opendata/agenda.jsonp",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_gazte_informazioa/opendata/agenda.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_gazte_informazioa/opendata/agenda.json",
+          "format": "JSON",
+          "identifier": ""
+        }
+      ],
+      "score": 61,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Cultura Ocio, Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/oferta-publica-de-empleo-ope-de-la-administracion-autonomica-de-euskadi/",
+      "title": "Oferta Pública de Empleo (OPE) de la Administración Autonómica de Euskadi",
+      "description": "Ofertas Públicas de Empleo (OPE) convocadas por el Gobierno Vasco y sus Organismos Públicos dependientes. Los datos incluyen el número de plazas, la distribución de plazas, las bases, el calendario y otros datos relevantes.",
+      "issued": "lun, 25 feb 2013 23:00:00 GMT+0000",
+      "modified": "vie, 10 abr 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Empleo",
+        "Sector Publico"
+      ],
+      "keywords": [
+        "empleo",
+        "enplegua",
+        "epe",
+        "eskaintza",
+        "eusko jaurlaritza",
+        "funcionario"
+      ],
+      "formats": [
+        "JSON",
+        "XML",
+        "XLSX"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-oferta-publica-de-empleo-ope-de-la-administracion-autonomica-de-euskadi1",
+      "distributions": [
+        {
+          "title": "Ofertas",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_rrhh/empleo_publico_ope/opendata/ofertas.jsonp",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Ofertas",
+          "accessUrl": "http://www.euskadi.eus/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kQry=tC:euskadi;tT:empleo_publico_ope;m:documentLanguage.EQ.es;p:Inter;",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Ofertas",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tT:empleo_publico_ope;m:documentLanguage.EQ.es;p:Inter;",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Ofertas",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_rrhh/empleo_publico_ope/opendata/ofertas.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Ofertas",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_rrhh/empleo_publico_ope/opendata/ofertas.xml",
+          "format": "XML",
+          "identifier": ""
+        },
+        {
+          "title": "Ofertas",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_rrhh/empleo_publico_ope/opendata/ofertas.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        }
+      ],
+      "score": 61,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Empleo, Sector Publico.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/oferta-publica-de-empleo-ope-de-otras-administraciones-publicas-vascas/",
+      "title": "Oferta Pública de Empleo (OPE) de otras administraciones públicas vascas",
+      "description": "Ofertas Públicas de Empleo (OPE) convocadas por otras Administraciones Públicas vascas -excepto Gobierno vasco y sus Organismos Públicos dependientes-. Los datos incluyen el número de plazas, la distribución de plazas, las bases, el calendario y otros datos relevantes. Consultar los datos de la Oferta Pública de Empleo de la Administración Autonómica de Euskadi.",
+      "issued": "mié, 27 feb 2013 23:00:00 GMT+0000",
+      "modified": "vie, 10 abr 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Empleo",
+        "Sector Publico"
+      ],
+      "keywords": [
+        "empleo",
+        "enplegua",
+        "epe",
+        "funcionario",
+        "funtzionarioa",
+        "ivap"
+      ],
+      "formats": [
+        "XML",
+        "XLSX",
+        "JSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-oferta-publica-de-empleo-ope-de-otras-administraciones-publicas-vascas1",
+      "distributions": [
+        {
+          "title": "Ofertas",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_rrhh/empleo_publico_otras_ope/opendata/ofertas.xml",
+          "format": "XML",
+          "identifier": ""
+        },
+        {
+          "title": "Ofertas",
+          "accessUrl": "http://www.euskadi.eus/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kQry=tC:euskadi;tT:empleo_publico;m:documentLanguage.EQ.es;p:Inter;",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Ofertas",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_rrhh/empleo_publico_otras_ope/opendata/ofertas.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Ofertas",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_rrhh/empleo_publico_otras_ope/opendata/ofertas.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Ofertas",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_rrhh/empleo_publico_otras_ope/opendata/ofertas.jsonp",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Ofertas",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tT:empleo_publico;m:documentLanguage.EQ.es;p:Inter;",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 61,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Empleo, Sector Publico.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/eventos/agenda-cultural-eventos-del-2025/",
+      "title": "Agenda Cultural - Eventos del 2025",
+      "description": "En la Agenda se incluyen todas las actividades culturales presenciales y eventos del ámbito lingüístico del euskera (excepto bertsolarismo). Esta agenda es parte del Portal Interactivo de la Cultura Kulturklik que aúna contenidos culturales, en euskera y en castellano.",
+      "issued": "mar, 07 ene 2025 23:00:00 GMT+0000",
+      "modified": "vie, 10 abr 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Cultura Ocio"
+      ],
+      "keywords": [
+        "actividades para niños",
+        "antzerkia",
+        "arte eszenikoak",
+        "artes escénicas",
+        "artes visuales",
+        "audiovisual"
+      ],
+      "formats": [
+        "GEOJSON",
+        "JSON",
+        "XML",
+        "XLSX"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-agenda-cultural-eventos-del-2025",
+      "distributions": [
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/agenda_cultura_euskadi_2025/opendata/kulturklik-es-padding.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es/?r01kQry=tC:euskadi;tF:eventos;tT:evento;m:eventType.NEQ.bertsolarismo,documentLanguage.EQ.es;mA:eventStartDate.BETWEEN.01/01/2025,31/12/2025;cA:r01e00000ff26d466e5a470b86ed436e63765a17f;",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/agenda_cultura_euskadi_2025/opendata/kulturklik-es.jsonp",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/api-culture/?api=culture_events",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/agenda_cultura_euskadi_2025/opendata/kulturklik-es.xml",
+          "format": "XML",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/agenda_cultura_euskadi_2025/opendata/kulturklik-es.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        }
+      ],
+      "score": 59,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Cultura Ocio.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/kulturklik-agenda-cultural/",
+      "title": "Agenda Cultural - Próximos eventos",
+      "description": "En la Agenda se incluyen todas las actividades culturales presenciales y eventos del ámbito lingüístico del euskera. Esta agenda es parte del Portal Interactivo de la Cultura Kulturklik que aúna contenidos culturales, en euskera y en castellano.",
+      "issued": "mié, 30 sep 2015 22:00:00 GMT+0000",
+      "modified": "vie, 10 abr 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Cultura Ocio"
+      ],
+      "keywords": [
+        "API",
+        "API",
+        "actividades para niños",
+        "antzerkia",
+        "arte eszenikoak",
+        "artes escénicas"
+      ],
+      "formats": [
+        "JSON",
+        "XLSX",
+        "GEOJSON",
+        "XML"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-agenda-cultural-proximos-eventos1",
+      "distributions": [
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=m:eventEndDate.GTE.TODAY,documentLanguage.EQ.es;cA:r01e00000ff26d466e5a470b86ed436e63765a17f;",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/agenda_cultura_euskadi/es_kultura/adjuntos/kulturklik.jsonp",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/agenda_cultura_euskadi/es_kultura/adjuntos/kulturklik.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/agenda_cultura_euskadi/es_kultura/adjuntos/kulturklik.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/agenda_cultura_euskadi/es_kultura/adjuntos/kulturklik.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/agenda_cultura_euskadi/es_kultura/adjuntos/kulturklik.xml",
+          "format": "XML",
+          "identifier": ""
+        }
+      ],
+      "score": 59,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Cultura Ocio.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/catalogo-de-datos-estadisticos-de-organismos-autonomos-y-entes-publicos-publicados-en-el-portal-de-open-data-euskadi/",
+      "title": "Catálogo de datos estadísticos de Organismos Autónomos y Entes Públicos publicados en el portal de Open Data Euskadi",
+      "description": "Este conjunto de datos incluye todos los datasets estadísticos de los Organismos Autónomos y Entes Públicos que se han publicado en Open Data Euskadi hasta la fecha. Por tanto, no están incluidos los datos estadísticos del Gobierno Vasco ni el resto de datos no estadísticos.",
+      "issued": "dom, 16 sep 2012 22:00:00 GMT+0000",
+      "modified": "vie, 10 abr 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Sector Publico"
+      ],
+      "keywords": [
+        "catálogo",
+        "dataset",
+        "dataset",
+        "datos",
+        "datu-sorta",
+        "datuak"
+      ],
+      "formats": [
+        "JSON",
+        "TTL",
+        "XML",
+        "XLSX",
+        "RDF"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-catalogo-de-datos-estadisticos-de-organismos-autonomos-y-entes-publicos-publicados-en-el-portal-de-open-data-euskadi1",
+      "distributions": [
+        {
+          "title": "Catálogo de datos",
+          "accessUrl": "https://api.euskadi.eus/sparql/",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Datos estadísticos de Organismos Autónomos y Entes Públicos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_general/catalogo_estadisticas_ooaa/opendata/estadisticas.jsonp",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Datos estadísticos de Organismos Autónomos y Entes Públicos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_general/catalogo_estadisticas_ooaa/opendata/estadisticas.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Datos estadísticos de Organismos Autónomos y Entes Públicos",
+          "accessUrl": "https://opendata.euskadi.eus/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&r01kQry=tC:euskadi;tF:opendata;tT:estadistica;m:documentLanguage.EQ.es,OpendataEstadistic.IN.(0,1);cA:r01epd0122e4edf39923e0db0b11fff216b637726;p:Inter;",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Catálogo de datos estadísticos de Organismos Autónomos y Entes Públicos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_general/catalogo_estadisticas_ooaa/opendata/federador_datos_estadisticos_ooaa.ttl",
+          "format": "TTL",
+          "identifier": ""
+        },
+        {
+          "title": "Datos estadísticos de Organismos Autónomos y Entes Públicos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_general/catalogo_estadisticas_ooaa/opendata/estadisticas.xml",
+          "format": "XML",
+          "identifier": ""
+        }
+      ],
+      "score": 59,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Sector Publico.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/catalogo-de-datos-estadisticos-del-gobierno-vasco-publicados-en-el-portal-de-open-data-euskadi/",
+      "title": "Catálogo de datos estadísticos del Gobierno Vasco publicados en el portal de Open Data Euskadi",
+      "description": "Este conjunto de datos incluye todos los datasets estadísticos del Gobierno Vasco que se han publicado en Open Data Euskadi hasta la fecha. Por tanto, no están incluidos los datos estadísticos de los Organismos Autónomos ni el resto de datos no estadísticos.",
+      "issued": "dom, 16 sep 2012 22:00:00 GMT+0000",
+      "modified": "vie, 10 abr 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Sector Publico"
+      ],
+      "keywords": [
+        "catálogo",
+        "dataset",
+        "dataset",
+        "datos",
+        "datu-sorta",
+        "datuak"
+      ],
+      "formats": [
+        "JSON",
+        "TTL",
+        "RDF",
+        "XLSX",
+        "XML"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-catalogo-de-datos-estadisticos-del-gobierno-vasco-publicados-en-el-portal-de-open-data-euskadi1",
+      "distributions": [
+        {
+          "title": "Datos estadísticos del Gobierno Vasco",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_general/catalogo_estadisticas_gv/opendata/estadisticas.jsonp",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Datos estadísticos del Gobierno Vasco",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-catalogo/es?r01kQry=tC:euskadi;tF:opendata;tT:estadistica;m:documentLanguage.EQ.es,OpendataEstadistic.IN.(0,1);cA:r01epd0122e4ed314423e0db04c97a47b5baa317f;p:Inter",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Catálogo de datos",
+          "accessUrl": "https://api.euskadi.eus/sparql/",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Datos estadísticos del Gobierno Vasco",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_general/catalogo_estadisticas_gv/opendata/estadisticas.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Catálogo de datos estadísticos del Gobierno Vasco",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_general/catalogo_estadisticas_gv/opendata/federador_datos_estadisticos_gv.ttl",
+          "format": "TTL",
+          "identifier": ""
+        },
+        {
+          "title": "Datos estadísticos del Gobierno Vasco",
+          "accessUrl": "https://opendata.euskadi.eus/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&r01kQry=tC:euskadi;tF:opendata;tT:estadistica;m:documentLanguage.EQ.es,OpendataEstadistic.IN.(0,1);cA:r01epd0122e4ed314423e0db04c97a47b5baa317f;p:Inter;",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 59,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Sector Publico.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/catalogo-de-datos/",
+      "title": "Catálogo de datos publicados en el portal de Open Data Euskadi",
+      "description": "Este conjunto de datos incluye a su vez a todos los datasets que se han publicado en Open Data hasta la fecha exceptuando los conjuntos de datos estadísticos. Te ofrecemos los datos en diferentes formatos.",
+      "issued": "dom, 16 sep 2012 22:00:00 GMT+0000",
+      "modified": "vie, 10 abr 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Sector Publico"
+      ],
+      "keywords": [
+        "catálogo",
+        "dataset",
+        "dataset",
+        "datos",
+        "datu-sorta",
+        "datuak"
+      ],
+      "formats": [
+        "TTL",
+        "JSON",
+        "XLSX",
+        "XML",
+        "RDF"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-catalogo-de-datos-publicados-en-el-portal-de-open-data-euskadi1",
+      "distributions": [
+        {
+          "title": "Catálogo de datos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_general/catalogo_datos_opendata/opendata/federador_datos.ttl",
+          "format": "TTL",
+          "identifier": ""
+        },
+        {
+          "title": "Catálogo de datos",
+          "accessUrl": "https://opendata.euskadi.eus/rss/catalogo-datos-es/",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Catálogo de datos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_general/catalogo_datos_opendata/opendata/datasets.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Catálogo de datos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_general/catalogo_datos_opendata/opendata/datasets.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Catálogo de datos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_general/catalogo_datos_opendata/opendata/datasets.xml",
+          "format": "XML",
+          "identifier": ""
+        },
+        {
+          "title": "Catálogo de datos",
+          "accessUrl": "https://opendata.euskadi.eus/api/catalogo-datos-es/",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 59,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Sector Publico.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/registro-asociaciones-euskadi/",
+      "title": "Registro de Asociaciones de Euskadi",
+      "description": "En este conjunto de datos presentamos los datos del Registro de Asociaciones del País Vasco. En este registro aparecen las asociaciones sin ánimo de lucro cuyo ámbito de actuación principal sea el País Vasco que no estén sometidas a un régimen asociativo específico.",
+      "issued": "dom, 27 nov 2011 23:00:00 GMT+0000",
+      "modified": "vie, 10 abr 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Sector Publico"
+      ],
+      "keywords": [
+        "actividad",
+        "aktibitatea",
+        "asociación",
+        "elkartea",
+        "elkarteak",
+        "eraketa"
+      ],
+      "formats": [
+        "XLSX",
+        "CSV",
+        "XML",
+        "JSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-registro-de-asociaciones-de-euskadi1",
+      "distributions": [
+        {
+          "title": "Cuentas de resultados",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_registros/asociaciones_euskadi/opendata/datos_anuales_resultados_asoc_2024.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Cuentas de resultados",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_registros/asociaciones_euskadi/opendata/datos_anuales_resultados_asoc_2024.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Balance",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_registros/asociaciones_euskadi/opendata/datos_anuales_balance_asoc_2024.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Asociaciones",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_registros/asociaciones_euskadi/opendata/asociaciones.xml",
+          "format": "XML",
+          "identifier": ""
+        },
+        {
+          "title": "Balance",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_registros/asociaciones_euskadi/opendata/datos_anuales_balance_asoc_2023.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Balance",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_registros/asociaciones_euskadi/opendata/datos_anuales_balance_asoc_2024.csv",
+          "format": "CSV",
+          "identifier": ""
+        }
+      ],
+      "score": 59,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Sector Publico.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://datos.icane.es/dataset/06d86aa7-dc92-422d-bf17-db1026403e21",
+      "title": "Accidentes de trabajo y enfermedades profesionales",
+      "description": "Accidentes de trabajo y enfermedades profesionales",
+      "issued": "vie, 14 mar 2025 07:45:36 GMT+0000",
+      "modified": "vie, 10 abr 2026 11:17:14 GMT+0000",
+      "publisher": "A06004074",
+      "spatial": "Sin dato",
+      "themes": [
+        "Empleo"
+      ],
+      "keywords": [
+        "Condiciones De Trabajo Y Relaciones Laborales"
+      ],
+      "formats": [
+        "RDF",
+        "JSON",
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-accidentes-de-trabajo-y-enfermedades-profesionales",
+      "distributions": [
+        {
+          "title": "Enfermedades profesionales según sexo y ocupación (CNO 11)",
+          "accessUrl": "https://www.icane.es/data/enfermedades-profesionales-segun-ocupacion-sexo#timeseries",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Accidentes de trabajo con baja según tipo de accidente, gravedad, sexo y tipo de contrato",
+          "accessUrl": "https://www.icane.es/data/api/accidentes-trabajo-baja-tipo-gravedad-sexo-tipo-contrato.pc-axis",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Accidentes de trabajo con baja según tipo de accidente, gravedad, sexo y tamaño del centro",
+          "accessUrl": "https://www.icane.es/data/api/accidentes-trabajo-baja-tipo-gravedad-sexo-tamano-centro.rdf",
+          "format": "RDF",
+          "identifier": ""
+        },
+        {
+          "title": "Accidentes de trabajo con baja según tipo de accidente, gravedad, sexo y tipo de contrato",
+          "accessUrl": "https://www.icane.es/data/accidentes-trabajo-baja-tipo-gravedad-sexo-tipo-contrato#timeseries",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Enfermedades profesionales según sexo y grupo de edad",
+          "accessUrl": "https://www.icane.es/data/api/enfermedades-profesionales-segun-sexo-grupo-edad.json-stat",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Enfermedades profesionales según sexo y ocupación (CNO 11)",
+          "accessUrl": "https://www.icane.es/data/api/enfermedades-profesionales-segun-ocupacion-sexo.csv",
+          "format": "CSV",
+          "identifier": ""
+        }
+      ],
+      "score": 54,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Empleo.",
+        "Publicador: A06004074."
+      ]
+    },
+    {
+      "id": "https://datos.icane.es/dataset/4bc86715-997f-4846-aebb-89b9ce4f0869",
+      "title": "Adjudicaciones de Obras del Grupo MITMA",
+      "description": "Adjudicaciones de obras del Grupo MITMA",
+      "issued": "vie, 14 mar 2025 07:45:36 GMT+0000",
+      "modified": "vie, 10 abr 2026 11:17:14 GMT+0000",
+      "publisher": "A06004074",
+      "spatial": "Sin dato",
+      "themes": [
+        "Economia"
+      ],
+      "keywords": [
+        "Construcción"
+      ],
+      "formats": [
+        "RDF",
+        "JSON",
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-adjudicaciones-de-obras-del-grupo-mitma",
+      "distributions": [
+        {
+          "title": "Adjudicaciones de Obras del Grupo MITMA",
+          "accessUrl": "https://www.icane.es/data/api/adjudicaciones-obras-fomento-series.rdf",
+          "format": "RDF",
+          "identifier": ""
+        },
+        {
+          "title": "Adjudicaciones de Obras del Grupo MITMA",
+          "accessUrl": "https://www.icane.es/data/api/adjudicaciones-obras-fomento-series.json-stat",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Adjudicaciones de Obras del Grupo MITMA: Entidades Públicas Estatales",
+          "accessUrl": "https://www.icane.es/data/api/adjudicaciones-obras-fomento-entidades-publicas.sdmx",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Adjudicaciones de Obras del Grupo MITMA",
+          "accessUrl": "https://www.icane.es/data/api/adjudicaciones-obras-fomento-series.sdmx",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Adjudicaciones de Obras del Grupo MITMA: Entidades Públicas Estatales",
+          "accessUrl": "https://www.icane.es/data/api/adjudicaciones-obras-fomento-entidades-publicas.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Adjudicaciones de Obras del Grupo MITMA: Entidades Públicas Estatales",
+          "accessUrl": "https://www.icane.es/data/api/adjudicaciones-obras-fomento-entidades-publicas.json-stat",
+          "format": "JSON",
+          "identifier": ""
+        }
+      ],
+      "score": 54,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Economia.",
+        "Publicador: A06004074."
+      ]
+    },
+    {
+      "id": "https://datos.icane.es/dataset/67cee06c-b730-4505-a2bb-a36923887d20",
+      "title": "Afiliación a la Seguridad Social a último día de mes",
+      "description": "Afiliación a la Seguridad Social a último día de mes",
+      "issued": "vie, 14 mar 2025 07:48:52 GMT+0000",
+      "modified": "vie, 10 abr 2026 11:16:40 GMT+0000",
+      "publisher": "A06004074",
+      "spatial": "Sin dato",
+      "themes": [
+        "Empleo"
+      ],
+      "keywords": [
+        "Estadísticas De Empleo Y Paro"
+      ],
+      "formats": [
+        "JSON",
+        "CSV",
+        "RDF"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-afiliacion-a-la-seguridad-social-a-ultimo-dia-de-mes",
+      "distributions": [
+        {
+          "title": "Afiliados a último día de mes en alta laboral. Régimen General y R.E.T.A. por sección de actividad según CNAE09",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-ultimo-dia-mes-alta-laboral-regimen-general-reta-actividad-cnae09.pc-axis",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados a último día de mes en alta laboral. Régimen General y R.E.T.A. por sección de actividad según CNAE09",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-ultimo-dia-mes-alta-laboral-regimen-general-reta-actividad-cnae09.google-json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados a último día de mes en alta laboral. Régimen General y R.E.T.A. por sección de actividad según CNAE93",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-ultimo-dia-mes-alta-laboral-regimen-general-reta-actividad-cnae93.excel",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados a último día de mes en alta laboral. Régimen General y R.E.T.A. por sección de actividad según CNAE09",
+          "accessUrl": "https://www.icane.es/data/afiliados-ultimo-dia-mes-alta-laboral-regimen-general-reta-actividad-cnae09#timeseries",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados a último día de mes en alta laboral. Régimen General y R.E.T.A. por sección de actividad según CNAE09",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-ultimo-dia-mes-alta-laboral-regimen-general-reta-actividad-cnae09.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados a último día de mes en alta laboral. Régimen General y R.E.T.A. por sección de actividad según CNAE25",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-ultimo-dia-mes-alta-laboral-regimen-general-reta-actividad-cnae25.sdmx",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 54,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Empleo.",
+        "Publicador: A06004074."
+      ]
+    },
+    {
+      "id": "https://datos.icane.es/dataset/8631c202-5729-40ec-a293-0e6ef163b934",
+      "title": "Afiliación a la Seguridad Social a último día de trimestre",
+      "description": "Afiliación a la Seguridad Social a último día de trimestre por municipio",
+      "issued": "vie, 14 mar 2025 07:48:53 GMT+0000",
+      "modified": "vie, 10 abr 2026 11:16:41 GMT+0000",
+      "publisher": "A06004074",
+      "spatial": "Sin dato",
+      "themes": [
+        "Empleo"
+      ],
+      "keywords": [
+        "Estadísticas De Empleo Y Paro"
+      ],
+      "formats": [
+        "JSON",
+        "RDF",
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-afiliacion-a-la-seguridad-social-a-ultimo-dia-de-trimestre",
+      "distributions": [
+        {
+          "title": "Afiliados a último día de trimestre por sexo, grupo de edad y municipio de localización del establecimiento o de residencia del afiliado",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-sexo-grupo-edad-municipal.google-json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados a último día de trimestre del régimen general por tamaño del establecimiento y municipio de localización del establecimiento o de residencia del afiliado",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-regimen-general-estrato-municipal.google-json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados a último día de trimestre por sexo, grupo de edad y municipio de localización del establecimiento o de residencia del afiliado",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-sexo-grupo-edad-municipal.json-stat",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados a último día de trimestre por régimen, sector de actividad y municipio de localización del establecimiento o de residencia del afiliado",
+          "accessUrl": "https://www.icane.es/data/afiliados-seguridad-social-sector-actividad-regimen#timeseries",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados a último día de trimestre por régimen, sector de actividad y municipio de localización del establecimiento o de residencia del afiliado",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-sector-actividad-regimen.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados a último día de trimestre del régimen general por tamaño del establecimiento y municipio de localización del establecimiento o de residencia del afiliado",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-regimen-general-estrato-municipal.json",
+          "format": "JSON",
+          "identifier": ""
+        }
+      ],
+      "score": 54,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Empleo.",
+        "Publicador: A06004074."
+      ]
+    },
+    {
+      "id": "https://datos.icane.es/dataset/7b201fc5-f9ad-420c-a221-d19e9d2b841c",
+      "title": "Afiliación a la Seguridad Social a último día de trimestre",
+      "description": "Afiliación a la Seguridad Social a último día de trimestre",
+      "issued": "vie, 14 mar 2025 07:48:53 GMT+0000",
+      "modified": "vie, 10 abr 2026 11:16:41 GMT+0000",
+      "publisher": "A06004074",
+      "spatial": "Sin dato",
+      "themes": [
+        "Empleo"
+      ],
+      "keywords": [
+        "Estadísticas De Empleo Y Paro"
+      ],
+      "formats": [
+        "CSV",
+        "JSON",
+        "RDF"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-afiliacion-a-la-seguridad-social-a-ultimo-dia-de-trimestre3",
+      "distributions": [
+        {
+          "title": "Afiliados a último día de trimestre del régimen general por modalidad de contrato y área de localización del establecimiento o de residencia del afiliado",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-agrupacion-municipios-modalidad-contrato.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Flujo de afiliados a último día de trimestre entre el área de localización de la empresa y el área de residencia del afiliado",
+          "accessUrl": "https://www.icane.es/data/api/flujo-afiliados-seguridad-social-agrupacion-municipios.json-stat",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Flujo de afiliados a último día de trimestre entre el área de localización de la empresa y el área de residencia del afiliado",
+          "accessUrl": "https://www.icane.es/data/api/flujo-afiliados-seguridad-social-agrupacion-municipios.rdf",
+          "format": "RDF",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados a último día de trimestre por sexo, grupo de edad, sección de actividad y área de localización del establecimiento o de residencia del afiliado",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-agrupacion-municipios-sexo-grupo-edad-seccion-actividad.sdmx",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados a último día de trimestre del régimen general por modalidad de contrato y área de localización del establecimiento o de residencia del afiliado",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-agrupacion-municipios-modalidad-contrato.json-stat",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados a último día de trimestre del régimen general por modalidad de contrato y área de localización del establecimiento o de residencia del afiliado",
+          "accessUrl": "https://www.icane.es/data/afiliados-seguridad-social-agrupacion-municipios-modalidad-contrato#timeseries",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 54,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Empleo.",
+        "Publicador: A06004074."
+      ]
+    },
+    {
+      "id": "https://datos.icane.es/dataset/b65c6af6-cea4-42a6-8f99-6d4b3871916b",
+      "title": "Afiliación a la Seguridad Social a último día de trimestre",
+      "description": "Afiliación a la Seguridad Social a último día de trimestre",
+      "issued": "vie, 14 mar 2025 07:48:53 GMT+0000",
+      "modified": "vie, 10 abr 2026 11:16:40 GMT+0000",
+      "publisher": "A06004074",
+      "spatial": "Sin dato",
+      "themes": [
+        "Empleo"
+      ],
+      "keywords": [
+        "Estadísticas De Empleo Y Paro"
+      ],
+      "formats": [
+        "CSV",
+        "RDF",
+        "JSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-afiliacion-a-la-seguridad-social-a-ultimo-dia-de-trimestre2",
+      "distributions": [
+        {
+          "title": "Afiliados a último día de trimestre por sexo, grupo de edad y régimen",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-sexo-grupo-edad-regimen.pc-axis",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados a último día de trimestre por sexo, grupo de edad y sector de actividad",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-sexo-grupo-edad-sector-actividad.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados a último día de trimestre por división de actividad y régimen",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-division-actividad-regimen.rdf",
+          "format": "RDF",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados a último día de trimestre del régimen general por sexo, grupo de edad y grupo de cotización",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-sexo-grupo-edad-grupo-cotizacion.excel",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados a último día de trimestre por división de actividad y régimen",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-division-actividad-regimen.google-json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados a último día de trimestre del régimen general por sexo, grupo de edad y grupo de cotización",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-sexo-grupo-edad-grupo-cotizacion.csv",
+          "format": "CSV",
+          "identifier": ""
+        }
+      ],
+      "score": 54,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Empleo.",
+        "Publicador: A06004074."
+      ]
+    },
+    {
+      "id": "https://datos.icane.es/dataset/49f76d0f-674a-46ff-b647-fae9ba5df19f",
+      "title": "Afiliación a la Seguridad Social media mensual",
+      "description": "Afiliación a la Seguridad Social media mensual",
+      "issued": "vie, 14 mar 2025 07:48:54 GMT+0000",
+      "modified": "vie, 10 abr 2026 11:16:42 GMT+0000",
+      "publisher": "A06004074",
+      "spatial": "Sin dato",
+      "themes": [
+        "Empleo"
+      ],
+      "keywords": [
+        "Estadísticas De Empleo Y Paro"
+      ],
+      "formats": [
+        "RDF",
+        "JSON",
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-afiliacion-a-la-seguridad-social-media-mensual",
+      "distributions": [
+        {
+          "title": "Afiliados medios mensuales. Régimen General y R.E.T.A. por sección de actividad (CNAE09)",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-medios-mensuales-regimen-general-reta-actividad-cnae09.rdf",
+          "format": "RDF",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados medios mensuales en alta laboral por régimen y sexo",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-medios-mensuales-alta-laboral-regimen-sexo.rdf",
+          "format": "RDF",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados medios mensuales en alta laboral por régimen y sexo",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-medios-mensuales-alta-laboral-regimen-sexo.google-json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados medios mensuales. Régimen General y R.E.T.A. por sección de actividad (CNAE25)",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-medios-mensuales-regimen-general-reta-actividad-cnae25.rdf",
+          "format": "RDF",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados medios mensuales. Régimen General y R.E.T.A. por sección de actividad (CNAE25)",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-medios-mensuales-regimen-general-reta-actividad-cnae25.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados medios mensuales en alta laboral por régimen y sexo",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-medios-mensuales-alta-laboral-regimen-sexo.csv",
+          "format": "CSV",
+          "identifier": ""
+        }
+      ],
+      "score": 54,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Empleo.",
+        "Publicador: A06004074."
+      ]
+    },
+    {
+      "id": "https://datos.icane.es/dataset/a00fdfe2-2c4c-47d0-aab1-562ae93da2ef",
+      "title": "Afiliación de Extranjeros a la Seguridad Social a último día de mes",
+      "description": "Afiliación de Extranjeros a la Seguridad Social a último día de mes",
+      "issued": "vie, 14 mar 2025 07:48:54 GMT+0000",
+      "modified": "vie, 10 abr 2026 11:16:41 GMT+0000",
+      "publisher": "A06004074",
+      "spatial": "Sin dato",
+      "themes": [
+        "Empleo"
+      ],
+      "keywords": [
+        "Estadísticas De Empleo Y Paro"
+      ],
+      "formats": [
+        "JSON",
+        "RDF",
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-afiliacion-de-extranjeros-a-la-seguridad-social-a-ultimo-dia-de-mes",
+      "distributions": [
+        {
+          "title": "Afiliados extranjeros a último día de mes en alta laboral según régimen, procedencia y sexo",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-extranjeros-alta-laboral-regimen-procedencia-sexo.excel",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados extranjeros a último día de mes en alta laboral. Régimen General y R.E.T.A por sección de actividad según CNAE 25",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-extranjeros-alta-laboral-ultimo-dia-mes-general-reta-actividad-cnae25.json-stat",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados extranjeros a último día de mes en alta laboral. Régimen General y R.E.T.A por sección de actividad según CNAE 25",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-extranjeros-alta-laboral-ultimo-dia-mes-general-reta-actividad-cnae25.google-json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados extranjeros a último día de mes en alta laboral. Régimen General y R.E.T.A por sección de actividad según CNAE 25",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-extranjeros-alta-laboral-ultimo-dia-mes-general-reta-actividad-cnae25.sdmx",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados extranjeros a último día de mes en alta laboral. Régimen General y R.E.T.A por sección de actividad según CNAE 09",
+          "accessUrl": "https://www.icane.es/data/afiliados-extranjeros-alta-laboral-ultimo-dia-mes-general-reta-actividad-cnae09#timeseries",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados extranjeros a último día de mes en alta laboral según régimen, procedencia y sexo",
+          "accessUrl": "https://www.icane.es/data/afiliados-extranjeros-alta-laboral-regimen-procedencia-sexo#timeseries",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 54,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Empleo.",
+        "Publicador: A06004074."
+      ]
+    }
+  ]
+}

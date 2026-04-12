@@ -1,0 +1,10 @@
+{
+  "name": "datos-gob-watch",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/fetch-weekly.mjs",
+    "refresh": "node scripts/fetch-weekly.mjs"
+  }
+}

@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Datos Gob Watch</title>
+  <meta name="description" content="Resumen semanal de datasets interesantes publicados o actualizados en datos.gob.es para detectar ideas de producto y proyectos.">
+  <link rel="stylesheet" href="./ntizar.css">
+  <style>
+    :root {
+      --page-max: 1280px;
+    }
+
+    body {
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    .hero-shell {
+      position: relative;
+      min-height: 100vh;
+      padding: 2rem 1.25rem 4rem;
+      background:
+        radial-gradient(circle at top left, rgba(59, 130, 246, 0.16), transparent 34%),
+        radial-gradient(circle at top right, rgba(249, 115, 22, 0.16), transparent 34%),
+        linear-gradient(180deg, rgba(7, 11, 18, 0.98), rgba(7, 11, 18, 1));
+    }
+
+    .hero-shell::before,
+    .hero-shell::after {
+      content: "";
+      position: absolute;
+      border-radius: 9999px;
+      filter: blur(80px);
+      opacity: 0.35;
+      pointer-events: none;
+    }
+
+    .hero-shell::before {
+      top: -120px;
+      left: -60px;
+      width: 280px;
+      height: 280px;
+      background: var(--brand-primary);
+    }
+
+    .hero-shell::after {
+      top: 60px;
+      right: -60px;
+      width: 260px;
+      height: 260px;
+      background: var(--brand-accent);
+    }
+
+    .page {
+      position: relative;
+      z-index: 1;
+      max-width: var(--page-max);
+      margin: 0 auto;
+    }
+
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .brand-lockup {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .brand-mark {
+      width: 14px;
+      height: 14px;
+      border-radius: 9999px;
+      background: linear-gradient(135deg, var(--brand-primary), var(--brand-accent));
+      box-shadow: 0 0 24px rgba(59, 130, 246, 0.5);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 0.9fr;
+      gap: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero-copy {
+      padding: 1.75rem;
+    }
+
+    .hero-kickers {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero-title {
+      font-size: clamp(2.4rem, 4vw, 4.75rem);
+      line-height: 1.02;
+      letter-spacing: -0.04em;
+      margin-bottom: 1rem;
+      max-width: 11ch;
+    }
+
+    .hero-body {
+      max-width: 62ch;
+      color: var(--text-secondary);
+      margin-bottom: 1.5rem;
+      font-size: 1.05rem;
+    }
+
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .metric-card {
+      padding: 1rem;
+      border-radius: var(--radius-lg);
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .metric-value {
+      font-size: 1.75rem;
+      font-weight: var(--font-bold);
+    }
+
+    .metric-label {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+    }
+
+    .digest-card {
+      padding: 1.5rem;
+      min-height: 100%;
+    }
+
+    .digest-card h2 {
+      margin-bottom: 1rem;
+    }
+
+    .digest-list {
+      display: grid;
+      gap: 0.75rem;
+    }
+
+    .digest-list li {
+      list-style: none;
+      padding: 0.85rem 0.95rem;
+      border-radius: var(--radius-md);
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 1rem;
+      margin: 2rem 0 1rem;
+    }
+
+    .section-head p {
+      color: var(--text-secondary);
+      max-width: 60ch;
+    }
+
+    .results-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1rem;
+    }
+
+    .dataset-card {
+      padding: 1.25rem;
+      display: grid;
+      gap: 1rem;
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+      gap: 1rem;
+    }
+
+    .score-pill {
+      min-width: 72px;
+      text-align: center;
+      padding: 0.65rem 0.85rem;
+      border-radius: var(--radius-full);
+      background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(249, 115, 22, 0.2));
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      font-weight: var(--font-bold);
+    }
+
+    .dataset-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.55rem;
+    }
+
+    .dataset-summary {
+      color: var(--text-secondary);
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .chip-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .chip {
+      padding: 0.42rem 0.75rem;
+      border-radius: var(--radius-full);
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      font-size: 0.86rem;
+      color: var(--text-secondary);
+    }
+
+    .note-list {
+      display: grid;
+      gap: 0.5rem;
+      padding-left: 1rem;
+      color: var(--text-secondary);
+    }
+
+    .card-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      align-items: center;
+    }
+
+    .card-actions a {
+      text-decoration: none;
+    }
+
+    .footer {
+      margin-top: 2.5rem;
+      padding: 1.25rem 0 0;
+      color: var(--text-muted);
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .empty-state {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    @media (max-width: 980px) {
+      .hero-grid,
+      .results-grid,
+      .summary-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .topbar,
+      .section-head,
+      .card-top {
+        align-items: start;
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="hero-shell">
+    <main class="page">
+      <header class="topbar">
+        <div class="brand-lockup">
+          <span class="brand-mark"></span>
+          <div>
+            <div class="text-secondary">Ntizar Lab</div>
+            <strong>Datos Gob Watch</strong>
+          </div>
+        </div>
+        <a class="btn btn-glass-blue btn-sm" href="https://datos.gob.es/es/apidata" target="_blank" rel="noreferrer">Ver API oficial</a>
+      </header>
+
+      <section class="hero-grid">
+        <article class="hero-copy card card-glass glass-specular specular-blue">
+          <div class="hero-kickers">
+            <span class="badge badge-blue no-dot">Resumen semanal</span>
+            <span class="badge badge-orange no-dot">Ideas de producto</span>
+          </div>
+          <h1 class="hero-title text-gradient">Nuevos datos para nuevas ideas.</h1>
+          <p class="hero-body" id="headline">
+            Cargando el resumen de datasets recientes publicados o actualizados en datos.gob.es.
+          </p>
+
+          <div class="summary-grid">
+            <div class="metric-card glass-subtle">
+              <div class="metric-value" id="total-reviewed">-</div>
+              <div class="metric-label">datasets revisados</div>
+            </div>
+            <div class="metric-card glass-subtle">
+              <div class="metric-value" id="top-score">-</div>
+              <div class="metric-label">mejor puntuacion</div>
+            </div>
+            <div class="metric-card glass-subtle">
+              <div class="metric-value" id="generated-at">-</div>
+              <div class="metric-label">ultima actualizacion</div>
+            </div>
+          </div>
+        </article>
+
+        <aside class="digest-card card card-glass glass-specular specular-orange">
+          <h2>Digest rapido</h2>
+          <ul class="digest-list" id="digest-list">
+            <li>Preparando la primera lectura del catalogo.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <div>
+            <h2>Datasets destacados</h2>
+            <p>
+              Seleccionados por formatos reutilizables, tematicas con potencial de producto y senales simples de explotabilidad.
+            </p>
+          </div>
+          <div class="chip-row" id="top-formats"></div>
+        </div>
+
+        <div class="results-grid" id="results-grid"></div>
+      </section>
+
+      <footer class="footer">
+        <p>
+          Proyecto experimental de Ntizar para explorar oportunidades de producto a partir del catalogo publico de datos.gob.es.
+        </p>
+      </footer>
+    </main>
+  </div>
+
+  <script>
+    function text(value, fallback = "Sin dato") {
+      return value ? value : fallback;
+    }
+
+    function dateLabel(value) {
+      if (!value) return "Sin fecha";
+
+      const parsed = new Date(value);
+      if (!Number.isNaN(parsed.getTime())) {
+        return parsed.toLocaleString("es-ES", {
+          dateStyle: "medium",
+          timeStyle: "short"
+        });
+      }
+
+      return value;
+    }
+
+    function safeList(items, emptyValue) {
+      return items && items.length ? items : [emptyValue];
+    }
+
+    function renderDigest(summary, windowLabel) {
+      const digestList = document.getElementById("digest-list");
+      const lines = [
+        summary.headline || "Sin resumen disponible.",
+        `Ventana analizada: ${windowLabel}.`,
+        summary.topThemes && summary.topThemes.length
+          ? `Tematicas mas repetidas: ${summary.topThemes.map((entry) => `${entry.label} (${entry.count})`).join(", ")}.`
+          : "Sin tematicas destacadas todavia."
+      ];
+
+      digestList.innerHTML = lines
+        .map((line) => `<li>${line}</li>`)
+        .join("");
+    }
+
+    function renderFormats(topFormats) {
+      const container = document.getElementById("top-formats");
+      container.innerHTML = safeList(topFormats, { label: "Sin formatos", count: 0 })
+        .map((entry) => `<span class="chip">${entry.label}: ${entry.count}</span>`)
+        .join("");
+    }
+
+    function renderCard(item) {
+      const themes = safeList(item.themes, "Sin tematica");
+      const formats = safeList(item.formats, "Sin formato");
+      const notes = safeList(item.notes, "Sin notas de interes todavia.");
+
+      return `
+        <article class="dataset-card card card-glass glass-specular">
+          <div class="card-top">
+            <div>
+              <div class="dataset-meta">
+                <span class="badge badge-blue no-dot">${text(item.publisher)}</span>
+                <span class="badge badge-orange no-dot">${text(item.spatial)}</span>
+              </div>
+              <h3>${text(item.title)}</h3>
+            </div>
+            <div class="score-pill">${item.score}/100</div>
+          </div>
+
+          <p class="dataset-summary">${text(item.description, "Sin descripcion disponible.")}</p>
+
+          <div class="chip-row">
+            ${themes.slice(0, 3).map((theme) => `<span class="chip">${theme}</span>`).join("")}
+          </div>
+
+          <div class="chip-row">
+            ${formats.slice(0, 4).map((format) => `<span class="chip">${format}</span>`).join("")}
+          </div>
+
+          <ul class="note-list">
+            ${notes.slice(0, 3).map((note) => `<li>${note}</li>`).join("")}
+          </ul>
+
+          <div class="card-actions">
+            <a class="btn btn-primary btn-sm" href="${item.datasetUrl}" target="_blank" rel="noreferrer">Abrir dataset</a>
+            <span class="text-secondary">Actualizado: ${text(item.modified)}</span>
+          </div>
+        </article>
+      `;
+    }
+
+    async function main() {
+      const response = await fetch("./data/latest.json", { cache: "no-store" });
+      const payload = await response.json();
+
+      document.getElementById("headline").textContent = payload.summary.headline || "Sin resumen disponible.";
+      document.getElementById("total-reviewed").textContent = payload.summary.totalReviewed ?? 0;
+      document.getElementById("top-score").textContent = payload.summary.topScore ?? 0;
+      document.getElementById("generated-at").textContent = dateLabel(payload.generatedAt);
+
+      renderDigest(payload.summary, payload.window?.label || "Ventana desconocida");
+      renderFormats(payload.summary.topFormats || []);
+
+      const grid = document.getElementById("results-grid");
+      if (!payload.items || payload.items.length === 0) {
+        grid.innerHTML = '<div class="empty-state card card-glass glass-specular">No hay datasets destacados todavia. Ejecuta el job semanal o refresca el JSON.</div>';
+        return;
+      }
+
+      grid.innerHTML = payload.items.map(renderCard).join("");
+    }
+
+    main().catch((error) => {
+      console.error(error);
+      document.getElementById("results-grid").innerHTML = '<div class="empty-state card card-glass glass-specular">No se pudo cargar el resumen semanal.</div>';
+    });
+  </script>
+</body>
+</html>
