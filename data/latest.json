@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-04-12T18:27:17.140Z",
+  "generatedAt": "2026-04-13T07:41:23.674Z",
   "window": {
-    "start": "2026-04-05T18:27:04.255Z",
-    "end": "2026-04-12T18:27:04.255Z",
+    "start": "2026-04-06T07:41:12.156Z",
+    "end": "2026-04-13T07:41:12.156Z",
     "label": "Ultimos 7 dias"
   },
   "source": {
     "name": "datos.gob.es API",
-    "url": "https://datos.gob.es/apidata/catalog/dataset/modified/begin/2026-04-05T18:27Z/end/2026-04-12T18:27Z.json?_sort=-modified&_pageSize=50&_page=0"
+    "url": "https://datos.gob.es/apidata/catalog/dataset/modified/begin/2026-04-06T07:41Z/end/2026-04-13T07:41Z.json?_sort=-modified&_pageSize=50&_page=0"
   },
   "summary": {
     "totalReviewed": 24,
@@ -18,21 +18,21 @@
         "count": 24
       },
       {
-        "label": "XLSX",
-        "count": 16
-      },
-      {
         "label": "XML",
-        "count": 16
+        "count": 23
       },
       {
-        "label": "RDF",
-        "count": 11
+        "label": "XLSX",
+        "count": 21
+      },
+      {
+        "label": "GEOJSON",
+        "count": 12
       }
     ],
     "topThemes": [
       {
-        "label": "Empleo",
+        "label": "Turismo",
         "count": 10
       },
       {
@@ -40,11 +40,11 @@
         "count": 7
       },
       {
-        "label": "Turismo",
-        "count": 6
+        "label": "Empleo",
+        "count": 3
       },
       {
-        "label": "Cultura Ocio",
+        "label": "Transporte",
         "count": 3
       }
     ],
@@ -344,6 +344,79 @@
       ]
     },
     {
+      "id": "https://opendata.euskadi.eus/catalogo/-/campings-de-euskadi/",
+      "title": "Campings de Euskadi",
+      "description": "Información sobre campings y áreas de autocaravanas de Euskadi.",
+      "issued": "lun, 07 mar 2016 23:00:00 GMT+0000",
+      "modified": "vie, 10 abr 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "acampada",
+        "alojamientos",
+        "autocaravanas",
+        "autokarabana eremuak",
+        "autokarabanak",
+        "camping"
+      ],
+      "formats": [
+        "XLSX",
+        "JSON",
+        "XML",
+        "GEOJSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-campings-de-euskadi",
+      "distributions": [
+        {
+          "title": "Aeropuertos",
+          "accessUrl": "http://turismo.euskadi.net/x65-15809/es/s12GoogleMapsWar/gMapsJSP/VisorGMapsNP.jsp?lang=es",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Campings",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/campings_de_euskadi/opendata/alojamientos.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Campings",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tF:turismo;tT:a_alojamiento;m:documentLanguage.EQ.es,lodgingType.IN.(P,V);p:Inter_portal,Inter;",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Campings",
+          "accessUrl": "http://www.euskadi.net/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&r01kQry=tC:euskadi;tF:turismo;tT:a_alojamiento;m:documentLanguage.EQ.es,lodgingType.IN.(P,V);p:Inter_portal,Inter;pp:r01NavBarBlockSize.10,r01PageSize.100",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Campings",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/campings_de_euskadi/opendata/alojamientos.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Campings",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/campings_de_euskadi/opendata/alojamientos.jsonp",
+          "format": "JSON",
+          "identifier": ""
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
       "id": "https://opendata.euskadi.eus/catalogo/-/cursos-jornadas-congresos-y-ferias-organizadas-por-el-ivap/",
       "title": "Cursos, jornadas, congresos y ferias organizadas por el IVAP",
       "description": "En este conjunto de datos puedes acceder a los cursos, jornadas, congresos y ferias que organiza el IVAP (Instituto Vasco de Administración Pública). Los eventos están dirigidos principalmente a trabajadores públicos y se encuentran en diversos formatos.",
@@ -413,6 +486,79 @@
         "Incluye formatos reutilizables para prototipos y analisis.",
         "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
         "Tematicas detectadas: Empleo, Sector Publico.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/hoteles-de-euskadi/",
+      "title": "Hoteles de Euskadi",
+      "description": "Información sobre hoteles, apartamentos, pensiones y hoteles-apartamentos de Euskadi.",
+      "issued": "lun, 07 mar 2016 23:00:00 GMT+0000",
+      "modified": "vie, 10 abr 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "alojamientos",
+        "apartamentos",
+        "apartamentuak",
+        "hotelak",
+        "hoteles",
+        "hoteles-apartamento"
+      ],
+      "formats": [
+        "XML",
+        "GEOJSON",
+        "JSON",
+        "XLSX"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-hoteles-de-euskadi",
+      "distributions": [
+        {
+          "title": "Hoteles",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/hoteles_de_euskadi/opendata/alojamientos.xml",
+          "format": "XML",
+          "identifier": ""
+        },
+        {
+          "title": "Hoteles",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/hoteles_de_euskadi/opendata/alojamientos.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Hoteles",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tF:turismo;tT:a_alojamiento;m:documentLanguage.EQ.es,lodgingType.IN.(H,6,7,T);p:Inter_portal,Inter;",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Hoteles",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/hoteles_de_euskadi/opendata/alojamientos.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Hoteles",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/hoteles_de_euskadi/opendata/alojamientos.jsonp",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Aeropuertos",
+          "accessUrl": "http://turismo.euskadi.net/x65-15809/es/s12GoogleMapsWar/gMapsJSP/VisorGMapsNP.jsp?lang=es",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
         "Publicador: A16003011.",
         "Cobertura geografica principal: Pais Vasco."
       ]
@@ -564,6 +710,148 @@
       ]
     },
     {
+      "id": "https://opendata.euskadi.eus/catalogo/-/restaurantes-asadores-sidrerias-bodegas-y-bares-de-pintxos-de-euskadi/",
+      "title": "Restaurantes, asadores, sidrerías, bodegas y bares de pintxos de Euskadi",
+      "description": "Información sobre los establecimientos de restauración de Euskadi: restaurantes, asadores, sidrerías, bodegas y bares de pintxos.",
+      "issued": "lun, 19 abr 2010 22:00:00 GMT+0000",
+      "modified": "vie, 10 abr 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "Jatetxeak",
+        "Restaurantes",
+        "asadores",
+        "bares",
+        "bodegas",
+        "erretegiak"
+      ],
+      "formats": [
+        "XML",
+        "XLSX",
+        "GEOJSON",
+        "JSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-restaurantes-asadores-sidrerias-bodegas-y-bares-de-pintxos-de-euskadi",
+      "distributions": [
+        {
+          "title": "Restaurantes",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/restaurantes_sidrerias_bodegas/opendata/restaurantes.xml",
+          "format": "XML",
+          "identifier": ""
+        },
+        {
+          "title": "Restaurantes",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/restaurantes_sidrerias_bodegas/opendata/restaurantes.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Restaurantes",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/restaurantes_sidrerias_bodegas/opendata/restaurantes.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Restaurantes",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tF:turismo;tT:b_restauracion;m:documentLanguage.EQ.es;p:Inter_portal,Inter;",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Restaurantes",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/restaurantes_sidrerias_bodegas/opendata/restaurantes-padding.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Restaurantes",
+          "accessUrl": "http://www.euskadi.net/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&r01kQry=tC:euskadi;tT:b_restauracion;m:documentLanguage.EQ.es;p:Inter_portal,Inter;pp:r01NavBarBlockSize.10,r01PageSize.100",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/",
+      "title": "Plazas de parking para personas con movilidad reducida",
+      "description": "Plazas de parking geoposicionadas reservadas a personas con discapacidad",
+      "issued": "vie, 04 jul 2014 22:00:00 GMT+0000",
+      "modified": "vie, 10 abr 2026 22:00:00 GMT+0000",
+      "publisher": "L01300243",
+      "spatial": "Sin dato",
+      "themes": [
+        "Transporte"
+      ],
+      "keywords": [
+        "Movilidad reducida",
+        "parking",
+        "tráfico"
+      ],
+      "formats": [
+        "JSON",
+        "CSV",
+        "XML",
+        "RDF"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/l01300243-plazas-de-parking-para-personas-con-movilidad-reducida",
+      "distributions": [
+        {
+          "title": "Formato json",
+          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.json",
+          "format": "JSON",
+          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/JSON"
+        },
+        {
+          "title": "Formato csv separado por ;",
+          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.csv",
+          "format": "CSV",
+          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/CSV"
+        },
+        {
+          "title": "Formato xml",
+          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.xml",
+          "format": "XML",
+          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/XML"
+        },
+        {
+          "title": "Formato HTML",
+          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.html",
+          "format": "SIN DATO",
+          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/HTML"
+        },
+        {
+          "title": "Formato rdf-xml",
+          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.rdf",
+          "format": "RDF",
+          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/RDF-XML"
+        },
+        {
+          "title": "Formato Excel",
+          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.excel",
+          "format": "SIN DATO",
+          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/Excel"
+        }
+      ],
+      "score": 68,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Transporte.",
+        "Publicador: L01300243."
+      ]
+    },
+    {
       "id": "https://opendata.euskadi.eus/catalogo/-/agenda-de-interes-para-jovenes-en-euskadi/",
       "title": "Agenda de interés para jóvenes en Euskadi",
       "description": "Gazte Informazioa es una red de más de 70 servicios que componen el Servicio de Información juvenil de Euskadi, formado por entidades dependientes de administraciones públicas (como Gobierno Vasco diputaciones o ayuntamientos), universidad y entidades privadas (asociaciones).",
@@ -626,6 +914,150 @@
         "Incluye formatos reutilizables para prototipos y analisis.",
         "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
         "Tematicas detectadas: Cultura Ocio, Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/calidad-aire-en-euskadi-2026/",
+      "title": "Calidad del aire en Euskadi durante el 2026",
+      "description": "El departamento de Medio Ambiente y Política Territorial del Gobierno Vasco se encarga de controlar y vigilar a través de la Red de Control de Calidad del Aire los niveles de contaminación en la Comunidad Autónoma Vasca, en cumplimiento de la obligación que tienen las Comunidades Autónomas de evaluar la calidad del aire en su territorio.",
+      "issued": "mié, 31 dic 2025 23:00:00 GMT+0000",
+      "modified": "vie, 10 abr 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Medio Ambiente"
+      ],
+      "keywords": [
+        "aire",
+        "airea",
+        "calidad",
+        "contaminación",
+        "kalitatea",
+        "kutsadura"
+      ],
+      "formats": [
+        "XLSX",
+        "CSV",
+        "JSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-calidad-del-aire-en-euskadi-durante-el-2026",
+      "distributions": [
+        {
+          "title": "Estaciones de medición",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2026/es_def/adjuntos/estaciones.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Calidad del aire",
+          "accessUrl": "https://opendata.euskadi.eus/api-air-quality/?api=air-quality",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Datos de índices de calidad del aire",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2026/es_def/adjuntos/datos_historicos_indice_csv.zip",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Datos de índices de calidad del aire",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2026/es_def/adjuntos/datos_historicos_indice_xlsx.zip",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Estaciones de medición",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2026/es_def/adjuntos/estaciones.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Diarios, horarios e índices de calidad del aire",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2026/es_def/adjuntos/index.json",
+          "format": "JSON",
+          "identifier": ""
+        }
+      ],
+      "score": 61,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Medio Ambiente.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/noticias-de-interes-turistico/",
+      "title": "Noticias de interés turístico",
+      "description": "Noticias de interés turístico.",
+      "issued": "mié, 20 jul 2011 22:00:00 GMT+0000",
+      "modified": "vie, 10 abr 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "albisteak",
+        "comunicación",
+        "komunikazioa",
+        "noticias",
+        "prensa",
+        "prentsa"
+      ],
+      "formats": [
+        "XML",
+        "XLSX",
+        "JSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-noticias-de-interes-turistico1",
+      "distributions": [
+        {
+          "title": "Noticias",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tT:noticia;m:documentLanguage.EQ.es,templateType.EQ.O1;p:Inter",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Noticias",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_noticias/noticias_turismo/opendata/noticias.xml",
+          "format": "XML",
+          "identifier": ""
+        },
+        {
+          "title": "Noticias",
+          "accessUrl": "http://www.euskadi.net/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&r01kQry=tC:euskadi;tT:noticia;m:documentLanguage.EQ.es,templateType.EQ.O1;p:Inter;pp:r01NavBarBlockSize.10,r01PageSize.100",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Noticias",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_noticias/noticias_turismo/opendata/noticias.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Noticias",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_noticias/noticias_turismo/opendata/noticias.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Noticias",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_noticias/noticias_turismo/opendata/noticias.jsonp",
+          "format": "JSON",
+          "identifier": ""
+        }
+      ],
+      "score": 61,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
         "Publicador: A16003011.",
         "Cobertura geografica principal: Pais Vasco."
       ]
@@ -1218,531 +1650,127 @@
       ]
     },
     {
-      "id": "https://datos.icane.es/dataset/06d86aa7-dc92-422d-bf17-db1026403e21",
-      "title": "Accidentes de trabajo y enfermedades profesionales",
-      "description": "Accidentes de trabajo y enfermedades profesionales",
-      "issued": "vie, 14 mar 2025 07:45:36 GMT+0000",
-      "modified": "vie, 10 abr 2026 11:17:14 GMT+0000",
-      "publisher": "A06004074",
+      "id": "https://datos.lorca.es/catalogo/calle-cortada/",
+      "title": "Calle cortada",
+      "description": "Calles cortadas al tráfico rodado",
+      "issued": "sáb, 05 jul 2014 22:00:00 GMT+0000",
+      "modified": "vie, 10 abr 2026 22:00:00 GMT+0000",
+      "publisher": "L01300243",
       "spatial": "Sin dato",
       "themes": [
-        "Empleo"
+        "Transporte"
       ],
       "keywords": [
-        "Condiciones De Trabajo Y Relaciones Laborales"
-      ],
-      "formats": [
-        "RDF",
-        "JSON",
-        "CSV"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-accidentes-de-trabajo-y-enfermedades-profesionales",
-      "distributions": [
-        {
-          "title": "Enfermedades profesionales según sexo y ocupación (CNO 11)",
-          "accessUrl": "https://www.icane.es/data/enfermedades-profesionales-segun-ocupacion-sexo#timeseries",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Accidentes de trabajo con baja según tipo de accidente, gravedad, sexo y tipo de contrato",
-          "accessUrl": "https://www.icane.es/data/api/accidentes-trabajo-baja-tipo-gravedad-sexo-tipo-contrato.pc-axis",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Accidentes de trabajo con baja según tipo de accidente, gravedad, sexo y tamaño del centro",
-          "accessUrl": "https://www.icane.es/data/api/accidentes-trabajo-baja-tipo-gravedad-sexo-tamano-centro.rdf",
-          "format": "RDF",
-          "identifier": ""
-        },
-        {
-          "title": "Accidentes de trabajo con baja según tipo de accidente, gravedad, sexo y tipo de contrato",
-          "accessUrl": "https://www.icane.es/data/accidentes-trabajo-baja-tipo-gravedad-sexo-tipo-contrato#timeseries",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Enfermedades profesionales según sexo y grupo de edad",
-          "accessUrl": "https://www.icane.es/data/api/enfermedades-profesionales-segun-sexo-grupo-edad.json-stat",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Enfermedades profesionales según sexo y ocupación (CNO 11)",
-          "accessUrl": "https://www.icane.es/data/api/enfermedades-profesionales-segun-ocupacion-sexo.csv",
-          "format": "CSV",
-          "identifier": ""
-        }
-      ],
-      "score": 54,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Empleo.",
-        "Publicador: A06004074."
-      ]
-    },
-    {
-      "id": "https://datos.icane.es/dataset/4bc86715-997f-4846-aebb-89b9ce4f0869",
-      "title": "Adjudicaciones de Obras del Grupo MITMA",
-      "description": "Adjudicaciones de obras del Grupo MITMA",
-      "issued": "vie, 14 mar 2025 07:45:36 GMT+0000",
-      "modified": "vie, 10 abr 2026 11:17:14 GMT+0000",
-      "publisher": "A06004074",
-      "spatial": "Sin dato",
-      "themes": [
-        "Economia"
-      ],
-      "keywords": [
-        "Construcción"
-      ],
-      "formats": [
-        "RDF",
-        "JSON",
-        "CSV"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-adjudicaciones-de-obras-del-grupo-mitma",
-      "distributions": [
-        {
-          "title": "Adjudicaciones de Obras del Grupo MITMA",
-          "accessUrl": "https://www.icane.es/data/api/adjudicaciones-obras-fomento-series.rdf",
-          "format": "RDF",
-          "identifier": ""
-        },
-        {
-          "title": "Adjudicaciones de Obras del Grupo MITMA",
-          "accessUrl": "https://www.icane.es/data/api/adjudicaciones-obras-fomento-series.json-stat",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Adjudicaciones de Obras del Grupo MITMA: Entidades Públicas Estatales",
-          "accessUrl": "https://www.icane.es/data/api/adjudicaciones-obras-fomento-entidades-publicas.sdmx",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Adjudicaciones de Obras del Grupo MITMA",
-          "accessUrl": "https://www.icane.es/data/api/adjudicaciones-obras-fomento-series.sdmx",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Adjudicaciones de Obras del Grupo MITMA: Entidades Públicas Estatales",
-          "accessUrl": "https://www.icane.es/data/api/adjudicaciones-obras-fomento-entidades-publicas.json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Adjudicaciones de Obras del Grupo MITMA: Entidades Públicas Estatales",
-          "accessUrl": "https://www.icane.es/data/api/adjudicaciones-obras-fomento-entidades-publicas.json-stat",
-          "format": "JSON",
-          "identifier": ""
-        }
-      ],
-      "score": 54,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Economia.",
-        "Publicador: A06004074."
-      ]
-    },
-    {
-      "id": "https://datos.icane.es/dataset/67cee06c-b730-4505-a2bb-a36923887d20",
-      "title": "Afiliación a la Seguridad Social a último día de mes",
-      "description": "Afiliación a la Seguridad Social a último día de mes",
-      "issued": "vie, 14 mar 2025 07:48:52 GMT+0000",
-      "modified": "vie, 10 abr 2026 11:16:40 GMT+0000",
-      "publisher": "A06004074",
-      "spatial": "Sin dato",
-      "themes": [
-        "Empleo"
-      ],
-      "keywords": [
-        "Estadísticas De Empleo Y Paro"
+        "calle cortada",
+        "movilidad",
+        "tráfico"
       ],
       "formats": [
         "JSON",
         "CSV",
-        "RDF"
+        "XML"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-afiliacion-a-la-seguridad-social-a-ultimo-dia-de-mes",
+      "datasetUrl": "https://datos.gob.es/catalogo/l01300243-calle-cortada",
       "distributions": [
         {
-          "title": "Afiliados a último día de mes en alta laboral. Régimen General y R.E.T.A. por sección de actividad según CNAE09",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-ultimo-dia-mes-alta-laboral-regimen-general-reta-actividad-cnae09.pc-axis",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Afiliados a último día de mes en alta laboral. Régimen General y R.E.T.A. por sección de actividad según CNAE09",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-ultimo-dia-mes-alta-laboral-regimen-general-reta-actividad-cnae09.google-json",
+          "title": "Formato json",
+          "accessUrl": "https://datos.lorca.es/catalogo/calle-cortada/calle-cortada.json",
           "format": "JSON",
-          "identifier": ""
+          "identifier": "https://datos.lorca.es/catalogo/calle-cortada/JSON"
         },
         {
-          "title": "Afiliados a último día de mes en alta laboral. Régimen General y R.E.T.A. por sección de actividad según CNAE93",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-ultimo-dia-mes-alta-laboral-regimen-general-reta-actividad-cnae93.excel",
+          "title": "Formato HTML",
+          "accessUrl": "https://datos.lorca.es/catalogo/calle-cortada/calle-cortada.html",
           "format": "SIN DATO",
-          "identifier": ""
+          "identifier": "https://datos.lorca.es/catalogo/calle-cortada/HTML"
         },
         {
-          "title": "Afiliados a último día de mes en alta laboral. Régimen General y R.E.T.A. por sección de actividad según CNAE09",
-          "accessUrl": "https://www.icane.es/data/afiliados-ultimo-dia-mes-alta-laboral-regimen-general-reta-actividad-cnae09#timeseries",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Afiliados a último día de mes en alta laboral. Régimen General y R.E.T.A. por sección de actividad según CNAE09",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-ultimo-dia-mes-alta-laboral-regimen-general-reta-actividad-cnae09.csv",
+          "title": "Formato csv separado por ;",
+          "accessUrl": "https://datos.lorca.es/catalogo/calle-cortada/calle-cortada.csv",
           "format": "CSV",
-          "identifier": ""
+          "identifier": "https://datos.lorca.es/catalogo/calle-cortada/CSV"
         },
         {
-          "title": "Afiliados a último día de mes en alta laboral. Régimen General y R.E.T.A. por sección de actividad según CNAE25",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-ultimo-dia-mes-alta-laboral-regimen-general-reta-actividad-cnae25.sdmx",
+          "title": "Formato Excel",
+          "accessUrl": "https://datos.lorca.es/catalogo/calle-cortada/calle-cortada.excel",
           "format": "SIN DATO",
-          "identifier": ""
+          "identifier": "https://datos.lorca.es/catalogo/calle-cortada/Excel"
+        },
+        {
+          "title": "Formato xml",
+          "accessUrl": "https://datos.lorca.es/catalogo/calle-cortada/calle-cortada.xml",
+          "format": "XML",
+          "identifier": "https://datos.lorca.es/catalogo/calle-cortada/XML"
         }
       ],
-      "score": 54,
+      "score": 58,
       "notes": [
         "Incluye formatos reutilizables para prototipos y analisis.",
         "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Empleo.",
-        "Publicador: A06004074."
+        "Tematicas detectadas: Transporte.",
+        "Publicador: L01300243."
       ]
     },
     {
-      "id": "https://datos.icane.es/dataset/8631c202-5729-40ec-a293-0e6ef163b934",
-      "title": "Afiliación a la Seguridad Social a último día de trimestre",
-      "description": "Afiliación a la Seguridad Social a último día de trimestre por municipio",
-      "issued": "vie, 14 mar 2025 07:48:53 GMT+0000",
-      "modified": "vie, 10 abr 2026 11:16:41 GMT+0000",
-      "publisher": "A06004074",
+      "id": "https://datos.lorca.es/catalogo/calle-cortada/",
+      "title": "Calle cortada",
+      "description": "Calles cortadas al tráfico rodado",
+      "issued": "sáb, 05 jul 2014 22:00:00 GMT+0000",
+      "modified": "vie, 10 abr 2026 22:00:00 GMT+0000",
+      "publisher": "L01300243",
       "spatial": "Sin dato",
       "themes": [
-        "Empleo"
+        "Transporte"
       ],
       "keywords": [
-        "Estadísticas De Empleo Y Paro"
+        "calle cortada",
+        "movilidad",
+        "tráfico"
       ],
       "formats": [
         "JSON",
-        "RDF",
-        "CSV"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-afiliacion-a-la-seguridad-social-a-ultimo-dia-de-trimestre",
-      "distributions": [
-        {
-          "title": "Afiliados a último día de trimestre por sexo, grupo de edad y municipio de localización del establecimiento o de residencia del afiliado",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-sexo-grupo-edad-municipal.google-json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Afiliados a último día de trimestre del régimen general por tamaño del establecimiento y municipio de localización del establecimiento o de residencia del afiliado",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-regimen-general-estrato-municipal.google-json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Afiliados a último día de trimestre por sexo, grupo de edad y municipio de localización del establecimiento o de residencia del afiliado",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-sexo-grupo-edad-municipal.json-stat",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Afiliados a último día de trimestre por régimen, sector de actividad y municipio de localización del establecimiento o de residencia del afiliado",
-          "accessUrl": "https://www.icane.es/data/afiliados-seguridad-social-sector-actividad-regimen#timeseries",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Afiliados a último día de trimestre por régimen, sector de actividad y municipio de localización del establecimiento o de residencia del afiliado",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-sector-actividad-regimen.json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Afiliados a último día de trimestre del régimen general por tamaño del establecimiento y municipio de localización del establecimiento o de residencia del afiliado",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-regimen-general-estrato-municipal.json",
-          "format": "JSON",
-          "identifier": ""
-        }
-      ],
-      "score": 54,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Empleo.",
-        "Publicador: A06004074."
-      ]
-    },
-    {
-      "id": "https://datos.icane.es/dataset/7b201fc5-f9ad-420c-a221-d19e9d2b841c",
-      "title": "Afiliación a la Seguridad Social a último día de trimestre",
-      "description": "Afiliación a la Seguridad Social a último día de trimestre",
-      "issued": "vie, 14 mar 2025 07:48:53 GMT+0000",
-      "modified": "vie, 10 abr 2026 11:16:41 GMT+0000",
-      "publisher": "A06004074",
-      "spatial": "Sin dato",
-      "themes": [
-        "Empleo"
-      ],
-      "keywords": [
-        "Estadísticas De Empleo Y Paro"
-      ],
-      "formats": [
         "CSV",
-        "JSON",
-        "RDF"
+        "XML"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-afiliacion-a-la-seguridad-social-a-ultimo-dia-de-trimestre3",
+      "datasetUrl": "https://datos.gob.es/catalogo/l01300243-calle-cortada",
       "distributions": [
         {
-          "title": "Afiliados a último día de trimestre del régimen general por modalidad de contrato y área de localización del establecimiento o de residencia del afiliado",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-agrupacion-municipios-modalidad-contrato.csv",
+          "title": "Formato json",
+          "accessUrl": "https://datos.lorca.es/catalogo/calle-cortada/calle-cortada.json",
+          "format": "JSON",
+          "identifier": "https://datos.lorca.es/catalogo/calle-cortada/JSON"
+        },
+        {
+          "title": "Formato HTML",
+          "accessUrl": "https://datos.lorca.es/catalogo/calle-cortada/calle-cortada.html",
+          "format": "SIN DATO",
+          "identifier": "https://datos.lorca.es/catalogo/calle-cortada/HTML"
+        },
+        {
+          "title": "Formato csv separado por ;",
+          "accessUrl": "https://datos.lorca.es/catalogo/calle-cortada/calle-cortada.csv",
           "format": "CSV",
-          "identifier": ""
+          "identifier": "https://datos.lorca.es/catalogo/calle-cortada/CSV"
         },
         {
-          "title": "Flujo de afiliados a último día de trimestre entre el área de localización de la empresa y el área de residencia del afiliado",
-          "accessUrl": "https://www.icane.es/data/api/flujo-afiliados-seguridad-social-agrupacion-municipios.json-stat",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Flujo de afiliados a último día de trimestre entre el área de localización de la empresa y el área de residencia del afiliado",
-          "accessUrl": "https://www.icane.es/data/api/flujo-afiliados-seguridad-social-agrupacion-municipios.rdf",
-          "format": "RDF",
-          "identifier": ""
-        },
-        {
-          "title": "Afiliados a último día de trimestre por sexo, grupo de edad, sección de actividad y área de localización del establecimiento o de residencia del afiliado",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-agrupacion-municipios-sexo-grupo-edad-seccion-actividad.sdmx",
+          "title": "Formato Excel",
+          "accessUrl": "https://datos.lorca.es/catalogo/calle-cortada/calle-cortada.excel",
           "format": "SIN DATO",
-          "identifier": ""
+          "identifier": "https://datos.lorca.es/catalogo/calle-cortada/Excel"
         },
         {
-          "title": "Afiliados a último día de trimestre del régimen general por modalidad de contrato y área de localización del establecimiento o de residencia del afiliado",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-agrupacion-municipios-modalidad-contrato.json-stat",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Afiliados a último día de trimestre del régimen general por modalidad de contrato y área de localización del establecimiento o de residencia del afiliado",
-          "accessUrl": "https://www.icane.es/data/afiliados-seguridad-social-agrupacion-municipios-modalidad-contrato#timeseries",
-          "format": "SIN DATO",
-          "identifier": ""
+          "title": "Formato xml",
+          "accessUrl": "https://datos.lorca.es/catalogo/calle-cortada/calle-cortada.xml",
+          "format": "XML",
+          "identifier": "https://datos.lorca.es/catalogo/calle-cortada/XML"
         }
       ],
-      "score": 54,
+      "score": 58,
       "notes": [
         "Incluye formatos reutilizables para prototipos y analisis.",
         "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Empleo.",
-        "Publicador: A06004074."
-      ]
-    },
-    {
-      "id": "https://datos.icane.es/dataset/b65c6af6-cea4-42a6-8f99-6d4b3871916b",
-      "title": "Afiliación a la Seguridad Social a último día de trimestre",
-      "description": "Afiliación a la Seguridad Social a último día de trimestre",
-      "issued": "vie, 14 mar 2025 07:48:53 GMT+0000",
-      "modified": "vie, 10 abr 2026 11:16:40 GMT+0000",
-      "publisher": "A06004074",
-      "spatial": "Sin dato",
-      "themes": [
-        "Empleo"
-      ],
-      "keywords": [
-        "Estadísticas De Empleo Y Paro"
-      ],
-      "formats": [
-        "CSV",
-        "RDF",
-        "JSON"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-afiliacion-a-la-seguridad-social-a-ultimo-dia-de-trimestre2",
-      "distributions": [
-        {
-          "title": "Afiliados a último día de trimestre por sexo, grupo de edad y régimen",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-sexo-grupo-edad-regimen.pc-axis",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Afiliados a último día de trimestre por sexo, grupo de edad y sector de actividad",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-sexo-grupo-edad-sector-actividad.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Afiliados a último día de trimestre por división de actividad y régimen",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-division-actividad-regimen.rdf",
-          "format": "RDF",
-          "identifier": ""
-        },
-        {
-          "title": "Afiliados a último día de trimestre del régimen general por sexo, grupo de edad y grupo de cotización",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-sexo-grupo-edad-grupo-cotizacion.excel",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Afiliados a último día de trimestre por división de actividad y régimen",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-division-actividad-regimen.google-json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Afiliados a último día de trimestre del régimen general por sexo, grupo de edad y grupo de cotización",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-sexo-grupo-edad-grupo-cotizacion.csv",
-          "format": "CSV",
-          "identifier": ""
-        }
-      ],
-      "score": 54,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Empleo.",
-        "Publicador: A06004074."
-      ]
-    },
-    {
-      "id": "https://datos.icane.es/dataset/49f76d0f-674a-46ff-b647-fae9ba5df19f",
-      "title": "Afiliación a la Seguridad Social media mensual",
-      "description": "Afiliación a la Seguridad Social media mensual",
-      "issued": "vie, 14 mar 2025 07:48:54 GMT+0000",
-      "modified": "vie, 10 abr 2026 11:16:42 GMT+0000",
-      "publisher": "A06004074",
-      "spatial": "Sin dato",
-      "themes": [
-        "Empleo"
-      ],
-      "keywords": [
-        "Estadísticas De Empleo Y Paro"
-      ],
-      "formats": [
-        "RDF",
-        "JSON",
-        "CSV"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-afiliacion-a-la-seguridad-social-media-mensual",
-      "distributions": [
-        {
-          "title": "Afiliados medios mensuales. Régimen General y R.E.T.A. por sección de actividad (CNAE09)",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-medios-mensuales-regimen-general-reta-actividad-cnae09.rdf",
-          "format": "RDF",
-          "identifier": ""
-        },
-        {
-          "title": "Afiliados medios mensuales en alta laboral por régimen y sexo",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-medios-mensuales-alta-laboral-regimen-sexo.rdf",
-          "format": "RDF",
-          "identifier": ""
-        },
-        {
-          "title": "Afiliados medios mensuales en alta laboral por régimen y sexo",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-medios-mensuales-alta-laboral-regimen-sexo.google-json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Afiliados medios mensuales. Régimen General y R.E.T.A. por sección de actividad (CNAE25)",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-medios-mensuales-regimen-general-reta-actividad-cnae25.rdf",
-          "format": "RDF",
-          "identifier": ""
-        },
-        {
-          "title": "Afiliados medios mensuales. Régimen General y R.E.T.A. por sección de actividad (CNAE25)",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-medios-mensuales-regimen-general-reta-actividad-cnae25.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Afiliados medios mensuales en alta laboral por régimen y sexo",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-medios-mensuales-alta-laboral-regimen-sexo.csv",
-          "format": "CSV",
-          "identifier": ""
-        }
-      ],
-      "score": 54,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Empleo.",
-        "Publicador: A06004074."
-      ]
-    },
-    {
-      "id": "https://datos.icane.es/dataset/a00fdfe2-2c4c-47d0-aab1-562ae93da2ef",
-      "title": "Afiliación de Extranjeros a la Seguridad Social a último día de mes",
-      "description": "Afiliación de Extranjeros a la Seguridad Social a último día de mes",
-      "issued": "vie, 14 mar 2025 07:48:54 GMT+0000",
-      "modified": "vie, 10 abr 2026 11:16:41 GMT+0000",
-      "publisher": "A06004074",
-      "spatial": "Sin dato",
-      "themes": [
-        "Empleo"
-      ],
-      "keywords": [
-        "Estadísticas De Empleo Y Paro"
-      ],
-      "formats": [
-        "JSON",
-        "RDF",
-        "CSV"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-afiliacion-de-extranjeros-a-la-seguridad-social-a-ultimo-dia-de-mes",
-      "distributions": [
-        {
-          "title": "Afiliados extranjeros a último día de mes en alta laboral según régimen, procedencia y sexo",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-extranjeros-alta-laboral-regimen-procedencia-sexo.excel",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Afiliados extranjeros a último día de mes en alta laboral. Régimen General y R.E.T.A por sección de actividad según CNAE 25",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-extranjeros-alta-laboral-ultimo-dia-mes-general-reta-actividad-cnae25.json-stat",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Afiliados extranjeros a último día de mes en alta laboral. Régimen General y R.E.T.A por sección de actividad según CNAE 25",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-extranjeros-alta-laboral-ultimo-dia-mes-general-reta-actividad-cnae25.google-json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Afiliados extranjeros a último día de mes en alta laboral. Régimen General y R.E.T.A por sección de actividad según CNAE 25",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-extranjeros-alta-laboral-ultimo-dia-mes-general-reta-actividad-cnae25.sdmx",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Afiliados extranjeros a último día de mes en alta laboral. Régimen General y R.E.T.A por sección de actividad según CNAE 09",
-          "accessUrl": "https://www.icane.es/data/afiliados-extranjeros-alta-laboral-ultimo-dia-mes-general-reta-actividad-cnae09#timeseries",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Afiliados extranjeros a último día de mes en alta laboral según régimen, procedencia y sexo",
-          "accessUrl": "https://www.icane.es/data/afiliados-extranjeros-alta-laboral-regimen-procedencia-sexo#timeseries",
-          "format": "SIN DATO",
-          "identifier": ""
-        }
-      ],
-      "score": 54,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Empleo.",
-        "Publicador: A06004074."
+        "Tematicas detectadas: Transporte.",
+        "Publicador: L01300243."
       ]
     }
   ]
