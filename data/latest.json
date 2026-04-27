@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-04-20T07:42:12.418Z",
+  "generatedAt": "2026-04-27T07:52:08.660Z",
   "window": {
-    "start": "2026-04-13T07:42:06.284Z",
-    "end": "2026-04-20T07:42:06.284Z",
+    "start": "2026-04-20T07:51:55.502Z",
+    "end": "2026-04-27T07:51:55.502Z",
     "label": "Ultimos 7 dias"
   },
   "source": {
     "name": "datos.gob.es API",
-    "url": "https://datos.gob.es/apidata/catalog/dataset/modified/begin/2026-04-13T07:42Z/end/2026-04-20T07:42Z.json?_sort=-modified&_pageSize=50&_page=0"
+    "url": "https://datos.gob.es/apidata/catalog/dataset/modified/begin/2026-04-20T07:51Z/end/2026-04-27T07:51Z.json?_sort=-modified&_pageSize=50&_page=0"
   },
   "summary": {
     "totalReviewed": 24,
@@ -23,17 +23,17 @@
       },
       {
         "label": "RDF",
-        "count": 15
+        "count": 17
       },
       {
         "label": "XML",
-        "count": 9
+        "count": 8
       }
     ],
     "topThemes": [
       {
         "label": "Empleo",
-        "count": 11
+        "count": 13
       },
       {
         "label": "Transporte",
@@ -41,10 +41,10 @@
       },
       {
         "label": "Economia",
-        "count": 4
+        "count": 3
       },
       {
-        "label": "Salud",
+        "label": "Educacion",
         "count": 2
       }
     ],
@@ -56,7 +56,7 @@
       "title": "Plazas de parking para personas con movilidad reducida",
       "description": "Plazas de parking geoposicionadas reservadas a personas con discapacidad",
       "issued": "vie, 04 jul 2014 22:00:00 GMT+0000",
-      "modified": "vie, 17 abr 2026 22:00:00 GMT+0000",
+      "modified": "vie, 24 abr 2026 22:00:00 GMT+0000",
       "publisher": "L01300243",
       "spatial": "Sin dato",
       "themes": [
@@ -69,9 +69,9 @@
       ],
       "formats": [
         "JSON",
-        "RDF",
         "XML",
-        "CSV"
+        "CSV",
+        "RDF"
       ],
       "datasetUrl": "https://datos.gob.es/catalogo/l01300243-plazas-de-parking-para-personas-con-movilidad-reducida",
       "distributions": [
@@ -80,18 +80,6 @@
           "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.json",
           "format": "JSON",
           "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/JSON"
-        },
-        {
-          "title": "Formato Excel",
-          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.excel",
-          "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/Excel"
-        },
-        {
-          "title": "Formato rdf-xml",
-          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.rdf",
-          "format": "RDF",
-          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/RDF-XML"
         },
         {
           "title": "Formato xml",
@@ -106,10 +94,22 @@
           "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/HTML"
         },
         {
+          "title": "Formato Excel",
+          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.excel",
+          "format": "SIN DATO",
+          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/Excel"
+        },
+        {
           "title": "Formato csv separado por ;",
           "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.csv",
           "format": "CSV",
           "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/CSV"
+        },
+        {
+          "title": "Formato rdf-xml",
+          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.rdf",
+          "format": "RDF",
+          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/RDF-XML"
         }
       ],
       "score": 68,
@@ -121,84 +121,11 @@
       ]
     },
     {
-      "id": "urn:ine:es:TABLA:T3:417:10802",
-      "title": "Índice de Garantía de Competitividad. IGC (Identificador API: 10802)",
-      "description": "Tabla de INEbase\nÍndice de Garantía de Competitividad. Mensual. Nacional. Índice de Garantía de la Competitividad",
-      "issued": "jue, 01 abr 1999 10:40:00 GMT+0000",
-      "modified": "vie, 17 abr 2026 09:00:00 GMT+0000",
-      "publisher": "EA0010587",
-      "spatial": "España",
-      "themes": [
-        "Economia",
-        "Sociedad Bienestar"
-      ],
-      "keywords": [
-        "Annual variation (for monthly series)",
-        "Competitiveness Guarantee Index",
-        "Estadísticas",
-        "IGC",
-        "Statistics",
-        "Tipo de dato"
-      ],
-      "formats": [
-        "CSV",
-        "JSON",
-        "XLSX"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/ea0010587-indice-de-garantia-de-competitividad-igc-identificador-api-10802",
-      "distributions": [
-        {
-          "title": "Html",
-          "accessUrl": "https://www.ine.es/jaxiT3/Tabla.htm?t=10802",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "CSV: separado por tabuladores",
-          "accessUrl": "https://www.ine.es/jaxiT3/files/t/csv_bd/10802.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Pc-Axis",
-          "accessUrl": "https://www.ine.es/jaxiT3/files/t/px/10802.px",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Json",
-          "accessUrl": "https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/10802?tip=AM",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "CSV: separado por ;",
-          "accessUrl": "https://www.ine.es/jaxiT3/files/t/csv_bdsc/10802.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Excel: Extension XLSx",
-          "accessUrl": "https://www.ine.es/jaxiT3/files/t/xlsx/10802.xlsx",
-          "format": "XLSX",
-          "identifier": ""
-        }
-      ],
-      "score": 61,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Economia, Sociedad Bienestar.",
-        "Publicador: EA0010587.",
-        "Cobertura geografica principal: España."
-      ]
-    },
-    {
       "id": "https://datos.lorca.es/catalogo/calle-cortada/",
       "title": "Calle cortada",
       "description": "Calles cortadas al tráfico rodado",
       "issued": "sáb, 05 jul 2014 22:00:00 GMT+0000",
-      "modified": "vie, 17 abr 2026 22:00:00 GMT+0000",
+      "modified": "vie, 24 abr 2026 22:00:00 GMT+0000",
       "publisher": "L01300243",
       "spatial": "Sin dato",
       "themes": [
@@ -210,18 +137,12 @@
         "tráfico"
       ],
       "formats": [
-        "CSV",
         "JSON",
+        "CSV",
         "XML"
       ],
       "datasetUrl": "https://datos.gob.es/catalogo/l01300243-calle-cortada",
       "distributions": [
-        {
-          "title": "Formato csv separado por ;",
-          "accessUrl": "https://datos.lorca.es/catalogo/calle-cortada/calle-cortada.csv",
-          "format": "CSV",
-          "identifier": "https://datos.lorca.es/catalogo/calle-cortada/CSV"
-        },
         {
           "title": "Formato json",
           "accessUrl": "https://datos.lorca.es/catalogo/calle-cortada/calle-cortada.json",
@@ -229,16 +150,22 @@
           "identifier": "https://datos.lorca.es/catalogo/calle-cortada/JSON"
         },
         {
-          "title": "Formato HTML",
-          "accessUrl": "https://datos.lorca.es/catalogo/calle-cortada/calle-cortada.html",
-          "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/calle-cortada/HTML"
-        },
-        {
           "title": "Formato Excel",
           "accessUrl": "https://datos.lorca.es/catalogo/calle-cortada/calle-cortada.excel",
           "format": "SIN DATO",
           "identifier": "https://datos.lorca.es/catalogo/calle-cortada/Excel"
+        },
+        {
+          "title": "Formato csv separado por ;",
+          "accessUrl": "https://datos.lorca.es/catalogo/calle-cortada/calle-cortada.csv",
+          "format": "CSV",
+          "identifier": "https://datos.lorca.es/catalogo/calle-cortada/CSV"
+        },
+        {
+          "title": "Formato HTML",
+          "accessUrl": "https://datos.lorca.es/catalogo/calle-cortada/calle-cortada.html",
+          "format": "SIN DATO",
+          "identifier": "https://datos.lorca.es/catalogo/calle-cortada/HTML"
         },
         {
           "title": "Formato xml",
@@ -260,7 +187,7 @@
       "title": "Cursos de formación profesional",
       "description": "Cursos de formación profesional realizados por la Concejalía de Empleo del Ayuntamiento de Lorca",
       "issued": "jue, 17 jul 2014 22:00:00 GMT+0000",
-      "modified": "vie, 17 abr 2026 22:00:00 GMT+0000",
+      "modified": "vie, 24 abr 2026 22:00:00 GMT+0000",
       "publisher": "L01300243",
       "spatial": "Sin dato",
       "themes": [
@@ -273,17 +200,23 @@
         "profesional"
       ],
       "formats": [
-        "JSON",
         "XML",
-        "CSV"
+        "CSV",
+        "JSON"
       ],
       "datasetUrl": "https://datos.gob.es/catalogo/l01300243-cursos-de-formacion-profesional",
       "distributions": [
         {
           "title": "Distribucion",
-          "accessUrl": "https://datos.lorca.es/catalogo/cursos-formacion-empleo/cursos-formacion-empleo.json",
-          "format": "JSON",
-          "identifier": "https://datos.lorca.es/catalogo/cursos-formacion-empleo/JSON"
+          "accessUrl": "https://datos.lorca.es/catalogo/cursos-formacion-empleo/cursos-formacion-empleo.html",
+          "format": "SIN DATO",
+          "identifier": "https://datos.lorca.es/catalogo/cursos-formacion-empleo/HTML"
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "https://datos.lorca.es/catalogo/cursos-formacion-empleo/cursos-formacion-empleo.rss",
+          "format": "SIN DATO",
+          "identifier": "https://datos.lorca.es/catalogo/cursos-formacion-empleo/RSS"
         },
         {
           "title": "Distribucion",
@@ -305,15 +238,9 @@
         },
         {
           "title": "Distribucion",
-          "accessUrl": "https://datos.lorca.es/catalogo/cursos-formacion-empleo/cursos-formacion-empleo.rss",
-          "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/cursos-formacion-empleo/RSS"
-        },
-        {
-          "title": "Distribucion",
-          "accessUrl": "https://datos.lorca.es/catalogo/cursos-formacion-empleo/cursos-formacion-empleo.html",
-          "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/cursos-formacion-empleo/HTML"
+          "accessUrl": "https://datos.lorca.es/catalogo/cursos-formacion-empleo/cursos-formacion-empleo.json",
+          "format": "JSON",
+          "identifier": "https://datos.lorca.es/catalogo/cursos-formacion-empleo/JSON"
         }
       ],
       "score": 58,
@@ -329,7 +256,7 @@
       "title": "Empleo privado",
       "description": "Ofertas de empleo privado publicadas por la Concejalía de empleo de Lorca",
       "issued": "mié, 10 dic 2014 23:00:00 GMT+0000",
-      "modified": "vie, 17 abr 2026 22:00:00 GMT+0000",
+      "modified": "vie, 24 abr 2026 22:00:00 GMT+0000",
       "publisher": "L01300243",
       "spatial": "Sin dato",
       "themes": [
@@ -341,8 +268,8 @@
         "trabajo"
       ],
       "formats": [
-        "XML",
         "JSON",
+        "XML",
         "CSV"
       ],
       "datasetUrl": "https://datos.gob.es/catalogo/l01300243-empleo-privado",
@@ -354,12 +281,6 @@
           "identifier": "https://datos.lorca.es/catalogo/empleo-privado/HTML"
         },
         {
-          "title": "Ofertas de empleo privado",
-          "accessUrl": "https://datos.lorca.es/catalogo/empleo-privado/empleo-privado.xml",
-          "format": "XML",
-          "identifier": "https://datos.lorca.es/catalogo/empleo-privado/XML"
-        },
-        {
           "title": "Distribucion",
           "accessUrl": "https://datos.lorca.es/catalogo/empleo-privado/empleo-privado.json",
           "format": "JSON",
@@ -367,15 +288,21 @@
         },
         {
           "title": "Distribucion",
-          "accessUrl": "https://datos.lorca.es/catalogo/empleo-privado/empleo-privado.csv",
-          "format": "CSV",
-          "identifier": "https://datos.lorca.es/catalogo/empleo-privado/CSV"
-        },
-        {
-          "title": "Distribucion",
           "accessUrl": "https://datos.lorca.es/catalogo/empleo-privado/empleo-privado.excel",
           "format": "SIN DATO",
           "identifier": "https://datos.lorca.es/catalogo/empleo-privado/Excel"
+        },
+        {
+          "title": "Ofertas de empleo privado",
+          "accessUrl": "https://datos.lorca.es/catalogo/empleo-privado/empleo-privado.xml",
+          "format": "XML",
+          "identifier": "https://datos.lorca.es/catalogo/empleo-privado/XML"
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "https://datos.lorca.es/catalogo/empleo-privado/empleo-privado.csv",
+          "format": "CSV",
+          "identifier": "https://datos.lorca.es/catalogo/empleo-privado/CSV"
         }
       ],
       "score": 58,
@@ -391,7 +318,7 @@
       "title": "Empleo público",
       "description": "Ofertas de empleo público del Ayuntamiento de Lorca",
       "issued": "mar, 08 jul 2014 22:00:00 GMT+0000",
-      "modified": "vie, 17 abr 2026 22:00:00 GMT+0000",
+      "modified": "vie, 24 abr 2026 22:00:00 GMT+0000",
       "publisher": "L01300243",
       "spatial": "Sin dato",
       "themes": [
@@ -403,24 +330,12 @@
         "público"
       ],
       "formats": [
-        "JSON",
         "CSV",
-        "XML"
+        "XML",
+        "JSON"
       ],
       "datasetUrl": "https://datos.gob.es/catalogo/l01300243-empleo-publico",
       "distributions": [
-        {
-          "title": "Formato json",
-          "accessUrl": "https://datos.lorca.es/catalogo/empleo-publico/empleo-publico.json",
-          "format": "JSON",
-          "identifier": "https://datos.lorca.es/catalogo/empleo-publico/JSON"
-        },
-        {
-          "title": "Formato HTML",
-          "accessUrl": "https://datos.lorca.es/catalogo/empleo-publico/empleo-publico.html",
-          "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/empleo-publico/HTML"
-        },
         {
           "title": "Formato csv separado por comas",
           "accessUrl": "https://datos.lorca.es/catalogo/empleo-publico/empleo-publico.csv",
@@ -432,6 +347,18 @@
           "accessUrl": "https://datos.lorca.es/catalogo/empleo-publico/empleo-publico.xml",
           "format": "XML",
           "identifier": "https://datos.lorca.es/catalogo/empleo-publico/XML"
+        },
+        {
+          "title": "Formato json",
+          "accessUrl": "https://datos.lorca.es/catalogo/empleo-publico/empleo-publico.json",
+          "format": "JSON",
+          "identifier": "https://datos.lorca.es/catalogo/empleo-publico/JSON"
+        },
+        {
+          "title": "Formato HTML",
+          "accessUrl": "https://datos.lorca.es/catalogo/empleo-publico/empleo-publico.html",
+          "format": "SIN DATO",
+          "identifier": "https://datos.lorca.es/catalogo/empleo-publico/HTML"
         },
         {
           "title": "Formato Excel",
@@ -453,7 +380,7 @@
       "title": "Estrechamiento de calzada",
       "description": "Estrechamientos de calzada en el termino municipal de Lorca",
       "issued": "sáb, 05 jul 2014 22:00:00 GMT+0000",
-      "modified": "vie, 17 abr 2026 22:00:00 GMT+0000",
+      "modified": "vie, 24 abr 2026 22:00:00 GMT+0000",
       "publisher": "L01300243",
       "spatial": "Sin dato",
       "themes": [
@@ -466,8 +393,8 @@
       ],
       "formats": [
         "CSV",
-        "XML",
-        "JSON"
+        "JSON",
+        "XML"
       ],
       "datasetUrl": "https://datos.gob.es/catalogo/l01300243-estrechamiento-de-calzada",
       "distributions": [
@@ -478,16 +405,16 @@
           "identifier": "https://datos.lorca.es/catalogo/estrechamiento-calzada/CSV"
         },
         {
+          "title": "Formato json",
+          "accessUrl": "https://datos.lorca.es/catalogo/estrechamiento-calzada/estrechamiento-calzada.json",
+          "format": "JSON",
+          "identifier": "https://datos.lorca.es/catalogo/estrechamiento-calzada/JSON"
+        },
+        {
           "title": "Distribucion",
           "accessUrl": "https://datos.lorca.es/catalogo/estrechamiento-calzada/estrechamiento-calzada.xml",
           "format": "XML",
           "identifier": "https://datos.lorca.es/catalogo/estrechamiento-calzada/XML"
-        },
-        {
-          "title": "Formato HTML",
-          "accessUrl": "https://datos.lorca.es/catalogo/estrechamiento-calzada/estrechamiento-calzada.html",
-          "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/estrechamiento-calzada/HTML"
         },
         {
           "title": "Formato Excel",
@@ -496,10 +423,10 @@
           "identifier": "https://datos.lorca.es/catalogo/estrechamiento-calzada/Excel"
         },
         {
-          "title": "Formato json",
-          "accessUrl": "https://datos.lorca.es/catalogo/estrechamiento-calzada/estrechamiento-calzada.json",
-          "format": "JSON",
-          "identifier": "https://datos.lorca.es/catalogo/estrechamiento-calzada/JSON"
+          "title": "Formato HTML",
+          "accessUrl": "https://datos.lorca.es/catalogo/estrechamiento-calzada/estrechamiento-calzada.html",
+          "format": "SIN DATO",
+          "identifier": "https://datos.lorca.es/catalogo/estrechamiento-calzada/HTML"
         }
       ],
       "score": 58,
@@ -515,7 +442,7 @@
       "title": "Otras incidencias de tráfico",
       "description": "Otras incidencia de tráfico en la ciudad de Lorca",
       "issued": "sáb, 05 jul 2014 22:00:00 GMT+0000",
-      "modified": "vie, 17 abr 2026 22:00:00 GMT+0000",
+      "modified": "vie, 24 abr 2026 22:00:00 GMT+0000",
       "publisher": "L01300243",
       "spatial": "Sin dato",
       "themes": [
@@ -527,18 +454,12 @@
         "tráfico"
       ],
       "formats": [
-        "CSV",
         "JSON",
+        "CSV",
         "XML"
       ],
       "datasetUrl": "https://datos.gob.es/catalogo/l01300243-otras-incidencias-de-trafico",
       "distributions": [
-        {
-          "title": "Formato csv separado por ;",
-          "accessUrl": "https://datos.lorca.es/catalogo/otras-incidencias-trafico/otras-incidencias-trafico.csv",
-          "format": "CSV",
-          "identifier": "https://datos.lorca.es/catalogo/otras-incidencias-trafico/CSV"
-        },
         {
           "title": "Formato json",
           "accessUrl": "https://datos.lorca.es/catalogo/otras-incidencias-trafico/otras-incidencias-trafico.json",
@@ -546,10 +467,16 @@
           "identifier": "https://datos.lorca.es/catalogo/otras-incidencias-trafico/JSON"
         },
         {
-          "title": "Formato Excel",
-          "accessUrl": "https://datos.lorca.es/catalogo/otras-incidencias-trafico/otras-incidencias-trafico.excel",
+          "title": "Formato HTML",
+          "accessUrl": "https://datos.lorca.es/catalogo/otras-incidencias-trafico/otras-incidencias-trafico.html",
           "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/otras-incidencias-trafico/Excel"
+          "identifier": "https://datos.lorca.es/catalogo/otras-incidencias-trafico/HTML"
+        },
+        {
+          "title": "Formato csv separado por ;",
+          "accessUrl": "https://datos.lorca.es/catalogo/otras-incidencias-trafico/otras-incidencias-trafico.csv",
+          "format": "CSV",
+          "identifier": "https://datos.lorca.es/catalogo/otras-incidencias-trafico/CSV"
         },
         {
           "title": "formato xml",
@@ -558,10 +485,10 @@
           "identifier": "https://datos.lorca.es/catalogo/otras-incidencias-trafico/XML"
         },
         {
-          "title": "Formato HTML",
-          "accessUrl": "https://datos.lorca.es/catalogo/otras-incidencias-trafico/otras-incidencias-trafico.html",
+          "title": "Formato Excel",
+          "accessUrl": "https://datos.lorca.es/catalogo/otras-incidencias-trafico/otras-incidencias-trafico.excel",
           "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/otras-incidencias-trafico/HTML"
+          "identifier": "https://datos.lorca.es/catalogo/otras-incidencias-trafico/Excel"
         }
       ],
       "score": 58,
@@ -577,7 +504,7 @@
       "title": "Reservas de espacio",
       "description": "Reservas de espacio por obras, mantenimiento, carga y descarga...",
       "issued": "sáb, 05 jul 2014 22:00:00 GMT+0000",
-      "modified": "vie, 17 abr 2026 22:00:00 GMT+0000",
+      "modified": "vie, 24 abr 2026 22:00:00 GMT+0000",
       "publisher": "L01300243",
       "spatial": "Sin dato",
       "themes": [
@@ -589,17 +516,17 @@
         "tráfico"
       ],
       "formats": [
-        "JSON",
         "XML",
+        "JSON",
         "CSV"
       ],
       "datasetUrl": "https://datos.gob.es/catalogo/l01300243-reservas-de-espacio",
       "distributions": [
         {
-          "title": "Formato HTML",
-          "accessUrl": "https://datos.lorca.es/catalogo/reserva-espacio/reserva-espacio.html",
-          "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/reserva-espacio/HTML"
+          "title": "Formato xml",
+          "accessUrl": "https://datos.lorca.es/catalogo/reserva-espacio/reserva-espacio.xml",
+          "format": "XML",
+          "identifier": "https://datos.lorca.es/catalogo/reserva-espacio/XML"
         },
         {
           "title": "Formato json",
@@ -608,22 +535,22 @@
           "identifier": "https://datos.lorca.es/catalogo/reserva-espacio/JSON"
         },
         {
-          "title": "Formato xml",
-          "accessUrl": "https://datos.lorca.es/catalogo/reserva-espacio/reserva-espacio.xml",
-          "format": "XML",
-          "identifier": "https://datos.lorca.es/catalogo/reserva-espacio/XML"
+          "title": "Formato csv separado por ;",
+          "accessUrl": "https://datos.lorca.es/catalogo/reserva-espacio/reserva-espacio.csv",
+          "format": "CSV",
+          "identifier": "https://datos.lorca.es/catalogo/reserva-espacio/CSV"
+        },
+        {
+          "title": "Formato HTML",
+          "accessUrl": "https://datos.lorca.es/catalogo/reserva-espacio/reserva-espacio.html",
+          "format": "SIN DATO",
+          "identifier": "https://datos.lorca.es/catalogo/reserva-espacio/HTML"
         },
         {
           "title": "Formato Excel",
           "accessUrl": "https://datos.lorca.es/catalogo/reserva-espacio/reserva-espacio.excel",
           "format": "SIN DATO",
           "identifier": "https://datos.lorca.es/catalogo/reserva-espacio/Excel"
-        },
-        {
-          "title": "Formato csv separado por ;",
-          "accessUrl": "https://datos.lorca.es/catalogo/reserva-espacio/reserva-espacio.csv",
-          "format": "CSV",
-          "identifier": "https://datos.lorca.es/catalogo/reserva-espacio/CSV"
         }
       ],
       "score": 58,
@@ -635,520 +562,11 @@
       ]
     },
     {
-      "id": "https://abertos.xunta.gal/catalogo/economia-empresa-emprego/-/dataset/0432/rexistro-certificados-eficiencia-enerxetica",
-      "title": "Registro de Certificados de Eficiencia Energética de Edificios de Galicia",
-      "description": "En el Registro de Certificados de Eficiencia Energética de Edificios de Galicia (RGEEE) se inscriben los certificados de eficiencia energética de los edificios incluidos en el ámbito de aplicación del Real Decreto 235/2013, del 5 de abril, por el que se aprueba el procedimiento básico para la certificación da eficiencia energética de los edificios.  \t  \tA través de él, también se da cumplimento a la exigencias de información que se establecieron en la Directiva 2010/31/UE del Parlamento Europeo y del Consejo, del 19 de mayo de 2010, relativa a la eficiencia energética de los edificios. \t  \tEl registro tiene carácter público y sirve para dar acceso a la información contenida en la etiqueta energética de todos aquellos inmuebles que tengan inscrito en él su certificado de eficiencia energética.  \t  \tLos datos que pueden descargarse en los enlaces superiores son los relativos a las inscripciones realizadas después del 1 de junio de 2015. Para los datos de las anteriores se puede consultar este enlace.",
-      "issued": "mar, 26 ene 2021 23:00:00 GMT+0000",
-      "modified": "vie, 17 abr 2026 22:00:00 GMT+0000",
-      "publisher": "A12002994",
-      "spatial": "Galicia",
-      "themes": [
-        "Economia"
-      ],
-      "keywords": [],
-      "formats": [
-        "CSV",
-        "JSON",
-        "XML"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a12002994-registro-de-certificados-de-eficiencia-energetica-de-edificios-de-galicia",
-      "distributions": [
-        {
-          "title": "Datos posteriores a 1 de julio de 2015",
-          "accessUrl": "https://abertos.xunta.gal/catalogo/economia-empresa-emprego/-/dataset/0432/rexistro-certificados-eficiencia-enerxetica/001/acceso-aos-datos.csv",
-          "format": "CSV",
-          "identifier": "https://abertos.xunta.gal/catalogo/economia-empresa-emprego/-/dataset/0432/rexistro-certificados-eficiencia-enerxetica/001/acceso-aos-datos.csv"
-        },
-        {
-          "title": "Datos posteriores a 1 de julio de 2015",
-          "accessUrl": "https://abertos.xunta.gal/catalogo/economia-empresa-emprego/-/dataset/0432/rexistro-certificados-eficiencia-enerxetica/002/acceso-aos-datos.json",
-          "format": "JSON",
-          "identifier": "https://abertos.xunta.gal/catalogo/economia-empresa-emprego/-/dataset/0432/rexistro-certificados-eficiencia-enerxetica/002/acceso-aos-datos.json"
-        },
-        {
-          "title": "Datos posteriores a 1 de julio de 2015",
-          "accessUrl": "https://abertos.xunta.gal/catalogo/economia-empresa-emprego/-/dataset/0432/rexistro-certificados-eficiencia-enerxetica/003/descarga-directa-ficheiro.xml",
-          "format": "XML",
-          "identifier": "https://abertos.xunta.gal/catalogo/economia-empresa-emprego/-/dataset/0432/rexistro-certificados-eficiencia-enerxetica/003/descarga-directa-ficheiro.xml"
-        }
-      ],
-      "score": 57,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Economia.",
-        "Publicador: A12002994.",
-        "Cobertura geografica principal: Galicia."
-      ]
-    },
-    {
-      "id": "https://datos.icane.es/dataset/b4b39774-2ef4-4298-a77d-847407afb90b",
-      "title": "Autorizaciones de trabajo a extranjeros",
-      "description": "Autorizaciones de trabajo a extranjeros",
-      "issued": "vie, 14 mar 2025 07:48:24 GMT+0000",
-      "modified": "vie, 17 abr 2026 11:16:15 GMT+0000",
-      "publisher": "A06004074",
-      "spatial": "Sin dato",
-      "themes": [
-        "Empleo"
-      ],
-      "keywords": [
-        "Estadísticas De Empleo Y Paro"
-      ],
-      "formats": [
-        "JSON",
-        "RDF",
-        "CSV"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-autorizaciones-de-trabajo-a-extranjeros",
-      "distributions": [
-        {
-          "title": "Autorizaciones de trabajo a extranjeros",
-          "accessUrl": "https://www.icane.es/data/api/autorizaciones-trabajo-extranjeros-series.json-stat",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Autorizaciones de trabajo a extranjeros",
-          "accessUrl": "https://www.icane.es/data/api/autorizaciones-trabajo-extranjeros-series.rdf",
-          "format": "RDF",
-          "identifier": ""
-        },
-        {
-          "title": "Autorizaciones de trabajo a extranjeros",
-          "accessUrl": "https://www.icane.es/data/api/autorizaciones-trabajo-extranjeros-series.json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Autorizaciones de trabajo a extranjeros",
-          "accessUrl": "https://www.icane.es/data/api/autorizaciones-trabajo-extranjeros-series.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Autorizaciones de trabajo a extranjeros",
-          "accessUrl": "https://www.icane.es/data/autorizaciones-trabajo-extranjeros-series#timeseries",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Autorizaciones de trabajo a extranjeros",
-          "accessUrl": "https://www.icane.es/data/api/autorizaciones-trabajo-extranjeros-series.sdmx",
-          "format": "SIN DATO",
-          "identifier": ""
-        }
-      ],
-      "score": 54,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Empleo.",
-        "Publicador: A06004074."
-      ]
-    },
-    {
-      "id": "https://datos.icane.es/dataset/069d7833-c5b3-44ca-b5b2-d2ba18b6ee53",
-      "title": "Demandantes de empleo, paro registrado y contratos",
-      "description": "Demandantes de empleo, paro registrado y contratos por municipio",
-      "issued": "vie, 14 mar 2025 07:48:23 GMT+0000",
-      "modified": "vie, 17 abr 2026 11:16:13 GMT+0000",
-      "publisher": "A06004074",
-      "spatial": "Sin dato",
-      "themes": [
-        "Empleo"
-      ],
-      "keywords": [
-        "Estadísticas De Empleo Y Paro"
-      ],
-      "formats": [
-        "RDF",
-        "JSON",
-        "CSV"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-demandantes-de-empleo-paro-registrado-y-contratos2",
-      "distributions": [
-        {
-          "title": "Contratos registrados por municipio, sexo y sector de actividad",
-          "accessUrl": "https://www.icane.es/data/api/contratos-sexo-sector-municipal.rdf",
-          "format": "RDF",
-          "identifier": ""
-        },
-        {
-          "title": "Demandantes de empleo y paro registrado por municipio, sexo y grupo de edad",
-          "accessUrl": "https://www.icane.es/data/api/demandantes-paro-registrado-sexo-grupo-edad-municipios.excel",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Contratos registrados por municipio, sexo y sector de actividad",
-          "accessUrl": "https://www.icane.es/data/api/contratos-sexo-sector-municipal.sdmx",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Desempleo",
-          "accessUrl": "https://www.icane.es/data/api/desempleo.json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Demandantes de empleo y paro registrado por municipio, sexo y grupo de edad",
-          "accessUrl": "https://www.icane.es/data/api/demandantes-paro-registrado-sexo-grupo-edad-municipios.json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Demandantes de empleo y paro registrado por municipio, sexo y sector de actividad",
-          "accessUrl": "https://www.icane.es/data/api/demandantes-paro-registrado-sexo-sector-municipal.rdf",
-          "format": "RDF",
-          "identifier": ""
-        }
-      ],
-      "score": 54,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Empleo.",
-        "Publicador: A06004074."
-      ]
-    },
-    {
-      "id": "https://datos.icane.es/dataset/d4282c1a-c499-4bcd-8d77-f95d4aeb59a5",
-      "title": "Demandantes de empleo, paro registrado y contratos",
-      "description": "Demandantes de empleo, paro registrado y contratos",
-      "issued": "vie, 14 mar 2025 07:48:23 GMT+0000",
-      "modified": "vie, 17 abr 2026 11:16:13 GMT+0000",
-      "publisher": "A06004074",
-      "spatial": "Sin dato",
-      "themes": [
-        "Empleo"
-      ],
-      "keywords": [
-        "Estadísticas De Empleo Y Paro"
-      ],
-      "formats": [
-        "RDF",
-        "JSON",
-        "CSV"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-demandantes-de-empleo-paro-registrado-y-contratos3",
-      "distributions": [
-        {
-          "title": "Contratos registrados por área, sexo, grupo de edad y modalidad",
-          "accessUrl": "https://www.icane.es/data/api/contratos-registrados-agrupacion-municipios-sexo-edad-tipo-contrato.sdmx",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Contratos registrados por área, sexo, grupo de edad y tipo de colectivo",
-          "accessUrl": "https://www.icane.es/data/api/contratos-registrados-sexo-edad-tipo-colectivo-agrupacion-municipios.rdf",
-          "format": "RDF",
-          "identifier": ""
-        },
-        {
-          "title": "Contratos registrados por área, sexo, grupo de edad y sección de actividad",
-          "accessUrl": "https://www.icane.es/data/api/contratos-registrados-agrupacion-municipios-sexo-edad-seccion-actividad.pc-axis",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Demandantes de empleo y paro registrado por área, sexo, grupo de edad y sección de actividad",
-          "accessUrl": "https://www.icane.es/data/api/demandantes-sexo-edad-seccion-actividad-agrupacion-municipios.rdf",
-          "format": "RDF",
-          "identifier": ""
-        },
-        {
-          "title": "Contratos registrados por área, sexo, grupo de edad y sección de actividad",
-          "accessUrl": "https://www.icane.es/data/api/contratos-registrados-agrupacion-municipios-sexo-edad-seccion-actividad.google-json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Contratos registrados por área, sexo, grupo de edad y sección de actividad",
-          "accessUrl": "https://www.icane.es/data/api/contratos-registrados-agrupacion-municipios-sexo-edad-seccion-actividad.json-stat",
-          "format": "JSON",
-          "identifier": ""
-        }
-      ],
-      "score": 54,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Empleo.",
-        "Publicador: A06004074."
-      ]
-    },
-    {
-      "id": "https://datos.icane.es/dataset/538dafe9-2863-41f4-bed0-496e2046f3ea",
-      "title": "Demandantes de empleo, paro registrado y contratos",
-      "description": "Demandantes de empleo, paro registrado y contratos",
-      "issued": "vie, 14 mar 2025 07:48:23 GMT+0000",
-      "modified": "vie, 17 abr 2026 11:16:12 GMT+0000",
-      "publisher": "A06004074",
-      "spatial": "Sin dato",
-      "themes": [
-        "Empleo"
-      ],
-      "keywords": [
-        "Estadísticas De Empleo Y Paro"
-      ],
-      "formats": [
-        "CSV",
-        "RDF",
-        "JSON"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-demandantes-de-empleo-paro-registrado-y-contratos",
-      "distributions": [
-        {
-          "title": "Paro registrado por sector económico. CNAE-93",
-          "accessUrl": "https://www.icane.es/data/api/paro-registrado-sector-economico-cnae93.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Contratos registrados por sexo, grupo de edad y modalidad",
-          "accessUrl": "https://www.icane.es/data/api/contratos-registrados-sexo-grupo-edad-modalidad.excel",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Contratos registrados por sector de actividad",
-          "accessUrl": "https://www.icane.es/data/api/contratos-sector.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Paro registrado por sector económico. CNAE-93",
-          "accessUrl": "https://www.icane.es/data/api/paro-registrado-sector-economico-cnae93.rdf",
-          "format": "RDF",
-          "identifier": ""
-        },
-        {
-          "title": "Paro registrado por sector económico. CNAE-93",
-          "accessUrl": "https://www.icane.es/data/api/paro-registrado-sector-economico-cnae93.excel",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Paro registrado por sector económico. CNAE-2009",
-          "accessUrl": "https://www.icane.es/data/api/paro-registrado-sector-economico-cnae09.json",
-          "format": "JSON",
-          "identifier": ""
-        }
-      ],
-      "score": 54,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Empleo.",
-        "Publicador: A06004074."
-      ]
-    },
-    {
-      "id": "https://datos.icane.es/dataset/e554deab-03d9-4540-a42f-ca6c929fe15f",
-      "title": "Empresas de trabajo temporal",
-      "description": "Empresas de trabajo temporal",
-      "issued": "vie, 14 mar 2025 07:47:57 GMT+0000",
-      "modified": "vie, 17 abr 2026 11:15:50 GMT+0000",
-      "publisher": "A06004074",
-      "spatial": "Sin dato",
-      "themes": [
-        "Empleo"
-      ],
-      "keywords": [
-        "Estadísticas De Empleo Y Paro"
-      ],
-      "formats": [
-        "CSV",
-        "JSON",
-        "RDF"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-empresas-de-trabajo-temporal",
-      "distributions": [
-        {
-          "title": "Empresas de trabajo temporal",
-          "accessUrl": "https://www.icane.es/data/empresas-trabajo-temporal-series#timeseries",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Empresas de trabajo temporal",
-          "accessUrl": "https://www.icane.es/data/api/empresas-trabajo-temporal-series.pc-axis",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Empresas de trabajo temporal",
-          "accessUrl": "https://www.icane.es/data/api/empresas-trabajo-temporal-series.sdmx",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Empresas de trabajo temporal",
-          "accessUrl": "https://www.icane.es/data/api/empresas-trabajo-temporal-series.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Empresas de trabajo temporal",
-          "accessUrl": "https://www.icane.es/data/api/empresas-trabajo-temporal-series.json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Empresas de trabajo temporal",
-          "accessUrl": "https://www.icane.es/data/api/empresas-trabajo-temporal-series.excel",
-          "format": "SIN DATO",
-          "identifier": ""
-        }
-      ],
-      "score": 54,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Empleo.",
-        "Publicador: A06004074."
-      ]
-    },
-    {
-      "id": "https://datos.icane.es/dataset/d81cfbf1-94db-4903-b9de-010ede1dce6a",
-      "title": "Encuesta de Población Activa (EPA)",
-      "description": "Encuesta de Población Activa (EPA)",
-      "issued": "vie, 14 mar 2025 07:47:52 GMT+0000",
-      "modified": "vie, 17 abr 2026 11:15:44 GMT+0000",
-      "publisher": "A06004074",
-      "spatial": "Sin dato",
-      "themes": [
-        "Empleo"
-      ],
-      "keywords": [
-        "Estadísticas De Empleo Y Paro"
-      ],
-      "formats": [
-        "JSON",
-        "CSV",
-        "RDF"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-encuesta-de-poblacion-activa-epa",
-      "distributions": [
-        {
-          "title": "Tasas de actividad, paro y empleo, por sexo y distintos grupos de edad",
-          "accessUrl": "https://www.icane.es/data/api/actividad-paro-empleo-tasas-genero-grupo-edad-base-2021.json-stat",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Activos por sector económico (CNAE 09)",
-          "accessUrl": "https://www.icane.es/data/api/poblacion-activa-sector-economico-cnae09.json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Ocupados por ocupación y sexo (CNO 2011)",
-          "accessUrl": "https://www.icane.es/data/api/poblacion-activa-ocupados-genero-ocupacion-cno2011.json-stat",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Ocupados por situación profesional, sexo y sector económico (CNAE 93) (hasta 2008)",
-          "accessUrl": "https://www.icane.es/data/api/poblacion-activa-ocupados-situacion-genero-sector-cnae93-2009.excel",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Asalariados por sector económico y sexo (CNAE 09)",
-          "accessUrl": "https://www.icane.es/data/api/poblacion-activa-asalariados-sector-economico-genero-cnae09.sdmx",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Población de 16 y más años por relación con la actividad económica, sexo y grupo de edad",
-          "accessUrl": "https://www.icane.es/data/api/poblacion-activa-edad-16-mas-genero-grupo-edad-actividad-base-2011.json-stat",
-          "format": "JSON",
-          "identifier": ""
-        }
-      ],
-      "score": 54,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Empleo.",
-        "Publicador: A06004074."
-      ]
-    },
-    {
-      "id": "https://datos.icane.es/dataset/43258013-839e-4988-9c9d-445d7f51b2f9",
-      "title": "Encuesta Nacional de Salud (ENS)",
-      "description": "Encuesta Nacional de Salud (ENS)",
-      "issued": "vie, 14 mar 2025 07:47:44 GMT+0000",
-      "modified": "vie, 17 abr 2026 11:15:17 GMT+0000",
-      "publisher": "A06004074",
-      "spatial": "Sin dato",
-      "themes": [
-        "Salud"
-      ],
-      "keywords": [
-        "Sanidad"
-      ],
-      "formats": [
-        "JSON",
-        "RDF",
-        "CSV"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-encuesta-nacional-de-salud-ens",
-      "distributions": [
-        {
-          "title": "Número medio de días de restricción de la actividad principal por molestias en las 2 últimas semanas",
-          "accessUrl": "https://www.icane.es/data/api/ens-2003-media-principal-actividad-restriccion-ultimos-2-semanas.excel",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Tipo de medicamento consumido en las últimas 2 semanas según sexo y comunidad autónoma. Población que ha consumido medicamentos en las últimas 2 semanas",
-          "accessUrl": "https://www.icane.es/data/api/ens-2006-medicamentos-consumidos-ultimos-2-semanas-genero.json-stat",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Realización de citología vaginal alguna vez según comunidad autónoma. Mujeres de 20 y más años",
-          "accessUrl": "https://www.icane.es/data/api/ens-2006-citologia-vaginal-realizacion-mujeres-20-mas-anos.rdf",
-          "format": "RDF",
-          "identifier": ""
-        },
-        {
-          "title": "Utilización del hospital de día en los últimos 12 meses según sexo y comunidad autónoma. Población de 0 y más años",
-          "accessUrl": "https://www.icane.es/data/api/ens-2006-hospital-utilizacion-ultimos-12-meses-genero.json-stat",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Utilización del servicio de urgencias en los últimos 12 meses por grupos de edad: miles de personas y porcentaje",
-          "accessUrl": "https://www.icane.es/data/api/ens-2003-servicio-urgencias-utilizacion-12-meses-grupo-edad.pc-axis",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Consumo de la televisión",
-          "accessUrl": "https://www.icane.es/data/api/ens-2003-tv-consumo.excel",
-          "format": "SIN DATO",
-          "identifier": ""
-        }
-      ],
-      "score": 54,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Salud.",
-        "Publicador: A06004074."
-      ]
-    },
-    {
-      "id": "https://datos.icane.es/dataset/bde06a6d-b644-4410-a0c4-4a66ab911f2d",
-      "title": "Encuesta trimestral coste laboral",
-      "description": "Encuesta trimestral coste laboral",
-      "issued": "vie, 14 mar 2025 07:47:56 GMT+0000",
-      "modified": "vie, 17 abr 2026 11:15:49 GMT+0000",
+      "id": "https://datos.icane.es/dataset/06d86aa7-dc92-422d-bf17-db1026403e21",
+      "title": "Accidentes de trabajo y enfermedades profesionales",
+      "description": "Accidentes de trabajo y enfermedades profesionales",
+      "issued": "vie, 14 mar 2025 07:45:36 GMT+0000",
+      "modified": "vie, 24 abr 2026 11:17:39 GMT+0000",
       "publisher": "A06004074",
       "spatial": "Sin dato",
       "themes": [
@@ -1162,41 +580,173 @@
         "JSON",
         "CSV"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-encuesta-trimestral-coste-laboral",
+      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-accidentes-de-trabajo-y-enfermedades-profesionales",
       "distributions": [
         {
-          "title": "Coste laboral por trabajador y mes, sectores de actividad y componentes del coste",
-          "accessUrl": "https://www.icane.es/data/api/etcl-coste-laboral-periodo-actividad-componente-cnae09.rdf",
+          "title": "Enfermedades profesionales según sexo y situación laboral",
+          "accessUrl": "https://www.icane.es/data/api/enfermedades-profesionales-sexo-situacion-laboral.excel",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Accidentes de trabajo sin baja según sexo y actividad (CNAE 2009)",
+          "accessUrl": "https://www.icane.es/data/api/accidentes-trabajo-sin-baja-sexo-actividad-cnae09.rdf",
           "format": "RDF",
           "identifier": ""
         },
         {
-          "title": "Coste Laboral por hora efectiva por sectores de actividad y componentes del coste",
-          "accessUrl": "https://www.icane.es/data/api/etcl-coste-laboral-hora-actividad-componente-cnae93.json",
+          "title": "Enfermedades profesionales según sexo y actividad (CNAE 2009)",
+          "accessUrl": "https://www.icane.es/data/api/enfermedades-profesionales-sexo-actividad-cnae09.json",
           "format": "JSON",
           "identifier": ""
         },
         {
-          "title": "Coste Laboral por trabajador por sectores de actividad y componentes del coste",
-          "accessUrl": "https://www.icane.es/data/api/etcl-coste-laboral-trabajador-actividad-componente-cnae93.json-stat",
+          "title": "Accidentes de trabajo con baja según tipo de accidente, gravedad, sexo y actividad (CNAE 93)",
+          "accessUrl": "https://www.icane.es/data/api/accidentes-trabajo-baja-tipo-gravedad-sexo-actividad-cnae93.json",
           "format": "JSON",
           "identifier": ""
         },
         {
-          "title": "Coste Laboral por hora efectiva por sectores de actividad y componentes del coste",
-          "accessUrl": "https://www.icane.es/data/api/etcl-coste-laboral-hora-actividad-componente-cnae93.rdf",
+          "title": "Enfermedades profesionales según sexo y antigüedad en el puesto",
+          "accessUrl": "https://www.icane.es/data/api/enfermedades-profesionales-segun-antiguedad-sexo.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Enfermedades profesionales según sexo y actividad (CNAE 2009)",
+          "accessUrl": "https://www.icane.es/data/api/enfermedades-profesionales-sexo-actividad-cnae09.google-json",
+          "format": "JSON",
+          "identifier": ""
+        }
+      ],
+      "score": 54,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Empleo.",
+        "Publicador: A06004074."
+      ]
+    },
+    {
+      "id": "https://datos.icane.es/dataset/4bc86715-997f-4846-aebb-89b9ce4f0869",
+      "title": "Adjudicaciones de Obras del Grupo MITMA",
+      "description": "Adjudicaciones de obras del Grupo MITMA",
+      "issued": "vie, 14 mar 2025 07:45:36 GMT+0000",
+      "modified": "vie, 24 abr 2026 11:17:39 GMT+0000",
+      "publisher": "A06004074",
+      "spatial": "Sin dato",
+      "themes": [
+        "Economia"
+      ],
+      "keywords": [
+        "Construcción"
+      ],
+      "formats": [
+        "CSV",
+        "JSON",
+        "RDF"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-adjudicaciones-de-obras-del-grupo-mitma",
+      "distributions": [
+        {
+          "title": "Adjudicaciones de Obras del Grupo MITMA",
+          "accessUrl": "https://www.icane.es/data/api/adjudicaciones-obras-fomento-series.sdmx",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Adjudicaciones de Obras del Grupo MITMA: Entidades Públicas Estatales",
+          "accessUrl": "https://www.icane.es/data/api/adjudicaciones-obras-fomento-entidades-publicas.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Adjudicaciones de Obras del Grupo MITMA",
+          "accessUrl": "https://www.icane.es/data/api/adjudicaciones-obras-fomento-series.excel",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Adjudicaciones de Obras del Grupo MITMA: Entidades Públicas Estatales",
+          "accessUrl": "https://www.icane.es/data/api/adjudicaciones-obras-fomento-entidades-publicas.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Adjudicaciones de Obras del Grupo MITMA",
+          "accessUrl": "https://www.icane.es/data/adjudicaciones-obras-fomento-series#timeseries",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Adjudicaciones de Obras del Grupo MITMA",
+          "accessUrl": "https://www.icane.es/data/api/adjudicaciones-obras-fomento-series.pc-axis",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 54,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Economia.",
+        "Publicador: A06004074."
+      ]
+    },
+    {
+      "id": "https://datos.icane.es/dataset/67cee06c-b730-4505-a2bb-a36923887d20",
+      "title": "Afiliación a la Seguridad Social a último día de mes",
+      "description": "Afiliación a la Seguridad Social a último día de mes",
+      "issued": "vie, 14 mar 2025 07:48:52 GMT+0000",
+      "modified": "vie, 24 abr 2026 11:17:04 GMT+0000",
+      "publisher": "A06004074",
+      "spatial": "Sin dato",
+      "themes": [
+        "Empleo"
+      ],
+      "keywords": [
+        "Estadísticas De Empleo Y Paro"
+      ],
+      "formats": [
+        "RDF",
+        "CSV",
+        "JSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-afiliacion-a-la-seguridad-social-a-ultimo-dia-de-mes",
+      "distributions": [
+        {
+          "title": "Afiliados a último día de mes en alta laboral. Régimen General y R.E.T.A. por sección de actividad según CNAE25",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-ultimo-dia-mes-alta-laboral-regimen-general-reta-actividad-cnae25.rdf",
           "format": "RDF",
           "identifier": ""
         },
         {
-          "title": "Coste laboral por trabajador y mes, hora efectiva, sectores de actividad y componentes del coste",
-          "accessUrl": "https://www.icane.es/data/api/etcl-coste-laboral-hora-actividad-componente-cnae09.rdf",
-          "format": "RDF",
+          "title": "Afiliados a último día de mes en alta laboral. Régimen General y R.E.T.A. por sección de actividad según CNAE93",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-ultimo-dia-mes-alta-laboral-regimen-general-reta-actividad-cnae93.csv",
+          "format": "CSV",
           "identifier": ""
         },
         {
-          "title": "Tiempo de trabajo por trabajador y mes, tipo de jornada y sectores de actividad",
-          "accessUrl": "https://www.icane.es/data/api/etcl-tiempo-trabajo-trabajador-mes-tipo-actividad-cnae93.sdmx",
+          "title": "Afiliados a último día de mes en alta laboral. Régimen General y R.E.T.A. por sección de actividad según CNAE09",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-ultimo-dia-mes-alta-laboral-regimen-general-reta-actividad-cnae09.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados a último día de mes en alta laboral según régimen y sexo",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-ultimo-dia-mes-alta-laboral-regimen-sexo.json-stat",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados a último día de mes en alta laboral. Régimen General y R.E.T.A. por sección de actividad según CNAE93",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-ultimo-dia-mes-alta-laboral-regimen-general-reta-actividad-cnae93.pc-axis",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados a último día de mes en alta laboral. Régimen General y R.E.T.A. por sección de actividad según CNAE09",
+          "accessUrl": "https://www.icane.es/data/afiliados-ultimo-dia-mes-alta-laboral-regimen-general-reta-actividad-cnae09#timeseries",
           "format": "SIN DATO",
           "identifier": ""
         }
@@ -1210,59 +760,59 @@
       ]
     },
     {
-      "id": "https://datos.icane.es/dataset/f62608eb-bea7-4a75-b5e3-2aee103b4376",
-      "title": "Enfermedades de declaración obligatoria",
-      "description": "Enfermedades de declaración obligatoria",
-      "issued": "vie, 14 mar 2025 07:47:40 GMT+0000",
-      "modified": "vie, 17 abr 2026 11:15:10 GMT+0000",
+      "id": "https://datos.icane.es/dataset/8631c202-5729-40ec-a293-0e6ef163b934",
+      "title": "Afiliación a la Seguridad Social a último día de trimestre",
+      "description": "Afiliación a la Seguridad Social a último día de trimestre por municipio",
+      "issued": "vie, 14 mar 2025 07:48:53 GMT+0000",
+      "modified": "vie, 24 abr 2026 11:17:05 GMT+0000",
       "publisher": "A06004074",
       "spatial": "Sin dato",
       "themes": [
-        "Salud"
+        "Empleo"
       ],
       "keywords": [
-        "Sanidad"
+        "Estadísticas De Empleo Y Paro"
       ],
       "formats": [
-        "JSON",
         "RDF",
+        "JSON",
         "CSV"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-enfermedades-de-declaracion-obligatoria",
+      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-afiliacion-a-la-seguridad-social-a-ultimo-dia-de-trimestre",
       "distributions": [
         {
-          "title": "Enfermedades de declaración obligatoria",
-          "accessUrl": "https://www.icane.es/data/api/enfermedades-declaracion-obligatoria-serie.json-stat",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Enfermedades de declaración obligatoria",
-          "accessUrl": "https://www.icane.es/data/api/enfermedades-declaracion-obligatoria-serie.excel",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Nuevos casos y Tasa de VIH (por 100.000 habitantes) por año de diagnóstico",
-          "accessUrl": "https://www.icane.es/data/api/enfermedades-declaracion-obligatoria-ano-casos-sida-diagnosticados.google-json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Enfermedades de declaración obligatoria",
-          "accessUrl": "https://www.icane.es/data/api/enfermedades-declaracion-obligatoria-serie.rdf",
+          "title": "Afiliados a último día de trimestre por sexo, grupo de edad y municipio de localización del establecimiento o de residencia del afiliado",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-sexo-grupo-edad-municipal.rdf",
           "format": "RDF",
           "identifier": ""
         },
         {
-          "title": "Nuevos casos y Tasa de VIH (por 100.000 habitantes) por año de diagnóstico",
-          "accessUrl": "https://www.icane.es/data/api/enfermedades-declaracion-obligatoria-ano-casos-sida-diagnosticados.json-stat",
+          "title": "Afiliados a último día de trimestre del régimen general por tamaño del establecimiento y municipio de localización del establecimiento o de residencia del afiliado",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-regimen-general-estrato-municipal.pc-axis",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados a último día de trimestre del régimen general por tipo de contrato y municipio de localización del establecimiento o de residencia del afiliado",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-regimen-general-tipo-contrato.json",
           "format": "JSON",
           "identifier": ""
         },
         {
-          "title": "Enfermedades de declaración obligatoria",
-          "accessUrl": "https://www.icane.es/data/api/enfermedades-declaracion-obligatoria-serie.sdmx",
+          "title": "Afiliados a último día de trimestre por sexo, sector de actividad y municipio de localización del establecimiento o de residencia del afiliado",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-sexo-sector-actividad.json-stat",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados a último día de trimestre del régimen general por tamaño del establecimiento y municipio de localización del establecimiento o de residencia del afiliado",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-regimen-general-estrato-municipal.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados a último día de trimestre por sexo, grupo de edad y municipio de localización del establecimiento o de residencia del afiliado",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-sexo-grupo-edad-municipal.excel",
           "format": "SIN DATO",
           "identifier": ""
         }
@@ -1271,16 +821,346 @@
       "notes": [
         "Incluye formatos reutilizables para prototipos y analisis.",
         "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Salud.",
+        "Tematicas detectadas: Empleo.",
         "Publicador: A06004074."
       ]
     },
     {
-      "id": "https://datos.icane.es/dataset/e04ce409-3a1d-4fa1-baea-3f4029865cfc",
-      "title": "Estadística de enseñanza universitaria",
-      "description": "Estadística  de enseñanza universitaria",
-      "issued": "vie, 14 mar 2025 07:47:34 GMT+0000",
-      "modified": "vie, 17 abr 2026 11:15:03 GMT+0000",
+      "id": "https://datos.icane.es/dataset/b65c6af6-cea4-42a6-8f99-6d4b3871916b",
+      "title": "Afiliación a la Seguridad Social a último día de trimestre",
+      "description": "Afiliación a la Seguridad Social a último día de trimestre",
+      "issued": "vie, 14 mar 2025 07:48:53 GMT+0000",
+      "modified": "vie, 24 abr 2026 11:17:05 GMT+0000",
+      "publisher": "A06004074",
+      "spatial": "Sin dato",
+      "themes": [
+        "Empleo"
+      ],
+      "keywords": [
+        "Estadísticas De Empleo Y Paro"
+      ],
+      "formats": [
+        "RDF",
+        "JSON",
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-afiliacion-a-la-seguridad-social-a-ultimo-dia-de-trimestre2",
+      "distributions": [
+        {
+          "title": "Afiliados a último día de trimestre por sexo, grupo de edad y régimen",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-sexo-grupo-edad-regimen.rdf",
+          "format": "RDF",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados a último día de trimestre por sexo, grupo de edad y régimen",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-sexo-grupo-edad-regimen.json-stat",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados a último día de trimestre por división de actividad y régimen",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-division-actividad-regimen.excel",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados a último día de trimestre por sexo, grupo de edad y régimen",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-sexo-grupo-edad-regimen.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados a último día de trimestre por sexo, grupo de edad y sector de actividad",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-sexo-grupo-edad-sector-actividad.google-json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados a último día de trimestre del régimen general por sexo, grupo de edad y modalidad de contrato",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-sexo-grupo-edad-modalidad-contrato.sdmx",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 54,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Empleo.",
+        "Publicador: A06004074."
+      ]
+    },
+    {
+      "id": "https://datos.icane.es/dataset/7b201fc5-f9ad-420c-a221-d19e9d2b841c",
+      "title": "Afiliación a la Seguridad Social a último día de trimestre",
+      "description": "Afiliación a la Seguridad Social a último día de trimestre",
+      "issued": "vie, 14 mar 2025 07:48:53 GMT+0000",
+      "modified": "vie, 24 abr 2026 11:17:05 GMT+0000",
+      "publisher": "A06004074",
+      "spatial": "Sin dato",
+      "themes": [
+        "Empleo"
+      ],
+      "keywords": [
+        "Estadísticas De Empleo Y Paro"
+      ],
+      "formats": [
+        "JSON",
+        "CSV",
+        "RDF"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-afiliacion-a-la-seguridad-social-a-ultimo-dia-de-trimestre3",
+      "distributions": [
+        {
+          "title": "Afiliados a último día de trimestre del régimen general por grupo de cotización y área de localización del establecimiento o de residencia del afiliado",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-agrupacion-municipios-grupo-cotizacion.json-stat",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados a último día de trimestre por sexo, grupo de edad, sección de actividad y área de localización del establecimiento o de residencia del afiliado",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-agrupacion-municipios-sexo-grupo-edad-seccion-actividad.sdmx",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Flujo de afiliados a último día de trimestre entre el área de localización de la empresa y el área de residencia del afiliado",
+          "accessUrl": "https://www.icane.es/data/api/flujo-afiliados-seguridad-social-agrupacion-municipios.google-json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Flujo de afiliados a último día de trimestre entre el área de localización de la empresa y el área de residencia del afiliado",
+          "accessUrl": "https://www.icane.es/data/flujo-afiliados-seguridad-social-agrupacion-municipios#timeseries",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Flujo de afiliados a último día de trimestre entre el área de localización de la empresa y el área de residencia del afiliado",
+          "accessUrl": "https://www.icane.es/data/api/flujo-afiliados-seguridad-social-agrupacion-municipios.excel",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados a último día de trimestre del régimen general por modalidad de contrato y área de localización del establecimiento o de residencia del afiliado",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-seguridad-social-agrupacion-municipios-modalidad-contrato.sdmx",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 54,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Empleo.",
+        "Publicador: A06004074."
+      ]
+    },
+    {
+      "id": "https://datos.icane.es/dataset/49f76d0f-674a-46ff-b647-fae9ba5df19f",
+      "title": "Afiliación a la Seguridad Social media mensual",
+      "description": "Afiliación a la Seguridad Social media mensual",
+      "issued": "vie, 14 mar 2025 07:48:54 GMT+0000",
+      "modified": "vie, 24 abr 2026 11:17:06 GMT+0000",
+      "publisher": "A06004074",
+      "spatial": "Sin dato",
+      "themes": [
+        "Empleo"
+      ],
+      "keywords": [
+        "Estadísticas De Empleo Y Paro"
+      ],
+      "formats": [
+        "RDF",
+        "JSON",
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-afiliacion-a-la-seguridad-social-media-mensual",
+      "distributions": [
+        {
+          "title": "Afiliados medios mensuales. Régimen General y R.E.T.A. por sección de actividad (CNAE09)",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-medios-mensuales-regimen-general-reta-actividad-cnae09.excel",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados medios mensuales. Régimen General y R.E.T.A. por sección de actividad (CNAE09)",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-medios-mensuales-regimen-general-reta-actividad-cnae09.rdf",
+          "format": "RDF",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados medios mensuales. Régimen General y R.E.T.A. por sección de actividad (CNAE25)",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-medios-mensuales-regimen-general-reta-actividad-cnae25.json-stat",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados medios mensuales. Régimen General y R.E.T.A. por sección de actividad (CNAE25)",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-medios-mensuales-regimen-general-reta-actividad-cnae25.excel",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados medios mensuales. Régimen General y R.E.T.A. por sección de actividad (CNAE09)",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-medios-mensuales-regimen-general-reta-actividad-cnae09.sdmx",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados medios mensuales. Régimen General y R.E.T.A. por sección de actividad (CNAE09)",
+          "accessUrl": "https://www.icane.es/data/afiliados-medios-mensuales-regimen-general-reta-actividad-cnae09#timeseries",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 54,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Empleo.",
+        "Publicador: A06004074."
+      ]
+    },
+    {
+      "id": "https://datos.icane.es/dataset/a00fdfe2-2c4c-47d0-aab1-562ae93da2ef",
+      "title": "Afiliación de Extranjeros a la Seguridad Social a último día de mes",
+      "description": "Afiliación de Extranjeros a la Seguridad Social a último día de mes",
+      "issued": "vie, 14 mar 2025 07:48:54 GMT+0000",
+      "modified": "vie, 24 abr 2026 11:17:06 GMT+0000",
+      "publisher": "A06004074",
+      "spatial": "Sin dato",
+      "themes": [
+        "Empleo"
+      ],
+      "keywords": [
+        "Estadísticas De Empleo Y Paro"
+      ],
+      "formats": [
+        "JSON",
+        "CSV",
+        "RDF"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-afiliacion-de-extranjeros-a-la-seguridad-social-a-ultimo-dia-de-mes",
+      "distributions": [
+        {
+          "title": "Afiliados extranjeros a último día de mes en alta laboral. Régimen General y R.E.T.A por sección de actividad según CNAE 09",
+          "accessUrl": "https://www.icane.es/data/afiliados-extranjeros-alta-laboral-ultimo-dia-mes-general-reta-actividad-cnae09#timeseries",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados extranjeros a último día de mes en alta laboral. Régimen General y R.E.T.A por sección de actividad según CNAE 09",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-extranjeros-alta-laboral-ultimo-dia-mes-general-reta-actividad-cnae09.google-json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados extranjeros a último día de mes en alta laboral. Régimen General y R.E.T.A por sección de actividad según CNAE 25",
+          "accessUrl": "https://www.icane.es/data/afiliados-extranjeros-alta-laboral-ultimo-dia-mes-general-reta-actividad-cnae25#timeseries",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados extranjeros a último día de mes en alta laboral. Régimen General y R.E.T.A por sección de actividad según CNAE 25",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-extranjeros-alta-laboral-ultimo-dia-mes-general-reta-actividad-cnae25.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados extranjeros a último día de mes en alta laboral según régimen, procedencia y sexo",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-extranjeros-alta-laboral-regimen-procedencia-sexo.google-json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados extranjeros a último día de mes en alta laboral según régimen, procedencia y sexo",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-extranjeros-alta-laboral-regimen-procedencia-sexo.rdf",
+          "format": "RDF",
+          "identifier": ""
+        }
+      ],
+      "score": 54,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Empleo.",
+        "Publicador: A06004074."
+      ]
+    },
+    {
+      "id": "https://datos.icane.es/dataset/46c367e2-235d-4aa2-aba1-1b3bf2ddf1d0",
+      "title": "Afiliación de Extranjeros a la Seguridad Social media mensual",
+      "description": "Afiliación de Extranjeros a la Seguridad Social media mensual",
+      "issued": "vie, 14 mar 2025 07:48:54 GMT+0000",
+      "modified": "vie, 24 abr 2026 11:17:07 GMT+0000",
+      "publisher": "A06004074",
+      "spatial": "Sin dato",
+      "themes": [
+        "Empleo"
+      ],
+      "keywords": [
+        "Estadísticas De Empleo Y Paro"
+      ],
+      "formats": [
+        "CSV",
+        "JSON",
+        "RDF"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-afiliacion-de-extranjeros-a-la-seguridad-social-media-mensual",
+      "distributions": [
+        {
+          "title": "Afiliados extranjeros medios mensuales en alta laboral en el Régimen General y R.E.T.A según CNAE 25",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-extranjeros-alta-laboral-regimen-general-cnae25.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados extranjeros medios mensuales en alta laboral en el Régimen General y R.E.T.A según CNAE 25",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-extranjeros-alta-laboral-regimen-general-cnae25.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados extranjeros medios mensuales en alta laboral en el Régimen General según CNAE 09",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-extranjeros-alta-laboral-regimen-general-cnae09.sdmx",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados extranjeros medios mensuales en alta laboral por regímenes y país de procedencia",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-extranjeros-alta-laboral-regimenes-pais-procedencia.pc-axis",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados extranjeros medios mensuales en alta laboral en el Régimen General según CNAE 93",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-extranjeros-alta-laboral-regimen-general-cnae93.rdf",
+          "format": "RDF",
+          "identifier": ""
+        },
+        {
+          "title": "Afiliados extranjeros medios mensuales en alta laboral por regímenes y país de procedencia",
+          "accessUrl": "https://www.icane.es/data/api/afiliados-extranjeros-alta-laboral-regimenes-pais-procedencia.sdmx",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 54,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Empleo.",
+        "Publicador: A06004074."
+      ]
+    },
+    {
+      "id": "https://datos.icane.es/dataset/5b79fb5f-30b3-46b6-808f-ad543f97fb69",
+      "title": "Alumnos Universidad de Cantabria",
+      "description": "Alumnos Universidad de Cantabria",
+      "issued": "vie, 14 mar 2025 07:48:38 GMT+0000",
+      "modified": "vie, 24 abr 2026 11:16:39 GMT+0000",
       "publisher": "A06004074",
       "spatial": "Sin dato",
       "themes": [
@@ -1290,45 +1170,45 @@
         "Educación"
       ],
       "formats": [
-        "CSV",
         "RDF",
-        "JSON"
+        "JSON",
+        "CSV"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-estadistica-de-ensenanza-universitaria",
+      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-alumnos-universidad-de-cantabria",
       "distributions": [
         {
-          "title": "Alumnos graduados en Diplomaturas",
-          "accessUrl": "https://www.icane.es/data/api/educacion-universitaria-graduados-diplomatura.pc-axis",
+          "title": "Alumnos que cursan estudios en la Universidad de Cantabria según municipio de residencia",
+          "accessUrl": "https://www.icane.es/data/alumnado-matriculado-universidad-cantabria-municipio-residencia#timeseries",
           "format": "SIN DATO",
           "identifier": ""
         },
         {
-          "title": "Alumnos graduados en Arquitectura e Ingeniería Técnicas",
-          "accessUrl": "https://www.icane.es/data/api/educacion-universitaria-graduados-arquitectura-ingenieria-tecnicas.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Alumnos matriculados en doctorado de investigación por sector de estudios CNED",
-          "accessUrl": "https://www.icane.es/data/api/educacion-universitaria-alumnado-doctorado-investigacion-estudios-cned.sdmx",
+          "title": "Alumnos que cursan estudios en la Universidad de Cantabria según municipio de residencia",
+          "accessUrl": "https://www.icane.es/data/api/alumnado-matriculado-universidad-cantabria-municipio-residencia.sdmx",
           "format": "SIN DATO",
           "identifier": ""
         },
         {
-          "title": "Alumnos graduados por grado y área",
-          "accessUrl": "https://www.icane.es/data/api/graduados-educacion-universitaria-area.rdf",
+          "title": "Alumnos que cursan estudios en la Universidad de Cantabria según municipio de residencia",
+          "accessUrl": "https://www.icane.es/data/api/alumnado-matriculado-universidad-cantabria-municipio-residencia.excel",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Alumnos que cursan estudios en la Universidad de Cantabria según municipio de residencia",
+          "accessUrl": "https://www.icane.es/data/api/alumnado-matriculado-universidad-cantabria-municipio-residencia.pc-axis",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Alumnos que cursan estudios en la Universidad de Cantabria según municipio de residencia",
+          "accessUrl": "https://www.icane.es/data/api/alumnado-matriculado-universidad-cantabria-municipio-residencia.rdf",
           "format": "RDF",
           "identifier": ""
         },
         {
-          "title": "Alumnos graduados en programas oficiales de postgrado por ámbito de estudio y titularidad del centro",
-          "accessUrl": "https://www.icane.es/data/api/matriculados-educacion-universitaria-postgrado-ambito.excel",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Alumnos matriculados en Licenciaturas",
-          "accessUrl": "https://www.icane.es/data/api/educacion-universitaria-alumnado-matriculado-licenciatura.google-json",
+          "title": "Alumnos que cursan estudios en la Universidad de Cantabria según municipio de residencia",
+          "accessUrl": "https://www.icane.es/data/api/alumnado-matriculado-universidad-cantabria-municipio-residencia.google-json",
           "format": "JSON",
           "identifier": ""
         }
@@ -1342,192 +1222,60 @@
       ]
     },
     {
-      "id": "https://datos.icane.es/dataset/6ff8a7c3-b05e-44f2-ba91-7f7d93a8a99f",
-      "title": "Estadística de filiales de empresas extranjeras en  España",
-      "description": "Estadística de filiales de empresas extranjeras en España",
-      "issued": "vie, 14 mar 2025 07:47:36 GMT+0000",
-      "modified": "vie, 17 abr 2026 11:15:06 GMT+0000",
-      "publisher": "A06004074",
-      "spatial": "Sin dato",
-      "themes": [
-        "Economia"
-      ],
-      "keywords": [
-        "Empresas Y Establecimientos"
-      ],
-      "formats": [
-        "JSON",
-        "CSV",
-        "RDF"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-estadistica-de-filiales-de-empresas-extranjeras-en-espana",
-      "distributions": [
-        {
-          "title": "Número de filiales de empresas extranjeras",
-          "accessUrl": "https://www.icane.es/data/api/filiales-empresas-extranjeras-numero.pc-axis",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Principales variables",
-          "accessUrl": "https://www.icane.es/data/api/filiales-empresas-extranjeras-principales-variables-ccaa.json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Número de filiales de empresas extranjeras",
-          "accessUrl": "https://www.icane.es/data/api/filiales-empresas-extranjeras-numero.google-json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Principales variables",
-          "accessUrl": "https://www.icane.es/data/filiales-empresas-extranjeras-principales-variables-ccaa#timeseries",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Número de filiales de empresas extranjeras",
-          "accessUrl": "https://www.icane.es/data/api/filiales-empresas-extranjeras-numero.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Principales variables",
-          "accessUrl": "https://www.icane.es/data/api/filiales-empresas-extranjeras-principales-variables-ccaa.json-stat",
-          "format": "JSON",
-          "identifier": ""
-        }
-      ],
-      "score": 54,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Economia.",
-        "Publicador: A06004074."
-      ]
-    },
-    {
-      "id": "https://datos.icane.es/dataset/77a8b1cb-a394-41ee-9ace-f49a8d1f80eb",
-      "title": "Estadística de transmisiones de derechos de la propiedad",
-      "description": "Estadística de transmisiones de derechos de la propiedad",
-      "issued": "vie, 14 mar 2025 07:47:57 GMT+0000",
-      "modified": "vie, 17 abr 2026 11:15:50 GMT+0000",
-      "publisher": "A06004074",
-      "spatial": "Sin dato",
-      "themes": [
-        "Economia"
-      ],
-      "keywords": [
-        "Sector Financiero"
-      ],
-      "formats": [
-        "CSV",
-        "JSON",
-        "RDF"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-estadistica-de-transmisiones-de-derechos-de-la-propiedad",
-      "distributions": [
-        {
-          "title": "Compraventa de viviendas según régimen",
-          "accessUrl": "https://www.icane.es/data/api/estadistica-transmisiones-derechos-propiedad-compraventa-viviendas-regimen.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Transmisiones efectuadas sobre naturaleza de la finca y título de adquisición",
-          "accessUrl": "https://www.icane.es/data/api/estadistica-transmisiones-derechos-propiedad-titulo-adquisicion.excel",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Compraventa de viviendas según estado",
-          "accessUrl": "https://www.icane.es/data/api/estadistica-transmisiones-derechos-propiedad-compraventa-viviendas-estado.excel",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Compraventa de viviendas según régimen",
-          "accessUrl": "https://www.icane.es/data/api/estadistica-transmisiones-derechos-propiedad-compraventa-viviendas-regimen.google-json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Compraventa de viviendas según estado",
-          "accessUrl": "https://www.icane.es/data/api/estadistica-transmisiones-derechos-propiedad-compraventa-viviendas-estado.pc-axis",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Transmisiones efectuadas sobre naturaleza de la finca y título de adquisición",
-          "accessUrl": "https://www.icane.es/data/api/estadistica-transmisiones-derechos-propiedad-titulo-adquisicion.json",
-          "format": "JSON",
-          "identifier": ""
-        }
-      ],
-      "score": 54,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Economia.",
-        "Publicador: A06004074."
-      ]
-    },
-    {
-      "id": "https://datos.icane.es/dataset/21298d53-f1ea-48e4-971d-9399db9605e0",
-      "title": "Estadística de vivienda libre",
-      "description": "Estadística de vivienda libre",
-      "issued": "vie, 14 mar 2025 07:47:59 GMT+0000",
-      "modified": "vie, 17 abr 2026 11:15:53 GMT+0000",
+      "id": "https://datos.icane.es/dataset/23ab7765-e252-4411-ab9c-8af5b3a0215e",
+      "title": "Asuntos judiciales sociales",
+      "description": "Asuntos judiciales sociales",
+      "issued": "vie, 14 mar 2025 07:45:36 GMT+0000",
+      "modified": "vie, 24 abr 2026 11:17:38 GMT+0000",
       "publisher": "A06004074",
       "spatial": "Sin dato",
       "themes": [
         "Empleo"
       ],
       "keywords": [
-        "Vivienda"
+        "Condiciones De Trabajo Y Relaciones Laborales"
       ],
       "formats": [
-        "RDF",
         "CSV",
+        "RDF",
         "JSON"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-estadistica-de-vivienda-libre",
+      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-asuntos-judiciales-sociales",
       "distributions": [
         {
-          "title": "Estadística de vivienda libre por años",
-          "accessUrl": "https://www.icane.es/data/api/vivienda-libre-anual.rdf",
-          "format": "RDF",
-          "identifier": ""
-        },
-        {
-          "title": "Estadística de vivienda libre por años",
-          "accessUrl": "https://www.icane.es/data/api/vivienda-libre-anual.csv",
+          "title": "Asuntos Judiciales Sociales",
+          "accessUrl": "https://www.icane.es/data/api/asuntos-judiciales-sociales-series.csv",
           "format": "CSV",
           "identifier": ""
         },
         {
-          "title": "Estadística de vivienda libre por años",
-          "accessUrl": "https://www.icane.es/data/api/vivienda-libre-anual.sdmx",
+          "title": "Asuntos Judiciales Sociales",
+          "accessUrl": "https://www.icane.es/data/api/asuntos-judiciales-sociales-series.pc-axis",
           "format": "SIN DATO",
           "identifier": ""
         },
         {
-          "title": "Estadística de vivienda libre por meses",
-          "accessUrl": "https://www.icane.es/data/api/vivienda-libre-mensual.json",
+          "title": "Asuntos Judiciales Sociales",
+          "accessUrl": "https://www.icane.es/data/api/asuntos-judiciales-sociales-series.rdf",
+          "format": "RDF",
+          "identifier": ""
+        },
+        {
+          "title": "Asuntos Judiciales Sociales",
+          "accessUrl": "https://www.icane.es/data/api/asuntos-judiciales-sociales-series.json",
           "format": "JSON",
           "identifier": ""
         },
         {
-          "title": "Estadística de vivienda libre por años",
-          "accessUrl": "https://www.icane.es/data/api/vivienda-libre-anual.json-stat",
-          "format": "JSON",
+          "title": "Asuntos Judiciales Sociales",
+          "accessUrl": "https://www.icane.es/data/api/asuntos-judiciales-sociales-series.excel",
+          "format": "SIN DATO",
           "identifier": ""
         },
         {
-          "title": "Estadística de vivienda libre por meses",
-          "accessUrl": "https://www.icane.es/data/api/vivienda-libre-mensual.csv",
-          "format": "CSV",
+          "title": "Asuntos Judiciales Sociales",
+          "accessUrl": "https://www.icane.es/data/api/asuntos-judiciales-sociales-series.json-stat",
+          "format": "JSON",
           "identifier": ""
         }
       ],
@@ -1540,59 +1288,125 @@
       ]
     },
     {
-      "id": "https://datos.icane.es/dataset/f8cf5924-6017-4d0a-a528-a70a16172b39",
-      "title": "Estadística de vivienda protegida",
-      "description": "Estadística de vivienda protegida",
-      "issued": "vie, 14 mar 2025 07:47:59 GMT+0000",
-      "modified": "vie, 17 abr 2026 11:15:53 GMT+0000",
+      "id": "https://datos.icane.es/dataset/b4b39774-2ef4-4298-a77d-847407afb90b",
+      "title": "Autorizaciones de trabajo a extranjeros",
+      "description": "Autorizaciones de trabajo a extranjeros",
+      "issued": "vie, 14 mar 2025 07:48:24 GMT+0000",
+      "modified": "vie, 24 abr 2026 11:16:15 GMT+0000",
       "publisher": "A06004074",
       "spatial": "Sin dato",
       "themes": [
-        "Vivienda"
+        "Empleo"
       ],
       "keywords": [
-        "Vivienda"
+        "Estadísticas De Empleo Y Paro"
       ],
       "formats": [
-        "JSON",
         "RDF",
+        "JSON",
         "CSV"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-estadistica-de-vivienda-protegida",
+      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-autorizaciones-de-trabajo-a-extranjeros",
       "distributions": [
         {
-          "title": "Número de calificaciones. Planes estatales y planes autonómicos",
-          "accessUrl": "https://www.icane.es/data/api/vivienda-protegida-calificaciones-planes-estatales-autonomicos.google-json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Número de calificaciones. Planes estatales y planes autonómicos",
-          "accessUrl": "https://www.icane.es/data/api/vivienda-protegida-calificaciones-planes-estatales-autonomicos.rdf",
+          "title": "Autorizaciones de trabajo a extranjeros",
+          "accessUrl": "https://www.icane.es/data/api/autorizaciones-trabajo-extranjeros-series.rdf",
           "format": "RDF",
           "identifier": ""
         },
         {
-          "title": "Número de solicitudes. Planes estatales",
-          "accessUrl": "https://www.icane.es/data/api/vivienda-protegida-solicitudes-planes-estatales.rdf",
-          "format": "RDF",
-          "identifier": ""
-        },
-        {
-          "title": "Número de calificaciones. Planes estatales y planes autonómicos",
-          "accessUrl": "https://www.icane.es/data/api/vivienda-protegida-calificaciones-planes-estatales-autonomicos.json-stat",
+          "title": "Autorizaciones de trabajo a extranjeros",
+          "accessUrl": "https://www.icane.es/data/api/autorizaciones-trabajo-extranjeros-series.google-json",
           "format": "JSON",
           "identifier": ""
         },
         {
-          "title": "Número de calificaciones. Planes estatales y planes autonómicos",
-          "accessUrl": "https://www.icane.es/data/vivienda-protegida-calificaciones-planes-estatales-autonomicos#timeseries",
+          "title": "Autorizaciones de trabajo a extranjeros",
+          "accessUrl": "https://www.icane.es/data/autorizaciones-trabajo-extranjeros-series#timeseries",
           "format": "SIN DATO",
           "identifier": ""
         },
         {
-          "title": "Número de solicitudes. Planes estatales",
-          "accessUrl": "https://www.icane.es/data/api/rehabilitacion-protegida-solicitudes-planes-estatales.google-json",
+          "title": "Autorizaciones de trabajo a extranjeros",
+          "accessUrl": "https://www.icane.es/data/api/autorizaciones-trabajo-extranjeros-series.excel",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Autorizaciones de trabajo a extranjeros",
+          "accessUrl": "https://www.icane.es/data/api/autorizaciones-trabajo-extranjeros-series.sdmx",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Autorizaciones de trabajo a extranjeros",
+          "accessUrl": "https://www.icane.es/data/api/autorizaciones-trabajo-extranjeros-series.pc-axis",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 54,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Empleo.",
+        "Publicador: A06004074."
+      ]
+    },
+    {
+      "id": "https://datos.icane.es/dataset/de98dd23-114d-455a-a877-e5a026268512",
+      "title": "Becas y ayudas al estudio",
+      "description": "Becas y ayudas al estudio",
+      "issued": "vie, 14 mar 2025 07:48:37 GMT+0000",
+      "modified": "vie, 24 abr 2026 11:16:39 GMT+0000",
+      "publisher": "A06004074",
+      "spatial": "Sin dato",
+      "themes": [
+        "Educacion"
+      ],
+      "keywords": [
+        "Educación"
+      ],
+      "formats": [
+        "CSV",
+        "JSON",
+        "RDF"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-becas-y-ayudas-al-estudio",
+      "distributions": [
+        {
+          "title": "Número de becarios e importe de becas concedidas a los matriculados en la Universidad de Cantabria por Administración educativa financiadora",
+          "accessUrl": "https://www.icane.es/data/becas-universitario-numero-cuantia-universidad-cantabria-financiacion#timeseries",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Número de becas e importe de las mismas concedidas por la Consejería/Departamentos de Cantabria por tipo de beca",
+          "accessUrl": "https://www.icane.es/data/api/becas-numero-cuantia-departamento-tipo.sdmx",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Número de becas e importe de las becas concedidas a los matriculados en la Universidad de Cantabria por tipo de beca",
+          "accessUrl": "https://www.icane.es/data/api/becas-universitario-numero-cuantia-universidad-cantabria-tipo.pc-axis",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Número de becas, becarios e importe de las becas concedidas a los matriculados en la Universidad de Cantabria",
+          "accessUrl": "https://www.icane.es/data/becas-universitario-numero-cuantia-universidad-cantabria#timeseries",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Número de becas, becarios e importe de las becas concedidas a los matriculados en la Universidad de Cantabria",
+          "accessUrl": "https://www.icane.es/data/api/becas-universitario-numero-cuantia-universidad-cantabria.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Número de becas e importe de las becas concedidas a los matriculados en la Universidad de Cantabria por tipo de beca",
+          "accessUrl": "https://www.icane.es/data/api/becas-universitario-numero-cuantia-universidad-cantabria-tipo.google-json",
           "format": "JSON",
           "identifier": ""
         }
@@ -1601,7 +1415,205 @@
       "notes": [
         "Incluye formatos reutilizables para prototipos y analisis.",
         "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Vivienda.",
+        "Tematicas detectadas: Educacion.",
+        "Publicador: A06004074."
+      ]
+    },
+    {
+      "id": "https://datos.icane.es/dataset/4ac1f775-e6b3-461e-abbe-620fa8e1b74a",
+      "title": "Clima y Suelo",
+      "description": "Clima y suelo",
+      "issued": "vie, 14 mar 2025 07:48:36 GMT+0000",
+      "modified": "vie, 24 abr 2026 11:16:38 GMT+0000",
+      "publisher": "A06004074",
+      "spatial": "Sin dato",
+      "themes": [
+        "Medio Ambiente"
+      ],
+      "keywords": [
+        "Medioambiente"
+      ],
+      "formats": [
+        "RDF",
+        "JSON",
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-clima-y-suelo",
+      "distributions": [
+        {
+          "title": "Clima y suelo",
+          "accessUrl": "https://www.icane.es/data/api/clima-suelo-serie.excel",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Clima y suelo",
+          "accessUrl": "https://www.icane.es/data/api/clima-suelo-serie.rdf",
+          "format": "RDF",
+          "identifier": ""
+        },
+        {
+          "title": "Clima y suelo",
+          "accessUrl": "https://www.icane.es/data/api/clima-suelo-serie.json-stat",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Clima y suelo",
+          "accessUrl": "https://www.icane.es/data/api/clima-suelo-serie.google-json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Clima y suelo",
+          "accessUrl": "https://www.icane.es/data/api/clima-suelo-serie.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Clima y suelo",
+          "accessUrl": "https://www.icane.es/data/api/clima-suelo-serie.sdmx",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 54,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Medio Ambiente.",
+        "Publicador: A06004074."
+      ]
+    },
+    {
+      "id": "https://datos.icane.es/dataset/3ac83a18-bb57-489c-a28a-dcf892aa079c",
+      "title": "Construcción de edificios (licencias municipales de obra)",
+      "description": "Construcción de edificios (licencias municipales de obra)",
+      "issued": "vie, 14 mar 2025 07:45:42 GMT+0000",
+      "modified": "vie, 24 abr 2026 11:17:49 GMT+0000",
+      "publisher": "A06004074",
+      "spatial": "Sin dato",
+      "themes": [
+        "Economia"
+      ],
+      "keywords": [
+        "Construcción"
+      ],
+      "formats": [
+        "JSON",
+        "RDF",
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-construccion-de-edificios-licencias-municipales-de-obra",
+      "distributions": [
+        {
+          "title": "Licencias concedidas por tipo de obra",
+          "accessUrl": "https://www.icane.es/data/api/licencias-concedidas-tipo-obra.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Edificios, superficie y viviendas según tipo de obra",
+          "accessUrl": "https://www.icane.es/data/api/edificios-superficie-viviendas-tipo-obra.pc-axis",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Edificios, superficie y viviendas según tipo de obra",
+          "accessUrl": "https://www.icane.es/data/api/edificios-superficie-viviendas-tipo-obra.json-stat",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Licencias concedidas por tipo de obra",
+          "accessUrl": "https://www.icane.es/data/api/licencias-concedidas-tipo-obra.excel",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Licencias concedidas por tipo de obra",
+          "accessUrl": "https://www.icane.es/data/api/licencias-concedidas-tipo-obra.pc-axis",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Edificios, superficie y viviendas según tipo de obra",
+          "accessUrl": "https://www.icane.es/data/api/edificios-superficie-viviendas-tipo-obra.rdf",
+          "format": "RDF",
+          "identifier": ""
+        }
+      ],
+      "score": 54,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Economia.",
+        "Publicador: A06004074."
+      ]
+    },
+    {
+      "id": "https://datos.icane.es/dataset/10abfd7a-c2fd-42a0-afa6-a70029c0af9c",
+      "title": "Construcción de edificios (licencias municipales de obra)",
+      "description": "Construcción de edificios (licencias municipales de obra)",
+      "issued": "vie, 14 mar 2025 07:45:42 GMT+0000",
+      "modified": "vie, 24 abr 2026 11:17:49 GMT+0000",
+      "publisher": "A06004074",
+      "spatial": "Sin dato",
+      "themes": [
+        "Economia"
+      ],
+      "keywords": [
+        "Construcción"
+      ],
+      "formats": [
+        "JSON",
+        "RDF",
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-construccion-de-edificios-licencias-municipales-de-obra1",
+      "distributions": [
+        {
+          "title": "Edificaciones de Nueva Planta por tipo de vivienda",
+          "accessUrl": "https://www.icane.es/data/api/construccion-edificios-nueva-planta-tipo-vivienda.sdmx",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Edificaciones de Nueva Planta por tipo de vivienda",
+          "accessUrl": "https://www.icane.es/data/api/construccion-edificios-nueva-planta-tipo-vivienda.google-json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Edificaciones de Nueva Planta por tipo de vivienda",
+          "accessUrl": "https://www.icane.es/data/api/construccion-edificios-nueva-planta-tipo-vivienda.excel",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Superficie y número de Edificios a construir",
+          "accessUrl": "https://www.icane.es/data/api/construccion-edificios-area.sdmx",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Edificaciones de Nueva Planta por tipo de vivienda",
+          "accessUrl": "https://www.icane.es/data/api/construccion-edificios-nueva-planta-tipo-vivienda.rdf",
+          "format": "RDF",
+          "identifier": ""
+        },
+        {
+          "title": "Superficie y número de Edificios a construir",
+          "accessUrl": "https://www.icane.es/data/api/construccion-edificios-area.rdf",
+          "format": "RDF",
+          "identifier": ""
+        }
+      ],
+      "score": 54,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Economia.",
         "Publicador: A06004074."
       ]
     }
