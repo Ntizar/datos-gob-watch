@@ -1,420 +1,1281 @@
 {
-  "generatedAt": "2026-05-25T08:36:15.439Z",
+  "generatedAt": "2026-06-01T08:56:07.281Z",
   "window": {
-    "start": "2026-05-18T08:36:14.755Z",
-    "end": "2026-05-25T08:36:14.755Z",
+    "start": "2026-05-25T08:56:06.074Z",
+    "end": "2026-06-01T08:56:06.074Z",
     "label": "Ultimos 7 dias"
   },
   "source": {
     "name": "datos.gob.es API",
-    "url": "https://datos.gob.es/apidata/catalog/dataset/modified/begin/2026-05-18T08:36Z/end/2026-05-25T08:36Z.json?_sort=-modified&_pageSize=50&_page=0"
+    "url": "https://datos.gob.es/apidata/catalog/dataset/modified/begin/2026-05-25T08:56Z/end/2026-06-01T08:56Z.json?_sort=-modified&_pageSize=50&_page=0"
   },
   "summary": {
-    "totalReviewed": 9,
-    "topScore": 32,
+    "totalReviewed": 24,
+    "topScore": 81,
     "topFormats": [
       {
-        "label": "SIN DATO",
-        "count": 7
+        "label": "CSV",
+        "count": 24
       },
       {
         "label": "XLSX",
-        "count": 1
-      },
-      {
-        "label": "CSV",
-        "count": 1
+        "count": 10
       },
       {
         "label": "XLS",
-        "count": 1
+        "count": 6
+      },
+      {
+        "label": "PDF",
+        "count": 3
       }
     ],
     "topThemes": [
       {
-        "label": "Hacienda",
-        "count": 6
+        "label": "Sector Publico",
+        "count": 17
+      },
+      {
+        "label": "Empleo",
+        "count": 8
       },
       {
         "label": "Economia",
-        "count": 4
+        "count": 8
       },
       {
-        "label": "Sector Publico",
+        "label": "Urbanismo Infraestructuras",
         "count": 3
-      },
-      {
-        "label": "Comercio",
-        "count": 1
       }
     ],
-    "headline": "Se han detectado 9 datasets recientes con SIN DATO como formato dominante."
+    "headline": "Se han detectado 24 datasets recientes con CSV como formato dominante."
   },
   "items": [
     {
-      "id": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/07290e68-8119-44ea-8e0c-f3cb76427def",
-      "title": "Agentes del Sistema Andaluz del Conocimiento",
-      "description": "Información sobre el registro actualizado de Agentes del Sistema Andaluz del Conocimiento. El documento especifica: entidad, categoría y contacto.",
-      "issued": "mié, 01 mar 2017 12:55:46 GMT+0000",
-      "modified": "mar, 19 may 2026 06:17:26 GMT+0000",
-      "publisher": "A01002820",
-      "spatial": "Sin dato",
+      "id": "902a266d-5ba2-4735-a378-45818ba5a4f4",
+      "title": "Instalaciones de suministro de combustibles a vehículos y embarcaciones con venta pública",
+      "description": "Información de estaciones de servicio y postes marítimos con datos de su ubicación geográfica – dirección, margen y coordenadas geográficas- y precios actuales para los combustibles y productos comercializados -gasolinas, gasóleos, bioetanol y biodiésel, GLP, gas natural comprimido y licuado, hidrógeno, diésel y gasolina renovables, gasóleo para uso marítimo, metanol, amoníaco, biogás natural comprimido y licuado, y Adblue-, junto con datos sobre rótulo, tipo de venta, horario y tipo de servicio ofrecido y planes de descuento, en distintos formatos",
+      "issued": "jue, 26 jul 2007 00:00:00 GMT+0000",
+      "modified": "jue, 28 may 2026 00:00:00 GMT+0000",
+      "publisher": "E05068001",
+      "spatial": "España",
       "themes": [
-        "Sector Publico"
+        "Energia",
+        "Transporte",
+        "Turismo",
+        "Tn",
+        "ECON",
+        "ENER",
+        "TRAN"
       ],
       "keywords": [],
       "formats": [
-        "XLSX",
-        "CSV"
+        "XLS",
+        "CSV",
+        "KML",
+        "XML",
+        "HTML"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a01002820-agentes-del-sistema-andaluz-del-conocimiento",
+      "datasetUrl": "https://datos.gob.es/catalogo/e05068001-instalaciones-de-suministro-de-combustibles-a-vehiculos-con-venta-publica",
       "distributions": [
         {
-          "title": "XLSX - Agentes del Sistema Andaluz del Conocimiento",
-          "accessUrl": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/07290e68-8119-44ea-8e0c-f3cb76427def/resource/6245cfc0-4b01-4413-845b-71b0b84e4c16/download/rac_export_web_2026_05_19.xlsx",
-          "format": "XLSX",
-          "identifier": ""
-        },
-        {
-          "title": "CSV - Agentes del Sistema Andaluz del Conocimiento",
-          "accessUrl": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/07290e68-8119-44ea-8e0c-f3cb76427def/resource/342945db-b51b-4862-a75e-ae6f1066cd4f/download/rac_export_web_2026_05_19.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "ODS - Agentes del Sistema Andaluz del Conocimiento",
-          "accessUrl": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/07290e68-8119-44ea-8e0c-f3cb76427def/resource/b4d7eb6f-9dbd-406e-99d1-ced8314d8ea0/download/rac_export_web_2026_05_19.ods",
-          "format": "SIN DATO",
-          "identifier": ""
-        }
-      ],
-      "score": 32,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Sector Publico.",
-        "Publicador: A01002820."
-      ]
-    },
-    {
-      "id": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/ventas-empleo-salarios-declaraciones-tributarias/avance-ventas-interiores-trimestrales.html",
-      "title": "Avance de Ventas Interiores en Grandes Empresas y Pymes",
-      "description": "El objeto de la publicación Avance de Ventas Interiores en Grandes Empresas y Pymes es, a partir de toda la información disponible del SII, obtener dos indicadores adelantados de las ventas interiores de la estadística trimestral de Ventas, Empleo y Salarios en las declaraciones tributarias.",
-      "issued": "mar, 02 abr 2024 22:00:00 GMT+0000",
-      "modified": "mar, 19 may 2026 22:00:00 GMT+0000",
-      "publisher": "EA0028512",
-      "spatial": "España",
-      "themes": [
-        "Economia",
-        "Hacienda"
-      ],
-      "keywords": [
-        "Grandes empresas",
-        "Pymes",
-        "SII",
-        "Ventas"
-      ],
-      "formats": [
-        "SIN DATO"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/ea0028512-avance-de-ventas-interiores-en-grandes-empresas-y-pymes",
-      "distributions": [
-        {
-          "title": "Última publicación",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/static_files/AEAT/Estudios/Estadisticas/Informes_Estadisticos/Informes_Ventas/Avance_VI_trimestrales/Informe_avance_VESGEP.pdf",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Avance de Ventas Interiores en Grandes Empresas y Pymes",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/ventas-empleo-salarios-declaraciones-tributarias/avance-ventas-interiores-trimestrales.html",
-          "format": "SIN DATO",
-          "identifier": ""
-        }
-      ],
-      "score": 23,
-      "notes": [
-        "Tematicas detectadas: Economia, Hacienda.",
-        "Publicador: EA0028512.",
-        "Cobertura geografica principal: España."
-      ]
-    },
-    {
-      "id": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/observatorio-margenes-empresariales/observatorio-margenes-empresariales.html",
-      "title": "Observatorio de márgenes empresariales",
-      "description": "El Observatorio de márgenes empresariales es un proyecto conjunto del Ministerio de Asuntos Económicos y Transformación Digital, el Banco de España y la Agencia Tributaria que tiene como objetivo disponer de información para el seguimiento y el análisis de los márgenes empresariales.\n\nEn esta web se ofrecen varias bases de datos, anuales y trimestrales, procedentes del Impuesto sobre Sociedades y de los modelos de IVA y retenciones sobre rendimientos del trabajo. En el caso del Impuesto sobre Sociedades, se proporciona una selección de variables de la Cuenta de Pérdidas y Ganancias. De las declaraciones del IVA y de retenciones sobre rendimientos del trabajo se facilitan cifras de ventas totales (interiores, exportaciones) y compras totales (interiores, importaciones), en el primer caso, y de masa salarial y perceptores de salarios, en el segundo.\n\nLa población objeto de estudio en cada año son todas aquellas empresas no financieras que tengan declaraciones del Impuesto sobre Sociedades, del IVA y de retenciones por rendimientos del trabajo. Tan solo se excluyen algunas actividades con un alto porcentaje de operaciones exentas a efectos del IVA. Las actividades se clasifican a dos dígitos de la CNAE, excepto en el comercio mayorista y minorista (tres dígitos y en algún caso a cuatro) y algunas agrupaciones especiales.",
-      "issued": "lun, 03 jul 2023 22:00:00 GMT+0000",
-      "modified": "mar, 19 may 2026 22:00:00 GMT+0000",
-      "publisher": "EA0028512",
-      "spatial": "España",
-      "themes": [
-        "Economia",
-        "Hacienda"
-      ],
-      "keywords": [
-        "Empresa",
-        "IVA",
-        "Retenciones sobre rendimientos de trabajo",
-        "Sociedades"
-      ],
-      "formats": [
-        "SIN DATO"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/ea0028512-observatorio-de-margenes-empresariales",
-      "distributions": [
-        {
-          "title": "Datos anuales y trimestrales",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/observatorio-margenes-empresariales/observatorio-margenes-empresariales.html",
-          "format": "SIN DATO",
-          "identifier": ""
-        }
-      ],
-      "score": 23,
-      "notes": [
-        "Tematicas detectadas: Economia, Hacienda.",
-        "Publicador: EA0028512.",
-        "Cobertura geografica principal: España."
-      ]
-    },
-    {
-      "id": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/ventas-empleos-salarios-declaraciones-tributarias/ventas-diarias.html",
-      "title": "Ventas diarias (Información semanal SII)",
-      "description": "La estadística recoge el nivel y la evolución diaria de las ventas que realizan las empresas incluidas en el sistema de Suministro Inmediato de Información (SII).\nDesde su entrada en vigor este sistema ha permitido disponer de datos de ventas con mayor actualidad, diarios frente a los datos mensuales o trimestrales característicos de las declaraciones del IVA. Los obligados a cumplimentar sus obligaciones tributarias a través del SII son las Grandes Empresas (aquellas con un volumen de operaciones en el año anterior superior a 6 millones de euros), los grupos del IVA y las empresas inscritas en el Registro de Devolución Mensual. Las ventas diarias suponen alrededor del 70% del total de ventas interiores del conjunto de contribuyentes del IVA (el porcentaje es superior si se considera el volumen de operaciones total declarado).\nLa publicación está compuesta por un informe y por las series históricas desde el 1 de julio de 2017. A partir de estas últimas, convenientemente tratadas, se proporciona una señal de la coyuntura económica, que complementa y anticipa la información de ventas contenida en los informes de recaudación tributaria y en la estadística mensual de Ventas, Empleo y Salarios en las Grandes Empresas (VESGE) y en la trimestral de Ventas, Empleo y Salarios en Grandes Empresas y Pymes (VESGEP).",
-      "issued": "mar, 21 dic 2021 23:00:00 GMT+0000",
-      "modified": "mar, 19 may 2026 22:00:00 GMT+0000",
-      "publisher": "EA0028512",
-      "spatial": "España",
-      "themes": [
-        "Economia",
-        "Hacienda"
-      ],
-      "keywords": [
-        "SII",
-        "Suministro Inmediato de Información",
-        "Ventas SII"
-      ],
-      "formats": [
-        "SIN DATO"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/ea0028512-ventas-diarias-informacion-semanal-sii",
-      "distributions": [
-        {
-          "title": "Ventas diarias Seguimiento semanal",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/ventas-empleos-salarios-declaraciones-tributarias/ventas-diarias.html",
-          "format": "SIN DATO",
-          "identifier": ""
-        }
-      ],
-      "score": 23,
-      "notes": [
-        "Tematicas detectadas: Economia, Hacienda.",
-        "Publicador: EA0028512.",
-        "Cobertura geografica principal: España."
-      ]
-    },
-    {
-      "id": "ea0028512-flash-de-ventas-interiores-diarias",
-      "title": "Flash de Ventas Interiores Diarias",
-      "description": "Esta publicación se presenta como un avance de una semana sobre el Informe de Seguimiento de Ventas Diarias en lo concerniente a ventas interiores, donde además se aporta información de su componente de ciclo tendencia, así como la variación de ésta en el muy corto plazo. Ello favorece la detección temprana de cambios en la facturación, así como una mejor visualización de la evolución subyacente de la misma.\n\nLa publicación está compuesta por un informe que presenta el ajuste de las series para el total de ramas de actividad y para el total sin las ramas de comportamiento más volátil (las asociadas a la energía y financieras, fundamentalmente) desde el 1 de julio de 2017. La metodología de ajuste (ver la metodología para un mayor detalle) proporciona una señal de muy corto plazo de la coyuntura económica, que complementa y anticipa la información de ventas interiores contenida en el Informe de Seguimiento de Ventas Diarias.\n",
-      "issued": "mar, 14 oct 2025 22:00:00 GMT+0000",
-      "modified": "mar, 19 may 2026 22:00:00 GMT+0000",
-      "publisher": "EA0028512",
-      "spatial": "Sin dato",
-      "themes": [
-        "Comercio",
-        "Economia",
-        "Hacienda"
-      ],
-      "keywords": [],
-      "formats": [
-        "SIN DATO"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/ea0028512-flash-de-ventas-interiores-diarias",
-      "distributions": [
-        {
-          "title": "Base de datos",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/ventas-empleo-salarios-declaraciones-tributarias/flash-vid.html",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Informe Flash Ventas Interiores Doarias",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/static_files/AEAT/Estudios/Estadisticas/Informes_Estadisticos/Informes_Ventas/Flash_VI_diarias/Flash_VId.pdf",
-          "format": "SIN DATO",
-          "identifier": ""
-        }
-      ],
-      "score": 16,
-      "notes": [
-        "Tematicas detectadas: Comercio, Economia, Hacienda.",
-        "Publicador: EA0028512."
-      ]
-    },
-    {
-      "id": "ea0028512-estadistica-de-comercio-exterior",
-      "title": "Estadística de Comercio Exterior",
-      "description": "Se facilita información estadística, incluida en el Plan Estadístico Nacional, y obligatoria por distintos reglamentos comunitarios.\nBajo la denominación de \"Estadísticas de Comercio Exterior\" se incluyen:\n- Informes mensuales, anuarios estadísticos y las posiciones sometidas a confidencialidad (artículo 11 del Reglamento UE 638/2004) actualizados mensualmente y mostrados en formato PDF.\n- Ficheros resúmenes y ficheros de máxima desagregación de datos mensuales y anuales, en formato TXT comprimidos, para la descarga de datos estadísticos.\n- A partir de 2013, en formato excel y con carácter mensual, un resumen de los ficheros estadísticos publicados.",
-      "issued": "mié, 19 ene 2000 23:00:00 GMT+0000",
-      "modified": "lun, 18 may 2026 22:00:00 GMT+0000",
-      "publisher": "EA0028512",
-      "spatial": "España",
-      "themes": [
-        "Hacienda"
-      ],
-      "keywords": [],
-      "formats": [
-        "SIN DATO"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/ea0028512-estadistica-de-comercio-exterior",
-      "distributions": [
-        {
-          "title": "Metodología",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/estadisticas-comercio-exterior/metodologia.html",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Calendario de difusión",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/estadisticas-comercio-exterior/calendario-publicacion.html",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Estadísticas: series mensuales",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/estadisticas-comercio-exterior.html",
-          "format": "SIN DATO",
-          "identifier": ""
-        }
-      ],
-      "score": 15,
-      "notes": [
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Hacienda.",
-        "Publicador: EA0028512.",
-        "Cobertura geografica principal: España."
-      ]
-    },
-    {
-      "id": "https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Estadistica_del_Impuesto_sobre_Matriculacion_de_Vehiculos_Automoviles.shtml",
-      "title": "Estadística del Impuesto de Matriculación",
-      "description": "Publicación estadística basada en las declaraciones del modelo 576, Impuesto Especial sobre determinados medios de transporte (IEDMT), que se debe presentar obligatoriamente de forma telemática, con la primera matriculación definitiva en España de automóviles nuevos o usados, accionados a motor para circular por vías o terrenos píublicos.\nLa información se clasifica desde distintas perspectivas: epígrafe, tipo de combustible, ciilindrada, Comunidad Autónoma y tramos de base imponible equivalente al valor del vehículo en el momento de su adquisición.\nLa información, que se presenta en un avance mensual y una estadística anaul, aporta un enfoque más tributario a información que en gran medida ya aparece recogida y puesta a disposición del público desde otros organismos.",
-      "issued": "sáb, 31 dic 2005 23:00:00 GMT+0000",
-      "modified": "lun, 18 may 2026 22:00:00 GMT+0000",
-      "publisher": "EA0028512",
-      "spatial": "España",
-      "themes": [
-        "Hacienda"
-      ],
-      "keywords": [],
-      "formats": [
-        "SIN DATO"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/ea0028512-estadistica-del-impuesto-de-matriculacion",
-      "distributions": [
-        {
-          "title": "Estadística (avances mensuales)",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/AEAT/Contenidos_Comunes/La_Agencia_Tributaria/Estadisticas/Publicaciones/sites/matriculaciones/mes/home.html",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Todas las publicaciones",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Estadistica_del_Impuesto_sobre_Matriculacion_de_Vehiculos_Automoviles.shtml",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Estadística del año 2025",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/AEAT/Contenidos_Comunes/La_Agencia_Tributaria/Estadisticas/Publicaciones/sites/matriculaciones/2025/home.html",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Metodología",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/estadisticas-impuesto/impuesto-matriculacion-vehiculos-automoviles/metodologia.html",
-          "format": "SIN DATO",
-          "identifier": ""
-        }
-      ],
-      "score": 15,
-      "notes": [
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Hacienda.",
-        "Publicador: EA0028512.",
-        "Cobertura geografica principal: España."
-      ]
-    },
-    {
-      "id": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/bcee025c-5687-4d7e-b935-6dfeaa974cf2",
-      "title": "Inventario de puestos de trabajo de la Fundación Pública Andaluza El Legado Andalusí, M.P.",
-      "description": "El documento recoge los distintos puestos de trabajo con indicación del perfil del puesto, su denominación, el área de actividad en la que se desarrolla, las retribuciones fijas y variables asociadas al mismo, así como el número de plazas existentes para dicha tipología de puesto.  \n\nInventario de puestos de trabajo a fecha 31 de marzo de 2026.",
-      "issued": "mié, 01 mar 2017 12:54:19 GMT+0000",
-      "modified": "mar, 19 may 2026 07:21:41 GMT+0000",
-      "publisher": "A01002820",
-      "spatial": "Sin dato",
-      "themes": [
-        "Sector Publico"
-      ],
-      "keywords": [
-        "Puestos de trabajo"
-      ],
-      "formats": [
-        "XLS"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a01002820-catalogo-de-puestos-de-la-fundacion-publica-andaluza-para-el-desarrollo-del-legado-andalusi",
-      "distributions": [
-        {
-          "title": "XLS - Inventario de puestos de trabajo de la Fundación Pública Andaluza para el Desarrollo del Legado Andalusí, M.P.",
-          "accessUrl": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/bcee025c-5687-4d7e-b935-6dfeaa974cf2/resource/c9408bd5-1783-4f2e-8c89-913bdb2efcea/download/catalogo-puestos-1t-2026-fundacion-legado-andalusi.xls",
+          "title": "Precios vigentes en instalaciones de suministro de combustible a vehículos - Formato XLS.",
+          "accessUrl": "https://catalogo.datosabiertos.miteco.gob.es/catalogo/dataset/902a266d-5ba2-4735-a378-45818ba5a4f4/resource/470b703b-2fb6-4a4e-a417-e0863bf6509d",
           "format": "XLS",
           "identifier": ""
         },
         {
-          "title": "ODS - Inventario de puestos de trabajo de la Fundación Pública Andaluza para el Desarrollo del Legado Andalusí, M.P.",
-          "accessUrl": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/bcee025c-5687-4d7e-b935-6dfeaa974cf2/resource/4ad5dcf5-7ee4-4409-b424-21ada770285e/download/catalogo-puestos-1t-2026-fundacion-legado-andalusi.ods",
-          "format": "SIN DATO",
+          "title": "Información de instalaciones de suministro de combustible a vehículos - Formato CSV",
+          "accessUrl": "https://catalogo.datosabiertos.miteco.gob.es/catalogo/dataset/902a266d-5ba2-4735-a378-45818ba5a4f4/resource/a25632e1-7f63-4dfd-9f3a-32254612c97f",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Precios vigentes en instalaciones de suministro de combustible a embarcaciones - Formato XLS.",
+          "accessUrl": "https://catalogo.datosabiertos.miteco.gob.es/catalogo/dataset/902a266d-5ba2-4735-a378-45818ba5a4f4/resource/ca15270e-39bf-43f1-b87f-09fac3cc0c6b",
+          "format": "XLS",
+          "identifier": ""
+        },
+        {
+          "title": "Planes de descuento en formato XLS",
+          "accessUrl": "https://catalogo.datosabiertos.miteco.gob.es/catalogo/dataset/902a266d-5ba2-4735-a378-45818ba5a4f4/resource/20d25af1-6da5-4d5e-9042-d17f7fac2be9",
+          "format": "XLS",
+          "identifier": ""
+        },
+        {
+          "title": "Información de instalaciones de suministro de combustible a vehículos - Formato KLM",
+          "accessUrl": "https://catalogo.datosabiertos.miteco.gob.es/catalogo/dataset/902a266d-5ba2-4735-a378-45818ba5a4f4/resource/85e870d7-b651-4435-9f6f-19a53db7a4a1",
+          "format": "KML",
+          "identifier": ""
+        },
+        {
+          "title": "Información de instalaciones de suministro de combustible a embarcaciones - Formato KLM",
+          "accessUrl": "https://catalogo.datosabiertos.miteco.gob.es/catalogo/dataset/902a266d-5ba2-4735-a378-45818ba5a4f4/resource/f277d611-562d-46b1-8b32-8f2f48deb712",
+          "format": "KML",
           "identifier": ""
         }
       ],
-      "score": 14,
+      "score": 81,
       "notes": [
         "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tematicas detectadas: Sector Publico.",
-        "Publicador: A01002820."
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Energia, Transporte, Turismo.",
+        "Publicador: E05068001.",
+        "Cobertura geografica principal: España."
       ]
     },
     {
-      "id": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/e605dfb8-387e-4709-9a73-eb6b9dfc1e6d",
-      "title": "Movimientos de la Tesorería General de la Junta de Andalucía 2026",
-      "description": "Información del detalle de todos los movimientos de la Tesorería General de la Junta de Andalucía: cobros, pagos y saldos en cuentas bancarias, durante el periodo 2026.\n\nEl conjunto de datos recoge:\n\n* Información del estado agregado mensual de todas las cuentas de la Tesorería General.\n* Información de estado diario de saldos, pagos, cobros y traspasos de las cuentas agregadas de la Tesorería General.\n* Información agregada mensual de los saldos, pagos, cobros y traspasos de las cuentas de la Tesorería General, según cada una de las cuentas.\n* Información de detalle de los saldos diarios, pagos, cobros y traspasos de las cuentas bancarias de la Tesorería General.\n* Información agregada de los abonos anotados en las cuentas de la Tesorería General, según la cuenta en la que se ha efectuado el abono y según la clasificación utilizada para la contabilización de los extractos bancarios.\n* Información de detalle de los abonos anotados en las cuentas de la Tesorería General, mostrándose el importe agregado ingresado quincenalmente por la entidad colaboradora y no el detalle de cada tasa, precio público o impuesto individual, en el caso de la recaudación que se realiza por tributos propios y cedidos, ingresados por la ciudadanía en las entidades financieras colaboradoras en la gestión recaudatoria o bien directamente en la Plataforma de Pago disponible en la Oficina Virtual.\n* Información de pagos agregados según la cuenta bancaria utilizada para el abono y según la clasificación de pagos a efectos del Presupuesto de Tesorería.\n* Información individual de todos los pagos realizados.\n* Información de los pagos correspondientes a las diferentes unidades de nóminas, clasificadas y considerando tanto las que comprenden el pago de la retribución al personal como las de los descuentos que se practican (IRPF, cotizaciones sociales, otros descuentos).\n\nLa publicación de los datos se realiza de acuerdo al **Decreto 197/2021, de 20 de julio**, por el que se aprueba el Reglamento de organización y funcionamiento de la Tesorería General de la Junta de Andalucía y de la gestión recaudatoria, atendiendo a las obligaciones adquiridas por la Junta de Andalucía en materia de **Publicidad activa**, en el marco de la **Ley 1/2014, de 24 de junio, de Transparencia Pública de Andalucía**. \n\nVisualización de datos: [Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/sobre-junta/funcionamiento/movimientos-tesoreria.html)",
-      "issued": "mar, 19 may 2026 05:59:30 GMT+0000",
-      "modified": "mar, 19 may 2026 06:00:30 GMT+0000",
-      "publisher": "A01002820",
-      "spatial": "Sin dato",
+      "id": "https://datos.madrid.es/dataset/300574-0-aparcamiento-influencia",
+      "title": "Aparcamientos municipales para residentes. Áreas de influencia",
+      "description": "**“IMPORTANTE: Para cualquier consulta relacionada con su solicitud o aclaraciones sobre gestiones o trámites sobre las listas de espera de Aparcamientos municipales para residentes, debe dirigirse a la [Subdirección General de Gestión de Aparcamientos](https://eur06.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.madrid.es%2Fportales%2Fmunimadrid%2Fes%2FInicio%2FMovilidad-y-transportes%2FDirecciones-y-telefonos%2FSubdireccion-General-de-Aparcamientos%3Fvgnextfmt%3Ddefault%26vgnextoid%3Dd20afe828ae30410VgnVCM1000000b205a0aRCRD%26vgnextchannel%3D262f8fb9458fe410VgnVCM1000000b205a0aRCRD&data=05%7C01%7Creinapm%40madrid.es%7C463d3ab78cff46e6f61508db66964734%7Cb4532aa618954964b9c022b14444271b%7C0%7C0%7C638216567852006238%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=HbFp6JrKiiXWrAg6rLUiBbMDh3vFYr4%2B%2FaTvm7aEkuU%3D&reserved=0 \"Enlace externo en nueva ventana: Subdirección General de Gestión de Aparcamientos\") **\n**(Información telefónica,  de lunes a viernes de 8 a 14:45 horas en el número:  914 803 961 (solo para información relacionada con aparcamientos subterráneos, no sobre la zona SER).\nInformación presencial: lunes a viernes de 8:30 a 14 horas a través del [Sistema municipal de cita previa](https://servpub.madrid.es/GNSIS_WBCIUDADANO/tramiteDia.do)).**\n**En el apartado “Comentarios “ de este conjunto de datos no se podrá resolver este tipo de cuestiones. Disculpe las molestias”**\nEl Ayuntamiento de Madrid es titular de una amplísima red de aparcamientos públicos para residentes y aparcamientos mixtos (rotación/residentes), a través de la cual pone a disposición de los madrileños un total de casi noventa y nueve mil plazas de aparcamiento subterráneo. Dichos aparcamientos se gestionan, en su mayor parte, por distintas empresas en régimen de gestión indirecta mediante el correspondiente contrato de concesión de servicios, si bien dieciséis de ellos son objeto de gestión directa por el Ayuntamiento, a través de la Empresa Municipal de Transportes de Madrid, S.A.\nPueden acceder al uso de estas plazas las personas físicas que, disponiendo de vehículo, residan de hecho y estén empadronadas en el área de influencia que se establece para cada parcamiento, así como, en algunos casos concretos, los comerciantes de la zona o las personas jurídicas que cuenten con centros de trabajo en dichas áreas de influencia.",
+      "issued": "lun, 04 jul 2022 00:00:00 GMT+0000",
+      "modified": "jue, 28 may 2026 00:00:00 GMT+0000",
+      "publisher": "L01280796",
+      "spatial": "3117735",
+      "themes": [
+        "Urbanismo Infraestructuras"
+      ],
+      "keywords": [
+        "aparcamientos municipales",
+        "par",
+        "áreas de influencia"
+      ],
+      "formats": [
+        "PDF",
+        "CSV",
+        "XLSX",
+        "ZIP"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/l01280796-aparcamientos-municipales-para-residentes-areas-de-influencia1",
+      "distributions": [
+        {
+          "title": "300574-7-aparcamiento-influencia",
+          "accessUrl": "https://datos.madrid.es/dataset/300574-0-aparcamiento-influencia/resource/300574-7-aparcamiento-influencia/download/resolucion20de20la20direccic393n20general20de20planificacic393n20e20infraestructuras20de20movili.pdf",
+          "format": "PDF",
+          "identifier": ""
+        },
+        {
+          "title": "300574-9-aparcamiento-influencia-csv",
+          "accessUrl": "https://datos.madrid.es/dataset/300574-0-aparcamiento-influencia/resource/300574-9-aparcamiento-influencia-csv/download/300574-9-aparcamiento-influencia-csv.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "300574-4-aparcamiento-influencia",
+          "accessUrl": "https://datos.madrid.es/dataset/300574-0-aparcamiento-influencia/resource/300574-4-aparcamiento-influencia/download/estructura_aparcamientos20municipales_c381reas20de20influencia.pdf",
+          "format": "PDF",
+          "identifier": ""
+        },
+        {
+          "title": "300574-6-aparcamiento-influencia",
+          "accessUrl": "https://datos.madrid.es/dataset/300574-0-aparcamiento-influencia/resource/300574-6-aparcamiento-influencia/download/areas20de20influencia20par_listado.pdf",
+          "format": "PDF",
+          "identifier": ""
+        },
+        {
+          "title": "300574-0-aparcamiento-influencia-csv",
+          "accessUrl": "https://datos.madrid.es/dataset/300574-0-aparcamiento-influencia/resource/300574-0-aparcamiento-influencia-csv/download/300574-0-aparcamiento-influencia-csv.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "300574-1-aparcamiento-influencia-xlsx",
+          "accessUrl": "https://datos.madrid.es/dataset/300574-0-aparcamiento-influencia/resource/300574-1-aparcamiento-influencia-xlsx/download/300574-1-aparcamiento-influencia-xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        }
+      ],
+      "score": 51,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Urbanismo Infraestructuras.",
+        "Publicador: L01280796.",
+        "Cobertura geografica principal: 3117735."
+      ]
+    },
+    {
+      "id": "https://datos.madrid.es/dataset/212629-0-estaciones-control-aire",
+      "title": "Calidad del aire. Estaciones de control",
+      "description": "El sistema de vigilancia está formado por 24 estaciones remotas automáticas que recogen la información básica para la vigilancia atmosférica. Poseen los analizadores necesarios para la medida correcta de los niveles de gases y de partículas.  \nLas estaciones remotas son de varios tipos:\n  * **Urbanas de fondo** : Representativas de la exposición de la población urbana en general.\n  * **De tráfico** : Situadas de tal manera que su nivel de contaminación está influido principalmente por las emisiones procedentes de una calle o carretera próxima, pero se ha de evitar que se midan microambientes muy pequeños en sus proximidades.\n  * **Suburbana** s: Están situadas a las afueras de la ciudad, en los lugares donde se encuentran los mayores niveles de ozono.\nEn este portal tambien están disponibles otros conjuntos de datos relacionados con la calidad del aire:\n  * [Calidad del aire: Datos horarios desde 2001](https://datos.madrid.es/dataset/201200-0-calidad-aire-horario)\n  * [Calidad del aire: Datos diarios desde 2001](https://datos.madrid.es/dataset/201410-0-calidad-aire-diario)\n  * [Calidad del aire: Datos en tiempo real](https://datos.madrid.es/dataset/212531-0-calidad-aire-tiempo-real)\nAsímismo, puedes encontrar más información sobre estos datos en el [Portal de transparencia > Aire](https://transparencia.madrid.es/portales/transparencia/es/Medio-ambiente-y-urbanismo/Medio-ambiente/Aire/?vgnextfmt=default&vgnextchannel=33d9508929a56510VgnVCM1000008a4a900aRCRD \"Enlace externo en nueva ventana: Acceso a la sección de calidad del aire del portal de transparencia del Ayuntamiento de Madrid\").\nAviso:\nDesde el 1 de mayo de 2022 se han dado de baja en la red de vigilancia de la calidad del aire los siguientes equipos: \n  * 1 analizador de monóxido de carbono (CO) situado en la estación E18 Farolillo.\n  * 1 analizador de dióxido de azufre (SO2) en la estación E57 Sanchinarro.",
+      "issued": "jue, 09 abr 2015 00:00:00 GMT+0000",
+      "modified": "jue, 28 may 2026 00:00:00 GMT+0000",
+      "publisher": "L01280796",
+      "spatial": "3117735",
+      "themes": [
+        "Medio Ambiente"
+      ],
+      "keywords": [
+        "calidad del aire",
+        "estaciones calidad del aire",
+        "transpamedioambiente"
+      ],
+      "formats": [
+        "CSV",
+        "RSS",
+        "XLS",
+        "PDF"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/l01280796-calidad-del-aire-estaciones-de-control1",
+      "distributions": [
+        {
+          "title": "212629-0-estaciones-control-aire-csv",
+          "accessUrl": "https://datos.madrid.es/dataset/212629-0-estaciones-control-aire/resource/212629-0-estaciones-control-aire-csv/download/212629-0-estaciones-control-aire-csv.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "212629-3-estaciones-control-aire-geo",
+          "accessUrl": "https://datos.madrid.es/dataset/212629-0-estaciones-control-aire/resource/212629-3-estaciones-control-aire-geo/download/212629-3-estaciones-control-aire-geo.geo",
+          "format": "RSS",
+          "identifier": ""
+        },
+        {
+          "title": "212629-1-estaciones-control-aire-xls",
+          "accessUrl": "https://datos.madrid.es/dataset/212629-0-estaciones-control-aire/resource/212629-1-estaciones-control-aire-xls/download/212629-1-estaciones-control-aire-xls.xls",
+          "format": "XLS",
+          "identifier": ""
+        },
+        {
+          "title": "212629-2-estaciones-control-aire",
+          "accessUrl": "https://datos.madrid.es/dataset/212629-0-estaciones-control-aire/resource/212629-2-estaciones-control-aire/download/estructura_c.a.estaciones.pdf",
+          "format": "PDF",
+          "identifier": ""
+        }
+      ],
+      "score": 51,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Medio Ambiente.",
+        "Publicador: L01280796.",
+        "Cobertura geografica principal: 3117735."
+      ]
+    },
+    {
+      "id": "ea0041513-contratos-registrados-por-municipios",
+      "title": "Contratos registrados por municipio",
+      "description": "Datos estadísticos del SEPE sobre Contratos registrados, desagregados por municipio, sexo, tipo de contrato y sector de actividad económica.",
+      "issued": "mié, 27 may 2026 23:00:00 GMT+0000",
+      "modified": "jue, 28 may 2026 10:48:35 GMT+0000",
+      "publisher": "EA0041513",
+      "spatial": "España",
+      "themes": [
+        "Empleo",
+        "Sector Publico"
+      ],
+      "keywords": [
+        "Empleo"
+      ],
+      "formats": [
+        "CSV",
+        "XLS"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/ea0041513-contratos-registrados-por-municipios",
+      "distributions": [
+        {
+          "title": "2014",
+          "accessUrl": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2014_csv.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "2019",
+          "accessUrl": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2019_csv.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "2006. Segundo semestre",
+          "accessUrl": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2006_xls.xls",
+          "format": "XLS",
+          "identifier": ""
+        },
+        {
+          "title": "2024. Segundo semestre",
+          "accessUrl": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_segundo_semestre_2024_xls.xls",
+          "format": "XLS",
+          "identifier": ""
+        },
+        {
+          "title": "2016. Primer semestre",
+          "accessUrl": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_primer_semestre_2016_xls.xls",
+          "format": "XLS",
+          "identifier": ""
+        },
+        {
+          "title": "2009",
+          "accessUrl": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_por_municipios_2009_csv.csv",
+          "format": "CSV",
+          "identifier": ""
+        }
+      ],
+      "score": 47,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Empleo, Sector Publico.",
+        "Publicador: EA0041513.",
+        "Cobertura geografica principal: España."
+      ]
+    },
+    {
+      "id": "ea0041513-demandantes-de-empleo-por-municipios1",
+      "title": "Demandantes de empleo por municipio",
+      "description": "Datos estadísticos del SEPE sobre Demandantes de Empleo registrados, desagregados por municipio, sexo, edad y sector de actividad económica.",
+      "issued": "mié, 27 may 2026 23:00:00 GMT+0000",
+      "modified": "jue, 28 may 2026 10:48:35 GMT+0000",
+      "publisher": "EA0041513",
+      "spatial": "España",
+      "themes": [
+        "Empleo",
+        "Sector Publico"
+      ],
+      "keywords": [
+        "Empleo"
+      ],
+      "formats": [
+        "XLS",
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/ea0041513-demandantes-de-empleo-por-municipios1",
+      "distributions": [
+        {
+          "title": "2007. Primer semestre",
+          "accessUrl": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Dtes_empleo_por_municipios_primer_semestre_2007_xls.xls",
+          "format": "XLS",
+          "identifier": ""
+        },
+        {
+          "title": "2015. Segundo semestre",
+          "accessUrl": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Dtes_empleo_por_municipios_segundo_semestre_2015_xls.xls",
+          "format": "XLS",
+          "identifier": ""
+        },
+        {
+          "title": "2013. Segundo semestre",
+          "accessUrl": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Dtes_empleo_por_municipios_segundo_semestre_2013_xls.xls",
+          "format": "XLS",
+          "identifier": ""
+        },
+        {
+          "title": "2013. Primer semestre",
+          "accessUrl": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Dtes_empleo_por_municipios_primer_semestre_2013_xls.xls",
+          "format": "XLS",
+          "identifier": ""
+        },
+        {
+          "title": "2024",
+          "accessUrl": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Dtes_empleo_por_municipios_2024_csv.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "2019. Segundo semestre",
+          "accessUrl": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Dtes_empleo_por_municipios_segundo_semestre_2019_xls.xls",
+          "format": "XLS",
+          "identifier": ""
+        }
+      ],
+      "score": 47,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Empleo, Sector Publico.",
+        "Publicador: EA0041513.",
+        "Cobertura geografica principal: España."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/estadistica/estadistica-de-personal-al-servicio-de-la-administracion-de-la-comunidad-autonoma-de-euskadi-por-relacion-de-empleo-y-sexo-segun-ambito-2026/",
+      "title": "Estadística de Personal al Servicio de la Administración de la Comunidad Autónoma de Euskadi, por relación de empleo y sexo según ámbito. 2026",
+      "description": "Estadística de Personal al Servicio de la Administración de la Comunidad Autónoma de Euskadi. La estadística del personal en el sector público en la Comunidad Autónoma de Euskadi pretende dar a conocer los datos más significativos relativos al personal que desempeña su actividad en el mismo, independientemente de la administración o entidad pública en que la desarrolle.",
+      "issued": "jue, 22 feb 2024 23:00:00 GMT+0000",
+      "modified": "jue, 28 may 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Economia",
+        "Hacienda",
+        "Sector Publico"
+      ],
+      "keywords": [
+        "Langileak",
+        "Personal"
+      ],
+      "formats": [
+        "CSV",
+        "XLSX"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-estadistica-de-personal-al-servicio-de-la-administracion-de-la-comunidad-autonoma-de-euskadi-por-relacion-de-empleo-y-sexo-segun-ambito-2026",
+      "distributions": [
+        {
+          "title": "Personal al servicio de la administración de la C.A. de Euskadi a 1 de abril, por relación de empleo y sexo según ámbito. 2026",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/estadistica/jusap_ooee_psad_ambito_2026/es_def/adjuntos/2026/2026%20abril/20262T.3.9.1_c_VC.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Personal al servicio de la administración de la C.A. de Euskadi a 1 de enero, por relación de empleo y sexo según ámbito. 2026",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/estadistica/jusap_ooee_psad_ambito_2026/es_def/adjuntos/2026/2026%20enero/20261T.3.9.1_c_VC.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Personal al servicio de la administración de la C.A. de Euskadi a 1 de enero, por relación de empleo y sexo según ámbito. 2026",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/estadistica/jusap_ooee_psad_ambito_2026/es_def/adjuntos/2026/2026%20enero/20261T.3.9.1_c_VC.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Personal al servicio de la administración de la C.A. de Euskadi a 1 de abril, por relación de empleo y sexo según ámbito. 2026",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/estadistica/jusap_ooee_psad_ambito_2026/es_def/adjuntos/2026/2026%20abril/20262T.3.9.1_c_VC.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        }
+      ],
+      "score": 47,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Economia, Hacienda, Sector Publico.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "ea0041513-gasto-en-prestaciones-por-desempleo",
+      "title": "Gasto en prestaciones por desempleo",
+      "description": "Datos estadísticos del SEPE sobre Gasto en Prestaciones por Desempleo, desagregados por provincia y tipo de prestación",
+      "issued": "mié, 27 may 2026 23:00:00 GMT+0000",
+      "modified": "jue, 28 may 2026 10:48:35 GMT+0000",
+      "publisher": "EA0041513",
+      "spatial": "España",
+      "themes": [
+        "Empleo",
+        "Sector Publico"
+      ],
+      "keywords": [
+        "Empleo"
+      ],
+      "formats": [
+        "CSV",
+        "XLS"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/ea0041513-gasto-en-prestaciones-por-desempleo",
+      "distributions": [
+        {
+          "title": "2022",
+          "accessUrl": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2022_csv.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "2025",
+          "accessUrl": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2025_xls.xls",
+          "format": "XLS",
+          "identifier": ""
+        },
+        {
+          "title": "2020",
+          "accessUrl": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2020_xls.xls",
+          "format": "XLS",
+          "identifier": ""
+        },
+        {
+          "title": "2014",
+          "accessUrl": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2014_csv.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "2021",
+          "accessUrl": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2021_csv.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "2023",
+          "accessUrl": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Gastos_Prestaciones_2023_xls.xls",
+          "format": "XLS",
+          "identifier": ""
+        }
+      ],
+      "score": 47,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Empleo, Sector Publico.",
+        "Publicador: EA0041513.",
+        "Cobertura geografica principal: España."
+      ]
+    },
+    {
+      "id": "ea0041513-paro-registrado-por-municipios1",
+      "title": "Paro Registrado por municipio",
+      "description": "Datos estadísticos del SEPE sobre Paro Registrado, desagregados por municipio, sexo, edad y sector de actividad económica.",
+      "issued": "mié, 27 may 2026 23:00:00 GMT+0000",
+      "modified": "jue, 28 may 2026 10:48:35 GMT+0000",
+      "publisher": "EA0041513",
+      "spatial": "España",
+      "themes": [
+        "Empleo",
+        "Sector Publico"
+      ],
+      "keywords": [
+        "Empleo"
+      ],
+      "formats": [
+        "XLS",
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/ea0041513-paro-registrado-por-municipios1",
+      "distributions": [
+        {
+          "title": "2013. Segundo semestre",
+          "accessUrl": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_segundo_semestre_2013_xls.xls",
+          "format": "XLS",
+          "identifier": ""
+        },
+        {
+          "title": "2010",
+          "accessUrl": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2010_csv.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "2008. Primer semestre",
+          "accessUrl": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2008_xls.xls",
+          "format": "XLS",
+          "identifier": ""
+        },
+        {
+          "title": "2022",
+          "accessUrl": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2022_csv.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "2025. Primer semestre",
+          "accessUrl": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_primer_semestre_2025_xls.xls",
+          "format": "XLS",
+          "identifier": ""
+        },
+        {
+          "title": "2020",
+          "accessUrl": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2020_csv.csv",
+          "format": "CSV",
+          "identifier": ""
+        }
+      ],
+      "score": 47,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Empleo, Sector Publico.",
+        "Publicador: EA0041513.",
+        "Cobertura geografica principal: España."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/estadistica/estadistica-de-personal-al-servicio-de-la-administracion-de-la-comunidad-autonoma-de-euskadi-por-ambito-segun-relacion-de-empleo/",
+      "title": "Estadística de Personal al Servicio de la Administración de la Comunidad Autónoma de Euskadi por ámbito según relación de empleo. Series históricas",
+      "description": "Estadística de Personal al Servicio de la Administración de la Comunidad Autónoma de Euskadi. La estadística del personal en el sector público en la Comunidad Autónoma de Euskadi pretende dar a conocer los datos más significativos relativos al personal que desempeña su actividad en el mismo, independientemente de la administración o entidad pública en que la desarrolle.",
+      "issued": "dom, 31 dic 2000 23:00:00 GMT+0000",
+      "modified": "jue, 28 may 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Economia",
+        "Sector Publico"
+      ],
+      "keywords": [
+        "Langileak",
+        "Personal"
+      ],
+      "formats": [
+        "XLSX",
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-estadistica-de-personal-al-servicio-de-la-administracion-de-la-comunidad-autonoma-de-euskadi-por-ambito-segun-relacion-de-empleo1",
+      "distributions": [
+        {
+          "title": "Personal al servicio de la administración de la C.A. de Euskadi por ámbito según relación de empleo. (01/01/2014-01/04/2026)",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/estadistica/copia_jusap_ooee_psad_empleo/es_def/adjuntos/2026%20abril/20262T.3.9_c_VC.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Personal al servicio de la administración de la C.A. de Euskadi por ámbito según relación de empleo. (01/01/2014-01/04/2026)",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/estadistica/copia_jusap_ooee_psad_empleo/es_def/adjuntos/2026%20abril/20262T.3.9_c_VC.csv",
+          "format": "CSV",
+          "identifier": ""
+        }
+      ],
+      "score": 39,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tematicas detectadas: Economia, Sector Publico.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/estadistica/estadistica-de-personal-al-servicio-de-la-administracion-de-la-comunidad-autonoma-de-euskadi-por-ambito-segun-sexo/",
+      "title": "Estadística de Personal al Servicio de la Administración de la Comunidad Autónoma de Euskadi por ámbito según sexo. Series históricas",
+      "description": "Estadística de Personal al Servicio de la Administración de la Comunidad Autónoma de Euskadi. La estadística del personal en el sector público en la Comunidad Autónoma de Euskadi pretende dar a conocer los datos más significativos relativos al personal que desempeña su actividad en el mismo, independientemente de la administración o entidad pública en que la desarrolle.",
+      "issued": "dom, 31 dic 2000 23:00:00 GMT+0000",
+      "modified": "jue, 28 may 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Economia",
+        "Sector Publico"
+      ],
+      "keywords": [
+        "Langileak",
+        "Personal"
+      ],
+      "formats": [
+        "XLSX",
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-estadistica-de-personal-al-servicio-de-la-administracion-de-la-comunidad-autonoma-de-euskadi-por-ambito-segun-sexo1",
+      "distributions": [
+        {
+          "title": "Personal al servicio de la administración de la C.A. de Euskadi por ámbito según sexo. (01/01/2007-01/04/2026)",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/estadistica/jusap_ooee_psad_sexo/es_def/adjuntos/2026%20abril/20262T.1.9_c_VC.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Personal al servicio de la administración de la C.A. de Euskadi por ámbito según sexo. (01/01/2007-01/04/2026)",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/estadistica/jusap_ooee_psad_sexo/es_def/adjuntos/2026%20abril/20262T.1.9_c_VC.csv",
+          "format": "CSV",
+          "identifier": ""
+        }
+      ],
+      "score": 39,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tematicas detectadas: Economia, Sector Publico.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/estadistica/estadistica-de-personal-al-servicio-de-la-administracion-de-la-comunidad-autonoma-de-euskadi-por-ambito-segun-sexo-tablas-trimestrales/",
+      "title": "Estadística de Personal al Servicio de la Administración de la Comunidad Autónoma de Euskadi por ámbito según sexo. Tablas trimestrales.",
+      "description": "Estadística de Personal al Servicio de la Administración de la Comunidad Autónoma de Euskadi. La estadística del personal en el sector público en la Comunidad Autónoma de Euskadi pretende dar a conocer los datos más significativos relativos al personal que desempeña su actividad en el mismo, independientemente de la administración o entidad pública en que la desarrolle.",
+      "issued": "dom, 31 dic 2000 23:00:00 GMT+0000",
+      "modified": "jue, 28 may 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Economia",
+        "Sector Publico"
+      ],
+      "keywords": [
+        "Langileak",
+        "Personal"
+      ],
+      "formats": [
+        "XLSX",
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-estadistica-de-personal-al-servicio-de-la-administracion-de-la-comunidad-autonoma-de-euskadi-por-ambito-segun-sexo-tablas-trimestrales",
+      "distributions": [
+        {
+          "title": "Personal al servicio de la administración de la C.A. de Euskadi a 1 de abril por ámbito según sexo. 2026",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/estadistica/jusap_ooee_psad_sexo_t/es_def/adjuntos/2026%20abril/200190202602T.1.1_c_VC.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Personal al servicio de la administración de la C.A. de Euskadi a 1 de abril por ámbito según sexo. 2026",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/estadistica/jusap_ooee_psad_sexo_t/es_def/adjuntos/2026%20abril/200190202602T.1.1_c_VC.csv",
+          "format": "CSV",
+          "identifier": ""
+        }
+      ],
+      "score": 39,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tematicas detectadas: Economia, Sector Publico.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/estadistica/estadistica-de-personal-al-servicio-de-la-administracion-de-la-comunidad-autonoma-de-euskadi-por-ambito-segun-territorio-historico-de-dependencia/",
+      "title": "Estadística de Personal al Servicio de la Administración de la Comunidad Autónoma de Euskadi por ámbito según territorio histórico de dependencia. Series históricas",
+      "description": "Estadística de Personal al Servicio de la Administración de la Comunidad Autónoma de Euskadi. La estadística del personal en el sector público en la Comunidad Autónoma de Euskadi pretende dar a conocer los datos más significativos relativos al personal que desempeña su actividad en el mismo, independientemente de la administración o entidad pública en que la desarrolle.",
+      "issued": "dom, 31 dic 2000 23:00:00 GMT+0000",
+      "modified": "jue, 28 may 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Economia",
+        "Hacienda",
+        "Sector Publico"
+      ],
+      "keywords": [
+        "Langileak",
+        "Personal"
+      ],
+      "formats": [
+        "CSV",
+        "XLSX"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-estadistica-de-personal-al-servicio-de-la-administracion-de-la-comunidad-autonoma-de-euskadi-por-ambito-segun-territorio-historico-de-dependencia1",
+      "distributions": [
+        {
+          "title": "Personal al servicio de la administración de la C.A. de Euskadi por ámbito según territorio histórico de dependencia. (01/01/2001-01/04/2026)",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/estadistica/jusap_ooee_psad_territorio/es_def/adjuntos/2026%20abril/20262T.2.9_c_VC.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Personal al servicio de la administración de la C.A. de Euskadi por ámbito según territorio histórico de dependencia. (01/01/2001-01/04/2026)",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/estadistica/jusap_ooee_psad_territorio/es_def/adjuntos/2026%20abril/20262T.2.9_c_VC.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        }
+      ],
+      "score": 39,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tematicas detectadas: Economia, Hacienda, Sector Publico.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/estadistica/estadistica-de-personal-al-servicio-de-la-administracion-de-la-comunidad-autonoma-de-euskadi-por-relacion-de-empleo-sexo-segun-ambito/",
+      "title": "Estadística de Personal al Servicio de la Administración de la Comunidad Autónoma de Euskadi, por relación de empleo y sexo según ámbito",
+      "description": "Estadística de Personal al Servicio de la Administración de la Comunidad Autónoma de Euskadi. La estadística del personal en el sector público en la Comunidad Autónoma de Euskadi pretende dar a conocer los datos más significativos relativos al personal que desempeña su actividad en el mismo, independientemente de la administración o entidad pública en que la desarrolle.",
+      "issued": "dom, 30 jun 2019 22:00:00 GMT+0000",
+      "modified": "jue, 28 may 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Economia",
+        "Sector Publico"
+      ],
+      "keywords": [
+        "Langileak",
+        "Personal"
+      ],
+      "formats": [
+        "XLSX",
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-estadistica-de-personal-al-servicio-de-la-administracion-de-la-comunidad-autonoma-de-euskadi-por-relacion-de-empleo-y-sexo-segun-ambito",
+      "distributions": [
+        {
+          "title": "Personal al servicio de la administración de la C.A. de Euskadi a 1 de abril, por relación de empleo y sexo según ámbito. 2026",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/estadistica/jusap_ooee_psad_ambito/es_def/adjuntos/2026/2026%20abril/20262T.3.9.1_c_VC.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Personal al servicio de la administración de la C.A. de Euskadi a 1 de abril, por relación de empleo y sexo según ámbito. 2026",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/estadistica/jusap_ooee_psad_ambito/es_def/adjuntos/2026/2026%20abril/20262T.3.9.1_c_VC.csv",
+          "format": "CSV",
+          "identifier": ""
+        }
+      ],
+      "score": 39,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tematicas detectadas: Economia, Sector Publico.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://datos.madrid.es/dataset/300301-0-ranking-vulnerabilidad",
+      "title": "Ranking de vulnerabilidad de los distritos y barrios de Madrid",
+      "description": "Para el periodo 2017-2019, _e_ l Ayuntamiento de Madrid elaboró anualmente el ranking de vulnerabilidad de distritos y barrios como base para el diseño de sus políticas públicas y lucha contra los riesgos de exclusión y la aparición de zonas especialmente vulnerables. _Índice de Vulnerabilidad Territorial de los distritos y barrios de Madrid (IVR)._\nA partir de 2020 el Ayuntamiento ha desarrollado el sistema Iguala, Índice de Vulnerabilidad Territorial Agregado (IVTA) que es un proyecto de innovación social que tiene por objeto resolver el desequilibrio territorial de la ciudad de Madrid, teniendo en cuenta además de la situación socioeconómica de la población nuevas dimensiones como la seguridad ciudadana, el medioambiente, la movilidad urbana, la educación, la cultura, los servicios de limpieza o la salud.\nEste conjunto de datos recoge los datos del IVR y ranking de vulnerabilidad anual de distritos y barrios de la ciudad de Madrid para 2017, 2018 y 2019, aunque hay que tener en cuenta que el año que se indica en los ficheros no es el de referencia de los datos sino el de elaboración de los mismos (un año posterior). Por ejemplo: cuando en el fichero se indica 2020, los datos son del 2019.\nEn el apartado **'Documentación asociada'** se ofrece un fichero con la información del modelo de elaboración, cálculo y fuentes de datos de este índice.\nTambién puede consultar la [Metodología para la elaboración del índice de vulnerabilidad territorial de barrios y distritos de Madrid y ranking de vulnerabilidad](https://www.madrid.es/UnidadesDescentralizadas/UDGParticipacionCiudadana/Fondo_Reequilibrio_Territorial/Metodologia_Vulnerabilidad/Metodologia_Vulnerabilidad_Territorial.PDF).\nEn el siguiente enlace está disponible el conjunto de datos que contiene los valores del IVTA por distritos y barrios a partir del año 2020:\n[“IGUALA. Índice de vulnerabilidad territorial agregado del Ayuntamiento de Madrid”](https://datos.madrid.es/dataset/300577-0-iguala-vulnerabilidad)",
+      "issued": "vie, 18 ene 2019 00:00:00 GMT+0000",
+      "modified": "jue, 28 may 2026 00:00:00 GMT+0000",
+      "publisher": "L01280796",
+      "spatial": "3117735",
       "themes": [
         "Sector Publico"
       ],
       "keywords": [
-        "economía",
-        "hacienda",
-        "tesorería"
+        "barrios",
+        "distritos",
+        "ranking",
+        "vulnerabilidad"
       ],
       "formats": [
-        "SIN DATO"
+        "XLSX",
+        "CSV",
+        "PDF"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a01002820-movimientos-de-la-tesoreria-general-de-la-junta-de-andalucia-2026",
+      "datasetUrl": "https://datos.gob.es/catalogo/l01280796-ranking-de-vulnerabilidad-de-los-distritos-y-barrios-de-madrid",
       "distributions": [
         {
-          "title": "CSV - Movimientos de la Tesorería General de la Junta de Andalucía 2026",
-          "accessUrl": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/e605dfb8-387e-4709-9a73-eb6b9dfc1e6d/resource/5074f766-f093-481b-900b-377a0ac894a1/download/transparencia-presidencia-2026t1.7z",
-          "format": "SIN DATO",
+          "title": "300301-4-ranking-vulnerabilidad",
+          "accessUrl": "https://datos.madrid.es/dataset/300301-0-ranking-vulnerabilidad/resource/300301-4-ranking-vulnerabilidad/download/ranking_vulnerabilidad_ahp_2019.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "300301-3-ranking-vulnerabilidad",
+          "accessUrl": "https://datos.madrid.es/dataset/300301-0-ranking-vulnerabilidad/resource/300301-3-ranking-vulnerabilidad/download/ranking_vulnerabilidad_ahp_2020.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "300301-1-ranking-vulnerabilidad-csv",
+          "accessUrl": "https://datos.madrid.es/dataset/300301-0-ranking-vulnerabilidad/resource/300301-1-ranking-vulnerabilidad-csv/download/300301-1-ranking-vulnerabilidad-csv.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "300301-5-ranking-vulnerabilidad",
+          "accessUrl": "https://datos.madrid.es/dataset/300301-0-ranking-vulnerabilidad/resource/300301-5-ranking-vulnerabilidad/download/ranking_vulnerabilidad_ahp_2018.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "300301-0-ranking-vulnerabilidad-csv",
+          "accessUrl": "https://datos.madrid.es/dataset/300301-0-ranking-vulnerabilidad/resource/300301-0-ranking-vulnerabilidad-csv/download/300301-0-ranking-vulnerabilidad-csv.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "300301-2-ranking-vulnerabilidad",
+          "accessUrl": "https://datos.madrid.es/dataset/300301-0-ranking-vulnerabilidad/resource/300301-2-ranking-vulnerabilidad/download/estructura_conjuntodatos__ranking.pdf",
+          "format": "PDF",
           "identifier": ""
         }
       ],
-      "score": 8,
+      "score": 39,
       "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
         "Tematicas detectadas: Sector Publico.",
-        "Publicador: A01002820."
+        "Publicador: L01280796.",
+        "Cobertura geografica principal: 3117735."
+      ]
+    },
+    {
+      "id": "e05233601-valor-tasado-de-la-vivienda",
+      "title": "Valor tasado de la Vivienda",
+      "description": "Conjunto de datos estadísticos que recoge el valor medio tasado de la vivienda en euros por metro cuadrado (€/m²), desagregado por régimen de vivienda, provincia, comunidad autónoma y periodo temporal trimestral.",
+      "issued": "",
+      "modified": "jue, 28 may 2026 23:00:00 GMT+0000",
+      "publisher": "E05233601",
+      "spatial": "Sin dato",
+      "themes": [
+        "Comercio",
+        "Economia",
+        "Urbanismo Infraestructuras"
+      ],
+      "keywords": [],
+      "formats": [
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/e05233601-valor-tasado-de-la-vivienda",
+      "distributions": [
+        {
+          "title": "Valor tasado de la Vivienda",
+          "accessUrl": "https://cdn.mivau.gob.es/portal-web-mivau/Datos_MIVAU/CSV/VDP006_01.csv",
+          "format": "CSV",
+          "identifier": ""
+        }
+      ],
+      "score": 38,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tematicas detectadas: Comercio, Economia, Urbanismo Infraestructuras.",
+        "Publicador: E05233601."
+      ]
+    },
+    {
+      "id": "e05233601-vivienda-y-rehabilitacion-protegida",
+      "title": "Vivienda y Rehabilitación Protegida",
+      "description": "Conjunto de datos estadísticos sobre actuaciones protegidas en materia de vivienda y rehabilitación, que proporciona información relativa al número de solicitudes, aprobaciones y certificaciones administrativas vinculadas a actuaciones de rehabilitación y vivienda protegida, desagregadas territorialmente por provincia y comunidad autónoma y organizadas por periodo temporal mensual.",
+      "issued": "",
+      "modified": "jue, 28 may 2026 23:00:00 GMT+0000",
+      "publisher": "E05233601",
+      "spatial": "Sin dato",
+      "themes": [
+        "Comercio",
+        "Economia",
+        "Urbanismo Infraestructuras"
+      ],
+      "keywords": [],
+      "formats": [
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/e05233601-vivienda-y-rehabilitacion-protegida",
+      "distributions": [
+        {
+          "title": "Vivienda y Rehabilitación Protegida",
+          "accessUrl": "https://cdn.mivau.gob.es/portal-web-mivau/Datos_MIVAU/CSV/VDP007_01.csv",
+          "format": "CSV",
+          "identifier": ""
+        }
+      ],
+      "score": 38,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tematicas detectadas: Comercio, Economia, Urbanismo Infraestructuras.",
+        "Publicador: E05233601."
+      ]
+    },
+    {
+      "id": "f33299b0-88d5-4718-9e24-c0b04a325b56",
+      "title": "Índice Nacional de Calidad del Aire",
+      "description": "El Índice Nacional de Calidad del Aire (ICA) permite comprobar, en tiempo real y de forma sencilla, la calidad del aire que marcan las estaciones de medición de la red nacional de vigilancia. El ICA incluye además recomendaciones sanitarias para la población general y la población sensible, y permite conocer la evolución del estado de calidad del aire en los últimos meses.\n\nEstos datos provisionales y no validados, procedentes de las estaciones de monitorización y comunicados cada hora por las redes de calidad del aire que operan en el territorio nacional, complementados, en caso necesario, por datos modelizados procedentes del Servicio de Vigilancia Atmosférica (Sistema de Monitorización de la Atmósfera del Sistema Copernicus - CAMS) de la Unión Europea.",
+      "issued": "mié, 25 mar 2026 00:00:00 GMT+0000",
+      "modified": "vie, 29 may 2026 00:00:00 GMT+0000",
+      "publisher": "E05068001",
+      "spatial": "España",
+      "themes": [
+        "Medio Ambiente",
+        "Ac",
+        "ENVI"
+      ],
+      "keywords": [
+        "calidad-del-aire"
+      ],
+      "formats": [
+        "CSV",
+        "TXT"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/e05068001-indice-nacional-de-calidad-del-aire1",
+      "distributions": [
+        {
+          "title": "Índice de Calidad del Aire previsto para las próximas 48 horas",
+          "accessUrl": "https://ica.miteco.es/datos/ica-previsto.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Índice de Calidad del Aire de la última hora registrada",
+          "accessUrl": "https://ica.miteco.es/datos/ica-ultima-hora.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Índice de Calidad del Aire de las últimas 24 horas registradas",
+          "accessUrl": "https://ica.miteco.es/datos/ica-ultimas-24-horas.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Diccionario de datos (UTF-8)",
+          "accessUrl": "https://ica.miteco.es/datos/DICCIONARIO_DE_DATOS.txt",
+          "format": "TXT",
+          "identifier": ""
+        }
+      ],
+      "score": 37,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Medio Ambiente, Ac, ENVI.",
+        "Publicador: E05068001.",
+        "Cobertura geografica principal: España."
+      ]
+    },
+    {
+      "id": "fe68e0a9-dd6c-4bbb-852f-a85be8292044",
+      "title": "Resumen de evaluación de calidad del aire",
+      "description": "colecciones de datos de resumen",
+      "issued": "lun, 20 ene 2025 00:00:00 GMT+0000",
+      "modified": "vie, 29 may 2026 00:00:00 GMT+0000",
+      "publisher": "E05068001",
+      "spatial": "España",
+      "themes": [
+        "Medio Ambiente",
+        "Ef",
+        "ENVI"
+      ],
+      "keywords": [
+        "calidad-del-aire"
+      ],
+      "formats": [
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/e05068001-resumen-de-evaluacion-de-calidad-del-aire",
+      "distributions": [
+        {
+          "title": "Contaminantes sin valor legislado 2023",
+          "accessUrl": "https://catalogo.datosabiertos.miteco.gob.es/catalogo/dataset/fe68e0a9-dd6c-4bbb-852f-a85be8292044/resource/f80c091d-7481-4b8e-9497-a5e6ceb68c13",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Zonas de calidad del aire 2023",
+          "accessUrl": "https://catalogo.datosabiertos.miteco.gob.es/catalogo/dataset/fe68e0a9-dd6c-4bbb-852f-a85be8292044/resource/ad2aad24-dd5c-4bd9-a3c6-349697de4984",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Cumplimiento de calidad del aire 2021",
+          "accessUrl": "https://catalogo.datosabiertos.miteco.gob.es/catalogo/dataset/fe68e0a9-dd6c-4bbb-852f-a85be8292044/resource/1a4b6516-aed6-4617-ba5d-082d3ca5795e",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "IME 2022",
+          "accessUrl": "https://catalogo.datosabiertos.miteco.gob.es/catalogo/dataset/fe68e0a9-dd6c-4bbb-852f-a85be8292044/resource/e869e122-c846-4db0-953d-0b0ac263974d",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Zonas de calidad del aire 2020",
+          "accessUrl": "https://catalogo.datosabiertos.miteco.gob.es/catalogo/dataset/fe68e0a9-dd6c-4bbb-852f-a85be8292044/resource/4ef5a9a1-18f8-458d-92d0-fedd4ffac51d",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Zonas de calidad del aire 2021",
+          "accessUrl": "https://catalogo.datosabiertos.miteco.gob.es/catalogo/dataset/fe68e0a9-dd6c-4bbb-852f-a85be8292044/resource/5fcc8312-74b8-4ff3-9a70-df37d58d1b07",
+          "format": "CSV",
+          "identifier": ""
+        }
+      ],
+      "score": 37,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Medio Ambiente, Ef, ENVI.",
+        "Publicador: E05068001.",
+        "Cobertura geografica principal: España."
+      ]
+    },
+    {
+      "id": "ea0041513-contratos-registrados-por-actividad-economica",
+      "title": "Contratos registrados por actividad economica",
+      "description": "Contratos registrados con desglose de actividades economicas, sexo, nacionalidad, tipo de contrato y jornada",
+      "issued": "mié, 27 may 2026 23:00:00 GMT+0000",
+      "modified": "jue, 28 may 2026 10:48:35 GMT+0000",
+      "publisher": "EA0041513",
+      "spatial": "España",
+      "themes": [
+        "Empleo",
+        "Sector Publico"
+      ],
+      "keywords": [
+        "Empleo"
+      ],
+      "formats": [
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/ea0041513-contratos-registrados-por-actividad-economica",
+      "distributions": [
+        {
+          "title": "2026",
+          "accessUrl": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_registrados_por_AE_2026_csv.csv",
+          "format": "CSV",
+          "identifier": ""
+        }
+      ],
+      "score": 29,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tematicas detectadas: Empleo, Sector Publico.",
+        "Publicador: EA0041513.",
+        "Cobertura geografica principal: España."
+      ]
+    },
+    {
+      "id": "ea0041513-contratos-registrados-por-nivel-formativo",
+      "title": "Contratos registrados por nivel formativo",
+      "description": "Contratos registrados con desglose por nivel formativo, sexo, pais de nacionalidad, tipologia de contrato y jornada",
+      "issued": "mié, 27 may 2026 23:00:00 GMT+0000",
+      "modified": "jue, 28 may 2026 10:48:35 GMT+0000",
+      "publisher": "EA0041513",
+      "spatial": "España",
+      "themes": [
+        "Empleo",
+        "Sector Publico"
+      ],
+      "keywords": [
+        "Empleo"
+      ],
+      "formats": [
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/ea0041513-contratos-registrados-por-nivel-formativo",
+      "distributions": [
+        {
+          "title": "2026",
+          "accessUrl": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Contratos_registrados_por_NF_2026_csv.csv",
+          "format": "CSV",
+          "identifier": ""
+        }
+      ],
+      "score": 29,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tematicas detectadas: Empleo, Sector Publico.",
+        "Publicador: EA0041513.",
+        "Cobertura geografica principal: España."
+      ]
+    },
+    {
+      "id": "ea0041513-demandantes-de-empleo-por-actividad-economica",
+      "title": "Demandantes de empleo por actividad económica",
+      "description": "Demandantes parados por actividades economicas, sexo, tramos de edad, antigüedad y tiempo de inscripcion",
+      "issued": "mié, 27 may 2026 23:00:00 GMT+0000",
+      "modified": "jue, 28 may 2026 10:48:35 GMT+0000",
+      "publisher": "EA0041513",
+      "spatial": "España",
+      "themes": [
+        "Empleo",
+        "Sector Publico"
+      ],
+      "keywords": [
+        "Empleo"
+      ],
+      "formats": [
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/ea0041513-demandantes-de-empleo-por-actividad-economica",
+      "distributions": [
+        {
+          "title": "2026",
+          "accessUrl": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Demandantes_empleo_por_AE_2026_csv.csv",
+          "format": "CSV",
+          "identifier": ""
+        }
+      ],
+      "score": 29,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tematicas detectadas: Empleo, Sector Publico.",
+        "Publicador: EA0041513.",
+        "Cobertura geografica principal: España."
+      ]
+    },
+    {
+      "id": "ea0041513-demandantes-de-empleo-por-nivel-formativo",
+      "title": "Demandantes de empleo por nivel formativo",
+      "description": "Paro registrado con desglose por Nivel formativo, Sexo, nacionalidad y antigüedad de la demanda",
+      "issued": "mié, 27 may 2026 23:00:00 GMT+0000",
+      "modified": "jue, 28 may 2026 10:48:35 GMT+0000",
+      "publisher": "EA0041513",
+      "spatial": "España",
+      "themes": [
+        "Empleo",
+        "Sector Publico"
+      ],
+      "keywords": [
+        "Empleo"
+      ],
+      "formats": [
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/ea0041513-demandantes-de-empleo-por-nivel-formativo",
+      "distributions": [
+        {
+          "title": "2026",
+          "accessUrl": "https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Demandantes_empleo_por_NF_2026_csv.csv",
+          "format": "CSV",
+          "identifier": ""
+        }
+      ],
+      "score": 29,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tematicas detectadas: Empleo, Sector Publico.",
+        "Publicador: EA0041513.",
+        "Cobertura geografica principal: España."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/estadistica/estadistica-de-personal-al-servicio-de-la-administracion-de-la-comunidad-autonoma-de-euskadi-por-ambito-segun-relacion-de-empleo-tablas-trimestrales/",
+      "title": "Estadística de Personal al Servicio de la Administración de la Comunidad Autónoma de Euskadi por ámbito según relación de empleo. Tablas trimestrales.",
+      "description": "Estadística de Personal al Servicio de la Administración de la Comunidad Autónoma de Euskadi. La estadística del personal en el sector público en la Comunidad Autónoma de Euskadi pretende dar a conocer los datos más significativos relativos al personal que desempeña su actividad en el mismo, independientemente de la administración o entidad pública en que la desarrolle.",
+      "issued": "dom, 31 dic 2000 23:00:00 GMT+0000",
+      "modified": "jue, 28 may 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Ciencia Tecnologia",
+        "Sector Publico"
+      ],
+      "keywords": [
+        "Langileak",
+        "Personal"
+      ],
+      "formats": [
+        "XLSX",
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-estadistica-de-personal-al-servicio-de-la-administracion-de-la-comunidad-autonoma-de-euskadi-por-ambito-segun-relacion-de-empleo-tablas-trimestrales",
+      "distributions": [
+        {
+          "title": "Personal al servicio de la administración de la C.A. de Euskadi a 1 de abril por ámbito según relación de empleo. 2026",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/estadistica/jusap_ooee_psad_empleo_t/es_def/adjuntos/2026%20abril/200190202602T.3.1_c_VC.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Personal al servicio de la administración de la C.A. de Euskadi a 1 de abril por ámbito según relación de empleo. 2026",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/estadistica/jusap_ooee_psad_empleo_t/es_def/adjuntos/2026%20abril/200190202602T.3.1_c_VC.csv",
+          "format": "CSV",
+          "identifier": ""
+        }
+      ],
+      "score": 27,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tematicas detectadas: Ciencia Tecnologia, Sector Publico.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/estadistica/estadistica-de-personal-al-servicio-de-la-administracion-de-la-comunidad-autonoma-de-euskadi-por-ambito-segun-territorio-historico-de-dependencia-tablas-trimestrales/",
+      "title": "Estadística de Personal al Servicio de la Administración de la Comunidad Autónoma de Euskadi por ámbito según territorio histórico de dependencia. Tablas trimestrales.",
+      "description": "Estadística de Personal al Servicio de la Administración de la Comunidad Autónoma de Euskadi. La estadística del personal en el sector público en la Comunidad Autónoma de Euskadi pretende dar a conocer los datos más significativos relativos al personal que desempeña su actividad en el mismo, independientemente de la administración o entidad pública en que la desarrolle.",
+      "issued": "dom, 31 dic 2000 23:00:00 GMT+0000",
+      "modified": "jue, 28 may 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Hacienda",
+        "Sector Publico"
+      ],
+      "keywords": [
+        "Langileak",
+        "Personal"
+      ],
+      "formats": [
+        "CSV",
+        "XLSX"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-estadistica-de-personal-al-servicio-de-la-administracion-de-la-comunidad-autonoma-de-euskadi-por-ambito-segun-territorio-historico-de-dependencia-tablas-trimestrales",
+      "distributions": [
+        {
+          "title": "Personal al servicio de la administración de la C.A. de Euskadi a 1 de abril por ámbito según territorio histórico de dependencia. 2026",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/estadistica/jusap_ooee_psad_territorio_t/es_def/adjuntos/2026%20abril/200190202602T.2.1_c_VC.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Personal al servicio de la administración de la C.A. de Euskadi a 1 de abril por ámbito según territorio histórico de dependencia. 2026",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/estadistica/jusap_ooee_psad_territorio_t/es_def/adjuntos/2026%20abril/200190202602T.2.1_c_VC.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        }
+      ],
+      "score": 27,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tematicas detectadas: Hacienda, Sector Publico.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
       ]
     }
   ]
