@@ -1,125 +1,20 @@
 {
-  "generatedAt": "2026-06-29T08:43:05.087Z",
+  "generatedAt": "2026-07-06T08:35:42.253Z",
   "window": {
-    "start": "2026-06-22T08:43:04.605Z",
-    "end": "2026-06-29T08:43:04.605Z",
+    "start": "2026-06-29T08:35:41.431Z",
+    "end": "2026-07-06T08:35:41.431Z",
     "label": "Ultimos 7 dias"
   },
   "source": {
     "name": "datos.gob.es API",
-    "url": "https://datos.gob.es/apidata/catalog/dataset/modified/begin/2026-06-22T08:43Z/end/2026-06-29T08:43Z.json?_sort=-modified&_pageSize=50&_page=0"
+    "url": "https://datos.gob.es/apidata/catalog/dataset/modified/begin/2026-06-29T08:35Z/end/2026-07-06T08:35Z.json?_sort=-modified&_pageSize=50&_page=0"
   },
   "summary": {
-    "totalReviewed": 2,
-    "topScore": 15,
-    "topFormats": [
-      {
-        "label": "SIN DATO",
-        "count": 2
-      }
-    ],
-    "topThemes": [
-      {
-        "label": "Hacienda",
-        "count": 2
-      }
-    ],
-    "headline": "Se han detectado 2 datasets recientes con SIN DATO como formato dominante."
+    "totalReviewed": 0,
+    "topScore": 0,
+    "topFormats": [],
+    "topThemes": [],
+    "headline": "No se han detectado datasets recientes en la ventana actual."
   },
-  "items": [
-    {
-      "id": "ea0028512-estadistica-de-comercio-exterior",
-      "title": "Estadística de Comercio Exterior",
-      "description": "Se facilita información estadística, incluida en el Plan Estadístico Nacional, y obligatoria por distintos reglamentos comunitarios.\nBajo la denominación de \"Estadísticas de Comercio Exterior\" se incluyen:\n- Informes mensuales, anuarios estadísticos y las posiciones sometidas a confidencialidad (artículo 11 del Reglamento UE 638/2004) actualizados mensualmente y mostrados en formato PDF.\n- Ficheros resúmenes y ficheros de máxima desagregación de datos mensuales y anuales, en formato TXT comprimidos, para la descarga de datos estadísticos.\n- A partir de 2013, en formato excel y con carácter mensual, un resumen de los ficheros estadísticos publicados.",
-      "issued": "mié, 19 ene 2000 23:00:00 GMT+0000",
-      "modified": "lun, 22 jun 2026 22:00:00 GMT+0000",
-      "publisher": "EA0028512",
-      "spatial": "España",
-      "themes": [
-        "Hacienda"
-      ],
-      "keywords": [],
-      "formats": [
-        "SIN DATO"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/ea0028512-estadistica-de-comercio-exterior",
-      "distributions": [
-        {
-          "title": "Metodología",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/estadisticas-comercio-exterior/metodologia.html",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Calendario de difusión",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/estadisticas-comercio-exterior/calendario-publicacion.html",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Estadísticas: series mensuales",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/estadisticas-comercio-exterior.html",
-          "format": "SIN DATO",
-          "identifier": ""
-        }
-      ],
-      "score": 15,
-      "notes": [
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Hacienda.",
-        "Publicador: EA0028512.",
-        "Cobertura geografica principal: España."
-      ]
-    },
-    {
-      "id": "https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Estadistica_del_Impuesto_sobre_Matriculacion_de_Vehiculos_Automoviles.shtml",
-      "title": "Estadística del Impuesto de Matriculación",
-      "description": "Publicación estadística basada en las declaraciones del modelo 576, Impuesto Especial sobre determinados medios de transporte (IEDMT), que se debe presentar obligatoriamente de forma telemática, con la primera matriculación definitiva en España de automóviles nuevos o usados, accionados a motor para circular por vías o terrenos píublicos.\nLa información se clasifica desde distintas perspectivas: epígrafe, tipo de combustible, ciilindrada, Comunidad Autónoma y tramos de base imponible equivalente al valor del vehículo en el momento de su adquisición.\nLa información, que se presenta en un avance mensual y una estadística anaul, aporta un enfoque más tributario a información que en gran medida ya aparece recogida y puesta a disposición del público desde otros organismos.",
-      "issued": "sáb, 31 dic 2005 23:00:00 GMT+0000",
-      "modified": "lun, 22 jun 2026 22:00:00 GMT+0000",
-      "publisher": "EA0028512",
-      "spatial": "España",
-      "themes": [
-        "Hacienda"
-      ],
-      "keywords": [],
-      "formats": [
-        "SIN DATO"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/ea0028512-estadistica-del-impuesto-de-matriculacion",
-      "distributions": [
-        {
-          "title": "Estadística (avances mensuales)",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/AEAT/Contenidos_Comunes/La_Agencia_Tributaria/Estadisticas/Publicaciones/sites/matriculaciones/mes/home.html",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Todas las publicaciones",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Estadistica_del_Impuesto_sobre_Matriculacion_de_Vehiculos_Automoviles.shtml",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Estadística del año 2025",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/AEAT/Contenidos_Comunes/La_Agencia_Tributaria/Estadisticas/Publicaciones/sites/matriculaciones/2025/home.html",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Metodología",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/estadisticas-impuesto/impuesto-matriculacion-vehiculos-automoviles/metodologia.html",
-          "format": "SIN DATO",
-          "identifier": ""
-        }
-      ],
-      "score": 15,
-      "notes": [
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Hacienda.",
-        "Publicador: EA0028512.",
-        "Cobertura geografica principal: España."
-      ]
-    }
-  ]
+  "items": []
 }
