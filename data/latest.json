@@ -1,378 +1,1482 @@
 {
-  "generatedAt": "2026-07-27T08:13:24.815Z",
+  "generatedAt": "2026-08-03T08:12:28.676Z",
   "window": {
-    "start": "2026-07-20T08:13:23.893Z",
-    "end": "2026-07-27T08:13:23.893Z",
+    "start": "2026-07-27T08:12:23.668Z",
+    "end": "2026-08-03T08:12:23.668Z",
     "label": "Ultimos 7 dias"
   },
   "source": {
     "name": "datos.gob.es API",
-    "url": "https://datos.gob.es/apidata/catalog/dataset/modified/begin/2026-07-20T08:13Z/end/2026-07-27T08:13Z.json?_sort=-modified&_pageSize=50&_page=0"
+    "url": "https://datos.gob.es/apidata/catalog/dataset/modified/begin/2026-07-27T08:12Z/end/2026-08-03T08:12Z.json?_sort=-modified&_pageSize=50&_page=0"
   },
   "summary": {
-    "totalReviewed": 7,
-    "topScore": 68,
+    "totalReviewed": 24,
+    "topScore": 52,
     "topFormats": [
       {
         "label": "SIN DATO",
-        "count": 6
-      },
-      {
-        "label": "JSON",
-        "count": 1
-      },
-      {
-        "label": "CSV",
-        "count": 1
-      },
-      {
-        "label": "XLSX",
-        "count": 1
+        "count": 24
       }
     ],
     "topThemes": [
       {
-        "label": "Hacienda",
+        "label": "Turismo",
+        "count": 7
+      },
+      {
+        "label": "Medio Ambiente",
+        "count": 6
+      },
+      {
+        "label": "Salud",
         "count": 5
       },
       {
-        "label": "Economia",
-        "count": 3
-      },
-      {
-        "label": "Empleo",
-        "count": 1
-      },
-      {
-        "label": "Sector Publico",
-        "count": 1
+        "label": "Comercio",
+        "count": 5
       }
     ],
-    "headline": "Se han detectado 7 datasets recientes con SIN DATO como formato dominante."
+    "headline": "Se han detectado 24 datasets recientes con SIN DATO como formato dominante."
   },
   "items": [
     {
-      "id": "[]",
-      "title": "Administración Pública en Asturias: personal de las administraciones estatal, regional y local",
-      "description": "Información sobre el personal al servicio de las Administraciones Públicas en Asturias, que incluye entre otros:\n \n- Compatibilidades públicas y privadas de los/as empleados/as públicos/as de la Administración Autonómica del Principado de Asturias.\n\n- Estadísticas de empleo de la Administración del Principado de Asturias, sus organismos y entes públicos.\n\n- Número total de empleados/as por tipo de Administración. Se entiende como empleados/as a aquellas personas en situación administrativa de servicio activo durante la fecha de referencia en las diferentes AAPP (Administración del Estado, Administración Autonómica, Administración Local y Universidades). No se incluyen altos cargos ni el personal laboral con contrato de trabajo de duración determinada no superior a seis meses.\n\n- Relación de personas empleadas públicas con carácter fijo (personal funcionario o laboral) en la Administración Autonómica que desempeñan puestos en cobertura provisional, a fecha de 25 de agosto de 2025.\n\nNOTA: El HTML proporciona acceso a un formulario en el que, tras realizar una búsqueda, podemos visualizar la información de diferentes maneras y descargarla en los formatos PC-Axis, XLSX y CSV.",
-      "issued": "mié, 06 may 2020 22:00:00 GMT+0000",
-      "modified": "jue, 23 jul 2026 22:00:00 GMT+0000",
-      "publisher": "A03002951",
+      "id": "https://datos.lorca.es/catalogo/bicicleta/",
+      "title": "La bicicleta en Lorca",
+      "description": "La bicicleta en Lorca",
+      "issued": "jue, 21 abr 2016 22:00:00 GMT+0000",
+      "modified": "vie, 31 jul 2026 22:00:00 GMT+0000",
+      "publisher": "L01300243",
       "spatial": "Sin dato",
+      "themes": [
+        "Cultura Ocio",
+        "Deporte",
+        "Energia",
+        "Medio Ambiente",
+        "Salud",
+        "Sociedad Bienestar",
+        "Transporte"
+      ],
+      "keywords": [
+        "bicicleta",
+        "movilidad"
+      ],
+      "formats": [
+        "SIN DATO"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/l01300243-la-bicicleta-en-lorca",
+      "distributions": [
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 52,
+      "notes": [
+        "Tematicas detectadas: Cultura Ocio, Deporte, Energia.",
+        "Publicador: L01300243."
+      ]
+    },
+    {
+      "id": "b4c2315c-c88e-425e-b1da-486ed6140b31",
+      "title": "Número de Viviendas Iniciadas y Terminadas por Régimen de Protección",
+      "description": "Conjunto de datos estadísticos que recoge el número de viviendas iniciadas y terminadas, desagregadas por régimen de protección, ámbito geográfico y periodo temporal mensual.",
+      "issued": "vie, 08 may 2026",
+      "modified": "jue, 30 jul 2026",
+      "publisher": "E05233601",
+      "spatial": "ESP",
+      "themes": [
+        "Comercio",
+        "Economia",
+        "Urbanismo Infraestructuras",
+        "Vivienda"
+      ],
+      "keywords": [
+        "Comercio",
+        "Economía",
+        "Infraestructuras",
+        "Número Viviendas Registradas",
+        "Urbanismo",
+        "Vivienda"
+      ],
+      "formats": [
+        "SIN DATO"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/e05233601-numero-de-viviendas-iniciadas-y-terminadas-por-regimen-de-proteccion",
+      "distributions": [
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 47,
+      "notes": [
+        "Tematicas detectadas: Comercio, Economia, Urbanismo Infraestructuras.",
+        "Publicador: E05233601.",
+        "Cobertura geografica principal: ESP."
+      ]
+    },
+    {
+      "id": "d9d2dd78-3ba1-4d76-bf66-4dfb7b6344a3",
+      "title": "Transacciones inmobiliarias de vivienda",
+      "description": "Conjunto de datos que recoge el número y valor de las transacciones inmobiliarias de viviendas, desagregadas por ámbito geográfico, tipología de vivienda y periodo temporal.",
+      "issued": "mié, 29 abr 2026",
+      "modified": "jue, 30 jul 2026",
+      "publisher": "E05233601",
+      "spatial": "ESP",
+      "themes": [
+        "Comercio",
+        "Economia",
+        "Urbanismo Infraestructuras",
+        "Vivienda"
+      ],
+      "keywords": [
+        "Comercio",
+        "Economía",
+        "Infraestructuras",
+        "Número Transacciones",
+        "Urbanismo",
+        "Valor Transacciones"
+      ],
+      "formats": [
+        "SIN DATO"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/e05233601-transacciones-inmobiliarias-de-vivienda",
+      "distributions": [
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 47,
+      "notes": [
+        "Tematicas detectadas: Comercio, Economia, Urbanismo Infraestructuras.",
+        "Publicador: E05233601.",
+        "Cobertura geografica principal: ESP."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/calidad-de-aguas-de-consumo-de-euskadi-durante-el-2026/",
+      "title": "Calidad de aguas de consumo de Euskadi durante el 2026",
+      "description": "La calidad del agua de consumo en Euskadi se encuentra estrechamente vigilada por el Departamento de Salud del Gobierno Vasco y por los titulares de los sistemas de abastecimiento a través de las unidades de control y vigilancia (UCV). Las UCV son las entidades autorizadas por el Departamento de Salud para elaborar y ejecutar los programas de control y gestión de los abastecimientos. Estos programas de control incluyen, además de los análisis de agua, medidas preventivas y de mantenimiento de las instalaciones.",
+      "issued": "mié, 31 dic 2025 23:00:00 GMT+0000",
+      "modified": "vie, 31 jul 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Medio Ambiente",
+        "Salud"
+      ],
+      "keywords": [
+        "agua",
+        "calidad",
+        "consumo",
+        "ekuis",
+        "kalitatea",
+        "kontsumoa"
+      ],
+      "formats": [
+        "SIN DATO"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-calidad-de-aguas-de-consumo-de-euskadi-durante-el-2026",
+      "distributions": [
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 43,
+      "notes": [
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Medio Ambiente, Salud.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/calidad-de-aguas-de-consumo-de-euskadi-durante-el-2026/",
+      "title": "Calidad de aguas de consumo de Euskadi durante el 2026",
+      "description": "La calidad del agua de consumo en Euskadi se encuentra estrechamente vigilada por el Departamento de Salud del Gobierno Vasco y por los titulares de los sistemas de abastecimiento a través de las unidades de control y vigilancia (UCV). Las UCV son las entidades autorizadas por el Departamento de Salud para elaborar y ejecutar los programas de control y gestión de los abastecimientos. Estos programas de control incluyen, además de los análisis de agua, medidas preventivas y de mantenimiento de las instalaciones.",
+      "issued": "mié, 31 dic 2025 23:00:00 GMT+0000",
+      "modified": "vie, 31 jul 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Medio Ambiente",
+        "Salud"
+      ],
+      "keywords": [
+        "agua",
+        "calidad",
+        "consumo",
+        "ekuis",
+        "kalitatea",
+        "kontsumoa"
+      ],
+      "formats": [
+        "SIN DATO"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-calidad-de-aguas-de-consumo-de-euskadi-durante-el-2026",
+      "distributions": [
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 43,
+      "notes": [
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Medio Ambiente, Salud.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "6e15732f-4fab-4c28-8b77-30934566731c",
+      "title": "Precio Medio del Suelo",
+      "description": "Dataset que recoge el precio medio del suelo, segmentado por ámbito geográfico, tipología según tamaño de municipio y periodo temporal.",
+      "issued": "mié, 29 abr 2026",
+      "modified": "jue, 30 jul 2026",
+      "publisher": "E05233601",
+      "spatial": "ESP",
+      "themes": [
+        "Comercio",
+        "Demografia",
+        "Economia",
+        "Urbanismo Infraestructuras"
+      ],
+      "keywords": [
+        "Comercio",
+        "Economía",
+        "Infraestructuras",
+        "Precio Medio Suelo",
+        "Urbanismo"
+      ],
+      "formats": [
+        "SIN DATO"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/e05233601-precio-medio-del-suelo",
+      "distributions": [
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 35,
+      "notes": [
+        "Tematicas detectadas: Comercio, Demografia, Economia.",
+        "Publicador: E05233601.",
+        "Cobertura geografica principal: ESP."
+      ]
+    },
+    {
+      "id": "78ef01f8-89e2-4284-816c-ac902fc7190b",
+      "title": "Valor tasado de la Vivienda",
+      "description": "Conjunto de datos estadísticos que recoge el valor medio tasado de la vivienda en euros por metro cuadrado (€/m²), desagregado por régimen de vivienda, provincia, comunidad autónoma y periodo temporal trimestral.",
+      "issued": "mié, 27 may 2026",
+      "modified": "jue, 30 jul 2026",
+      "publisher": "E05233601",
+      "spatial": "ESP",
+      "themes": [
+        "Comercio",
+        "Economia",
+        "Urbanismo Infraestructuras"
+      ],
+      "keywords": [
+        "Comercio",
+        "Economía",
+        "Infraestructuras",
+        "Urbanismo",
+        "Valor medio tasado de la vivienda",
+        "Vivienda Libre"
+      ],
+      "formats": [
+        "SIN DATO"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/e05233601-valor-tasado-de-la-vivienda",
+      "distributions": [
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 35,
+      "notes": [
+        "Tematicas detectadas: Comercio, Economia, Urbanismo Infraestructuras.",
+        "Publicador: E05233601.",
+        "Cobertura geografica principal: ESP."
+      ]
+    },
+    {
+      "id": "17649391-21fd-4a8d-982e-df542c48bf9e",
+      "title": "Vivienda y Rehabilitación Protegida",
+      "description": "Conjunto de datos estadísticos sobre actuaciones protegidas en materia de vivienda y rehabilitación, que proporciona información relativa al número de solicitudes, aprobaciones y certificaciones administrativas vinculadas a actuaciones de rehabilitación y vivienda protegida, desagregadas territorialmente por provincia y comunidad autónoma y organizadas por periodo temporal mensual.",
+      "issued": "mié, 27 may 2026",
+      "modified": "jue, 30 jul 2026",
+      "publisher": "E05233601",
+      "spatial": "ESP",
+      "themes": [
+        "Comercio",
+        "Economia",
+        "Urbanismo Infraestructuras"
+      ],
+      "keywords": [
+        "Infraestructuras",
+        "Urbanismo",
+        "Vivienda y Rehabilitación Protegida"
+      ],
+      "formats": [
+        "SIN DATO"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/e05233601-vivienda-y-rehabilitacion-protegida",
+      "distributions": [
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 35,
+      "notes": [
+        "Tematicas detectadas: Comercio, Economia, Urbanismo Infraestructuras.",
+        "Publicador: E05233601.",
+        "Cobertura geografica principal: ESP."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/agenda-de-interes-para-jovenes-en-euskadi/",
+      "title": "Agenda de interés para jóvenes en Euskadi",
+      "description": "Gazte Informazioa es una red de más de 70 servicios que componen el Servicio de Información juvenil de Euskadi, formado por entidades dependientes de administraciones públicas (como Gobierno Vasco diputaciones o ayuntamientos), universidad y entidades privadas (asociaciones).",
+      "issued": "dom, 18 ene 2015 23:00:00 GMT+0000",
+      "modified": "vie, 31 jul 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Cultura Ocio",
+        "Turismo"
+      ],
+      "keywords": [
+        "actividades",
+        "agenda",
+        "agenda",
+        "conciertos",
+        "cursos",
+        "ekitaldiak"
+      ],
+      "formats": [
+        "SIN DATO"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-agenda-de-interes-para-jovenes-en-euskadi1",
+      "distributions": [
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 31,
+      "notes": [
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Cultura Ocio, Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/agenda-turistica-de-euskadi/",
+      "title": "Agenda turística de Euskadi",
+      "description": "Información para acceder a los principales eventos que se celebran en Euskadi: fiestas, conciertos, exposiciones, festivales de música, cine, mercados gastronómicos, etc.",
+      "issued": "lun, 19 ene 2015 23:00:00 GMT+0000",
+      "modified": "vie, 31 jul 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "agenda",
+        "agenda",
+        "ekitaldiak",
+        "eventos",
+        "festak",
+        "festividades"
+      ],
+      "formats": [
+        "SIN DATO"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-agenda-turistica-de-euskadi1",
+      "distributions": [
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 31,
+      "notes": [
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/albergues-turisticos-de-euskadi/",
+      "title": "Albergues turisticos de Euskadi",
+      "description": "Información sobre los albergues turísticos de Euskadi.",
+      "issued": "lun, 07 mar 2016 23:00:00 GMT+0000",
+      "modified": "vie, 31 jul 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "albergues",
+        "albergues turísticos",
+        "alojamientos",
+        "aterpe-turistikoak",
+        "aterpeak",
+        "aterpetxeak"
+      ],
+      "formats": [
+        "SIN DATO"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-albergues-turisticos-de-euskadi",
+      "distributions": [
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 31,
+      "notes": [
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/alojamientos-rurales-de-euskadi/",
+      "title": "Alojamientos rurales de Euskadi",
+      "description": "Información sobre agroturismos y casas rurales de Euskadi.",
+      "issued": "lun, 07 mar 2016 23:00:00 GMT+0000",
+      "modified": "vie, 31 jul 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "agroturismo",
+        "alojamientos",
+        "casas rurales",
+        "landa",
+        "landa-etxeak",
+        "nekazal"
+      ],
+      "formats": [
+        "SIN DATO"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-alojamientos-rurales-de-euskadi",
+      "distributions": [
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 31,
+      "notes": [
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/alojamientos/",
+      "title": "Alojamientos turísticos de Euskadi",
+      "description": "Información sobre los distintos tipos de alojamientos turísticos de Euskadi: hoteles, pensiones, apartamentos, alojamientos rurales, campings y albergues turísticos. Los datos se extraen del Registro de Empresas y Actividades Turísticas de Euskadi (REATE).",
+      "issued": "mié, 24 mar 2010 23:00:00 GMT+0000",
+      "modified": "vie, 31 jul 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "albergues turísticos",
+        "apartamentos",
+        "apartamentuak",
+        "aterpetxe turistikoak",
+        "camping",
+        "casas rurales"
+      ],
+      "formats": [
+        "SIN DATO"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-alojamientos-turisticos-de-euskadi",
+      "distributions": [
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 31,
+      "notes": [
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/calidad-aire-en-euskadi-2026/",
+      "title": "Calidad del aire en Euskadi durante el 2026",
+      "description": "El departamento de Medio Ambiente y Política Territorial del Gobierno Vasco se encarga de controlar y vigilar a través de la Red de Control de Calidad del Aire los niveles de contaminación en la Comunidad Autónoma Vasca, en cumplimiento de la obligación que tienen las Comunidades Autónomas de evaluar la calidad del aire en su territorio.",
+      "issued": "mié, 31 dic 2025 23:00:00 GMT+0000",
+      "modified": "vie, 31 jul 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Medio Ambiente"
+      ],
+      "keywords": [
+        "aire",
+        "airea",
+        "calidad",
+        "contaminación",
+        "kalitatea",
+        "kutsadura"
+      ],
+      "formats": [
+        "SIN DATO"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-calidad-del-aire-en-euskadi-durante-el-2026",
+      "distributions": [
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 31,
+      "notes": [
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Medio Ambiente.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://datosabiertos.navarra.es/dataset/calidad-del-aire-en-navarra-ltimos-60-d-as",
+      "title": "Calidad del aire en Navarra, últimos 60 días",
+      "description": "La [evaluación de la calidad del aire](https://www.miteco.gob.es/images/es/Cap3_Criterios%20evaluacion_tcm30-186479.pdf) se define como el resultado de aplicar cualquier método que permita medir, calcular, predecir o estimar las concentraciones de un contaminante en el aire ambiente o su depósito en superficies en un momento determinado. En Navarra se realiza mediante [mediciones](https://www.miteco.gob.es/es/calidad-y-evaluacion-ambiental/temas/atmosfera-y-calidad-del-aire/calidad-del-aire/evaluacion-datos/redes/default.aspx) en una serie de puntos de muestreo que se consideran representativos de cada una de las zonas en que se ha dividido el territorio y que componen la Red de Vigilancia de la Calidad del Aire de Navarra.\n\nEsta Red dispone de analizadores y sensores que miden los contaminantes que marca la normativa en materia de calidad del aire, principalmente dióxido de azufre (SO2), óxidos de nitrógeno (NO y NO2), ozono troposférico, monóxido de carbono (CO), benceno y partículas en suspensión (PM10 y PM2.5). Además se miden parámetros meteorológicos como velocidad y dirección del viento, temperatura, humedad relativa, presión, radiación y precipitación.\n\nEn esta ficha se pueden descargar los *datos horarios sin validar actualizados con frecuencia horaria*, recogidos en los últimos 60 días. Los datos horarios validados del año en curso se actualizan mensualmente y se pueden descargar en la ficha de  [Calidad del Aire en Navarra](/es/dataset/calidad-del-aire-en-navarra). La estructura de los ficheros e interpretación de los datos, se incluye en el [documento explicativo](https://gobiernoabierto.navarra.es/sites/default/files/opendata/manual_calidad_del_aire.pdf). Para ampliar información y ver los datos en tiempo real, puede acceder a la [web de calidad del aire en Navarra](http://www.navarra.es/home_es/Temas/Medio+Ambiente/Calidad+del+aire/)",
+      "issued": "mié, 23 jun 2021 12:29:41 GMT+0000",
+      "modified": "vie, 31 jul 2026 22:01:27 GMT+0000",
+      "publisher": "A15002917",
+      "spatial": "Comunidad Foral Navarra",
+      "themes": [
+        "Medio Ambiente"
+      ],
+      "keywords": [
+        "Aire",
+        "Airea",
+        "Contaminación",
+        "Contaminantes",
+        "Kutsadura",
+        "Kutsatzaileak"
+      ],
+      "formats": [
+        "SIN DATO"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a15002917-calidad-del-aire-en-navarra-ultimos-60-dias1",
+      "distributions": [
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 31,
+      "notes": [
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Medio Ambiente.",
+        "Publicador: A15002917.",
+        "Cobertura geografica principal: Comunidad Foral Navarra."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/campings-de-euskadi/",
+      "title": "Campings de Euskadi",
+      "description": "Información sobre campings y áreas de autocaravanas de Euskadi.",
+      "issued": "lun, 07 mar 2016 23:00:00 GMT+0000",
+      "modified": "vie, 31 jul 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "acampada",
+        "alojamientos",
+        "autocaravanas",
+        "autokarabana eremuak",
+        "autokarabanak",
+        "camping"
+      ],
+      "formats": [
+        "SIN DATO"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-campings-de-euskadi",
+      "distributions": [
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 31,
+      "notes": [
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://analisi.transparenciacatalunya.cat/api/views/jdcj-za6r",
+      "title": "Cursos programados y en programación por el Consorcio para la Formación Continua de Cataluña para la integración de datos con la Oferta FPCAT 365",
+      "description": "Dades de les accions formatives programades i en programació pel Consorci per a la Formació  Contínua de Catalunya. Amb el detall de les dates d’inici i final, la modalitat, la població on s’impartirà, l’entitat gestora i el contacte per sol·licitar la inscripció o resoldre qualsevol dubte al respecte.",
+      "issued": "lun, 22 may 2023 22:00:00 GMT+0000",
+      "modified": "vie, 31 jul 2026 22:00:00 GMT+0000",
+      "publisher": "A09002970",
+      "spatial": "Cataluna",
+      "themes": [
+        "Empleo"
+      ],
+      "keywords": [
+        "cursos",
+        "formació",
+        "formació contínua",
+        "formació professional",
+        "ods8_treball decent i creixement econòmic",
+        "treball"
+      ],
+      "formats": [
+        "SIN DATO"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a09002970-cursos-programados-y-en-programacion-por-el-consorcio-para-la-formacion-continua-de-cataluna-para-la-integracion-de-datos-con-la-oferta-fpcat-365",
+      "distributions": [
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 31,
+      "notes": [
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Empleo.",
+        "Publicador: A09002970.",
+        "Cobertura geografica principal: Cataluna."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/cursos-jornadas-congresos-y-ferias-organizadas-por-el-ivap/",
+      "title": "Cursos, jornadas, congresos y ferias organizadas por el IVAP",
+      "description": "En este conjunto de datos puedes acceder a los cursos, jornadas, congresos y ferias que organiza el IVAP (Instituto Vasco de Administración Pública). Los eventos están dirigidos principalmente a trabajadores públicos y se encuentran en diversos formatos.",
+      "issued": "lun, 19 ene 2015 23:00:00 GMT+0000",
+      "modified": "vie, 31 jul 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
       "themes": [
         "Empleo",
         "Sector Publico"
       ],
       "keywords": [
-        "Administración central",
-        "Administración local",
-        "Administración pública",
-        "Administración regional",
-        "Funcionario",
-        "Función pública"
+        "agenda",
+        "agenda",
+        "azokak",
+        "congresos",
+        "cursos",
+        "ekitaldiak"
       ],
       "formats": [
-        "JSON",
-        "CSV",
-        "XLSX",
-        "XML"
+        "SIN DATO"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a03002951-aapp-asturias-personal",
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-cursos-jornadas-congresos-y-ferias-organizadas-por-el-ivap1",
       "distributions": [
         {
-          "title": "Compatibilidades del personal público de la Administración Autonómica del Principado de Asturias",
-          "accessUrl": "https://descargas.asturias.es/asturias/opendata/SectorPublico/PersonalPrincipado/dataset-compatibilidades-personal-admon.json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Compatibilidades del personal público de la Administración Autonómica del Principado de Asturias",
-          "accessUrl": "https://descargas.asturias.es/asturias/opendata/SectorPublico/PersonalPrincipado/dataset-compatibilidades-personal-admon.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Estadísticas del personal al servicio de la Administración Autonómica del Principado de Asturias 2025",
-          "accessUrl": "https://descargas.asturias.es/asturias/opendata/SectorPublico/PersonalPrincipado/estadisticas-empleados-APA2025.xlsx",
-          "format": "XLSX",
-          "identifier": ""
-        },
-        {
-          "title": "Personal fijo en puestos de cobertura provisional en la Administración Autonómica a fecha de 25/08/2025",
-          "accessUrl": "https://descargas.asturias.es/asturias/opendata/SectorPublico/PersonalPrincipado/Puestos-cobert-prov-25-08-2025.ods",
+          "title": "Distribucion",
+          "accessUrl": "",
           "format": "SIN DATO",
           "identifier": ""
         },
         {
-          "title": "Estadísticas del personal al servicio de la Administración Autonómica del Principado de Asturias 2023",
-          "accessUrl": "https://descargas.asturias.es/asturias/opendata/SectorPublico/PersonalPrincipado/estadisticas-empleados-APA2023.xlsx",
-          "format": "XLSX",
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
           "identifier": ""
         },
         {
-          "title": "Personal fijo en puestos de cobertura provisional en la Administración Autonómica a fecha de 25/08/2025",
-          "accessUrl": "https://descargas.asturias.es/asturias/opendata/SectorPublico/PersonalPrincipado/Puestos-cobert-prov-25-08-2025.xlsx",
-          "format": "XLSX",
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
           "identifier": ""
         }
       ],
-      "score": 68,
+      "score": 31,
       "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
         "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
         "Tematicas detectadas: Empleo, Sector Publico.",
-        "Publicador: A03002951."
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
       ]
     },
     {
-      "id": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/ventas-empleo-salarios-declaraciones-tributarias/avance-ventas-interiores-trimestrales.html",
-      "title": "Avance de Ventas Interiores en Grandes Empresas y Pymes",
-      "description": "El objeto de la publicación Avance de Ventas Interiores en Grandes Empresas y Pymes es, a partir de toda la información disponible del SII, obtener dos indicadores adelantados de las ventas interiores de la estadística trimestral de Ventas, Empleo y Salarios en las declaraciones tributarias.",
-      "issued": "mar, 02 abr 2024 22:00:00 GMT+0000",
-      "modified": "mar, 21 jul 2026 22:00:00 GMT+0000",
-      "publisher": "EA0028512",
-      "spatial": "España",
+      "id": "https://datosabiertos.navarra.es/dataset/datos-centros-sociales-covid-19-01-07",
+      "title": "Datos centros sociales, covid-19",
+      "description": "Datos relativos a la afectación que la situación del coronavirus (covid-19), está teniendo en los centros de servicios sociales de carácter residencial conforme a las medidas de ubicación y aislamiento establecidos en la Orden [SND/265/2020](https://www.boe.es/boe/dias/2020/03/21/pdfs/BOE-A-2020-3951.pdf), de 19 de marzo, de adopción de medidas relativas a las residencias de personas mayores y centros socio-sanitarios, ante la situación de crisis sanitaria ocasionada por el COVID-19 y conforme al anexo de la Orden [SND/322/2020](https://www.boe.es/boe/dias/2020/04/04/pdfs/BOE-A-2020-4300.pdf), de 3 de abril, por la que se modifican la Orden SND/275/2020, de 23 de marzo y la Orden SND/295/2020, de 26 de marzo, y se establecen nuevas medidas para atender necesidades urgentes de carácter social o sanitario en el ámbito de la situación de la crisis sanitaria ocasionada por el COVID-19. La información está dividida por un lado, hasta el 30 de abril de 2020 incluido y por otro lado, de esa fecha en adelante",
+      "issued": "mié, 23 jun 2021 12:32:09 GMT+0000",
+      "modified": "vie, 31 jul 2026 20:00:26 GMT+0000",
+      "publisher": "A15002917",
+      "spatial": "Comunidad Foral Navarra",
       "themes": [
-        "Economia",
-        "Hacienda"
+        "Salud",
+        "Sociedad Bienestar"
       ],
       "keywords": [
-        "Grandes empresas",
-        "Pymes",
-        "SII",
-        "Ventas"
+        "Covid-19",
+        "Desgaitasuna",
+        "Gizarte zerbitzuak",
+        "Handiagoa",
+        "Kobid-19",
+        "Koronabirusa"
       ],
       "formats": [
         "SIN DATO"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/ea0028512-avance-de-ventas-interiores-en-grandes-empresas-y-pymes",
+      "datasetUrl": "https://datos.gob.es/catalogo/a15002917-datos-centros-sociales-covid-191",
       "distributions": [
         {
-          "title": "Última publicación",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/static_files/AEAT/Estudios/Estadisticas/Informes_Estadisticos/Informes_Ventas/Avance_VI_trimestrales/Informe_avance_VESGEP.pdf",
+          "title": "Distribucion",
+          "accessUrl": "",
           "format": "SIN DATO",
           "identifier": ""
         },
         {
-          "title": "Avance de Ventas Interiores en Grandes Empresas y Pymes",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/ventas-empleo-salarios-declaraciones-tributarias/avance-ventas-interiores-trimestrales.html",
+          "title": "Distribucion",
+          "accessUrl": "",
           "format": "SIN DATO",
           "identifier": ""
-        }
-      ],
-      "score": 23,
-      "notes": [
-        "Tematicas detectadas: Economia, Hacienda.",
-        "Publicador: EA0028512.",
-        "Cobertura geografica principal: España."
-      ]
-    },
-    {
-      "id": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/ventas-empleos-salarios-declaraciones-tributarias/ventas-diarias.html",
-      "title": "Ventas diarias (Información semanal SII)",
-      "description": "La estadística recoge el nivel y la evolución diaria de las ventas que realizan las empresas incluidas en el sistema de Suministro Inmediato de Información (SII).\nDesde su entrada en vigor este sistema ha permitido disponer de datos de ventas con mayor actualidad, diarios frente a los datos mensuales o trimestrales característicos de las declaraciones del IVA. Los obligados a cumplimentar sus obligaciones tributarias a través del SII son las Grandes Empresas (aquellas con un volumen de operaciones en el año anterior superior a 6 millones de euros), los grupos del IVA y las empresas inscritas en el Registro de Devolución Mensual. Las ventas diarias suponen alrededor del 70% del total de ventas interiores del conjunto de contribuyentes del IVA (el porcentaje es superior si se considera el volumen de operaciones total declarado).\nLa publicación está compuesta por un informe y por las series históricas desde el 1 de julio de 2017. A partir de estas últimas, convenientemente tratadas, se proporciona una señal de la coyuntura económica, que complementa y anticipa la información de ventas contenida en los informes de recaudación tributaria y en la estadística mensual de Ventas, Empleo y Salarios en las Grandes Empresas (VESGE) y en la trimestral de Ventas, Empleo y Salarios en Grandes Empresas y Pymes (VESGEP).",
-      "issued": "mar, 21 dic 2021 23:00:00 GMT+0000",
-      "modified": "mar, 21 jul 2026 22:00:00 GMT+0000",
-      "publisher": "EA0028512",
-      "spatial": "España",
-      "themes": [
-        "Economia",
-        "Hacienda"
-      ],
-      "keywords": [
-        "SII",
-        "Suministro Inmediato de Información",
-        "Ventas SII"
-      ],
-      "formats": [
-        "SIN DATO"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/ea0028512-ventas-diarias-informacion-semanal-sii",
-      "distributions": [
+        },
         {
-          "title": "Ventas diarias Seguimiento semanal",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/ventas-empleos-salarios-declaraciones-tributarias/ventas-diarias.html",
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
           "format": "SIN DATO",
           "identifier": ""
         }
       ],
-      "score": 23,
+      "score": 31,
       "notes": [
-        "Tematicas detectadas: Economia, Hacienda.",
-        "Publicador: EA0028512.",
-        "Cobertura geografica principal: España."
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Salud, Sociedad Bienestar.",
+        "Publicador: A15002917.",
+        "Cobertura geografica principal: Comunidad Foral Navarra."
       ]
     },
     {
-      "id": "ea0043369-seguimientoavescomunes",
-      "title": "Seguimiento de aves comunes en los parques nacionales españoles",
-      "description": "Contiene los datos resultantes del seguimiento de las aves comunes que se realiza, desde 2011, en los parques nacionales españoles en dos épocas del año, con lo que se estudian las aves invernantes (transectos del programa SACIN) y reproductoras en primavera (estaciones de escucha del programa SACRE). Con el objetivo de obtener información sobre la tendencia de las poblaciones de aves comunes en invierno y primavera se realizan censos en los mismos recorridos de muestreo o estaciones de escucha durante una serie larga de años, siguiendo la metodología Sacin y Sacre de SEO/BirdLife. Cada transecto de invierno se recorre dos veces entre el 15 de noviembre y el 15 de febrero, durante 15 minutos, registrándose el número de aves detectadas dentro y fuera de un radio de 25 metros. En cada estación de escucha en primavera, que se muestrea dos veces entre el 15 de mayo y el 15 de junio, se registra el número de aves detectadas dentro y fuera de un radio de 25 metros. La iniciativa está integrada en el Plan de Seguimiento y Evaluación de la Red de Parques Nacionales. \n\nMás información en https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/seguimiento/seguimiento-ecologico/aves.html",
-      "issued": "jue, 03 may 2018 07:00:00 GMT+0000",
-      "modified": "mar, 21 jul 2026 07:00:00 GMT+0000",
-      "publisher": "EA0043369",
-      "spatial": "España",
+      "id": "https://analisi.transparenciacatalunya.cat/api/views/nzvn-apee",
+      "title": "Datos meteorológicos de la XEMA",
+      "description": "Dades meteorològiques registrades a totes les estacions de la Xarxa d’Estacions Meteorològiques Automàtiques (XEMA) del Servei Meteorològic de Catalunya (METEOCAT). Aquest data base conté variables mesurades amb una freqüència inferior a la diària, generalment semi-horària.\n\nÉs possible trobar informació sobre les metadades d'estacions i variables a:\n- Variables: https://analisi.transparenciacatalunya.cat/d/4fb2-n3yi\n- Estacions: https://analisi.transparenciacatalunya.cat/d/yqwd-vj5e\n\nTipus de Llicència: Propietat intel·lectual i industrial de METEOCAT - http://www.meteo.cat/wpweb/avis-legal/",
+      "issued": "vie, 17 ene 2020 23:00:00 GMT+0000",
+      "modified": "vie, 31 jul 2026 22:00:00 GMT+0000",
+      "publisher": "A09002970",
+      "spatial": "Cataluna",
       "themes": [
         "Medio Ambiente"
       ],
       "keywords": [
-        "Aves Comunes",
-        "Parques Nacionales"
+        "estació",
+        "mesura",
+        "meteorologia",
+        "ods13_acció pel clima",
+        "smartcatalonia"
       ],
       "formats": [
         "SIN DATO"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/ea0043369-seguimientoavescomunes",
+      "datasetUrl": "https://datos.gob.es/catalogo/a09002970-datos-meteorologicos-de-la-xema",
       "distributions": [
         {
-          "title": "Descarga Seguimiento Aves Comunes",
-          "accessUrl": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/sig/aves.html",
+          "title": "Distribucion",
+          "accessUrl": "",
           "format": "SIN DATO",
           "identifier": ""
         },
         {
-          "title": "Página web y pdf",
-          "accessUrl": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/seguimiento/seguimiento-ecologico/aves.html",
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
           "format": "SIN DATO",
           "identifier": ""
         }
       ],
-      "score": 19,
+      "score": 31,
       "notes": [
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
         "Tematicas detectadas: Medio Ambiente.",
-        "Publicador: EA0043369.",
-        "Cobertura geografica principal: España."
+        "Publicador: A09002970.",
+        "Cobertura geografica principal: Cataluna."
       ]
     },
     {
-      "id": "ea0028512-flash-de-ventas-interiores-diarias",
-      "title": "Flash de Ventas Interiores Diarias",
-      "description": "Esta publicación se presenta como un avance de una semana sobre el Informe de Seguimiento de Ventas Diarias en lo concerniente a ventas interiores, donde además se aporta información de su componente de ciclo tendencia, así como la variación de ésta en el muy corto plazo. Ello favorece la detección temprana de cambios en la facturación, así como una mejor visualización de la evolución subyacente de la misma.\n\nLa publicación está compuesta por un informe que presenta el ajuste de las series para el total de ramas de actividad y para el total sin las ramas de comportamiento más volátil (las asociadas a la energía y financieras, fundamentalmente) desde el 1 de julio de 2017. La metodología de ajuste (ver la metodología para un mayor detalle) proporciona una señal de muy corto plazo de la coyuntura económica, que complementa y anticipa la información de ventas interiores contenida en el Informe de Seguimiento de Ventas Diarias.\n",
-      "issued": "mar, 14 oct 2025 22:00:00 GMT+0000",
-      "modified": "mar, 21 jul 2026 22:00:00 GMT+0000",
-      "publisher": "EA0028512",
-      "spatial": "Sin dato",
+      "id": "https://analisi.transparenciacatalunya.cat/api/views/tb2m-m33b",
+      "title": "Estaciones de recarga para vehículos eléctricos en Cataluña",
+      "description": "Informació descarregable de les estacions de recàrrega superràpida (potència elèctrica > 50kW), ràpida (potència elèctrica de 50kW), semiràpida (potència elèctrica de 22kW) per a vehicle elèctric a Catalunya. \nHi ha informació relativa a la ubicació geogràfica (adreça i coordinades) i responsable de la gestió de les estacions. També del tipus d’estació i de quins connectors hi ha disponibles (Combo CSS2, ChadeMo, Mennekes (Tipus 2) o Shucko.",
+      "issued": "mié, 13 jul 2022 22:00:00 GMT+0000",
+      "modified": "vie, 31 jul 2026 22:00:00 GMT+0000",
+      "publisher": "A09002970",
+      "spatial": "Cataluna",
       "themes": [
-        "Comercio",
-        "Economia",
-        "Hacienda"
+        "Transporte"
       ],
-      "keywords": [],
+      "keywords": [
+        "eficiència energètica",
+        "energia",
+        "estacions de recàrrega",
+        "mobilitat elèctrica",
+        "ods7_energia assequible i no contaminant",
+        "punts de recàrrega"
+      ],
       "formats": [
         "SIN DATO"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/ea0028512-flash-de-ventas-interiores-diarias",
+      "datasetUrl": "https://datos.gob.es/catalogo/a09002970-estaciones-de-recarga-para-vehiculos-electricos-en-cataluna",
       "distributions": [
         {
-          "title": "Base de datos",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/ventas-empleo-salarios-declaraciones-tributarias/flash-vid.html",
+          "title": "Distribucion",
+          "accessUrl": "",
           "format": "SIN DATO",
           "identifier": ""
         },
         {
-          "title": "Informe Flash Ventas Interiores Diarias",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/static_files/AEAT/Estudios/Estadisticas/Informes_Estadisticos/Informes_Ventas/Flash_VI_diarias/Flash_VId.pdf",
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
           "format": "SIN DATO",
           "identifier": ""
         }
       ],
-      "score": 16,
-      "notes": [
-        "Tematicas detectadas: Comercio, Economia, Hacienda.",
-        "Publicador: EA0028512."
-      ]
-    },
-    {
-      "id": "ea0028512-estadistica-de-comercio-exterior",
-      "title": "Estadística de Comercio Exterior",
-      "description": "Se facilita información estadística, incluida en el Plan Estadístico Nacional, y obligatoria por distintos reglamentos comunitarios.\nBajo la denominación de \"Estadísticas de Comercio Exterior\" se incluyen:\n- Informes mensuales, anuarios estadísticos y las posiciones sometidas a confidencialidad (artículo 11 del Reglamento UE 638/2004) actualizados mensualmente y mostrados en formato PDF.\n- Ficheros resúmenes y ficheros de máxima desagregación de datos mensuales y anuales, en formato TXT comprimidos, para la descarga de datos estadísticos.\n- A partir de 2013, en formato excel y con carácter mensual, un resumen de los ficheros estadísticos publicados.",
-      "issued": "mié, 19 ene 2000 23:00:00 GMT+0000",
-      "modified": "lun, 20 jul 2026 22:00:00 GMT+0000",
-      "publisher": "EA0028512",
-      "spatial": "España",
-      "themes": [
-        "Hacienda"
-      ],
-      "keywords": [],
-      "formats": [
-        "SIN DATO"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/ea0028512-estadistica-de-comercio-exterior",
-      "distributions": [
-        {
-          "title": "Metodología",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/estadisticas-comercio-exterior/metodologia.html",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Calendario de difusión",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/estadisticas-comercio-exterior/calendario-publicacion.html",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Estadísticas: series mensuales",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/estadisticas-comercio-exterior.html",
-          "format": "SIN DATO",
-          "identifier": ""
-        }
-      ],
-      "score": 15,
+      "score": 31,
       "notes": [
         "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Hacienda.",
-        "Publicador: EA0028512.",
-        "Cobertura geografica principal: España."
+        "Tematicas detectadas: Transporte.",
+        "Publicador: A09002970.",
+        "Cobertura geografica principal: Cataluna."
       ]
     },
     {
-      "id": "https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Estadistica_del_Impuesto_sobre_Matriculacion_de_Vehiculos_Automoviles.shtml",
-      "title": "Estadística del Impuesto de Matriculación",
-      "description": "Publicación estadística basada en las declaraciones del modelo 576, Impuesto Especial sobre determinados medios de transporte (IEDMT), que se debe presentar obligatoriamente de forma telemática, con la primera matriculación definitiva en España de automóviles nuevos o usados, accionados a motor para circular por vías o terrenos píublicos.\nLa información se clasifica desde distintas perspectivas: epígrafe, tipo de combustible, ciilindrada, Comunidad Autónoma y tramos de base imponible equivalente al valor del vehículo en el momento de su adquisición.\nLa información, que se presenta en un avance mensual y una estadística anaul, aporta un enfoque más tributario a información que en gran medida ya aparece recogida y puesta a disposición del público desde otros organismos.",
-      "issued": "sáb, 31 dic 2005 23:00:00 GMT+0000",
-      "modified": "lun, 20 jul 2026 22:00:00 GMT+0000",
-      "publisher": "EA0028512",
-      "spatial": "España",
+      "id": "https://opendata.euskadi.eus/catalogo/-/hoteles-de-euskadi/",
+      "title": "Hoteles de Euskadi",
+      "description": "Información sobre hoteles, apartamentos, pensiones y hoteles-apartamentos de Euskadi.",
+      "issued": "lun, 07 mar 2016 23:00:00 GMT+0000",
+      "modified": "vie, 31 jul 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
       "themes": [
-        "Hacienda"
+        "Turismo"
       ],
-      "keywords": [],
+      "keywords": [
+        "alojamientos",
+        "apartamentos",
+        "apartamentuak",
+        "hotelak",
+        "hoteles",
+        "hoteles-apartamento"
+      ],
       "formats": [
         "SIN DATO"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/ea0028512-estadistica-del-impuesto-de-matriculacion",
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-hoteles-de-euskadi",
       "distributions": [
         {
-          "title": "Estadística (avances mensuales)",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/AEAT/Contenidos_Comunes/La_Agencia_Tributaria/Estadisticas/Publicaciones/sites/matriculaciones/mes/home.html",
+          "title": "Distribucion",
+          "accessUrl": "",
           "format": "SIN DATO",
           "identifier": ""
         },
         {
-          "title": "Todas las publicaciones",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Estadistica_del_Impuesto_sobre_Matriculacion_de_Vehiculos_Automoviles.shtml",
+          "title": "Distribucion",
+          "accessUrl": "",
           "format": "SIN DATO",
           "identifier": ""
         },
         {
-          "title": "Estadística del año 2025",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/AEAT/Contenidos_Comunes/La_Agencia_Tributaria/Estadisticas/Publicaciones/sites/matriculaciones/2025/home.html",
+          "title": "Distribucion",
+          "accessUrl": "",
           "format": "SIN DATO",
           "identifier": ""
         },
         {
-          "title": "Metodología",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/estadisticas-impuesto/impuesto-matriculacion-vehiculos-automoviles/metodologia.html",
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
           "format": "SIN DATO",
           "identifier": ""
         }
       ],
-      "score": 15,
+      "score": 31,
       "notes": [
         "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Hacienda.",
-        "Publicador: EA0028512.",
-        "Cobertura geografica principal: España."
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://analisi.transparenciacatalunya.cat/api/views/nvkj-dz8r",
+      "title": "Indicadores de presencia de rastros genéticos del virus SARS-CoV-2 a las aguas residuales",
+      "description": "Conjunt de dades que conté les traces del virus de la COVID 19 a les aigües residuals a diferents depurades de Catalunya. Dades disponibles fins desembre de 2023.\nNombrosos estudis científics posen en evidència el fet que les aigües residuals no tractades són un bon indicador de la circulació de virus en una població. Per aquest motiu, l’Agència de Salut Pública de Catalunya i l’Agència Catalana de l’Aigua (ACA) han impulsat la Xarxa de monitorització del SARS-Cov_2 en aigües residuals.",
+      "issued": "mié, 25 nov 2020 23:00:00 GMT+0000",
+      "modified": "vie, 31 jul 2026 22:00:00 GMT+0000",
+      "publisher": "A09002970",
+      "spatial": "Cataluna",
+      "themes": [
+        "Salud"
+      ],
+      "keywords": [
+        "aca",
+        "aigües residuals",
+        "covid19",
+        "depuradora",
+        "ods6_aigua neta i sanejament",
+        "sars-cov-2"
+      ],
+      "formats": [
+        "SIN DATO"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a09002970-indicadores-de-presencia-de-rastros-geneticos-del-virus-sars-cov-2-a-las-aguas-residuales",
+      "distributions": [
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 31,
+      "notes": [
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Salud.",
+        "Publicador: A09002970.",
+        "Cobertura geografica principal: Cataluna."
+      ]
+    },
+    {
+      "id": "https://datosabiertos.navarra.es/dataset/informaci-n-sobre-el-estado-de-las-carreteras-de-navarra",
+      "title": "Información sobre el estado de las carreteras de Navarra",
+      "description": "El Gobierno de Navarra le informa del estado de la Red de Carreteras de la Comunidad Foral. El Centro de Control de Conservación de Carreteras presta servicio las 24 horas del día durante los 365 días del año y mantiene actualizada la información sobre el estado de la Red de Carreteras de Navarra. La información que se actualiza cada 15 minutos en Open Data incluye: \n\t\tIncidencias meteorológicas\n\t\tIncidencias en la Red Viaria\n\t\tIncidencias por obras\n\nConsulte en el mapa las incidencias previstas en su ruta. Teléfono de información: 848 423 500",
+      "issued": "mié, 23 jun 2021 12:37:41 GMT+0000",
+      "modified": "vie, 31 jul 2026 22:45:01 GMT+0000",
+      "publisher": "A15002917",
+      "spatial": "Comunidad Foral Navarra",
+      "themes": [
+        "Transporte"
+      ],
+      "keywords": [
+        "Incidencias de tráfico",
+        "Trafikoa",
+        "Trafikoko gorabeherak",
+        "Tráfico"
+      ],
+      "formats": [
+        "SIN DATO"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a15002917-informacion-sobre-el-estado-de-las-carreteras-de-navarra1",
+      "distributions": [
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Distribucion",
+          "accessUrl": "",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 31,
+      "notes": [
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Transporte.",
+        "Publicador: A15002917.",
+        "Cobertura geografica principal: Comunidad Foral Navarra."
       ]
     }
   ]
