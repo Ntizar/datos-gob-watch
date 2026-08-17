@@ -1,623 +1,1764 @@
 {
-  "generatedAt": "2026-08-10T07:35:44.344Z",
+  "generatedAt": "2026-08-17T07:24:27.706Z",
   "window": {
-    "start": "2026-08-03T07:35:43.394Z",
-    "end": "2026-08-10T07:35:43.394Z",
+    "start": "2026-08-10T07:24:22.425Z",
+    "end": "2026-08-17T07:24:22.425Z",
     "label": "Ultimos 7 dias"
   },
   "source": {
     "name": "datos.gob.es API",
-    "url": "https://datos.gob.es/apidata/catalog/dataset/modified/begin/2026-08-03T07:35Z/end/2026-08-10T07:35Z.json?_sort=-modified&_pageSize=50&_page=0"
+    "url": "https://datos.gob.es/apidata/catalog/dataset/modified/begin/2026-08-10T07:24Z/end/2026-08-17T07:24Z.json?_sort=-modified&_pageSize=50&_page=0"
   },
   "summary": {
-    "totalReviewed": 13,
-    "topScore": 36,
+    "totalReviewed": 24,
+    "topScore": 71,
     "topFormats": [
       {
-        "label": "CSV",
-        "count": 9
+        "label": "JSON",
+        "count": 24
       },
       {
-        "label": "XLS",
-        "count": 4
-      },
-      {
-        "label": "SIN DATO",
-        "count": 4
+        "label": "XML",
+        "count": 24
       },
       {
         "label": "XLSX",
-        "count": 2
+        "count": 19
+      },
+      {
+        "label": "GEOJSON",
+        "count": 13
       }
     ],
     "topThemes": [
       {
-        "label": "Sector Publico",
-        "count": 9
+        "label": "Turismo",
+        "count": 11
       },
       {
-        "label": "Ciencia Tecnologia",
-        "count": 6
+        "label": "Empleo",
+        "count": 5
       },
       {
-        "label": "Economia",
-        "count": 3
+        "label": "Medio Ambiente",
+        "count": 4
       },
       {
-        "label": "Hacienda",
+        "label": "Transporte",
         "count": 3
       }
     ],
-    "headline": "Se han detectado 13 datasets recientes con CSV como formato dominante."
+    "headline": "Se han detectado 24 datasets recientes con JSON como formato dominante."
   },
   "items": [
     {
-      "id": "ea0044367-de-estudios-e-informes-del-observatorio-nacional-de-tecnologia-y-sociedad-ontsi",
-      "title": "Listado de estudios e informes del Observatorio Nacional de Tecnología y Sociedad (ONTSI)",
-      "description": "Fichero en el cual se detallan los estudios e informes que elabora el ONTSI. El fichero, en formato hoja de cálculo, contiene las siguientes columnas:\n\n- Estudios e informes: Nombre de los diferentes estudios e informes agrupados (informes anuales, hogares y ciudadanos, empresas, educación, GAPTEL, contenidos digitales, sanidad, urbanismo, administración local, sector TI, OCDE, notas mensuales).\n- Fecha publicación: Año (y mes si aplica).\n- Link: Dirección desde la cual se puede descargar dicho estudio o informe de manera indirecta.\n",
-      "issued": "jue, 25 abr 2013 22:00:00 GMT+0000",
-      "modified": "mié, 05 ago 2026 22:00:00 GMT+0000",
-      "publisher": "EA0044367",
-      "spatial": "Sin dato",
+      "id": "https://opendata.euskadi.eus/catalogo/-/agenda-turistica-de-euskadi/",
+      "title": "Agenda turística de Euskadi",
+      "description": "Información para acceder a los principales eventos que se celebran en Euskadi: fiestas, conciertos, exposiciones, festivales de música, cine, mercados gastronómicos, etc.",
+      "issued": "lun, 19 ene 2015 23:00:00 GMT+0000",
+      "modified": "vie, 14 ago 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
       "themes": [
-        "Ciencia Tecnologia",
-        "Sector Publico"
+        "Turismo"
       ],
       "keywords": [
-        "ONTSI",
-        "estudios",
-        "informes"
+        "agenda",
+        "agenda",
+        "ekitaldiak",
+        "eventos",
+        "festak",
+        "festividades"
       ],
       "formats": [
         "XLSX",
-        "CSV"
+        "JSON",
+        "XML",
+        "GEOJSON"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/ea0044367-de-estudios-e-informes-del-observatorio-nacional-de-tecnologia-y-sociedad-ontsi",
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-agenda-turistica-de-euskadi1",
       "distributions": [
         {
-          "title": "Listado de estudios e informes del Observatorio Nacional de Tecnología y Sociedad",
-          "accessUrl": "https://redes-ondemand2.flumotion.com/redes/ondemand2/RISP/202608/ONTSI-Public-env08_26.ods ",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Listado de estudios e informes del Observatorio Nacional de Tecnología y Sociedad",
-          "accessUrl": "https://redes-ondemand2.flumotion.com/redes/ondemand2/RISP/202608/ONTSI-Public-env08_26.xlsx ",
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_turisticos/opendata/agenda.xlsx",
           "format": "XLSX",
           "identifier": ""
         },
         {
-          "title": "Listado de estudios e informes del Observatorio Nacional de Tecnología y Sociedad",
-          "accessUrl": "https://redes-ondemand2.flumotion.com/redes/ondemand2/RISP/202608/ONTSI-Public-env08_26.csv ",
-          "format": "CSV",
-          "identifier": ""
-        }
-      ],
-      "score": 36,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Ciencia Tecnologia, Sector Publico.",
-        "Publicador: EA0044367."
-      ]
-    },
-    {
-      "id": "https://www.dominios.es/es ",
-      "title": "Composición de los dominios \".es\"",
-      "description": "Fichero en el cual se detalla la composición del dominio \".es\". El fichero, en formato hoja de cálculo, contiene los siguientes datos:\n\n- Tipo de Dominio: es, com.es, org.es, nom.es, gob.es, edu.es.\n\n- Nº de dominios: Nº de dominios activos para cada Tipo de Dominio mencionado.\n\n- Al final de la tabla se muestra en una casilla el número total de dominios .es activos.\n\nA través del siguiente enlace podrá solicitar el fichero con los datos sobre dominios aptos para su reutilización: https://sede.red.gob.es/es/procedimientos/solicitud-acceso-listado-dominios-risp",
-      "issued": "lun, 22 abr 2013 22:00:00 GMT+0000",
-      "modified": "mié, 05 ago 2026 22:00:00 GMT+0000",
-      "publisher": "EA0044367",
-      "spatial": "Sin dato",
-      "themes": [
-        "Ciencia Tecnologia",
-        "Sector Publico"
-      ],
-      "keywords": [
-        "dominios"
-      ],
-      "formats": [
-        "XLS",
-        "CSV"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/ea0044367-de-los-dominios-es",
-      "distributions": [
-        {
-          "title": "Composicion del .es",
-          "accessUrl": "https://redes-ondemand2.flumotion.com/redes/ondemand2/RISP/202608/Estadisticas_dominios_jul_2026_RISP_-_01Composicion_del_.es.xls ",
-          "format": "XLS",
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_turisticos/opendata/agenda.json",
+          "format": "JSON",
           "identifier": ""
         },
         {
-          "title": "Composicion del .es",
-          "accessUrl": "https://redes-ondemand2.flumotion.com/redes/ondemand2/RISP/202608/Estadisticas_dominios_jul_2026_RISP_-_01Composicion_del_.es.ods ",
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tT:evento;m:documentLanguage.EQ.es,templateType.EQ.M1;p:Inter",
           "format": "SIN DATO",
           "identifier": ""
         },
         {
-          "title": "Composicion del .es",
-          "accessUrl": "https://redes-ondemand2.flumotion.com/redes/ondemand2/RISP/202608/Estadisticas_dominios_jul_2026_RISP_-_01Composicion_del_.es.csv ",
-          "format": "CSV",
-          "identifier": ""
-        }
-      ],
-      "score": 32,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Ciencia Tecnologia, Sector Publico.",
-        "Publicador: EA0044367."
-      ]
-    },
-    {
-      "id": "]https://www.dominios.es/es",
-      "title": "Distribución del número de dominios “.es” por Comunidad Autónoma y países",
-      "description": "Fichero en el cual se detalla el número de dominios activos “.es” por Comunidad Autónoma y países.\nEl fichero, en formato hoja de cálculo, contiene los siguientes datos:\n\n- País: España, etc.\n- Comunidad Autónoma: Cada una de ellas incluyendo Ceuta y Melilla. Sólo aplica para País = España.\n- Dominios Activos: Nº de dominios activos para cada país o Comunidad Autónoma.",
-      "issued": "mié, 24 abr 2013 22:00:00 GMT+0000",
-      "modified": "mié, 05 ago 2026 22:00:00 GMT+0000",
-      "publisher": "EA0044367",
-      "spatial": "Sin dato",
-      "themes": [
-        "Ciencia Tecnologia",
-        "Sector Publico"
-      ],
-      "keywords": [
-        "dominios"
-      ],
-      "formats": [
-        "XLS",
-        "CSV"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/ea0044367-distribucion-del-numero-de-dominios-es-por-comunidad-autonoma-y-paises",
-      "distributions": [
-        {
-          "title": "Distribución del número de “.es” por Comunidad Autónoma y países",
-          "accessUrl": "https://redes-ondemand2.flumotion.com/redes/ondemand2/RISP/202608/Estadisticas_dominios_jul_2026_RISP_-_04Distri_CCAA_y_paises.xls ",
-          "format": "XLS",
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_turisticos/opendata/agenda.xml",
+          "format": "XML",
           "identifier": ""
         },
         {
-          "title": "Distribución del número de “.es” por Comunidad Autónoma y países",
-          "accessUrl": "https://redes-ondemand2.flumotion.com/redes/ondemand2/RISP/202608/Estadisticas_dominios_jul_2026_RISP_-_04Distri_CCAA_y_paises.ods ",
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_turisticos/opendata/agenda.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_turisticos/opendata/agenda-padding.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/albergues-turisticos-de-euskadi/",
+      "title": "Albergues turisticos de Euskadi",
+      "description": "Información sobre los albergues turísticos de Euskadi.",
+      "issued": "lun, 07 mar 2016 23:00:00 GMT+0000",
+      "modified": "vie, 14 ago 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "albergues",
+        "albergues turísticos",
+        "alojamientos",
+        "aterpe-turistikoak",
+        "aterpeak",
+        "aterpetxeak"
+      ],
+      "formats": [
+        "XLSX",
+        "JSON",
+        "XML",
+        "GEOJSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-albergues-turisticos-de-euskadi",
+      "distributions": [
+        {
+          "title": "Albergues",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/albergues_de_euskadi/opendata/alojamientos.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Albergues",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/albergues_de_euskadi/opendata/alojamientos.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Albergues",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/albergues_de_euskadi/opendata/alojamientos.xml",
+          "format": "XML",
+          "identifier": ""
+        },
+        {
+          "title": "Albergues",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/albergues_de_euskadi/opendata/alojamientos.jsonp",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Albergues",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tF:turismo;tT:a_alojamiento;m:documentLanguage.EQ.es,lodgingType.IN.%28B%29;p:Inter_portal,Inter;",
           "format": "SIN DATO",
           "identifier": ""
         },
         {
-          "title": "Distribución del número de “.es” por Comunidad Autónoma y países",
-          "accessUrl": "https://redes-ondemand2.flumotion.com/redes/ondemand2/RISP/202608/Estadisticas_dominios_jul_2026_RISP_-_04Distri_CCAA_y_paises.csv ",
-          "format": "CSV",
+          "title": "Albergues",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/albergues_de_euskadi/opendata/alojamientos.geojson",
+          "format": "GEOJSON",
           "identifier": ""
         }
       ],
-      "score": 32,
+      "score": 71,
       "notes": [
         "Incluye formatos reutilizables para prototipos y analisis.",
         "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Ciencia Tecnologia, Sector Publico.",
-        "Publicador: EA0044367."
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
       ]
     },
     {
-      "id": "https://www.dominios.es/es",
-      "title": "Evolución anual de los dominios “.es”",
-      "description": "Fichero en el cual se detalla la evolución del .es durante los últimos 12 meses.\nEl fichero, en formato hoja de cálculo, contiene las siguientes columnas:\n\n- Fecha: Abarca los últimos 12 meses.\n\n- Dominios Activos: Nº de dominios activos al cierre de cada uno de los últimos 12 meses.",
-      "issued": "mar, 23 abr 2013 22:00:00 GMT+0000",
-      "modified": "mié, 05 ago 2026 22:00:00 GMT+0000",
-      "publisher": "EA0044367",
-      "spatial": "Sin dato",
+      "id": "https://opendata.euskadi.eus/catalogo/-/alojamientos-rurales-de-euskadi/",
+      "title": "Alojamientos rurales de Euskadi",
+      "description": "Información sobre agroturismos y casas rurales de Euskadi.",
+      "issued": "lun, 07 mar 2016 23:00:00 GMT+0000",
+      "modified": "vie, 14 ago 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
       "themes": [
-        "Ciencia Tecnologia",
-        "Sector Publico"
+        "Turismo"
       ],
       "keywords": [
-        "dominios"
+        "agroturismo",
+        "alojamientos",
+        "casas rurales",
+        "landa",
+        "landa-etxeak",
+        "nekazal"
       ],
       "formats": [
-        "XLS",
-        "CSV"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/ea0044367-anual-de-los-dominios-es",
-      "distributions": [
-        {
-          "title": "Evolución anual del “.es”",
-          "accessUrl": "https://redes-ondemand2.flumotion.com/redes/ondemand2/RISP/202608/Estadisticas_dominios_jul_2026_RISP_-_03Evolucion_anual_.es.xls ",
-          "format": "XLS",
-          "identifier": ""
-        },
-        {
-          "title": "Evolución anual del “.es”",
-          "accessUrl": "https://redes-ondemand2.flumotion.com/redes/ondemand2/RISP/202608/Estadisticas_dominios_jul_2026_RISP_-_03Evolucion_anual_.es.ods ",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Evolución anual del “.es”",
-          "accessUrl": "https://redes-ondemand2.flumotion.com/redes/ondemand2/RISP/202608/Estadisticas_dominios_jul_2026_RISP_-_03Evolucion_anual_.es.csv",
-          "format": "CSV",
-          "identifier": ""
-        }
-      ],
-      "score": 32,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Ciencia Tecnologia, Sector Publico.",
-        "Publicador: EA0044367."
-      ]
-    },
-    {
-      "id": "ea0044367-https-www-dominios-es-es",
-      "title": "Evolución histórica de los dominios “.es”",
-      "description": "Fichero en el cual se detalla la evolución histórica del .es año a año desde 1997 hasta la actualidad.\nEl fichero, en formato hoja de cálculo, contiene las siguientes columnas:\n\n- Fecha: Abarca desde 1997 hasta el año anterior al actual y después añade los meses transcurridos del año en curso.\n\n- Dominios Activos: Nº de dominios activos al cierre de cada uno de los años (y de cada uno de los meses del año en curso).\n",
-      "issued": "mar, 23 abr 2013 22:00:00 GMT+0000",
-      "modified": "mié, 05 ago 2026 22:00:00 GMT+0000",
-      "publisher": "EA0044367",
-      "spatial": "Sin dato",
-      "themes": [
-        "Ciencia Tecnologia",
-        "Sector Publico"
-      ],
-      "keywords": [
-        "dominios"
-      ],
-      "formats": [
-        "XLS",
-        "CSV"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/ea0044367-https-www-dominios-es-es",
-      "distributions": [
-        {
-          "title": "Evolución histórica del “.es”",
-          "accessUrl": "https://redes-ondemand2.flumotion.com/redes/ondemand2/RISP/202608/Estadisticas_dominios_jul_2026_RISP_-_02Evolucion_historica_.es.ods ",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Evolución histórica del “.es”",
-          "accessUrl": "https://redes-ondemand2.flumotion.com/redes/ondemand2/RISP/202608/Estadisticas_dominios_jul_2026_RISP_-_02Evolucion_historica_.es.xls ",
-          "format": "XLS",
-          "identifier": ""
-        },
-        {
-          "title": "Evolución histórica del “.es”",
-          "accessUrl": "https://redes-ondemand2.flumotion.com/redes/ondemand2/RISP/202608/Estadisticas_dominios_jul_2026_RISP_-_02Evolucion_historica_.es.csv ",
-          "format": "CSV",
-          "identifier": ""
-        }
-      ],
-      "score": 32,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Ciencia Tecnologia, Sector Publico.",
-        "Publicador: EA0044367."
-      ]
-    },
-    {
-      "id": "https://www.dominios.es",
-      "title": "Número de dominios “.es” por Agente Registrador",
-      "description": "Fichero en el cual se detalla el número de dominios activos “.es” por Agente Registrador.\nEl fichero, en formato hoja de cálculo, contiene las siguientes columnas:\n\n- Agente Registrador: Nombre de cada uno de los agentes registradores.\n\n- Total dominios: Nº de dominios .es asociados a cada agente registrador.\n\nNota: Por la manera en que se extraen los datos, los agentes registradores siempre se muestran en orden de mayor a menor según el número total de dominios .es asociados a cada uno de ellos.",
-      "issued": "mié, 24 abr 2013 22:00:00 GMT+0000",
-      "modified": "mié, 05 ago 2026 22:00:00 GMT+0000",
-      "publisher": "EA0044367",
-      "spatial": "Sin dato",
-      "themes": [
-        "Ciencia Tecnologia",
-        "Sector Publico"
-      ],
-      "keywords": [
-        "dominios"
-      ],
-      "formats": [
-        "CSV",
+        "JSON",
+        "GEOJSON",
+        "XML",
         "XLSX"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/ea0044367-dominios-es-por-agente-registrador",
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-alojamientos-rurales-de-euskadi",
       "distributions": [
         {
-          "title": "Número de dominios “.es” por Agente Registrador",
-          "accessUrl": "https://redes-ondemand2.flumotion.com/redes/ondemand2/RISP/202608/Estadisticas_dominios_jul_2026_RISP_-_05Dominios_.es_por_AR.csv ",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Número de dominios “.es” por Agente Registrador",
-          "accessUrl": "https://redes-ondemand2.flumotion.com/redes/ondemand2/RISP/202608/Estadisticas_dominios_jul_2026_RISP_-_05Dominios_.es_por_AR.ods",
+          "title": "Alojamientos rurales",
+          "accessUrl": "http://www.euskadi.net/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&r01kQry=tC:euskadi;tF:turismo;m:documentLanguage.EQ.es,lodgingType.IN.%28K,X%29;p:Inter_portal,Inter;p:Inter_portal,Inter;pp:r01NavBarBlockSize.10,r01PageSize.100",
           "format": "SIN DATO",
           "identifier": ""
         },
         {
-          "title": "Número de dominios “.es” por Agente Registrador",
-          "accessUrl": "https://redes-ondemand2.flumotion.com/redes/ondemand2/RISP/202608/Estadisticas_dominios_jul_2026_RISP_-_05Dominios_.es_por_AR.xlsx ",
-          "format": "XLSX",
+          "title": "Alojamientos rurales",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamientos_rurales_euskadi/opendata/alojamientos.jsonp",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Alojamientos rurales",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamientos_rurales_euskadi/opendata/alojamientos.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Alojamientos rurales",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamientos_rurales_euskadi/opendata/alojamientos.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Alojamientos rurales",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamientos_rurales_euskadi/opendata/alojamientos-padding.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Alojamientos rurales",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamientos_rurales_euskadi/opendata/alojamientos.xml",
+          "format": "XML",
           "identifier": ""
         }
       ],
-      "score": 32,
+      "score": 71,
       "notes": [
         "Incluye formatos reutilizables para prototipos y analisis.",
         "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Ciencia Tecnologia, Sector Publico.",
-        "Publicador: EA0044367."
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
       ]
     },
     {
-      "id": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/ventas-empleo-salarios-declaraciones-tributarias/avance-ventas-interiores-trimestrales.html",
-      "title": "Avance de Ventas Interiores en Grandes Empresas y Pymes",
-      "description": "El objeto de la publicación Avance de Ventas Interiores en Grandes Empresas y Pymes es, a partir de toda la información disponible del SII, obtener dos indicadores adelantados de las ventas interiores de la estadística trimestral de Ventas, Empleo y Salarios en las declaraciones tributarias.",
-      "issued": "mar, 02 abr 2024 22:00:00 GMT+0000",
-      "modified": "mar, 04 ago 2026 22:00:00 GMT+0000",
-      "publisher": "EA0028512",
-      "spatial": "España",
+      "id": "https://opendata.euskadi.eus/catalogo/-/alojamientos/",
+      "title": "Alojamientos turísticos de Euskadi",
+      "description": "Información sobre los distintos tipos de alojamientos turísticos de Euskadi: hoteles, pensiones, apartamentos, alojamientos rurales, campings y albergues turísticos. Los datos se extraen del Registro de Empresas y Actividades Turísticas de Euskadi (REATE).",
+      "issued": "mié, 24 mar 2010 23:00:00 GMT+0000",
+      "modified": "vie, 14 ago 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
       "themes": [
-        "Economia",
-        "Hacienda"
+        "Turismo"
       ],
       "keywords": [
-        "Grandes empresas",
-        "Pymes",
-        "SII",
-        "Ventas"
+        "albergues turísticos",
+        "apartamentos",
+        "apartamentuak",
+        "aterpetxe turistikoak",
+        "camping",
+        "casas rurales"
       ],
       "formats": [
-        "SIN DATO"
+        "XML",
+        "JSON",
+        "XLSX",
+        "GEOJSON"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/ea0028512-avance-de-ventas-interiores-en-grandes-empresas-y-pymes",
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-alojamientos-turisticos-de-euskadi",
       "distributions": [
         {
-          "title": "Última publicación",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/static_files/AEAT/Estudios/Estadisticas/Informes_Estadisticos/Informes_Ventas/Avance_VI_trimestrales/Informe_avance_VESGEP.pdf",
+          "title": "Alojamientos",
+          "accessUrl": "http://www.euskadi.net/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&r01kQry=tC:euskadi;tT:a_alojamiento;m:documentLanguage.EQ.es;p:Inter_portal,Inter;pp:r01NavBarBlockSize.10,r01PageSize.100",
           "format": "SIN DATO",
           "identifier": ""
         },
         {
-          "title": "Avance de Ventas Interiores en Grandes Empresas y Pymes",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/ventas-empleo-salarios-declaraciones-tributarias/avance-ventas-interiores-trimestrales.html",
+          "title": "Alojamientos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamiento_de_euskadi/opendata/alojamientos.xml",
+          "format": "XML",
+          "identifier": ""
+        },
+        {
+          "title": "Alojamientos",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tF:turismo;tT:a_alojamiento;m:documentLanguage.EQ.es;p:Inter_portal,Inter;",
           "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Alojamientos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamiento_de_euskadi/opendata/alojamientos.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Aeropuertos",
+          "accessUrl": "http://turismo.euskadi.net/x65-15809/es/s12GoogleMapsWar/gMapsJSP/VisorGMapsNP.jsp?lang=es",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Alojamientos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamiento_de_euskadi/opendata/alojamientos.jsonp",
+          "format": "JSON",
           "identifier": ""
         }
       ],
-      "score": 23,
+      "score": 71,
       "notes": [
-        "Tematicas detectadas: Economia, Hacienda.",
-        "Publicador: EA0028512.",
-        "Cobertura geografica principal: España."
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
       ]
     },
     {
-      "id": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/ventas-empleos-salarios-declaraciones-tributarias/ventas-diarias.html",
-      "title": "Ventas diarias (Información semanal SII)",
-      "description": "La estadística recoge el nivel y la evolución diaria de las ventas que realizan las empresas incluidas en el sistema de Suministro Inmediato de Información (SII).\nDesde su entrada en vigor este sistema ha permitido disponer de datos de ventas con mayor actualidad, diarios frente a los datos mensuales o trimestrales característicos de las declaraciones del IVA. Los obligados a cumplimentar sus obligaciones tributarias a través del SII son las Grandes Empresas (aquellas con un volumen de operaciones en el año anterior superior a 6 millones de euros), los grupos del IVA y las empresas inscritas en el Registro de Devolución Mensual. Las ventas diarias suponen alrededor del 70% del total de ventas interiores del conjunto de contribuyentes del IVA (el porcentaje es superior si se considera el volumen de operaciones total declarado).\nLa publicación está compuesta por un informe y por las series históricas desde el 1 de julio de 2017. A partir de estas últimas, convenientemente tratadas, se proporciona una señal de la coyuntura económica, que complementa y anticipa la información de ventas contenida en los informes de recaudación tributaria y en la estadística mensual de Ventas, Empleo y Salarios en las Grandes Empresas (VESGE) y en la trimestral de Ventas, Empleo y Salarios en Grandes Empresas y Pymes (VESGEP).",
-      "issued": "mar, 21 dic 2021 23:00:00 GMT+0000",
-      "modified": "mar, 04 ago 2026 22:00:00 GMT+0000",
-      "publisher": "EA0028512",
-      "spatial": "España",
+      "id": "https://datosabiertos.navarra.es/dataset/calidad-del-aire-en-navarra-ltimos-60-d-as",
+      "title": "Calidad del aire en Navarra, últimos 60 días",
+      "description": "La [evaluación de la calidad del aire](https://www.miteco.gob.es/images/es/Cap3_Criterios%20evaluacion_tcm30-186479.pdf) se define como el resultado de aplicar cualquier método que permita medir, calcular, predecir o estimar las concentraciones de un contaminante en el aire ambiente o su depósito en superficies en un momento determinado. En Navarra se realiza mediante [mediciones](https://www.miteco.gob.es/es/calidad-y-evaluacion-ambiental/temas/atmosfera-y-calidad-del-aire/calidad-del-aire/evaluacion-datos/redes/default.aspx) en una serie de puntos de muestreo que se consideran representativos de cada una de las zonas en que se ha dividido el territorio y que componen la Red de Vigilancia de la Calidad del Aire de Navarra.\n\nEsta Red dispone de analizadores y sensores que miden los contaminantes que marca la normativa en materia de calidad del aire, principalmente dióxido de azufre (SO2), óxidos de nitrógeno (NO y NO2), ozono troposférico, monóxido de carbono (CO), benceno y partículas en suspensión (PM10 y PM2.5). Además se miden parámetros meteorológicos como velocidad y dirección del viento, temperatura, humedad relativa, presión, radiación y precipitación.\n\nEn esta ficha se pueden descargar los *datos horarios sin validar actualizados con frecuencia horaria*, recogidos en los últimos 60 días. Los datos horarios validados del año en curso se actualizan mensualmente y se pueden descargar en la ficha de  [Calidad del Aire en Navarra](/es/dataset/calidad-del-aire-en-navarra). La estructura de los ficheros e interpretación de los datos, se incluye en el [documento explicativo](https://gobiernoabierto.navarra.es/sites/default/files/opendata/manual_calidad_del_aire.pdf). Para ampliar información y ver los datos en tiempo real, puede acceder a la [web de calidad del aire en Navarra](https://www.navarra.es/es/calidaddelaire)",
+      "issued": "mié, 23 jun 2021 12:29:41 GMT+0000",
+      "modified": "vie, 14 ago 2026 22:00:59 GMT+0000",
+      "publisher": "A15002917",
+      "spatial": "Comunidad Foral Navarra",
       "themes": [
-        "Economia",
-        "Hacienda"
+        "Medio Ambiente"
       ],
       "keywords": [
-        "SII",
-        "Suministro Inmediato de Información",
-        "Ventas SII"
+        "Aire",
+        "Airea",
+        "Contaminación",
+        "Contaminantes",
+        "Kutsadura",
+        "Kutsatzaileak"
       ],
       "formats": [
-        "SIN DATO"
+        "JSON",
+        "HTML",
+        "CSV",
+        "ODS",
+        "TSV",
+        "XML",
+        "XLSX",
+        "ZIP"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/ea0028512-ventas-diarias-informacion-semanal-sii",
+      "datasetUrl": "https://datos.gob.es/catalogo/a15002917-calidad-del-aire-en-navarra-ultimos-60-dias1",
       "distributions": [
         {
-          "title": "Ventas diarias Seguimiento semanal",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/ventas-empleos-salarios-declaraciones-tributarias/ventas-diarias.html",
-          "format": "SIN DATO",
-          "identifier": ""
+          "title": "Datos estación Altsasu - JSON",
+          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/21276cc6-01ad-4d5a-af50-83a0c65fdf28?format=json&bom=True",
+          "format": "JSON",
+          "identifier": "https://datosabiertos.navarra.es/datastore/dump/21276cc6-01ad-4d5a-af50-83a0c65fdf28?format=json&bom=True"
+        },
+        {
+          "title": "Datos estación Pamplona - Iturrama - Tabla",
+          "accessUrl": "https://datosabiertos.navarra.es/dataset/calidad-del-aire-en-navarra-ltimos-60-d-as/resource/8dd42589-cd20-46db-a4ef-19f42a1aa4d2?view_id=45973536-b446-4023-8005-47ca808bc9f7",
+          "format": "HTML",
+          "identifier": "https://datosabiertos.navarra.es/dataset/calidad-del-aire-en-navarra-ltimos-60-d-as/resource/8dd42589-cd20-46db-a4ef-19f42a1aa4d2?view_id=45973536-b446-4023-8005-47ca808bc9f7"
+        },
+        {
+          "title": "Datos estación Tudela – Centro - CSV",
+          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/75de846f-faa7-4319-957b-009916910690?format=csv&bom=True",
+          "format": "CSV",
+          "identifier": "https://datosabiertos.navarra.es/datastore/dump/75de846f-faa7-4319-957b-009916910690?format=csv&bom=True"
+        },
+        {
+          "title": "Datos estación Altsasu",
+          "accessUrl": "https://datosabiertos.navarra.es/dataset/2f191abb-e1b8-4a96-a40a-26ac97b434b2/resource/21276cc6-01ad-4d5a-af50-83a0c65fdf28/download/alsasua_auto_2026.csv",
+          "format": "CSV",
+          "identifier": "https://datosabiertos.navarra.es/dataset/2f191abb-e1b8-4a96-a40a-26ac97b434b2/resource/21276cc6-01ad-4d5a-af50-83a0c65fdf28/download/alsasua_auto_2026.csv"
+        },
+        {
+          "title": "Datos estación Leitza - JSON",
+          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/aeee0b1f-e30a-457c-90e8-92f447198471?format=json&bom=True",
+          "format": "JSON",
+          "identifier": "https://datosabiertos.navarra.es/datastore/dump/aeee0b1f-e30a-457c-90e8-92f447198471?format=json&bom=True"
+        },
+        {
+          "title": "Datos estación Funes - ODS",
+          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/fd433344-7c7f-426b-bc2b-5e31a3801065?format=ods&bom=True",
+          "format": "ODS",
+          "identifier": "https://datosabiertos.navarra.es/datastore/dump/fd433344-7c7f-426b-bc2b-5e31a3801065?format=ods&bom=True"
         }
       ],
-      "score": 23,
+      "score": 71,
       "notes": [
-        "Tematicas detectadas: Economia, Hacienda.",
-        "Publicador: EA0028512.",
-        "Cobertura geografica principal: España."
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Medio Ambiente.",
+        "Publicador: A15002917.",
+        "Cobertura geografica principal: Comunidad Foral Navarra."
       ]
     },
     {
-      "id": "ea0043088-revision-anual-y-revisiones-de-oficio-e-instancia-de-parte-en-pnc-y-prestaciones-sociales-y-economicas-para-personas-con-discapacidad",
-      "title": "Revisión anual y revisiones de oficio e instancia de parte en PNC y Prestaciones Sociales y Económicas para personas con discapacidad",
-      "description": "Datos referentes a la revisión anual y revisiones de oficio e instancia de parte en Pensiones No Contributivas de la Seguridad Social y Prestaciones Sociales y Económicas para personas con discapacidad. \nSe presenta información sobre la evolución de las revisiones efectuadas, las características de las revisiones efectuadas y las causas de extinción del derecho.",
-      "issued": "lun, 31 dic 2007 23:00:00 GMT+0000",
-      "modified": "mar, 04 ago 2026 22:00:00 GMT+0000",
-      "publisher": "EA0043088",
-      "spatial": "España",
+      "id": "https://opendata.euskadi.eus/catalogo/-/campings-de-euskadi/",
+      "title": "Campings de Euskadi",
+      "description": "Información sobre campings y áreas de autocaravanas de Euskadi.",
+      "issued": "lun, 07 mar 2016 23:00:00 GMT+0000",
+      "modified": "vie, 14 ago 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
       "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "acampada",
+        "alojamientos",
+        "autocaravanas",
+        "autokarabana eremuak",
+        "autokarabanak",
+        "camping"
+      ],
+      "formats": [
+        "GEOJSON",
+        "JSON",
+        "XML",
+        "XLSX"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-campings-de-euskadi",
+      "distributions": [
+        {
+          "title": "Campings",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tF:turismo;tT:a_alojamiento;m:documentLanguage.EQ.es,lodgingType.IN.(P,V);p:Inter_portal,Inter;",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Campings",
+          "accessUrl": "http://www.euskadi.net/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&r01kQry=tC:euskadi;tF:turismo;tT:a_alojamiento;m:documentLanguage.EQ.es,lodgingType.IN.(P,V);p:Inter_portal,Inter;pp:r01NavBarBlockSize.10,r01PageSize.100",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Campings",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/campings_de_euskadi/opendata/alojamientos-padding.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Campings",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/campings_de_euskadi/opendata/alojamientos.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Aeropuertos",
+          "accessUrl": "http://turismo.euskadi.net/x65-15809/es/s12GoogleMapsWar/gMapsJSP/VisorGMapsNP.jsp?lang=es",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Campings",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/campings_de_euskadi/opendata/alojamientos.xml",
+          "format": "XML",
+          "identifier": ""
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://analisi.transparenciacatalunya.cat/api/views/jdcj-za6r",
+      "title": "Cursos programados y en programación por el Consorcio para la Formación Continua de Cataluña para la integración de datos con la Oferta FPCAT 365",
+      "description": "Dades de les accions formatives programades i en programació pel Consorci per a la Formació  Contínua de Catalunya. Amb el detall de les dates d’inici i final, la modalitat, la població on s’impartirà, l’entitat gestora i el contacte per sol·licitar la inscripció o resoldre qualsevol dubte al respecte.",
+      "issued": "lun, 22 may 2023 22:00:00 GMT+0000",
+      "modified": "vie, 14 ago 2026 22:00:00 GMT+0000",
+      "publisher": "A09002970",
+      "spatial": "Cataluna",
+      "themes": [
+        "Empleo"
+      ],
+      "keywords": [
+        "cursos",
+        "formació",
+        "formació contínua",
+        "formació professional",
+        "ods8_treball decent i creixement econòmic",
+        "treball"
+      ],
+      "formats": [
+        "GEOJSON",
+        "CSV",
+        "JSON",
+        "XML"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a09002970-cursos-programados-y-en-programacion-por-el-consorcio-para-la-formacion-continua-de-cataluna-para-la-integracion-de-datos-con-la-oferta-fpcat-365",
+      "distributions": [
+        {
+          "title": "Cursos programados y en programación por el Consorcio para la Formación Continua de Cataluña para la integración de datos con la Oferta FPCAT 365",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/jdcj-za6r/query.geojson?accessType=DOWNLOAD",
+          "format": "GEOJSON",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/jdcj-za6r"
+        },
+        {
+          "title": "Cursos programados y en programación por el Consorcio para la Formación Continua de Cataluña para la integración de datos con la Oferta FPCAT 365",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/jdcj-za6r/export.csv?accessType=DOWNLOAD",
+          "format": "CSV",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/jdcj-za6r"
+        },
+        {
+          "title": "Cursos programados y en programación por el Consorcio para la Formación Continua de Cataluña para la integración de datos con la Oferta FPCAT 365",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/jdcj-za6r/export.kmz?accessType=DOWNLOAD",
+          "format": "SIN DATO",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/jdcj-za6r"
+        },
+        {
+          "title": "Cursos programados y en programación por el Consorcio para la Formación Continua de Cataluña para la integración de datos con la Oferta FPCAT 365",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/jdcj-za6r/export.kml?accessType=DOWNLOAD",
+          "format": "SIN DATO",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/jdcj-za6r"
+        },
+        {
+          "title": "Cursos programados y en programación por el Consorcio para la Formación Continua de Cataluña para la integración de datos con la Oferta FPCAT 365",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/jdcj-za6r/query.json?accessType=DOWNLOAD",
+          "format": "JSON",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/jdcj-za6r"
+        },
+        {
+          "title": "Cursos programados y en programación por el Consorcio para la Formación Continua de Cataluña para la integración de datos con la Oferta FPCAT 365",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/jdcj-za6r/query.xml?accessType=DOWNLOAD",
+          "format": "XML",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/jdcj-za6r"
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Empleo.",
+        "Publicador: A09002970.",
+        "Cobertura geografica principal: Cataluna."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/cursos-jornadas-congresos-y-ferias-organizadas-por-el-ivap/",
+      "title": "Cursos, jornadas, congresos y ferias organizadas por el IVAP",
+      "description": "En este conjunto de datos puedes acceder a los cursos, jornadas, congresos y ferias que organiza el IVAP (Instituto Vasco de Administración Pública). Los eventos están dirigidos principalmente a trabajadores públicos y se encuentran en diversos formatos.",
+      "issued": "lun, 19 ene 2015 23:00:00 GMT+0000",
+      "modified": "vie, 14 ago 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Empleo",
+        "Sector Publico"
+      ],
+      "keywords": [
+        "agenda",
+        "agenda",
+        "azokak",
+        "congresos",
+        "cursos",
+        "ekitaldiak"
+      ],
+      "formats": [
+        "XLSX",
+        "JSON",
+        "GEOJSON",
+        "XML"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-cursos-jornadas-congresos-y-ferias-organizadas-por-el-ivap1",
+      "distributions": [
+        {
+          "title": "Cursos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/cursos_jornadas_ivap/opendata/cursos.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Cursos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/cursos_jornadas_ivap/opendata/cursos.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Cursos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/cursos_jornadas_ivap/opendata/cursos.jsonp",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Cursos",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tT:evento;cA:r01e00000ff26d461d4a470b89cb18e96d2ace15a;m:documentLanguage.EQ.es;p:Inter",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Cursos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/cursos_jornadas_ivap/opendata/cursos.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Cursos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/cursos_jornadas_ivap/opendata/cursos.xml",
+          "format": "XML",
+          "identifier": ""
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Empleo, Sector Publico.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://datosabiertos.navarra.es/dataset/datos-centros-sociales-covid-19-01-07",
+      "title": "Datos centros sociales, covid-19",
+      "description": "Datos relativos a la afectación que la situación del coronavirus (covid-19), está teniendo en los centros de servicios sociales de carácter residencial conforme a las medidas de ubicación y aislamiento establecidos en la Orden [SND/265/2020](https://www.boe.es/boe/dias/2020/03/21/pdfs/BOE-A-2020-3951.pdf), de 19 de marzo, de adopción de medidas relativas a las residencias de personas mayores y centros socio-sanitarios, ante la situación de crisis sanitaria ocasionada por el COVID-19 y conforme al anexo de la Orden [SND/322/2020](https://www.boe.es/boe/dias/2020/04/04/pdfs/BOE-A-2020-4300.pdf), de 3 de abril, por la que se modifican la Orden SND/275/2020, de 23 de marzo y la Orden SND/295/2020, de 26 de marzo, y se establecen nuevas medidas para atender necesidades urgentes de carácter social o sanitario en el ámbito de la situación de la crisis sanitaria ocasionada por el COVID-19. La información está dividida por un lado, hasta el 30 de abril de 2020 incluido y por otro lado, de esa fecha en adelante",
+      "issued": "mié, 23 jun 2021 12:32:09 GMT+0000",
+      "modified": "vie, 14 ago 2026 20:00:28 GMT+0000",
+      "publisher": "A15002917",
+      "spatial": "Comunidad Foral Navarra",
+      "themes": [
+        "Salud",
         "Sociedad Bienestar"
       ],
       "keywords": [
-        "Imserso",
-        "Invalidez",
-        "Jubilación",
-        "Pensiones",
-        "discapacidad",
-        "estadísticas"
+        "Covid-19",
+        "Desgaitasuna",
+        "Gizarte zerbitzuak",
+        "Handiagoa",
+        "Kobid-19",
+        "Koronabirusa"
       ],
       "formats": [
-        "SIN DATO"
+        "XLSX",
+        "JSON",
+        "CSV",
+        "TSV",
+        "HTML",
+        "ODS",
+        "XML"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/ea0043088-revision-anual-y-revisiones-de-oficio-e-instancia-de-parte-en-pnc-y-prestaciones-sociales-y-economicas-para-personas-con-discapacidad",
+      "datasetUrl": "https://datos.gob.es/catalogo/a15002917-datos-centros-sociales-covid-191",
       "distributions": [
         {
-          "title": "1998. Revisión PSPD",
-          "accessUrl": "https://imserso.es/documents/20123/139381/revanual1998pspd.pdf",
-          "format": "SIN DATO",
-          "identifier": ""
+          "title": "Datos centros sociales, covid-19 desde el 1-7-2020 - XLSX",
+          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/6ef98721-d186-411c-8849-5144196712a1?format=xlsx&bom=True",
+          "format": "XLSX",
+          "identifier": "https://datosabiertos.navarra.es/datastore/dump/6ef98721-d186-411c-8849-5144196712a1?format=xlsx&bom=True"
         },
         {
-          "title": "2013",
-          "accessUrl": "https://imserso.es/documents/20123/139381/revanual2013.pdf",
-          "format": "SIN DATO",
-          "identifier": ""
+          "title": "Datos centros sociales, covid-19 desde el 1-7-2020 - JSON",
+          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/6ef98721-d186-411c-8849-5144196712a1?format=json&bom=True",
+          "format": "JSON",
+          "identifier": "https://datosabiertos.navarra.es/datastore/dump/6ef98721-d186-411c-8849-5144196712a1?format=json&bom=True"
         },
         {
-          "title": "2016",
-          "accessUrl": "https://imserso.es/documents/20123/6959059/revanual2016.pdf",
-          "format": "SIN DATO",
-          "identifier": ""
+          "title": "Datos centros sociales, covid-19 desde el 1-7-2020",
+          "accessUrl": "https://datosabiertos.navarra.es/dataset/f045889d-8097-4df8-95e3-00aa3378f4a4/resource/6ef98721-d186-411c-8849-5144196712a1/download/downloadfile.aspxcodigoaccesoopendataficherocoronavirusdatos_centros_sociales_modificado.csv",
+          "format": "CSV",
+          "identifier": "https://datosabiertos.navarra.es/dataset/f045889d-8097-4df8-95e3-00aa3378f4a4/resource/6ef98721-d186-411c-8849-5144196712a1/download/downloadfile.aspxcodigoaccesoopendataficherocoronavirusdatos_centros_sociales_modificado.csv"
         },
         {
-          "title": "2003",
-          "accessUrl": "https://imserso.es/documents/20123/139381/revanual2003.pdf",
-          "format": "SIN DATO",
-          "identifier": ""
+          "title": "Datos centros sociales, covid-19 hasta el 30-06-2021 - TSV",
+          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/d87bfcc9-368b-4442-82d0-38d2291aef83?format=tsv&bom=True",
+          "format": "TSV",
+          "identifier": "https://datosabiertos.navarra.es/datastore/dump/d87bfcc9-368b-4442-82d0-38d2291aef83?format=tsv&bom=True"
         },
         {
-          "title": "1996. Revisión PNC",
-          "accessUrl": "https://imserso.es/documents/20123/139381/revanual1996pnc.pdf",
-          "format": "SIN DATO",
-          "identifier": ""
+          "title": "Datos centros sociales, covid-19 desde el 1-7-2020 - JSON - API",
+          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/6ef98721-d186-411c-8849-5144196712a1?format=json&bom=True",
+          "format": "JSON",
+          "identifier": "https://datosabiertos.navarra.es/datastore/dump/6ef98721-d186-411c-8849-5144196712a1?format=json&bom=True"
         },
         {
-          "title": "1995. Revisión PNC",
-          "accessUrl": "https://imserso.es/documents/20123/139381/revanual1995pnc.pdf",
-          "format": "SIN DATO",
-          "identifier": ""
+          "title": "Datos centros sociales, covid-19 desde el 1-7-2020 - Tabla",
+          "accessUrl": "https://datosabiertos.navarra.es/dataset/datos-centros-sociales-covid-19-01-07/resource/6ef98721-d186-411c-8849-5144196712a1?view_id=d407e7a4-40c7-44b3-9839-1b863a3c11c2",
+          "format": "HTML",
+          "identifier": "https://datosabiertos.navarra.es/dataset/datos-centros-sociales-covid-19-01-07/resource/6ef98721-d186-411c-8849-5144196712a1?view_id=d407e7a4-40c7-44b3-9839-1b863a3c11c2"
         }
       ],
-      "score": 19,
+      "score": 71,
       "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
         "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Sociedad Bienestar.",
-        "Publicador: EA0043088.",
-        "Cobertura geografica principal: España."
+        "Tematicas detectadas: Salud, Sociedad Bienestar.",
+        "Publicador: A15002917.",
+        "Cobertura geografica principal: Comunidad Foral Navarra."
       ]
     },
     {
-      "id": "ea0028512-flash-de-ventas-interiores-diarias",
-      "title": "Flash de Ventas Interiores Diarias",
-      "description": "Esta publicación se presenta como un avance de una semana sobre el Informe de Seguimiento de Ventas Diarias en lo concerniente a ventas interiores, donde además se aporta información de su componente de ciclo tendencia, así como la variación de ésta en el muy corto plazo. Ello favorece la detección temprana de cambios en la facturación, así como una mejor visualización de la evolución subyacente de la misma.\n\nLa publicación está compuesta por un informe que presenta el ajuste de las series para el total de ramas de actividad y para el total sin las ramas de comportamiento más volátil (las asociadas a la energía y financieras, fundamentalmente) desde el 1 de julio de 2017. La metodología de ajuste (ver la metodología para un mayor detalle) proporciona una señal de muy corto plazo de la coyuntura económica, que complementa y anticipa la información de ventas interiores contenida en el Informe de Seguimiento de Ventas Diarias.\n",
-      "issued": "mar, 14 oct 2025 22:00:00 GMT+0000",
-      "modified": "mar, 04 ago 2026 22:00:00 GMT+0000",
-      "publisher": "EA0028512",
-      "spatial": "Sin dato",
+      "id": "https://analisi.transparenciacatalunya.cat/api/views/tb2m-m33b",
+      "title": "Estaciones de recarga para vehículos eléctricos en Cataluña",
+      "description": "Informació descarregable de les estacions de recàrrega superràpida (potència elèctrica > 50kW), ràpida (potència elèctrica de 50kW), semiràpida (potència elèctrica de 22kW) per a vehicle elèctric a Catalunya. \nHi ha informació relativa a la ubicació geogràfica (adreça i coordinades) i responsable de la gestió de les estacions. També del tipus d’estació i de quins connectors hi ha disponibles (Combo CSS2, ChadeMo, Mennekes (Tipus 2) o Shucko.",
+      "issued": "mié, 13 jul 2022 22:00:00 GMT+0000",
+      "modified": "vie, 14 ago 2026 22:00:00 GMT+0000",
+      "publisher": "A09002970",
+      "spatial": "Cataluna",
       "themes": [
-        "Comercio",
-        "Economia",
-        "Hacienda"
+        "Transporte"
       ],
-      "keywords": [],
+      "keywords": [
+        "eficiència energètica",
+        "energia",
+        "estacions de recàrrega",
+        "mobilitat elèctrica",
+        "ods7_energia assequible i no contaminant",
+        "punts de recàrrega"
+      ],
       "formats": [
-        "SIN DATO"
+        "XML",
+        "JSON",
+        "CSV",
+        "GEOJSON"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/ea0028512-flash-de-ventas-interiores-diarias",
+      "datasetUrl": "https://datos.gob.es/catalogo/a09002970-estaciones-de-recarga-para-vehiculos-electricos-en-cataluna",
       "distributions": [
         {
-          "title": "Base de datos",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/ventas-empleo-salarios-declaraciones-tributarias/flash-vid.html",
+          "title": "Estaciones de recarga para vehículos eléctricos en Cataluña",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/tb2m-m33b/export.kml?accessType=DOWNLOAD",
+          "format": "SIN DATO",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/tb2m-m33b"
+        },
+        {
+          "title": "Estaciones de recarga para vehículos eléctricos en Cataluña",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/tb2m-m33b/query.xml?accessType=DOWNLOAD",
+          "format": "XML",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/tb2m-m33b"
+        },
+        {
+          "title": "Estaciones de recarga para vehículos eléctricos en Cataluña",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/tb2m-m33b/query.json?accessType=DOWNLOAD",
+          "format": "JSON",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/tb2m-m33b"
+        },
+        {
+          "title": "Estaciones de recarga para vehículos eléctricos en Cataluña",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/tb2m-m33b/export.csv?accessType=DOWNLOAD",
+          "format": "CSV",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/tb2m-m33b"
+        },
+        {
+          "title": "Estaciones de recarga para vehículos eléctricos en Cataluña",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/tb2m-m33b/export.kmz?accessType=DOWNLOAD",
+          "format": "SIN DATO",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/tb2m-m33b"
+        },
+        {
+          "title": "Estaciones de recarga para vehículos eléctricos en Cataluña",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/tb2m-m33b/query.geojson?accessType=DOWNLOAD",
+          "format": "GEOJSON",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/tb2m-m33b"
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Transporte.",
+        "Publicador: A09002970.",
+        "Cobertura geografica principal: Cataluna."
+      ]
+    },
+    {
+      "id": "https://opendata.aragon.es/datos/catalogo/dataset/fechas-de-aprobaciones-y-publicaciones-de-plantillas-de-personal-de-entidades-publicas",
+      "title": "Fechas de aprobaciones y publicaciones de Plantillas de Personal de entidades públicas",
+      "description": "Fechas de aprobaciones y publicaciones de Plantillas de Personal de entidades públicas",
+      "issued": "jue, 13 mar 2025 23:00:00 GMT+0000",
+      "modified": "vie, 14 ago 2026 22:00:00 GMT+0000",
+      "publisher": "A02002834",
+      "spatial": "Aragon",
+      "themes": [
+        "Empleo"
+      ],
+      "keywords": [
+        "Administración local",
+        "Convocatorias de personal público",
+        "Diputación provincial",
+        "Empleo",
+        "Empleo Público",
+        "Mancomunidad"
+      ],
+      "formats": [
+        "XML",
+        "CSV",
+        "XLSX",
+        "JSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a02002834-fechas-de-aprobaciones-y-publicaciones-de-plantillas-de-personal-de-entidades-publicas",
+      "distributions": [
+        {
+          "title": "Datos de Plantillas - XML",
+          "accessUrl": "https://opendata.aragon.es/GA_OD_Core/download?resource_id=31&formato=xml",
+          "format": "XML",
+          "identifier": "https://opendata.aragon.es/GA_OD_Core/download?resource_id=31&formato=xml"
+        },
+        {
+          "title": "Datos de Plantillas - CSV",
+          "accessUrl": "https://opendata.aragon.es/GA_OD_Core/download?resource_id=31&formato=csv",
+          "format": "CSV",
+          "identifier": "https://opendata.aragon.es/GA_OD_Core/download?resource_id=31&formato=csv"
+        },
+        {
+          "title": "Datos de Plantillas - XLSX",
+          "accessUrl": "https://opendata.aragon.es/GA_OD_Core/download?resource_id=31&formato=xlsx",
+          "format": "XLSX",
+          "identifier": "https://opendata.aragon.es/GA_OD_Core/download?resource_id=31&formato=xlsx"
+        },
+        {
+          "title": "Datos de Plantillas - JSON",
+          "accessUrl": "https://opendata.aragon.es/GA_OD_Core/download?resource_id=31&formato=json",
+          "format": "JSON",
+          "identifier": "https://opendata.aragon.es/GA_OD_Core/download?resource_id=31&formato=json"
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Empleo.",
+        "Publicador: A02002834.",
+        "Cobertura geografica principal: Aragon."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/hoteles-de-euskadi/",
+      "title": "Hoteles de Euskadi",
+      "description": "Información sobre hoteles, apartamentos, pensiones y hoteles-apartamentos de Euskadi.",
+      "issued": "lun, 07 mar 2016 23:00:00 GMT+0000",
+      "modified": "vie, 14 ago 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "alojamientos",
+        "apartamentos",
+        "apartamentuak",
+        "hotelak",
+        "hoteles",
+        "hoteles-apartamento"
+      ],
+      "formats": [
+        "XLSX",
+        "XML",
+        "GEOJSON",
+        "JSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-hoteles-de-euskadi",
+      "distributions": [
+        {
+          "title": "Hoteles",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/hoteles_de_euskadi/opendata/alojamientos.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Hoteles",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/hoteles_de_euskadi/opendata/alojamientos.xml",
+          "format": "XML",
+          "identifier": ""
+        },
+        {
+          "title": "Aeropuertos",
+          "accessUrl": "http://turismo.euskadi.net/x65-15809/es/s12GoogleMapsWar/gMapsJSP/VisorGMapsNP.jsp?lang=es",
           "format": "SIN DATO",
           "identifier": ""
         },
         {
-          "title": "Informe Flash Ventas Interiores Diarias",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/static_files/AEAT/Estudios/Estadisticas/Informes_Estadisticos/Informes_Ventas/Flash_VI_diarias/Flash_VId.pdf",
+          "title": "Hoteles",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/hoteles_de_euskadi/opendata/alojamientos-padding.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Hoteles",
+          "accessUrl": "http://www.euskadi.net/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&r01kQry=tC:euskadi;tF:turismo;tT:a_alojamiento;m:documentLanguage.EQ.es,lodgingType.IN.%28H,6,7,T%29;p:Inter_portal,Inter;pp:r01NavBarBlockSize.10,r01PageSize.100",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Hoteles",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/hoteles_de_euskadi/opendata/alojamientos.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://datosabiertos.navarra.es/dataset/informaci-n-sobre-el-estado-de-las-carreteras-de-navarra",
+      "title": "Información sobre el estado de las carreteras de Navarra",
+      "description": "El Gobierno de Navarra le informa del estado de la Red de Carreteras de la Comunidad Foral. El Centro de Control de Conservación de Carreteras presta servicio las 24 horas del día durante los 365 días del año y mantiene actualizada la información sobre el estado de la Red de Carreteras de Navarra. La información que se actualiza cada 15 minutos en Open Data incluye: \n\t\tIncidencias meteorológicas\n\t\tIncidencias en la Red Viaria\n\t\tIncidencias por obras\n\nConsulte en el mapa las incidencias previstas en su ruta. Teléfono de información: 848 423 500",
+      "issued": "mié, 23 jun 2021 12:37:41 GMT+0000",
+      "modified": "vie, 14 ago 2026 22:15:12 GMT+0000",
+      "publisher": "A15002917",
+      "spatial": "Comunidad Foral Navarra",
+      "themes": [
+        "Transporte"
+      ],
+      "keywords": [
+        "Incidencias de tráfico",
+        "Trafikoa",
+        "Trafikoko gorabeherak",
+        "Tráfico"
+      ],
+      "formats": [
+        "XML",
+        "XLSX",
+        "JSON",
+        "CSV",
+        "ODS",
+        "TSV",
+        "HTML"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a15002917-informacion-sobre-el-estado-de-las-carreteras-de-navarra1",
+      "distributions": [
+        {
+          "title": "Información sobre el estado de las carreteras de Navarra - XML",
+          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=xml&bom=True",
+          "format": "XML",
+          "identifier": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=xml&bom=True"
+        },
+        {
+          "title": "Información sobre el estado de las carreteras de Navarra - XLSX",
+          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=xlsx&bom=True",
+          "format": "XLSX",
+          "identifier": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=xlsx&bom=True"
+        },
+        {
+          "title": "Información sobre el estado de las carreteras de Navarra - JSON",
+          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=json&bom=True",
+          "format": "JSON",
+          "identifier": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=json&bom=True"
+        },
+        {
+          "title": "Información sobre el estado de las carreteras de Navarra - JSON - API",
+          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=json&bom=True",
+          "format": "JSON",
+          "identifier": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=json&bom=True"
+        },
+        {
+          "title": "Información sobre el estado de las carreteras de Navarra",
+          "accessUrl": "https://datosabiertos.navarra.es/dataset/f7cafe87-6a49-452e-b846-336c12d6a279/resource/9323f68f-9c8f-47e1-884c-d6985b957606/download/incidenciasdecarreteras.csv",
+          "format": "CSV",
+          "identifier": "https://datosabiertos.navarra.es/dataset/f7cafe87-6a49-452e-b846-336c12d6a279/resource/9323f68f-9c8f-47e1-884c-d6985b957606/download/incidenciasdecarreteras.csv"
+        },
+        {
+          "title": "Información sobre el estado de las carreteras de Navarra - CSV",
+          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=csv&bom=True",
+          "format": "CSV",
+          "identifier": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=csv&bom=True"
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Transporte.",
+        "Publicador: A15002917.",
+        "Cobertura geografica principal: Comunidad Foral Navarra."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/informes-de-inspeccion-ambiental/",
+      "title": "Informes de inspección ambiental",
+      "description": "Este conjunto de datos ofrece las inspecciones ambientales realizadas por el área de Medio Ambiente del Gobierno Vasco.",
+      "issued": "jue, 14 jul 2016 22:00:00 GMT+0000",
+      "modified": "vie, 14 ago 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Medio Ambiente"
+      ],
+      "keywords": [
+        "contaminación",
+        "empresas",
+        "enpresak",
+        "ikuskaritza",
+        "ingurumena",
+        "inspecciones"
+      ],
+      "formats": [
+        "GEOJSON",
+        "XML",
+        "XLSX",
+        "JSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-informes-de-inspeccion-ambiental1",
+      "distributions": [
+        {
+          "title": "Informes",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_informes_estudios/informes_aai/opendata/informes-padding.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "XML",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tF:documentacion_expedientes;tT:documentacion_autorizacion;m:documentLanguage.EQ.es;",
+          "format": "XML",
+          "identifier": ""
+        },
+        {
+          "title": "Informes",
+          "accessUrl": "http://www.euskadi.net/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&r01kQry=tC:euskadi;tF:documentacion_expedientes;tT:documentacion_autorizacion;m:documentLanguage.EQ.es;p:Inter;",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Informes",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_informes_estudios/informes_aai/opendata/informes_aai.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Informes",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_informes_estudios/informes_aai/opendata/informes_aai.xml",
+          "format": "XML",
+          "identifier": ""
+        },
+        {
+          "title": "Informes",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_informes_estudios/informes_aai/opendata/informes_aai.jsonp",
+          "format": "JSON",
+          "identifier": ""
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Medio Ambiente.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/restaurantes-asadores-y-sidrerias-de-euskadi/",
+      "title": "Restaurantes, asadores y sidrerías de Euskadi",
+      "description": "Información sobre los restaurantes, asadores y sidrerías de Euskadi.",
+      "issued": "lun, 07 mar 2016 23:00:00 GMT+0000",
+      "modified": "vie, 14 ago 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "asadores",
+        "erretegiak",
+        "jatetxeak",
+        "restauración",
+        "restaurantes",
+        "sagardotegiak"
+      ],
+      "formats": [
+        "XML",
+        "JSON",
+        "GEOJSON",
+        "XLSX"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-restaurantes-asadores-y-sidrerias-de-euskadi",
+      "distributions": [
+        {
+          "title": "Restaurantes, asadores y sidrerías",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/restaurantes_asador_sidrerias/opendata/restaurantes.xml",
+          "format": "XML",
+          "identifier": ""
+        },
+        {
+          "title": "Restaurantes, asadores y sidrerías",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/restaurantes_asador_sidrerias/opendata/restaurantes.jsonp",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Aeropuertos",
+          "accessUrl": "http://turismo.euskadi.net/x65-15809/es/s12GoogleMapsWar/gMapsJSP/VisorGMapsNP.jsp?lang=es",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Restaurantes, asadores y sidrerías",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/restaurantes_asador_sidrerias/opendata/restaurantes.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Restaurantes, asadores y sidrerías",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/restaurantes_asador_sidrerias/opendata/restaurantes-padding.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Restaurantes, asadores y sidrerías",
+          "accessUrl": "https://www.euskadi.eus/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&r01kQry=tT:b_restauracion;m:documentLanguage.EQ.es,templateType.EQ.B1&restorationType.IN.(1,3,42);p:Inter_portal,Inter;pp:r01NavBarBlockSize.10,r01PageSize.100",
           "format": "SIN DATO",
           "identifier": ""
         }
       ],
-      "score": 16,
+      "score": 71,
       "notes": [
-        "Tematicas detectadas: Comercio, Economia, Hacienda.",
-        "Publicador: EA0028512."
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
       ]
     },
     {
-      "id": "ea0044367-de-procedimientos-de-red-es-adjudicados-por-naturaleza-del-contrato",
-      "title": "Número de procedimientos de Red.es adjudicados por naturaleza del contrato",
-      "description": "Extracción de \"Gestión de Expedientes\", en formato hoja de cálculo, con las siguiente columnas:\n\n- Año_Adjudicacion.\n- Mes_Adjudicación.\n- Naturaleza_Contrato: (suministros, AT, consultoría, …).\n- Numero_Expedientes (número que cuantifica).\n\nNota: El año de inicio es 2010 y el fichero es acumulativo.",
-      "issued": "dom, 28 abr 2013 22:00:00 GMT+0000",
-      "modified": "mié, 05 ago 2026 22:00:00 GMT+0000",
-      "publisher": "EA0044367",
-      "spatial": "Sin dato",
+      "id": "https://opendata.euskadi.eus/catalogo/-/restaurantes-asadores-sidrerias-bodegas-y-bares-de-pintxos-de-euskadi/",
+      "title": "Restaurantes, asadores, sidrerías, bodegas y bares de pintxos de Euskadi",
+      "description": "Información sobre los establecimientos de restauración de Euskadi: restaurantes, asadores, sidrerías, bodegas y bares de pintxos.",
+      "issued": "lun, 19 abr 2010 22:00:00 GMT+0000",
+      "modified": "vie, 14 ago 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
       "themes": [
-        "Sector Publico"
+        "Turismo"
       ],
-      "keywords": [],
+      "keywords": [
+        "Jatetxeak",
+        "Restaurantes",
+        "asadores",
+        "bares",
+        "bodegas",
+        "erretegiak"
+      ],
       "formats": [
-        "CSV"
+        "GEOJSON",
+        "XLSX",
+        "XML",
+        "JSON"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/ea0044367-de-procedimientos-de-red-es-adjudicados-por-naturaleza-del-contrato",
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-restaurantes-asadores-sidrerias-bodegas-y-bares-de-pintxos-de-euskadi",
       "distributions": [
         {
-          "title": "Número de procedimientos de Red.es adjudicados por naturaleza del contrato",
-          "accessUrl": "https://redes-ondemand2.flumotion.com/redes/ondemand2/RISP/202608/Naturaleza-de-contratos_jul2026.csv ",
-          "format": "CSV",
+          "title": "Restaurantes",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tF:turismo;tT:b_restauracion;m:documentLanguage.EQ.es;p:Inter_portal,Inter;",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Restaurantes",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/restaurantes_sidrerias_bodegas/opendata/restaurantes-padding.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Aeropuertos",
+          "accessUrl": "http://turismo.euskadi.net/x65-15809/es/s12GoogleMapsWar/gMapsJSP/VisorGMapsNP.jsp?lang=es",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Restaurantes",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/restaurantes_sidrerias_bodegas/opendata/restaurantes.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Restaurantes",
+          "accessUrl": "http://www.euskadi.net/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&r01kQry=tC:euskadi;tT:b_restauracion;m:documentLanguage.EQ.es;p:Inter_portal,Inter;pp:r01NavBarBlockSize.10,r01PageSize.100",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Restaurantes",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/restaurantes_sidrerias_bodegas/opendata/restaurantes.xlsx",
+          "format": "XLSX",
           "identifier": ""
         }
       ],
-      "score": 14,
+      "score": 71,
       "notes": [
         "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tematicas detectadas: Sector Publico.",
-        "Publicador: EA0044367."
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
       ]
     },
     {
-      "id": "ea0044367-de-red-es-adjudicados-por-tipo",
-      "title": "Número de procedimientos de Red.es adjudicados por tipo",
-      "description": "Extracción de \"Gestión de Expedientes\", en formato hoja de cálculo, con las siguiente columnas:\n\n- Año_Adjudicacion.\n- Mes_Adjudicación.\n- Tipo_Procedimiento: (simplificados, abiertos, negociados, menor cuantía, …).\n- Numero_Expedientes (número que cuantifica).\n\nNota: El año de inicio es 2010 y el fichero es acumulativo.",
-      "issued": "dom, 28 abr 2013 22:00:00 GMT+0000",
-      "modified": "mié, 05 ago 2026 22:00:00 GMT+0000",
-      "publisher": "EA0044367",
-      "spatial": "Sin dato",
+      "id": "https://datosabiertos.navarra.es/dataset/sistema-autom-tico-de-informaci-n-hidrol-gica-saih-",
+      "title": "Sistema Automático de Información Hidrológica (SAIH)",
+      "description": "EL SAIH es un sistema de información encargado de captar, transmitir en tiempo real, procesar y presentar datos que describen el estado hidrológico a lo largo de la red fluvial y de los disositivos de control que en ellas se ubican. Para captar estasa variables se utilizan dispositivos (sensores), que están en contacto con el medio, dotados de unos codificadores que proporcionan la señal eléctrica o lógica del estado de la variable que se mide. Como tal sistema de información se apoya en una red de comunicaciones, y como elementos inteligentes de la misma, utiliza sistemas de adquisición y proceso de datos. La red mide de forma directa el nivel de agua en puntos concretos de la red fluvial. Este dato de nivel medido (en metros de altura de agua) permite calcular de forma indirecta el caudal circulante en m3/s.\nEn esta ficha se pueden descargar los datos diezminutales no validados (provisionales y sujetos a revisión), pero medidos en tiempo real, recogidos en los últimos 7 días por la Red de SAIH de Navarra. \nLos datos no validados se actualizan con frecuencia diezminutal y se pueden descargar de los archivos adjuntos \"Nivel y caudal en tiempo real en estaciones de aforo del Gobierno de Navarra\".\nPara ampliar información y ver los datos en tiempo real, puede acceder a la [web del agua en Navarra](https://administracionelectronica.navarra.es/aguaEnNavarra/ctaMapa.aspx?IDOrigenDatos=2&IDMapa=1 \"Web del agua\")",
+      "issued": "mié, 23 jun 2021 12:44:41 GMT+0000",
+      "modified": "vie, 14 ago 2026 22:20:42 GMT+0000",
+      "publisher": "A15002917",
+      "spatial": "Comunidad Foral Navarra",
       "themes": [
-        "Sector Publico"
+        "Medio Ambiente"
       ],
-      "keywords": [],
+      "keywords": [
+        "Agua",
+        "Hidrologia",
+        "Hidrología",
+        "Ura"
+      ],
       "formats": [
-        "CSV"
+        "CSV",
+        "JSON",
+        "XLSX",
+        "HTML",
+        "XML",
+        "TSV",
+        "ODS"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/ea0044367-de-red-es-adjudicados-por-tipo",
+      "datasetUrl": "https://datos.gob.es/catalogo/a15002917-sistema-automatico-de-informacion-hidrologica-saih1",
       "distributions": [
         {
-          "title": "Número de procedimientos de Red.es adjudicados por tipo",
-          "accessUrl": "https://redes-ondemand2.flumotion.com/redes/ondemand2/RISP/202608/Procedimientos-adjudicados-por-tipo_jul2026.csv ",
+          "title": "Sistema Automático de Información Hidrológica (SAIH) - CSV",
+          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=csv&bom=True",
           "format": "CSV",
-          "identifier": ""
+          "identifier": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=csv&bom=True"
+        },
+        {
+          "title": "Sistema Automático de Información Hidrológica (SAIH) - JSON",
+          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=json&bom=True",
+          "format": "JSON",
+          "identifier": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=json&bom=True"
+        },
+        {
+          "title": "Sistema Automático de Información Hidrológica (SAIH)",
+          "accessUrl": "https://datosabiertos.navarra.es/dataset/8eb8a61b-678f-4316-bee6-58ace8d0866e/resource/c736f9a3-3efc-4b89-9d31-ef859607bc27/download/saih.csv",
+          "format": "CSV",
+          "identifier": "https://datosabiertos.navarra.es/dataset/8eb8a61b-678f-4316-bee6-58ace8d0866e/resource/c736f9a3-3efc-4b89-9d31-ef859607bc27/download/saih.csv"
+        },
+        {
+          "title": "Sistema Automático de Información Hidrológica (SAIH) - XLSX",
+          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=xlsx&bom=True",
+          "format": "XLSX",
+          "identifier": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=xlsx&bom=True"
+        },
+        {
+          "title": "Sistema Automático de Información Hidrológica (SAIH) - Tabla",
+          "accessUrl": "https://datosabiertos.navarra.es/dataset/sistema-autom-tico-de-informaci-n-hidrol-gica-saih-/resource/c736f9a3-3efc-4b89-9d31-ef859607bc27?view_id=0d64e2dd-bc19-483f-8722-a10eb7a9e25d",
+          "format": "HTML",
+          "identifier": "https://datosabiertos.navarra.es/dataset/sistema-autom-tico-de-informaci-n-hidrol-gica-saih-/resource/c736f9a3-3efc-4b89-9d31-ef859607bc27?view_id=0d64e2dd-bc19-483f-8722-a10eb7a9e25d"
+        },
+        {
+          "title": "Sistema Automático de Información Hidrológica (SAIH) - XML",
+          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=xml&bom=True",
+          "format": "XML",
+          "identifier": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=xml&bom=True"
         }
       ],
-      "score": 14,
+      "score": 71,
       "notes": [
         "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tematicas detectadas: Sector Publico.",
-        "Publicador: EA0044367."
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Medio Ambiente.",
+        "Publicador: A15002917.",
+        "Cobertura geografica principal: Comunidad Foral Navarra."
       ]
     },
     {
-      "id": "https://www.dominios.es/",
-      "title": "Proyectos de Red.es ejecutados por tipología",
-      "description": "Extracción de \"Gestión de Proyectos\", en formato hoja de cálculo, con las siguiente columnas:\n\n- Año_Inicio_Proyecto.\n- Mes_Inicio_Proyecto.\n- Linea_Estratégica.\n- Iniciativa_Marco.\n- Tipología_Proyecto (desarrollo software, despliegue de infraestructuras, estudios, etc.).\n- Numero_Proyectos (número que cuantifica los proyectos ejecutados por tipología).\n\nNota: El año de inicio es 2010 y el fichero es acumulativo.",
-      "issued": "dom, 28 abr 2013 22:00:00 GMT+0000",
-      "modified": "mié, 05 ago 2026 22:00:00 GMT+0000",
-      "publisher": "EA0044367",
+      "id": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/",
+      "title": "Plazas de parking para personas con movilidad reducida",
+      "description": "Plazas de parking geoposicionadas reservadas a personas con discapacidad",
+      "issued": "vie, 04 jul 2014 22:00:00 GMT+0000",
+      "modified": "vie, 14 ago 2026 22:00:00 GMT+0000",
+      "publisher": "L01300243",
       "spatial": "Sin dato",
       "themes": [
-        "Sector Publico"
+        "Transporte"
       ],
-      "keywords": [],
+      "keywords": [
+        "Movilidad reducida",
+        "parking",
+        "tráfico"
+      ],
       "formats": [
-        "CSV"
+        "XML",
+        "CSV",
+        "RDF",
+        "JSON"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/ea0044367-proyectos-de-red-es-ejecutados-por-tipologia",
+      "datasetUrl": "https://datos.gob.es/catalogo/l01300243-plazas-de-parking-para-personas-con-movilidad-reducida",
       "distributions": [
         {
-          "title": "Proyectos de Red.es ejecutados por tipología",
-          "accessUrl": "https://redes-ondemand2.flumotion.com/redes/ondemand2/RISP/202608/Proyectos-ejecutados-por-tipologia_jul2026.csv ",
+          "title": "Formato xml",
+          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.xml",
+          "format": "XML",
+          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/XML"
+        },
+        {
+          "title": "Formato csv separado por ;",
+          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.csv",
           "format": "CSV",
+          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/CSV"
+        },
+        {
+          "title": "Formato Excel",
+          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.excel",
+          "format": "SIN DATO",
+          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/Excel"
+        },
+        {
+          "title": "Formato rdf-xml",
+          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.rdf",
+          "format": "RDF",
+          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/RDF-XML"
+        },
+        {
+          "title": "Formato json",
+          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.json",
+          "format": "JSON",
+          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/JSON"
+        },
+        {
+          "title": "Formato HTML",
+          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.html",
+          "format": "SIN DATO",
+          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/HTML"
+        }
+      ],
+      "score": 68,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Transporte.",
+        "Publicador: L01300243."
+      ]
+    },
+    {
+      "id": "https://analisi.transparenciacatalunya.cat/api/views/qsgb-mu78",
+      "title": "Puntos de orientación del Consorci per a la Formació Continua de Catalunya",
+      "description": "Dades dels punts d’orientació professional que hi ha disponible per tot el territori català que formen part dels programes d’orientació del Consorci per a la Formació Contínua.",
+      "issued": "dom, 28 may 2023 22:00:00 GMT+0000",
+      "modified": "vie, 14 ago 2026 22:00:00 GMT+0000",
+      "publisher": "A09002970",
+      "spatial": "Cataluna",
+      "themes": [
+        "Empleo"
+      ],
+      "keywords": [
+        "orientació professional",
+        "punt orientació"
+      ],
+      "formats": [
+        "JSON",
+        "XML",
+        "GEOJSON",
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a09002970-puntos-de-orientacion-del-consorci-per-a-la-formacio-continua-de-catalunya",
+      "distributions": [
+        {
+          "title": "Puntos de orientación del Consorci per a la Formació Continua de Catalunya",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/qsgb-mu78/query.json?accessType=DOWNLOAD",
+          "format": "JSON",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/qsgb-mu78"
+        },
+        {
+          "title": "Puntos de orientación del Consorci per a la Formació Continua de Catalunya",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/qsgb-mu78/query.xml?accessType=DOWNLOAD",
+          "format": "XML",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/qsgb-mu78"
+        },
+        {
+          "title": "Puntos de orientación del Consorci per a la Formació Continua de Catalunya",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/qsgb-mu78/export.kmz?accessType=DOWNLOAD",
+          "format": "SIN DATO",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/qsgb-mu78"
+        },
+        {
+          "title": "Puntos de orientación del Consorci per a la Formació Continua de Catalunya",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/qsgb-mu78/query.geojson?accessType=DOWNLOAD",
+          "format": "GEOJSON",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/qsgb-mu78"
+        },
+        {
+          "title": "Puntos de orientación del Consorci per a la Formació Continua de Catalunya",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/qsgb-mu78/export.csv?accessType=DOWNLOAD",
+          "format": "CSV",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/qsgb-mu78"
+        },
+        {
+          "title": "Puntos de orientación del Consorci per a la Formació Continua de Catalunya",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/qsgb-mu78/export.kml?accessType=DOWNLOAD",
+          "format": "SIN DATO",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/qsgb-mu78"
+        }
+      ],
+      "score": 67,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Empleo.",
+        "Publicador: A09002970.",
+        "Cobertura geografica principal: Cataluna."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/agenda-de-interes-para-jovenes-en-euskadi/",
+      "title": "Agenda de interés para jóvenes en Euskadi",
+      "description": "Gazte Informazioa es una red de más de 70 servicios que componen el Servicio de Información juvenil de Euskadi, formado por entidades dependientes de administraciones públicas (como Gobierno Vasco diputaciones o ayuntamientos), universidad y entidades privadas (asociaciones).",
+      "issued": "dom, 18 ene 2015 23:00:00 GMT+0000",
+      "modified": "vie, 14 ago 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Cultura Ocio",
+        "Turismo"
+      ],
+      "keywords": [
+        "actividades",
+        "agenda",
+        "agenda",
+        "conciertos",
+        "cursos",
+        "ekitaldiak"
+      ],
+      "formats": [
+        "XML",
+        "XLSX",
+        "JSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-agenda-de-interes-para-jovenes-en-euskadi1",
+      "distributions": [
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_gazte_informazioa/opendata/agenda.xml",
+          "format": "XML",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tT:evento;cA:r01epd012982674f7923a83e0e9ab363a0790c534;o:documentCreateDate.DESC;m:documentLanguage.EQ.es;p:Inter",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_gazte_informazioa/opendata/agenda.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_gazte_informazioa/opendata/agenda.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_gazte_informazioa/opendata/agenda.jsonp",
+          "format": "JSON",
           "identifier": ""
         }
       ],
-      "score": 14,
+      "score": 61,
       "notes": [
         "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tematicas detectadas: Sector Publico.",
-        "Publicador: EA0044367."
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Cultura Ocio, Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/agenda-de-interes-para-jovenes-en-euskadi/",
+      "title": "Agenda de interés para jóvenes en Euskadi",
+      "description": "Gazte Informazioa es una red de más de 70 servicios que componen el Servicio de Información juvenil de Euskadi, formado por entidades dependientes de administraciones públicas (como Gobierno Vasco diputaciones o ayuntamientos), universidad y entidades privadas (asociaciones).",
+      "issued": "dom, 18 ene 2015 23:00:00 GMT+0000",
+      "modified": "vie, 14 ago 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Cultura Ocio",
+        "Turismo"
+      ],
+      "keywords": [
+        "actividades",
+        "agenda",
+        "agenda",
+        "conciertos",
+        "cursos",
+        "ekitaldiak"
+      ],
+      "formats": [
+        "XML",
+        "XLSX",
+        "JSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-agenda-de-interes-para-jovenes-en-euskadi1",
+      "distributions": [
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_gazte_informazioa/opendata/agenda.xml",
+          "format": "XML",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tT:evento;cA:r01epd012982674f7923a83e0e9ab363a0790c534;o:documentCreateDate.DESC;m:documentLanguage.EQ.es;p:Inter",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_gazte_informazioa/opendata/agenda.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_gazte_informazioa/opendata/agenda.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_gazte_informazioa/opendata/agenda.jsonp",
+          "format": "JSON",
+          "identifier": ""
+        }
+      ],
+      "score": 61,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Cultura Ocio, Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://analisi.transparenciacatalunya.cat/api/views/nzvn-apee",
+      "title": "Datos meteorológicos de la XEMA",
+      "description": "Dades meteorològiques registrades a totes les estacions de la Xarxa d’Estacions Meteorològiques Automàtiques (XEMA) del Servei Meteorològic de Catalunya (METEOCAT). Aquest data base conté variables mesurades amb una freqüència inferior a la diària, generalment semi-horària.\n\nÉs possible trobar informació sobre les metadades d'estacions i variables a:\n- Variables: https://analisi.transparenciacatalunya.cat/d/4fb2-n3yi\n- Estacions: https://analisi.transparenciacatalunya.cat/d/yqwd-vj5e\n\nTipus de Llicència: Propietat intel·lectual i industrial de METEOCAT - http://www.meteo.cat/wpweb/avis-legal/",
+      "issued": "vie, 17 ene 2020 23:00:00 GMT+0000",
+      "modified": "vie, 14 ago 2026 22:00:00 GMT+0000",
+      "publisher": "A09002970",
+      "spatial": "Cataluna",
+      "themes": [
+        "Medio Ambiente"
+      ],
+      "keywords": [
+        "estació",
+        "mesura",
+        "meteorologia",
+        "ods13_acció pel clima",
+        "smartcatalonia"
+      ],
+      "formats": [
+        "CSV",
+        "XML",
+        "JSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a09002970-datos-meteorologicos-de-la-xema",
+      "distributions": [
+        {
+          "title": "Datos meteorológicos de la XEMA",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/nzvn-apee/export.csv?accessType=DOWNLOAD",
+          "format": "CSV",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/nzvn-apee"
+        },
+        {
+          "title": "Datos meteorológicos de la XEMA",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/nzvn-apee/query.xml?accessType=DOWNLOAD",
+          "format": "XML",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/nzvn-apee"
+        },
+        {
+          "title": "Datos meteorológicos de la XEMA",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/nzvn-apee/query.json?accessType=DOWNLOAD",
+          "format": "JSON",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/nzvn-apee"
+        }
+      ],
+      "score": 61,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Medio Ambiente.",
+        "Publicador: A09002970.",
+        "Cobertura geografica principal: Cataluna."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/noticias-de-interes-turistico/",
+      "title": "Noticias de interés turístico",
+      "description": "Noticias de interés turístico.",
+      "issued": "mié, 20 jul 2011 22:00:00 GMT+0000",
+      "modified": "vie, 14 ago 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "albisteak",
+        "comunicación",
+        "komunikazioa",
+        "noticias",
+        "prensa",
+        "prentsa"
+      ],
+      "formats": [
+        "JSON",
+        "XLSX",
+        "XML"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-noticias-de-interes-turistico1",
+      "distributions": [
+        {
+          "title": "Noticias",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_noticias/noticias_turismo/opendata/noticias.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Noticias",
+          "accessUrl": "http://www.euskadi.net/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&r01kQry=tC:euskadi;tT:noticia;m:documentLanguage.EQ.es,templateType.EQ.O1;p:Inter;pp:r01NavBarBlockSize.10,r01PageSize.100",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Noticias",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_noticias/noticias_turismo/opendata/noticias.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Noticias",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_noticias/noticias_turismo/opendata/noticias.xml",
+          "format": "XML",
+          "identifier": ""
+        },
+        {
+          "title": "Noticias",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_noticias/noticias_turismo/opendata/noticias.jsonp",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Noticias",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tT:noticia;m:documentLanguage.EQ.es,templateType.EQ.O1;p:Inter",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 61,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/oferta-publica-de-empleo-ope-de-la-administracion-autonomica-de-euskadi/",
+      "title": "Oferta Pública de Empleo (OPE) de la Administración Autonómica de Euskadi",
+      "description": "Ofertas Públicas de Empleo (OPE) convocadas por el Gobierno Vasco y sus Organismos Públicos dependientes. Los datos incluyen el número de plazas, la distribución de plazas, las bases, el calendario y otros datos relevantes.",
+      "issued": "lun, 25 feb 2013 23:00:00 GMT+0000",
+      "modified": "vie, 14 ago 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Empleo",
+        "Sector Publico"
+      ],
+      "keywords": [
+        "empleo",
+        "enplegua",
+        "epe",
+        "eskaintza",
+        "eusko jaurlaritza",
+        "funcionario"
+      ],
+      "formats": [
+        "XLSX",
+        "JSON",
+        "XML"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-oferta-publica-de-empleo-ope-de-la-administracion-autonomica-de-euskadi1",
+      "distributions": [
+        {
+          "title": "Ofertas",
+          "accessUrl": "http://www.euskadi.eus/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kQry=tC:euskadi;tT:empleo_publico_ope;m:documentLanguage.EQ.es;p:Inter;",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Ofertas",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_rrhh/empleo_publico_ope/opendata/ofertas.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Ofertas",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_rrhh/empleo_publico_ope/opendata/ofertas.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Ofertas",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_rrhh/empleo_publico_ope/opendata/ofertas.jsonp",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Ofertas",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tT:empleo_publico_ope;m:documentLanguage.EQ.es;p:Inter;",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Ofertas",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_rrhh/empleo_publico_ope/opendata/ofertas.xml",
+          "format": "XML",
+          "identifier": ""
+        }
+      ],
+      "score": 61,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Empleo, Sector Publico.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
       ]
     }
   ]
