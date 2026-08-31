@@ -1,1711 +1,1258 @@
 {
-  "generatedAt": "2026-08-24T07:27:45.813Z",
+  "generatedAt": "2026-08-31T07:23:49.943Z",
   "window": {
-    "start": "2026-08-17T07:27:31.829Z",
-    "end": "2026-08-24T07:27:31.829Z",
+    "start": "2026-08-24T07:23:48.871Z",
+    "end": "2026-08-31T07:23:48.871Z",
     "label": "Ultimos 7 dias"
   },
   "source": {
     "name": "datos.gob.es API",
-    "url": "https://datos.gob.es/apidata/catalog/dataset/modified/begin/2026-08-17T07:27Z/end/2026-08-24T07:27Z.json?_sort=-modified&_pageSize=50&_page=0"
+    "url": "https://datos.gob.es/apidata/catalog/dataset/modified/begin/2026-08-24T07:23Z/end/2026-08-31T07:23Z.json?_sort=-modified&_pageSize=50&_page=0"
   },
   "summary": {
     "totalReviewed": 24,
-    "topScore": 71,
+    "topScore": 58,
     "topFormats": [
       {
-        "label": "JSON",
-        "count": 24
-      },
-      {
         "label": "CSV",
-        "count": 24
+        "count": 22
       },
       {
-        "label": "XML",
-        "count": 21
+        "label": "JSON",
+        "count": 12
       },
       {
         "label": "XLSX",
         "count": 11
+      },
+      {
+        "label": "SIN DATO",
+        "count": 2
       }
     ],
     "topThemes": [
       {
-        "label": "Transporte",
-        "count": 8
-      },
-      {
-        "label": "Empleo",
-        "count": 6
-      },
-      {
-        "label": "Legislacion Justicia",
-        "count": 4
+        "label": "Turismo",
+        "count": 11
       },
       {
         "label": "Sector Publico",
+        "count": 10
+      },
+      {
+        "label": "Hacienda",
         "count": 3
+      },
+      {
+        "label": "Economia",
+        "count": 2
       }
     ],
-    "headline": "Se han detectado 24 datasets recientes con JSON como formato dominante."
+    "headline": "Se han detectado 24 datasets recientes con CSV como formato dominante."
   },
   "items": [
     {
-      "id": "https://datosabiertos.navarra.es/dataset/calidad-del-aire-en-navarra-ltimos-60-d-as",
-      "title": "Calidad del aire en Navarra, últimos 60 días",
-      "description": "La [evaluación de la calidad del aire](https://www.miteco.gob.es/images/es/Cap3_Criterios%20evaluacion_tcm30-186479.pdf) se define como el resultado de aplicar cualquier método que permita medir, calcular, predecir o estimar las concentraciones de un contaminante en el aire ambiente o su depósito en superficies en un momento determinado. En Navarra se realiza mediante [mediciones](https://www.miteco.gob.es/es/calidad-y-evaluacion-ambiental/temas/atmosfera-y-calidad-del-aire/calidad-del-aire/evaluacion-datos/redes/default.aspx) en una serie de puntos de muestreo que se consideran representativos de cada una de las zonas en que se ha dividido el territorio y que componen la Red de Vigilancia de la Calidad del Aire de Navarra.\n\nEsta Red dispone de analizadores y sensores que miden los contaminantes que marca la normativa en materia de calidad del aire, principalmente dióxido de azufre (SO2), óxidos de nitrógeno (NO y NO2), ozono troposférico, monóxido de carbono (CO), benceno y partículas en suspensión (PM10 y PM2.5). Además se miden parámetros meteorológicos como velocidad y dirección del viento, temperatura, humedad relativa, presión, radiación y precipitación.\n\nEn esta ficha se pueden descargar los *datos horarios sin validar actualizados con frecuencia horaria*, recogidos en los últimos 60 días. Los datos horarios validados del año en curso se actualizan mensualmente y se pueden descargar en la ficha de  [Calidad del Aire en Navarra](/es/dataset/calidad-del-aire-en-navarra). La estructura de los ficheros e interpretación de los datos, se incluye en el [documento explicativo](https://gobiernoabierto.navarra.es/sites/default/files/opendata/manual_calidad_del_aire.pdf). Para ampliar información y ver los datos en tiempo real, puede acceder a la [web de calidad del aire en Navarra](https://www.navarra.es/es/calidaddelaire)",
-      "issued": "mié, 23 jun 2021 12:29:41 GMT+0000",
-      "modified": "vie, 21 ago 2026 22:03:13 GMT+0000",
-      "publisher": "A15002917",
-      "spatial": "Comunidad Foral Navarra",
-      "themes": [
-        "Medio Ambiente"
-      ],
-      "keywords": [
-        "Aire",
-        "Airea",
-        "Contaminación",
-        "Contaminantes",
-        "Kutsadura",
-        "Kutsatzaileak"
-      ],
-      "formats": [
-        "XLSX",
-        "ODS",
-        "TSV",
-        "JSON",
-        "XML",
-        "CSV",
-        "HTML",
-        "ZIP"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a15002917-calidad-del-aire-en-navarra-ultimos-60-dias1",
-      "distributions": [
-        {
-          "title": "Datos estación Tudela – Canraso - XLSX",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/bb9d5a30-509b-4c16-8cff-b208e1941cca?format=xlsx&bom=True",
-          "format": "XLSX",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/bb9d5a30-509b-4c16-8cff-b208e1941cca?format=xlsx&bom=True"
-        },
-        {
-          "title": "Datos estación Leitza - ODS",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/aeee0b1f-e30a-457c-90e8-92f447198471?format=ods&bom=True",
-          "format": "ODS",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/aeee0b1f-e30a-457c-90e8-92f447198471?format=ods&bom=True"
-        },
-        {
-          "title": "Datos estación Pamplona - Iturrama - XLSX",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/8dd42589-cd20-46db-a4ef-19f42a1aa4d2?format=xlsx&bom=True",
-          "format": "XLSX",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/8dd42589-cd20-46db-a4ef-19f42a1aa4d2?format=xlsx&bom=True"
-        },
-        {
-          "title": "Datos estación Pamplona - Felisa Munárriz - TSV",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/39334b0f-be23-40c5-a336-dcb6825286e3?format=tsv&bom=True",
-          "format": "TSV",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/39334b0f-be23-40c5-a336-dcb6825286e3?format=tsv&bom=True"
-        },
-        {
-          "title": "Datos estación Leitza - JSON",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/aeee0b1f-e30a-457c-90e8-92f447198471?format=json&bom=True",
-          "format": "JSON",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/aeee0b1f-e30a-457c-90e8-92f447198471?format=json&bom=True"
-        },
-        {
-          "title": "Datos estación UPNA - JSON",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/8e788b22-c858-45be-985d-e883afc58504?format=json&bom=True",
-          "format": "JSON",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/8e788b22-c858-45be-985d-e883afc58504?format=json&bom=True"
-        }
-      ],
-      "score": 71,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Medio Ambiente.",
-        "Publicador: A15002917.",
-        "Cobertura geografica principal: Comunidad Foral Navarra."
-      ]
-    },
-    {
-      "id": "https://opendata.aragon.es/datos/catalogo/dataset/fechas-de-aprobaciones-y-publicaciones-de-plantillas-de-personal-de-entidades-publicas",
-      "title": "Fechas de aprobaciones y publicaciones de Plantillas de Personal de entidades públicas",
-      "description": "Fechas de aprobaciones y publicaciones de Plantillas de Personal de entidades públicas",
-      "issued": "jue, 13 mar 2025 23:00:00 GMT+0000",
-      "modified": "vie, 21 ago 2026 22:00:00 GMT+0000",
-      "publisher": "A02002834",
-      "spatial": "Aragon",
-      "themes": [
-        "Empleo"
-      ],
-      "keywords": [
-        "Administración local",
-        "Convocatorias de personal público",
-        "Diputación provincial",
-        "Empleo",
-        "Empleo Público",
-        "Mancomunidad"
-      ],
-      "formats": [
-        "XLSX",
-        "XML",
-        "JSON",
-        "CSV"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a02002834-fechas-de-aprobaciones-y-publicaciones-de-plantillas-de-personal-de-entidades-publicas",
-      "distributions": [
-        {
-          "title": "Datos de Plantillas - XLSX",
-          "accessUrl": "https://opendata.aragon.es/GA_OD_Core/download?resource_id=31&formato=xlsx",
-          "format": "XLSX",
-          "identifier": "https://opendata.aragon.es/GA_OD_Core/download?resource_id=31&formato=xlsx"
-        },
-        {
-          "title": "Datos de Plantillas - XML",
-          "accessUrl": "https://opendata.aragon.es/GA_OD_Core/download?resource_id=31&formato=xml",
-          "format": "XML",
-          "identifier": "https://opendata.aragon.es/GA_OD_Core/download?resource_id=31&formato=xml"
-        },
-        {
-          "title": "Datos de Plantillas - JSON",
-          "accessUrl": "https://opendata.aragon.es/GA_OD_Core/download?resource_id=31&formato=json",
-          "format": "JSON",
-          "identifier": "https://opendata.aragon.es/GA_OD_Core/download?resource_id=31&formato=json"
-        },
-        {
-          "title": "Datos de Plantillas - CSV",
-          "accessUrl": "https://opendata.aragon.es/GA_OD_Core/download?resource_id=31&formato=csv",
-          "format": "CSV",
-          "identifier": "https://opendata.aragon.es/GA_OD_Core/download?resource_id=31&formato=csv"
-        }
-      ],
-      "score": 71,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Empleo.",
-        "Publicador: A02002834.",
-        "Cobertura geografica principal: Aragon."
-      ]
-    },
-    {
-      "id": "https://datosabiertos.navarra.es/dataset/informaci-n-sobre-el-estado-de-las-carreteras-de-navarra",
-      "title": "Información sobre el estado de las carreteras de Navarra",
-      "description": "El Gobierno de Navarra le informa del estado de la Red de Carreteras de la Comunidad Foral. El Centro de Control de Conservación de Carreteras presta servicio las 24 horas del día durante los 365 días del año y mantiene actualizada la información sobre el estado de la Red de Carreteras de Navarra. La información que se actualiza cada 15 minutos en Open Data incluye: \n\t\tIncidencias meteorológicas\n\t\tIncidencias en la Red Viaria\n\t\tIncidencias por obras\n\nConsulte en el mapa las incidencias previstas en su ruta. Teléfono de información: 848 423 500",
-      "issued": "mié, 23 jun 2021 12:37:41 GMT+0000",
-      "modified": "vie, 21 ago 2026 22:15:11 GMT+0000",
-      "publisher": "A15002917",
-      "spatial": "Comunidad Foral Navarra",
-      "themes": [
-        "Transporte"
-      ],
-      "keywords": [
-        "Incidencias de tráfico",
-        "Trafikoa",
-        "Trafikoko gorabeherak",
-        "Tráfico"
-      ],
-      "formats": [
-        "JSON",
-        "ODS",
-        "HTML",
-        "CSV",
-        "XML",
-        "TSV",
-        "XLSX"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a15002917-informacion-sobre-el-estado-de-las-carreteras-de-navarra1",
-      "distributions": [
-        {
-          "title": "Información sobre el estado de las carreteras de Navarra - JSON - API",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=json&bom=True",
-          "format": "JSON",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=json&bom=True"
-        },
-        {
-          "title": "Información sobre el estado de las carreteras de Navarra - ODS",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=ods&bom=True",
-          "format": "ODS",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=ods&bom=True"
-        },
-        {
-          "title": "Información sobre el estado de las carreteras de Navarra - Tabla",
-          "accessUrl": "https://datosabiertos.navarra.es/dataset/informaci-n-sobre-el-estado-de-las-carreteras-de-navarra/resource/9323f68f-9c8f-47e1-884c-d6985b957606?view_id=6294f0fb-b999-4045-9867-0004a9dd645b",
-          "format": "HTML",
-          "identifier": "https://datosabiertos.navarra.es/dataset/informaci-n-sobre-el-estado-de-las-carreteras-de-navarra/resource/9323f68f-9c8f-47e1-884c-d6985b957606?view_id=6294f0fb-b999-4045-9867-0004a9dd645b"
-        },
-        {
-          "title": "Información sobre el estado de las carreteras de Navarra",
-          "accessUrl": "https://datosabiertos.navarra.es/dataset/f7cafe87-6a49-452e-b846-336c12d6a279/resource/9323f68f-9c8f-47e1-884c-d6985b957606/download/incidenciasdecarreteras.csv",
-          "format": "CSV",
-          "identifier": "https://datosabiertos.navarra.es/dataset/f7cafe87-6a49-452e-b846-336c12d6a279/resource/9323f68f-9c8f-47e1-884c-d6985b957606/download/incidenciasdecarreteras.csv"
-        },
-        {
-          "title": "Información sobre el estado de las carreteras",
-          "accessUrl": "https://datosabiertos.navarra.es/dataset/f7cafe87-6a49-452e-b846-336c12d6a279/resource/d1d616a1-f10f-48b9-80da-f4d7eaa4d391/download/incidenciasdecarreteras.xsd",
-          "format": "XML",
-          "identifier": "https://datosabiertos.navarra.es/dataset/f7cafe87-6a49-452e-b846-336c12d6a279/resource/d1d616a1-f10f-48b9-80da-f4d7eaa4d391/download/incidenciasdecarreteras.xsd"
-        },
-        {
-          "title": "Información sobre el estado de las carreteras de Navarra - XML",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=xml&bom=True",
-          "format": "XML",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=xml&bom=True"
-        }
-      ],
-      "score": 71,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Transporte.",
-        "Publicador: A15002917.",
-        "Cobertura geografica principal: Comunidad Foral Navarra."
-      ]
-    },
-    {
-      "id": "https://datosabiertos.navarra.es/dataset/sistema-autom-tico-de-informaci-n-hidrol-gica-saih-",
-      "title": "Sistema Automático de Información Hidrológica (SAIH)",
-      "description": "EL SAIH es un sistema de información encargado de captar, transmitir en tiempo real, procesar y presentar datos que describen el estado hidrológico a lo largo de la red fluvial y de los disositivos de control que en ellas se ubican. Para captar estasa variables se utilizan dispositivos (sensores), que están en contacto con el medio, dotados de unos codificadores que proporcionan la señal eléctrica o lógica del estado de la variable que se mide. Como tal sistema de información se apoya en una red de comunicaciones, y como elementos inteligentes de la misma, utiliza sistemas de adquisición y proceso de datos. La red mide de forma directa el nivel de agua en puntos concretos de la red fluvial. Este dato de nivel medido (en metros de altura de agua) permite calcular de forma indirecta el caudal circulante en m3/s.\nEn esta ficha se pueden descargar los datos diezminutales no validados (provisionales y sujetos a revisión), pero medidos en tiempo real, recogidos en los últimos 7 días por la Red de SAIH de Navarra. \nLos datos no validados se actualizan con frecuencia diezminutal y se pueden descargar de los archivos adjuntos \"Nivel y caudal en tiempo real en estaciones de aforo del Gobierno de Navarra\".\nPara ampliar información y ver los datos en tiempo real, puede acceder a la [web del agua en Navarra](https://administracionelectronica.navarra.es/aguaEnNavarra/ctaMapa.aspx?IDOrigenDatos=2&IDMapa=1 \"Web del agua\")",
-      "issued": "mié, 23 jun 2021 12:44:41 GMT+0000",
-      "modified": "vie, 21 ago 2026 22:10:46 GMT+0000",
-      "publisher": "A15002917",
-      "spatial": "Comunidad Foral Navarra",
-      "themes": [
-        "Medio Ambiente"
-      ],
-      "keywords": [
-        "Agua",
-        "Hidrologia",
-        "Hidrología",
-        "Ura"
-      ],
-      "formats": [
-        "TSV",
-        "CSV",
-        "ODS",
-        "HTML",
-        "XML",
-        "JSON",
-        "XLSX"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a15002917-sistema-automatico-de-informacion-hidrologica-saih1",
-      "distributions": [
-        {
-          "title": "Sistema Automático de Información Hidrológica (SAIH) - TSV",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=tsv&bom=True",
-          "format": "TSV",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=tsv&bom=True"
-        },
-        {
-          "title": "Sistema Automático de Información Hidrológica (SAIH) - CSV",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=csv&bom=True",
-          "format": "CSV",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=csv&bom=True"
-        },
-        {
-          "title": "Sistema Automático de Información Hidrológica (SAIH) - ODS",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=ods&bom=True",
-          "format": "ODS",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=ods&bom=True"
-        },
-        {
-          "title": "Sistema Automático de Información Hidrológica (SAIH) - Tabla",
-          "accessUrl": "https://datosabiertos.navarra.es/dataset/sistema-autom-tico-de-informaci-n-hidrol-gica-saih-/resource/c736f9a3-3efc-4b89-9d31-ef859607bc27?view_id=0d64e2dd-bc19-483f-8722-a10eb7a9e25d",
-          "format": "HTML",
-          "identifier": "https://datosabiertos.navarra.es/dataset/sistema-autom-tico-de-informaci-n-hidrol-gica-saih-/resource/c736f9a3-3efc-4b89-9d31-ef859607bc27?view_id=0d64e2dd-bc19-483f-8722-a10eb7a9e25d"
-        },
-        {
-          "title": "Sistema Automático de Información Hidrológica (SAIH)",
-          "accessUrl": "https://datosabiertos.navarra.es/dataset/8eb8a61b-678f-4316-bee6-58ace8d0866e/resource/c736f9a3-3efc-4b89-9d31-ef859607bc27/download/saih.csv",
-          "format": "CSV",
-          "identifier": "https://datosabiertos.navarra.es/dataset/8eb8a61b-678f-4316-bee6-58ace8d0866e/resource/c736f9a3-3efc-4b89-9d31-ef859607bc27/download/saih.csv"
-        },
-        {
-          "title": "Sistema Automático de Información Hidrológica (SAIH) - XML",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=xml&bom=True",
-          "format": "XML",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=xml&bom=True"
-        }
-      ],
-      "score": 71,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Medio Ambiente.",
-        "Publicador: A15002917.",
-        "Cobertura geografica principal: Comunidad Foral Navarra."
-      ]
-    },
-    {
-      "id": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/",
-      "title": "Plazas de parking para personas con movilidad reducida",
-      "description": "Plazas de parking geoposicionadas reservadas a personas con discapacidad",
-      "issued": "vie, 04 jul 2014 22:00:00 GMT+0000",
-      "modified": "vie, 21 ago 2026 22:00:00 GMT+0000",
-      "publisher": "L01300243",
+      "id": "https://datos.canarias.es/catalogos/general/dataset/actividades-complementarias-inscritas-en-el-registro-general-turistico-de-canarias",
+      "title": "Actividades complementarias inscritas en el Registro General Turístico de Canarias",
+      "description": "Listado de Actividades complementarias inscritas en el Registro General Turístico de Canarias.",
+      "issued": "vie, 12 ene 2024 09:32:46 GMT+0000",
+      "modified": "mar, 25 ago 2026 22:30:20 GMT+0000",
+      "publisher": "A05003638",
       "spatial": "Sin dato",
       "themes": [
-        "Transporte"
+        "Turismo"
       ],
       "keywords": [
-        "Movilidad reducida",
-        "parking",
-        "tráfico"
+        "actividad",
+        "actividad complementaria",
+        "actividad turística",
+        "actividades",
+        "complementaria"
       ],
       "formats": [
+        "XLSX",
         "CSV",
-        "JSON",
-        "RDF",
-        "XML"
+        "JSON"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/l01300243-plazas-de-parking-para-personas-con-movilidad-reducida",
+      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-actividades-complementarias-inscritas-en-el-registro-general-turistico-de-canarias",
       "distributions": [
         {
-          "title": "Formato csv separado por ;",
-          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.csv",
+          "title": "Actividades complementarias inscritas en el Registro General Turístico de Canarias (XLSX)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/70c6c9b5-4781-4c22-9be3-0eb4c2c03218/resource/72daf59c-a859-4be6-8158-e79c200626f2/download/actividades-complementarias-inscritas-en-el-registro-general-turistico-de-canarias.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Actividades complementarias inscritas en el Registro General Turístico de Canarias (CSV)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/70c6c9b5-4781-4c22-9be3-0eb4c2c03218/resource/710650ac-a8ce-4d48-bc9c-ff168ca2b492/download/actividades-complementarias-inscritas-en-el-registro-general-turistico-de-canarias.csv",
           "format": "CSV",
-          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/CSV"
+          "identifier": ""
         },
         {
-          "title": "Formato json",
-          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.json",
+          "title": "Actividades complementarias inscritas en el Registro General Turístico de Canarias (JSON)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/70c6c9b5-4781-4c22-9be3-0eb4c2c03218/resource/29650e2d-0c0f-403d-b596-b62845987426/download/actividades-complementarias-inscritas-en-el-registro-general-turistico-de-canarias.json",
           "format": "JSON",
-          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/JSON"
+          "identifier": ""
         },
         {
-          "title": "Formato Excel",
-          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.excel",
-          "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/Excel"
-        },
-        {
-          "title": "Formato HTML",
-          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.html",
-          "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/HTML"
-        },
-        {
-          "title": "Formato rdf-xml",
-          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.rdf",
-          "format": "RDF",
-          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/RDF-XML"
-        },
-        {
-          "title": "Formato xml",
-          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.xml",
-          "format": "XML",
-          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/XML"
+          "title": "Diccionario de datos",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/70c6c9b5-4781-4c22-9be3-0eb4c2c03218/resource/c87c8c11-1844-4eb1-9e79-00a5bea7a50e/download/listado-de-actividades-complementarias-inscritos-en-el-registro-general-turistico-de-canarias.csv",
+          "format": "CSV",
+          "identifier": ""
         }
       ],
-      "score": 68,
+      "score": 58,
       "notes": [
         "Incluye formatos reutilizables para prototipos y analisis.",
         "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Transporte.",
-        "Publicador: L01300243."
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A05003638."
       ]
     },
     {
-      "id": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/",
-      "title": "Plazas de parking para personas con movilidad reducida",
-      "description": "Plazas de parking geoposicionadas reservadas a personas con discapacidad",
-      "issued": "vie, 04 jul 2014 22:00:00 GMT+0000",
-      "modified": "vie, 21 ago 2026 22:00:00 GMT+0000",
-      "publisher": "L01300243",
+      "id": "https://datos.canarias.es/catalogos/general/dataset/actividades-de-turismo-activo-inscritas-en-el-registro-general-turistico-de-canarias",
+      "title": "Actividades de turismo activo inscritas en el Registro General Turístico de Canarias",
+      "description": "Listado de actividades de turismo activo inscritas en el Registro General Turístico de Canarias.",
+      "issued": "vie, 12 ene 2024 09:32:50 GMT+0000",
+      "modified": "mar, 25 ago 2026 22:30:25 GMT+0000",
+      "publisher": "A05003638",
       "spatial": "Sin dato",
       "themes": [
-        "Transporte"
+        "Turismo"
       ],
       "keywords": [
-        "Movilidad reducida",
-        "parking",
-        "tráfico"
+        "actividad turística",
+        "actividades",
+        "activo",
+        "turismo",
+        "turismo activo"
       ],
       "formats": [
         "CSV",
-        "JSON",
-        "RDF",
-        "XML"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/l01300243-plazas-de-parking-para-personas-con-movilidad-reducida",
-      "distributions": [
-        {
-          "title": "Formato csv separado por ;",
-          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.csv",
-          "format": "CSV",
-          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/CSV"
-        },
-        {
-          "title": "Formato json",
-          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.json",
-          "format": "JSON",
-          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/JSON"
-        },
-        {
-          "title": "Formato Excel",
-          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.excel",
-          "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/Excel"
-        },
-        {
-          "title": "Formato HTML",
-          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.html",
-          "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/HTML"
-        },
-        {
-          "title": "Formato rdf-xml",
-          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.rdf",
-          "format": "RDF",
-          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/RDF-XML"
-        },
-        {
-          "title": "Formato xml",
-          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.xml",
-          "format": "XML",
-          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/XML"
-        }
-      ],
-      "score": 68,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Transporte.",
-        "Publicador: L01300243."
-      ]
-    },
-    {
-      "id": "https://datosabiertos.navarra.es/dataset/adjudicaciones-licitaciones",
-      "title": "Adjudicaciones licitaciones",
-      "description": "Información de las adjudicaciones publicadas diariamente, del año en curso, en el Portal de Contratación de Navarra. Además de una breve descripción se incluye información referida a:\n\n\t\tEntidad convocante\n\t\tÓrgano de contratación\n\t\tTipo de contrato\n\t\tProcedimiento\n\t\tCriterio de adjudicación\n\t\tPrecio licitación\n\t\tValor estimado\n\t\tImporte de adjudicación\n\t\tNúmero de participantes\n\t\tAdjudicatarios\n\t\tEstado",
-      "issued": "mié, 23 jun 2021 12:26:14 GMT+0000",
-      "modified": "vie, 21 ago 2026 14:30:17 GMT+0000",
-      "publisher": "A15002917",
-      "spatial": "Comunidad Foral Navarra",
-      "themes": [
-        "Hacienda",
-        "Sector Publico"
-      ],
-      "keywords": [
-        "Contratación",
-        "Esleipena",
-        "Iragarkiak",
-        "Kontratazioa",
-        "Lizitazioak",
-        "adjudicación"
-      ],
-      "formats": [
-        "XML",
-        "CSV",
-        "JSON",
-        "XLSX",
-        "HTML",
-        "TSV",
-        "ODS"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a15002917-adjudicaciones-licitaciones1",
-      "distributions": [
-        {
-          "title": "Adjudicaciones licitaciones - XML",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/177017bf-e28e-4e37-9ff8-b53eda79251f?format=xml&bom=True",
-          "format": "XML",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/177017bf-e28e-4e37-9ff8-b53eda79251f?format=xml&bom=True"
-        },
-        {
-          "title": "Adjudicaciones licitaciones - CSV",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/177017bf-e28e-4e37-9ff8-b53eda79251f?format=csv&bom=True",
-          "format": "CSV",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/177017bf-e28e-4e37-9ff8-b53eda79251f?format=csv&bom=True"
-        },
-        {
-          "title": "Adjudicaciones licitaciones",
-          "accessUrl": "https://datosabiertos.navarra.es/dataset/19ebdb19-27c9-4a6f-baf0-4389d93ca685/resource/177017bf-e28e-4e37-9ff8-b53eda79251f/download/downloadfile.aspxcodigoaccesoopendataficherocontratacioncontrataciones_adjudicaciones.csv",
-          "format": "CSV",
-          "identifier": "https://datosabiertos.navarra.es/dataset/19ebdb19-27c9-4a6f-baf0-4389d93ca685/resource/177017bf-e28e-4e37-9ff8-b53eda79251f/download/downloadfile.aspxcodigoaccesoopendataficherocontratacioncontrataciones_adjudicaciones.csv"
-        },
-        {
-          "title": "Adjudicaciones licitaciones - JSON",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/177017bf-e28e-4e37-9ff8-b53eda79251f?format=json&bom=True",
-          "format": "JSON",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/177017bf-e28e-4e37-9ff8-b53eda79251f?format=json&bom=True"
-        },
-        {
-          "title": "Adjudicaciones licitaciones - JSON - API",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/177017bf-e28e-4e37-9ff8-b53eda79251f?format=json&bom=True",
-          "format": "JSON",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/177017bf-e28e-4e37-9ff8-b53eda79251f?format=json&bom=True"
-        },
-        {
-          "title": "Adjudicaciones licitaciones - XLSX",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/177017bf-e28e-4e37-9ff8-b53eda79251f?format=xlsx&bom=True",
-          "format": "XLSX",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/177017bf-e28e-4e37-9ff8-b53eda79251f?format=xlsx&bom=True"
-        }
-      ],
-      "score": 59,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Hacienda, Sector Publico.",
-        "Publicador: A15002917.",
-        "Cobertura geografica principal: Comunidad Foral Navarra."
-      ]
-    },
-    {
-      "id": "https://datosabiertos.navarra.es/dataset/anuncios-licitaciones",
-      "title": "Anuncios licitaciones",
-      "description": "Información de las licitaciones publicadas diariamente, del año en curso, en el Portal de Contratación de Navarra. \nAdemás de una breve descripción se incluye información referida a: \n\n- Entidad convocante\n- Órgano de contratación\n- Tipo de contrato\n- Procedimiento\n- Criterio de adjudicación\n- Precio licitación\n- Valor estimado\n- Fecha de publicación\n- Nuts/lugar ejecución\n- Estado\n- Plazo ejecución\n- CPV",
-      "issued": "mié, 23 jun 2021 12:26:23 GMT+0000",
-      "modified": "vie, 21 ago 2026 14:30:07 GMT+0000",
-      "publisher": "A15002917",
-      "spatial": "Comunidad Foral Navarra",
-      "themes": [
-        "Hacienda",
-        "Sector Publico"
-      ],
-      "keywords": [
-        "Contratación",
-        "Iragarkiak",
-        "Kontratazioa",
-        "Lizitazioak",
-        "anuncios",
-        "licitaciones"
-      ],
-      "formats": [
-        "XML",
-        "TSV",
-        "JSON",
-        "ODS",
-        "CSV",
-        "XLSX",
-        "HTML"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a15002917-anuncios-licitaciones1",
-      "distributions": [
-        {
-          "title": "Anuncios licitaciones - XML",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/dda1af7c-0dcd-4992-9852-ded6b1e7625d?format=xml&bom=True",
-          "format": "XML",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/dda1af7c-0dcd-4992-9852-ded6b1e7625d?format=xml&bom=True"
-        },
-        {
-          "title": "Anuncios licitaciones - TSV",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/dda1af7c-0dcd-4992-9852-ded6b1e7625d?format=tsv&bom=True",
-          "format": "TSV",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/dda1af7c-0dcd-4992-9852-ded6b1e7625d?format=tsv&bom=True"
-        },
-        {
-          "title": "Anuncios licitaciones - JSON",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/dda1af7c-0dcd-4992-9852-ded6b1e7625d?format=json&bom=True",
-          "format": "JSON",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/dda1af7c-0dcd-4992-9852-ded6b1e7625d?format=json&bom=True"
-        },
-        {
-          "title": "Anuncios licitaciones - ODS",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/dda1af7c-0dcd-4992-9852-ded6b1e7625d?format=ods&bom=True",
-          "format": "ODS",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/dda1af7c-0dcd-4992-9852-ded6b1e7625d?format=ods&bom=True"
-        },
-        {
-          "title": "Anuncios licitaciones - CSV",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/dda1af7c-0dcd-4992-9852-ded6b1e7625d?format=csv&bom=True",
-          "format": "CSV",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/dda1af7c-0dcd-4992-9852-ded6b1e7625d?format=csv&bom=True"
-        },
-        {
-          "title": "Anuncios licitaciones - XLSX",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/dda1af7c-0dcd-4992-9852-ded6b1e7625d?format=xlsx&bom=True",
-          "format": "XLSX",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/dda1af7c-0dcd-4992-9852-ded6b1e7625d?format=xlsx&bom=True"
-        }
-      ],
-      "score": 59,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Hacienda, Sector Publico.",
-        "Publicador: A15002917.",
-        "Cobertura geografica principal: Comunidad Foral Navarra."
-      ]
-    },
-    {
-      "id": "https://datosabiertos.navarra.es/dataset/registro-de-contratos-ano-vigente",
-      "title": "Registro de contratos",
-      "description": "Información relativa a la contratación pública, de acuerdo con las exigencias de la Ley Foral de Contratos Públicos y la Ley Foral de Transparencia.",
-      "issued": "mié, 15 oct 2025 10:44:55 GMT+0000",
-      "modified": "vie, 21 ago 2026 14:31:00 GMT+0000",
-      "publisher": "A15002917",
-      "spatial": "Comunidad Foral Navarra",
-      "themes": [
-        "Sector Publico"
-      ],
-      "keywords": [
-        "Actual",
-        "Contratación",
-        "Contratos",
-        "Erregistroa",
-        "Kontratazioa",
-        "Kontratuak"
-      ],
-      "formats": [
-        "XML",
-        "CSV",
-        "ODS",
-        "HTML",
-        "TSV",
         "JSON",
         "XLSX"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a15002917-registro-de-contratos",
+      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-actividades-de-turismo-activo-inscritas-en-el-registro-general-turistico-de-canarias",
       "distributions": [
         {
-          "title": "Relación de contratos - XML",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/f32c7662-3500-44c5-b699-7cab103dd5ab?format=xml&bom=True",
-          "format": "XML",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/f32c7662-3500-44c5-b699-7cab103dd5ab?format=xml&bom=True"
-        },
-        {
-          "title": "Relación de contratos",
-          "accessUrl": "https://datosabiertos.navarra.es/dataset/418f2b03-e3e7-4ad1-bef6-7bfae4ef4a57/resource/f32c7662-3500-44c5-b699-7cab103dd5ab/download/contrataciones_contratos.csv",
+          "title": "Diccionario de datos",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/46d17de9-4644-4e3f-bc07-aadfca2a2758/resource/f254e28f-bbdd-4954-bbcc-795b3e4f57ef/download/listado-de-actividades-de-turismo-activo-inscritas-en-el-registro-general-turistico-de-canarias.csv",
           "format": "CSV",
-          "identifier": "https://datosabiertos.navarra.es/dataset/418f2b03-e3e7-4ad1-bef6-7bfae4ef4a57/resource/f32c7662-3500-44c5-b699-7cab103dd5ab/download/contrataciones_contratos.csv"
+          "identifier": ""
         },
         {
-          "title": "Relación de contratos - ODS",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/f32c7662-3500-44c5-b699-7cab103dd5ab?format=ods&bom=True",
-          "format": "ODS",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/f32c7662-3500-44c5-b699-7cab103dd5ab?format=ods&bom=True"
+          "title": "Actividades de Turismo Activo inscritas en el Registro General Turístico (JSON)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/46d17de9-4644-4e3f-bc07-aadfca2a2758/resource/0ba9d9df-c866-4cde-b881-550758a41908/download/actividades-de-turismo-activo-inscritas-en-el-registro-general-turistico.json",
+          "format": "JSON",
+          "identifier": ""
         },
         {
-          "title": "Relación de contratos - Tabla",
-          "accessUrl": "https://datosabiertos.navarra.es/dataset/registro-de-contratos-ano-vigente/resource/f32c7662-3500-44c5-b699-7cab103dd5ab?view_id=65207717-15dd-4b6b-a2cd-895fac245ff5",
-          "format": "HTML",
-          "identifier": "https://datosabiertos.navarra.es/dataset/registro-de-contratos-ano-vigente/resource/f32c7662-3500-44c5-b699-7cab103dd5ab?view_id=65207717-15dd-4b6b-a2cd-895fac245ff5"
+          "title": "Actividades de Turismo Activo inscritas en el Registro General Turístico (XLSX)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/46d17de9-4644-4e3f-bc07-aadfca2a2758/resource/6a98d38d-0682-47c1-839d-2d1039402246/download/actividades-de-turismo-activo-inscritas-en-el-registro-general-turistico.xlsx",
+          "format": "XLSX",
+          "identifier": ""
         },
         {
-          "title": "Relación de contratos - TSV",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/f32c7662-3500-44c5-b699-7cab103dd5ab?format=tsv&bom=True",
-          "format": "TSV",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/f32c7662-3500-44c5-b699-7cab103dd5ab?format=tsv&bom=True"
-        },
-        {
-          "title": "Relación de contratos - CSV",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/f32c7662-3500-44c5-b699-7cab103dd5ab?format=csv&bom=True",
+          "title": "Actividades de Turismo Activo inscritas en el Registro General Turístico (CSV)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/46d17de9-4644-4e3f-bc07-aadfca2a2758/resource/b56bdbed-8ce8-419d-ad78-78230cf20f65/download/actividades-de-turismo-activo-inscritas-en-el-registro-general-turistico.csv",
           "format": "CSV",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/f32c7662-3500-44c5-b699-7cab103dd5ab?format=csv&bom=True"
+          "identifier": ""
         }
       ],
-      "score": 59,
+      "score": 58,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A05003638."
+      ]
+    },
+    {
+      "id": "https://datos.canarias.es/catalogos/general/dataset/agencias-de-viaje-inscritas-en-el-registro-general-turistico-de-canarias",
+      "title": "Agencias de viaje inscritas en el Registro General Turístico de Canarias",
+      "description": "Listado de agencias de viaje inscritas en el Registro General Turístico de Canarias.",
+      "issued": "vie, 12 ene 2024 09:22:57 GMT+0000",
+      "modified": "mar, 25 ago 2026 22:40:29 GMT+0000",
+      "publisher": "A05003638",
+      "spatial": "Sin dato",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "actividad turística",
+        "actividades",
+        "agencia",
+        "agencia de viajes",
+        "viajes"
+      ],
+      "formats": [
+        "XLSX",
+        "CSV",
+        "JSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-agencias-de-viaje-inscritas-en-el-registro-general-turistico-de-canarias",
+      "distributions": [
+        {
+          "title": "Agencia de Viajes inscritas en el Registro General Turístico (XLSX)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/8e57cc5d-8e83-4e3d-9049-950869b2948e/resource/2dbd5ab4-cdf4-4711-804b-4324f0d5c930/download/agencia-de-viajes-inscritas-en-el-registro-general-turistico.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Diccionario de datos",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/8e57cc5d-8e83-4e3d-9049-950869b2948e/resource/355d6408-b7cc-4940-8c70-69272f49edeb/download/listado-de-agencias-de-viaje-inscritas-en-el-registro-general-turistico-de-canarias.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Agencia de Viajes inscritas en el Registro General Turístico (JSON)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/8e57cc5d-8e83-4e3d-9049-950869b2948e/resource/5ad69a56-abdb-40f1-b185-c69b9294fe8e/download/agencia-de-viajes-inscritas-en-el-registro-general-turistico.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Agencia de Viajes inscritas en el Registro General Turístico (CSV)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/8e57cc5d-8e83-4e3d-9049-950869b2948e/resource/937453b8-c6bf-46e8-82d1-53957c215f47/download/agencia-de-viajes-inscritas-en-el-registro-general-turistico.csv",
+          "format": "CSV",
+          "identifier": ""
+        }
+      ],
+      "score": 58,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A05003638."
+      ]
+    },
+    {
+      "id": "https://datos.canarias.es/catalogos/general/dataset/agencias-de-viaje-on-line-inscritas-en-el-registro-general-turistico-de-canarias",
+      "title": "Agencias de viaje on line inscritas en el Registro General Turístico de Canarias",
+      "description": "Agencias de viaje on line inscritas en el Registro General Turístico de Canarias.",
+      "issued": "vie, 12 ene 2024 09:23:01 GMT+0000",
+      "modified": "mar, 25 ago 2026 22:40:33 GMT+0000",
+      "publisher": "A05003638",
+      "spatial": "Sin dato",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "actividad turística",
+        "actividades",
+        "agencia",
+        "agencia de viajes",
+        "viajes"
+      ],
+      "formats": [
+        "XLSX",
+        "CSV",
+        "JSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-agencias-de-viaje-on-line-inscritas-en-el-registro-general-turistico-de-canarias",
+      "distributions": [
+        {
+          "title": "Agencia de Viajes ON LINE inscritas en el Registro General Turístico (XLSX)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/e42bf818-67c4-4087-874b-2af738bcd1bb/resource/cef56aee-9fc5-4f88-ba00-a73b13b1d5af/download/agencia-de-viajes-on-line-inscritas-en-el-registro-general-turistico.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Diccionario de datos",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/e42bf818-67c4-4087-874b-2af738bcd1bb/resource/3fe4821d-093c-4150-bc9d-c57080eebad0/download/listado-de-agencias-de-viaje-on-line-inscritas-en-el-registro-general-turistico-de-canarias.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Agencia de Viajes ON LINE inscritas en el Registro General Turístico (CSV)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/e42bf818-67c4-4087-874b-2af738bcd1bb/resource/598c5a32-8610-482f-887e-8c3373a19cbb/download/agencia-de-viajes-on-line-inscritas-en-el-registro-general-turistico.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Agencia de Viajes ON LINE inscritas en el Registro General Turístico (JSON)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/e42bf818-67c4-4087-874b-2af738bcd1bb/resource/379099db-79dc-470e-93d5-67975e770066/download/agencia-de-viajes-on-line-inscritas-en-el-registro-general-turistico.json",
+          "format": "JSON",
+          "identifier": ""
+        }
+      ],
+      "score": 58,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A05003638."
+      ]
+    },
+    {
+      "id": "https://datos.canarias.es/catalogos/general/dataset/embarcaciones-de-observacion-de-cetaceos-inscritas-en-el-registro-general-turistico",
+      "title": "Embarcaciones de observación de cetáceos inscritas en el Registro General Turístico",
+      "description": "Listado de Embarcaciones de Observación de Cetáceos inscritas en el Registro General Turístico.",
+      "issued": "vie, 12 ene 2024 09:32:54 GMT+0000",
+      "modified": "mar, 25 ago 2026 22:30:29 GMT+0000",
+      "publisher": "A05003638",
+      "spatial": "Sin dato",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "actividad turística",
+        "cetáceos",
+        "embarcaciones",
+        "observación de cetáceos"
+      ],
+      "formats": [
+        "CSV",
+        "JSON",
+        "XLSX"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-embarcaciones-de-observacion-de-cetaceos-inscritas-en-el-registro-general-turistico1",
+      "distributions": [
+        {
+          "title": "Embarcaciones de observación de cetáceos inscritas en el Registro General Turístico (CSV)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/2d304e13-25d7-4500-aca9-83d28b4146dc/resource/d844aa34-5525-4a94-9181-30bfad55db88/download/embarcaciones-de-observacion-de-cetaceos-inscritas-en-el-registro-general-turistico.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Diccionario de datos",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/2d304e13-25d7-4500-aca9-83d28b4146dc/resource/ff25cf72-5af5-4f10-9f2a-2a74d417c0af/download/listado-de-actividades-de-observacion-de-cetaceos-inscritas-en-el-registro-general-turistico-de-.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Embarcaciones de observación de cetáceos inscritas en el Registro General Turístico (JSON)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/2d304e13-25d7-4500-aca9-83d28b4146dc/resource/66677dbe-40a1-4bb3-bae9-df8cc87cbd64/download/embarcaciones-de-observacion-de-cetaceos-inscritas-en-el-registro-general-turistico.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Embarcaciones de observación de cetáceos inscritas en el Registro General Turístico (XLSX)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/2d304e13-25d7-4500-aca9-83d28b4146dc/resource/577cd92b-82e6-4f44-856c-8971783648ed/download/embarcaciones-de-observacion-de-cetaceos-inscritas-en-el-registro-general-turistico.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        }
+      ],
+      "score": 58,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A05003638."
+      ]
+    },
+    {
+      "id": "https://datos.canarias.es/catalogos/general/dataset/establecimientos-de-restauracion-inscritos-en-el-registro-general-turistico-de-canarias",
+      "title": "Establecimientos de restauración inscritos en el Registro General Turístico de Canarias",
+      "description": "Listado de establecimientos de restauración inscritos en el Registro General Turístico de Canarias.",
+      "issued": "mié, 13 dic 2023 12:34:15 GMT+0000",
+      "modified": "mar, 25 ago 2026 22:51:27 GMT+0000",
+      "publisher": "A05003638",
+      "spatial": "Sin dato",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "actividad",
+        "actividad turística",
+        "actividades de restauración",
+        "establecimientos",
+        "restauración"
+      ],
+      "formats": [
+        "CSV",
+        "JSON",
+        "XLSX"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-establecimientos-de-restauracion-inscritos-en-el-registro-general-turistico-de-canarias1",
+      "distributions": [
+        {
+          "title": "Diccionario de datos",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/f7e177cd-1b8a-448e-a37d-94f53fc8205a/resource/9f56e332-66d1-413c-8e0a-893508dbd17f/download/diccionario_datos_establecimientos-de-restauracion.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Establecimientos de restauración inscritos en el Registro General Turístico de Canarias. (JSON)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/f7e177cd-1b8a-448e-a37d-94f53fc8205a/resource/ce68c3b8-71e7-4d8e-89dd-5a9fe0b6ac64/download/establecimientos-de-restauracion-inscritos-en-el-registro-general-turistico-de-canarias.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Establecimientos de restauración inscritos en el Registro General Turístico de Canarias. (XLSX)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/f7e177cd-1b8a-448e-a37d-94f53fc8205a/resource/5120da1a-4686-4bde-b55c-46644169f5d6/download/establecimientos-de-restauracion-inscritos-en-el-registro-general-turistico-de-canarias.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Establecimientos de restauración inscritos en el Registro General Turístico de Canarias. (CSV)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/f7e177cd-1b8a-448e-a37d-94f53fc8205a/resource/18573636-d975-4a1a-ac77-cfa9d8b56b12/download/establecimientos-de-restauracion-inscritos-en-el-registro-general-turistico-de-canarias.csv",
+          "format": "CSV",
+          "identifier": ""
+        }
+      ],
+      "score": 58,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A05003638."
+      ]
+    },
+    {
+      "id": "https://datos.canarias.es/catalogos/general/dataset/establecimientos-extrahoteleros-de-tipologia-vivienda-vacacional-inscritos-en-el-registro",
+      "title": "Establecimientos extrahoteleros de tipología vivienda vacacional inscritos en el Registro General Turístico de Canarias",
+      "description": "Listado de establecimientos extrahoteleros de tipología vivienda vacacional inscritos en el Registro General Turístico de Canarias.",
+      "issued": "mié, 13 dic 2023 12:34:29 GMT+0000",
+      "modified": "mar, 25 ago 2026 22:53:07 GMT+0000",
+      "publisher": "A05003638",
+      "spatial": "Sin dato",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "actividad turística",
+        "actividades",
+        "actividades extrahoteleras",
+        "establecimientos hoteleros",
+        "vacacional",
+        "viviendas vacacionales"
+      ],
+      "formats": [
+        "CSV",
+        "XLSX",
+        "JSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-establecimientos-extrahoteleros-de-tipologia-vivienda-vacacional-inscritos-en-el-registro-general-turistico-de-canarias1",
+      "distributions": [
+        {
+          "title": "Establecimientos extrahoteleros de tipología vivienda vacacional inscritos en el Registro General Turístico de Canarias. (CSV)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/9f4355a2-d086-4384-ba72-d8c99aa2d544/resource/8ff8cc43-c00b-4513-8f42-a5b961c579e1/download/establecimientos-extrahoteleros-de-tipologia-vivienda-vacacional-inscritos-en-el-registro-genera.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Establecimientos extrahoteleros de tipología vivienda vacacional inscritos en el Registro General Turístico de Canarias. (XLSX)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/9f4355a2-d086-4384-ba72-d8c99aa2d544/resource/3b32402f-58e8-4170-8bc1-17f881fb6f61/download/establecimientos-extrahoteleros-de-tipologia-vivienda-vacacional-inscritos-en-el-registro-gener.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Establecimientos extrahoteleros de tipología vivienda vacacional inscritos en el Registro General Turístico de Canarias. (JSON)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/9f4355a2-d086-4384-ba72-d8c99aa2d544/resource/2507a1c1-acf6-4c6a-a3cc-1d414849d1c5/download/establecimientos-extrahoteleros-de-tipologia-vivienda-vacacional-inscritos-en-el-registro-gener.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Diccionario de datos",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/9f4355a2-d086-4384-ba72-d8c99aa2d544/resource/07e101fc-ee77-4a0f-b1ae-b466dbb9e427/download/diccionario_datos_establecimientos-extrahoteleros-vivienda-vacacional.csv",
+          "format": "CSV",
+          "identifier": ""
+        }
+      ],
+      "score": 58,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A05003638."
+      ]
+    },
+    {
+      "id": "https://datos.canarias.es/catalogos/general/dataset/establecimientos-extrahoteleros-sin-viviendas-vacacionales-inscritos-en-el-registro",
+      "title": "Establecimientos extrahoteleros sin viviendas vacacionales inscritos en el Registro General Turístico de Canarias",
+      "description": "Listado de establecimientos extrahoteleros sin viviendas vacacionales inscritos en el Registro General Turístico de Canarias.",
+      "issued": "vie, 12 ene 2024 09:16:14 GMT+0000",
+      "modified": "mar, 25 ago 2026 22:51:37 GMT+0000",
+      "publisher": "A05003638",
+      "spatial": "Sin dato",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "actividad turística",
+        "actividades",
+        "actividades extrahoteleras",
+        "establecimientos hoteleros"
+      ],
+      "formats": [
+        "XLSX",
+        "CSV",
+        "JSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-establecimientos-extrahoteleros-sin-viviendas-vacacionales-inscritos-en-el-registro-general-turistico-de-canarias1",
+      "distributions": [
+        {
+          "title": "Establecimientos extrahoteleros sin viviendas vacacionales inscritos en el Registro General Turístico de Canarias. (XLSX)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/1364104c-b86c-4ab9-8ef5-12fdf399aa01/resource/3c464663-3e73-4685-b181-f7b6ab0f0529/download/establecimientos-extrahoteleros-sin-viviendas-vacacionales-inscritos-en-el-registro-general-tur.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Establecimientos extrahoteleros sin viviendas vacacionales inscritos en el Registro General Turístico de Canarias. (CSV)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/1364104c-b86c-4ab9-8ef5-12fdf399aa01/resource/d98c2617-db26-4d15-8ee4-3b2da1130bd0/download/establecimientos-extrahoteleros-sin-viviendas-vacacionales-inscritos-en-el-registro-general-turi.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Establecimientos extrahoteleros sin viviendas vacacionales inscritos en el Registro General Turístico de Canarias. (JSON)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/1364104c-b86c-4ab9-8ef5-12fdf399aa01/resource/94d0b931-9e96-45dc-a10f-7605a69c4050/download/establecimientos-extrahoteleros-sin-viviendas-vacacionales-inscritos-en-el-registro-general-tur.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Diccionario de datos",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/1364104c-b86c-4ab9-8ef5-12fdf399aa01/resource/8dc2389f-4fe0-466b-a686-4d47afd533c2/download/diccionario_datos_establecimientos-extrahoteleros-sin-viviendas-vacacionales.csv",
+          "format": "CSV",
+          "identifier": ""
+        }
+      ],
+      "score": 58,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A05003638."
+      ]
+    },
+    {
+      "id": "https://datos.canarias.es/catalogos/general/dataset/establecimientos-hoteleros-inscritos-en-el-registro-general-turistico-de-canarias",
+      "title": "Establecimientos hoteleros inscritos en el Registro General Turístico de Canarias",
+      "description": "Listado de establecimientos hoteleros inscritos en el Registro General Turístico de Canarias.",
+      "issued": "mié, 13 dic 2023 12:34:21 GMT+0000",
+      "modified": "mar, 25 ago 2026 22:51:31 GMT+0000",
+      "publisher": "A05003638",
+      "spatial": "Sin dato",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "actividad turística",
+        "actividades",
+        "actividades hoteleras",
+        "establecimientos hoteleros"
+      ],
+      "formats": [
+        "CSV",
+        "JSON",
+        "XLSX"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-establecimientos-hoteleros-inscritos-en-el-registro-general-turistico-de-canarias1",
+      "distributions": [
+        {
+          "title": "Establecimientos hoteleros inscritos en el Registro General Turístico de Canarias. (CSV)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/429db33d-cbce-4920-b1b6-b4dde9e5f90f/resource/87741d75-2ce2-4a45-8131-ad8263257664/download/establecimientos-hoteleros-inscritos-en-el-registro-general-turistico-de-canarias.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Establecimientos hoteleros inscritos en el Registro General Turístico de Canarias. (JSON)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/429db33d-cbce-4920-b1b6-b4dde9e5f90f/resource/d98f6ce7-e045-4d1b-9c8c-0b4233b4889a/download/establecimientos-hoteleros-inscritos-en-el-registro-general-turistico-de-canarias.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Diccionario de datos",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/429db33d-cbce-4920-b1b6-b4dde9e5f90f/resource/7ff27379-f243-428a-9f7f-f5165aff0554/download/diccionario_datos_establecimientos-hoteleros.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Establecimientos hoteleros inscritos en el Registro General Turístico de Canarias. (XLSX)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/429db33d-cbce-4920-b1b6-b4dde9e5f90f/resource/eda77ef5-b5e3-4007-b10d-9b2b4906dd23/download/establecimientos-hoteleros-inscritos-en-el-registro-general-turistico-de-canarias.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        }
+      ],
+      "score": 58,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A05003638."
+      ]
+    },
+    {
+      "id": "https://datos.canarias.es/catalogos/general/dataset/intermediadores-turisticos-inscritos-en-el-registro-general-turistico-de-canarias",
+      "title": "Intermediadores turísticos inscritos en el Registro General Turístico de Canarias",
+      "description": "Listado de intermediadores turísticos inscritos en el Registro General Turístico de Canarias.",
+      "issued": "vie, 12 ene 2024 09:22:53 GMT+0000",
+      "modified": "mar, 25 ago 2026 22:40:25 GMT+0000",
+      "publisher": "A05003638",
+      "spatial": "Sin dato",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "actividad turística",
+        "actividades",
+        "intermediación",
+        "intermediadores",
+        "turísiticos"
+      ],
+      "formats": [
+        "CSV",
+        "JSON",
+        "XLSX"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-intermediadores-turisticos-inscritos-en-el-registro-general-turistico-de-canarias",
+      "distributions": [
+        {
+          "title": "Intermediadores turísticos inscritos en el Registro General Turístico (CSV)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/e7a2e1a5-855d-480b-b865-6aa28314e04b/resource/31d139ce-886e-440c-a296-221a63f8f36c/download/intermediadores-turisticos-inscritos-en-el-registro-general-turistico.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Intermediadores turísticos inscritos en el Registro General Turístico (JSON)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/e7a2e1a5-855d-480b-b865-6aa28314e04b/resource/978e475b-519b-4c28-85ff-ab1aa858a405/download/intermediadores-turisticos-inscritos-en-el-registro-general-turistico.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Diccionario de datos",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/e7a2e1a5-855d-480b-b865-6aa28314e04b/resource/4d98a8e0-4f44-48af-ba88-f5add56cbe0e/download/listado-de-intermediadores-turisticos-inscritos-en-el-registro-general-turistico-de-canarias.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Intermediadores turísticos inscritos en el Registro General Turístico (XLSX)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/e7a2e1a5-855d-480b-b865-6aa28314e04b/resource/b2bbaa0b-75bf-409a-ad43-4ee10f032fd0/download/intermediadores-turisticos-inscritos-en-el-registro-general-turistico.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        }
+      ],
+      "score": 58,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A05003638."
+      ]
+    },
+    {
+      "id": "https://datos.canarias.es/catalogos/general/dataset/intermediadores-turisticos-on-line-inscritos-en-el-registro-general-turistico-de-canaria",
+      "title": "Intermediadores turísticos on line inscritos en el Registro General Turístico de Canarias",
+      "description": "Listado de intermediadores turísticos on line inscritos en el Registro General Turístico de Canarias.",
+      "issued": "vie, 12 ene 2024 09:22:49 GMT+0000",
+      "modified": "mar, 25 ago 2026 22:40:20 GMT+0000",
+      "publisher": "A05003638",
+      "spatial": "Sin dato",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "actividad turística",
+        "actividades",
+        "intermediación",
+        "intermediadores",
+        "turísiticos"
+      ],
+      "formats": [
+        "JSON",
+        "CSV",
+        "XLSX"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-intermediadores-turisticos-on-line-inscritos-en-el-registro-general-turistico-de-canarias",
+      "distributions": [
+        {
+          "title": "Intermediadores turísticos ON LINE inscritos en el Registro General Turístico (JSON)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/296a0448-6f8a-4dfc-8ff5-c356431b183c/resource/da651f08-754b-4e82-a3ae-67c786bf7b94/download/intermediadores-turisticos-on-line-inscritos-en-el-registro-general-turistico-de-canarias.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Diccionario de datos",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/296a0448-6f8a-4dfc-8ff5-c356431b183c/resource/bb325f7b-56f5-4a45-97d6-c23183c0769b/download/listado-de-intermediadores-turisticos-on-line-inscritos-en-el-registro-general-turistico-de-cana.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Intermediadores turísticos ON LINE inscritos en el Registro General Turístico (CSV)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/296a0448-6f8a-4dfc-8ff5-c356431b183c/resource/31c7b81e-90f1-4ab7-ac9a-4d3012f59c9f/download/intermediadores-turisticos-on-line-inscritos-en-el-registro-general-turistico-de-canarias.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Intermediadores turísticos ON LINE inscritos en el Registro General Turístico (XLSX)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/296a0448-6f8a-4dfc-8ff5-c356431b183c/resource/dd89bda2-6616-43c8-9aa0-68dae52a1ebd/download/intermediadores-turisticos-on-line-inscritos-en-el-registro-general-turistico-de-canarias.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        }
+      ],
+      "score": 58,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A05003638."
+      ]
+    },
+    {
+      "id": "https://datos.canarias.es/catalogos/general/dataset/organigrama-del-gobierno-de-canarias",
+      "title": "Organigrama del Gobierno de Canarias",
+      "description": "Organigrama que contiene la estructura orgánica del Gobierno de Canarias.",
+      "issued": "vie, 04 dic 2020 12:14:40 GMT+0000",
+      "modified": "mié, 26 ago 2026 00:41:02 GMT+0000",
+      "publisher": "A05003638",
+      "spatial": "Sin dato",
+      "themes": [
+        "Sector Publico"
+      ],
+      "keywords": [
+        "organigrama"
+      ],
+      "formats": [
+        "CSV",
+        "JSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-organigrama",
+      "distributions": [
+        {
+          "title": "Organigrama del Gobierno de Canarias. (CSV)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/019f9d7e-64bc-4603-a306-45ca1902b13e/resource/59abb23f-1087-4996-8697-a447b28aaf87/download/organigrama.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Diccionario de datos",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/019f9d7e-64bc-4603-a306-45ca1902b13e/resource/717a238b-0baf-4941-af72-fd6385101156/download/diccionario_datos_organigrama_del_gobierno_de_canarias.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Organigrama del Gobierno de Canarias. (JSON)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/019f9d7e-64bc-4603-a306-45ca1902b13e/resource/8ce6229b-9d3e-41f6-bb4c-a5149f11b702/download/organigrama.json",
+          "format": "JSON",
+          "identifier": ""
+        }
+      ],
+      "score": 32,
       "notes": [
         "Incluye formatos reutilizables para prototipos y analisis.",
         "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
         "Tematicas detectadas: Sector Publico.",
-        "Publicador: A15002917.",
-        "Cobertura geografica principal: Comunidad Foral Navarra."
+        "Publicador: A05003638."
       ]
     },
     {
-      "id": "https://datosabiertos.navarra.es/dataset/registro-industrial-de-navarra-empresas-divisi-n-a",
-      "title": "Registro Industrial de Navarra. Empresas división A",
-      "description": "El Registro Industrial de Navarra constituye el instrumento de información sobre la actividad industrial en Navarra y contiene los datos relativos a las empresas y entidades que realicen en Navarra alguna de las siguientes actividades:\nEmpresas de la División A: \nEmpresas y establecimientos que realicen alguna de las actividades o instalaciones siguientes:\n-  Las actividades dirigidas a la obtención, reparación, mantenimiento, transformación o reutilización de productos industriales, el envasado y embalaje, y el aprovechamiento, recuperación y eliminación de residuos o subproductos, cualquiera que sea la naturaleza de los recursos o procesos técnicos utilizados y, en su caso, las instalaciones que estas precisen.\n-  Las actividades de generación, distribución y suministro de la energía y productos energéticos.\n-  Las actividades de investigación, aprovechamiento y beneficio de los yacimientos minerales y demás recursos geológicos, cualquiera que sea su origen y estado físico.\n-  Las actividades industriales relacionadas con el transporte y las telecomunicaciones.\n-  Las actividades industriales relativas al medicamento y la sanidad.\n-  Las actividades industriales relativas al fomento de la cultura.\n-  El registro de las industrias alimentarias, agrarias, pecuarias, forestales y pesqueras. \nEn esta ficha podrá consultar la información pública de estas empresas registradas",
-      "issued": "mié, 23 jun 2021 12:41:32 GMT+0000",
-      "modified": "vie, 21 ago 2026 22:15:09 GMT+0000",
-      "publisher": "A15002917",
-      "spatial": "Comunidad Foral Navarra",
-      "themes": [
-        "Industria",
-        "Legislacion Justicia"
-      ],
-      "keywords": [
-        "Erregistroa",
-        "Industria",
-        "Industria",
-        "Registro"
-      ],
-      "formats": [
-        "ODS",
-        "HTML",
-        "XML",
-        "CSV",
-        "XLSX",
-        "TSV",
-        "JSON"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a15002917-registro-industrial-de-navarra-empresas-division-a1",
-      "distributions": [
-        {
-          "title": "Registro Industrial de Navarra. Empresas división A - ODS",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/d83e2397-13db-495c-8e35-6fc296f534e6?format=ods&bom=True",
-          "format": "ODS",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/d83e2397-13db-495c-8e35-6fc296f534e6?format=ods&bom=True"
-        },
-        {
-          "title": "Registro Industrial de Navarra. Empresas división A - Tabla",
-          "accessUrl": "https://datosabiertos.navarra.es/dataset/registro-industrial-de-navarra-empresas-divisi-n-a/resource/d83e2397-13db-495c-8e35-6fc296f534e6?view_id=a4ee8ced-b7a0-47fd-b566-92b2aa881afa",
-          "format": "HTML",
-          "identifier": "https://datosabiertos.navarra.es/dataset/registro-industrial-de-navarra-empresas-divisi-n-a/resource/d83e2397-13db-495c-8e35-6fc296f534e6?view_id=a4ee8ced-b7a0-47fd-b566-92b2aa881afa"
-        },
-        {
-          "title": "Registro Industrial de Navarra. Empresas división A",
-          "accessUrl": "https://datosabiertos.navarra.es/dataset/9aeb850e-a2d2-49f2-ad07-00d89618baeb/resource/0507fa00-f98b-4b19-b935-7736f471c965/download/resultadorindiva.xsd",
-          "format": "XML",
-          "identifier": "https://datosabiertos.navarra.es/dataset/9aeb850e-a2d2-49f2-ad07-00d89618baeb/resource/0507fa00-f98b-4b19-b935-7736f471c965/download/resultadorindiva.xsd"
-        },
-        {
-          "title": "Registro Industrial de Navarra. Empresas división A - CSV",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/d83e2397-13db-495c-8e35-6fc296f534e6?format=csv&bom=True",
-          "format": "CSV",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/d83e2397-13db-495c-8e35-6fc296f534e6?format=csv&bom=True"
-        },
-        {
-          "title": "Registro Industrial de Navarra. Empresas división A - XML",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/d83e2397-13db-495c-8e35-6fc296f534e6?format=xml&bom=True",
-          "format": "XML",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/d83e2397-13db-495c-8e35-6fc296f534e6?format=xml&bom=True"
-        },
-        {
-          "title": "Registro Industrial de Navarra. Empresas división A - XLSX",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/d83e2397-13db-495c-8e35-6fc296f534e6?format=xlsx&bom=True",
-          "format": "XLSX",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/d83e2397-13db-495c-8e35-6fc296f534e6?format=xlsx&bom=True"
-        }
-      ],
-      "score": 59,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Industria, Legislacion Justicia.",
-        "Publicador: A15002917.",
-        "Cobertura geografica principal: Comunidad Foral Navarra."
-      ]
-    },
-    {
-      "id": "https://datosabiertos.navarra.es/dataset/registro-industrial-de-navarra-empresas-divisi-n-b",
-      "title": "Registro Industrial de Navarra. Empresas división B",
-      "description": "El Registro Industrial de Navarra constituye el instrumento de información sobre la actividad industrial en Navarra y contiene los datos relativos a las empresas y entidades que realicen en Navarra alguna de las siguientes actividades:\nEmpresas de la División B: \n-  Empresas de servicios habilitadas en materia de Seguridad industrial.\n-  Servicios de ingeniería, diseño, consultoría tecnológica y asistencia técnica de carácter industrial, directamente relacionados con las actividades de la división A.\nEn esta ficha podrá consultar la información pública de estas empresas registradas.",
-      "issued": "mié, 23 jun 2021 12:41:37 GMT+0000",
-      "modified": "vie, 21 ago 2026 22:15:20 GMT+0000",
-      "publisher": "A15002917",
-      "spatial": "Comunidad Foral Navarra",
-      "themes": [
-        "Industria",
-        "Legislacion Justicia"
-      ],
-      "keywords": [
-        "Erregistroa",
-        "Industria",
-        "Industria",
-        "Registro"
-      ],
-      "formats": [
-        "CSV",
-        "JSON",
-        "HTML",
-        "XML",
-        "XLSX",
-        "TSV",
-        "ODS"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a15002917-registro-industrial-de-navarra-empresas-division-b1",
-      "distributions": [
-        {
-          "title": "Registro Industrial de Navarra. Empresas división B",
-          "accessUrl": "https://datosabiertos.navarra.es/dataset/336c20a4-cb97-4520-a240-e55792d71672/resource/286e73d0-13f8-4f67-9d34-9bb169175a78/download/resource_286e73d0-13f8-4f67-9d34-9bb169175a78.csv",
-          "format": "CSV",
-          "identifier": "https://datosabiertos.navarra.es/dataset/336c20a4-cb97-4520-a240-e55792d71672/resource/286e73d0-13f8-4f67-9d34-9bb169175a78/download/resource_286e73d0-13f8-4f67-9d34-9bb169175a78.csv"
-        },
-        {
-          "title": "Registro Industrial de Navarra. Empresas división B - JSON - API",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/286e73d0-13f8-4f67-9d34-9bb169175a78?format=json&bom=True",
-          "format": "JSON",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/286e73d0-13f8-4f67-9d34-9bb169175a78?format=json&bom=True"
-        },
-        {
-          "title": "Registro Industrial de Navarra. Empresas división B - JSON",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/286e73d0-13f8-4f67-9d34-9bb169175a78?format=json&bom=True",
-          "format": "JSON",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/286e73d0-13f8-4f67-9d34-9bb169175a78?format=json&bom=True"
-        },
-        {
-          "title": "Registro Industrial de Navarra. Empresas división B - Tabla",
-          "accessUrl": "https://datosabiertos.navarra.es/dataset/registro-industrial-de-navarra-empresas-divisi-n-b/resource/286e73d0-13f8-4f67-9d34-9bb169175a78?view_id=955deda5-5e54-48d8-9353-9655bcb8aa2b",
-          "format": "HTML",
-          "identifier": "https://datosabiertos.navarra.es/dataset/registro-industrial-de-navarra-empresas-divisi-n-b/resource/286e73d0-13f8-4f67-9d34-9bb169175a78?view_id=955deda5-5e54-48d8-9353-9655bcb8aa2b"
-        },
-        {
-          "title": "Registro Industrial de Navarra. Empresas división B - XML",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/286e73d0-13f8-4f67-9d34-9bb169175a78?format=xml&bom=True",
-          "format": "XML",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/286e73d0-13f8-4f67-9d34-9bb169175a78?format=xml&bom=True"
-        },
-        {
-          "title": "Registro Industrial de Navarra. Empresas división B - XLSX",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/286e73d0-13f8-4f67-9d34-9bb169175a78?format=xlsx&bom=True",
-          "format": "XLSX",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/286e73d0-13f8-4f67-9d34-9bb169175a78?format=xlsx&bom=True"
-        }
-      ],
-      "score": 59,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Industria, Legislacion Justicia.",
-        "Publicador: A15002917.",
-        "Cobertura geografica principal: Comunidad Foral Navarra."
-      ]
-    },
-    {
-      "id": "https://datosabiertos.navarra.es/dataset/registro-industrial-de-navarra-empresas-divisi-n-c",
-      "title": "Registro Industrial de Navarra. Empresas división C",
-      "description": "El Registro Industrial de Navarra constituye el instrumento de información sobre la actividad industrial en Navarra y contiene los datos relativos a las empresas y entidades que realicen en Navarra alguna de las siguientes actividades:\nEmpresas de la División C: \n-  Entidades de acreditación, organismos de control, laboratorios y otros agentes en materia de seguridad y calidad industrial.\nEn esta ficha podrá consultar la información pública de estas empresas registradas",
-      "issued": "mié, 23 jun 2021 12:41:43 GMT+0000",
-      "modified": "vie, 21 ago 2026 22:15:05 GMT+0000",
-      "publisher": "A15002917",
-      "spatial": "Comunidad Foral Navarra",
-      "themes": [
-        "Industria",
-        "Legislacion Justicia"
-      ],
-      "keywords": [
-        "Erregistroa",
-        "Industria",
-        "Industria",
-        "Registro"
-      ],
-      "formats": [
-        "CSV",
-        "XML",
-        "JSON",
-        "TSV",
-        "HTML",
-        "ODS",
-        "XLSX"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a15002917-registro-industrial-de-navarra-empresas-division-c1",
-      "distributions": [
-        {
-          "title": "Registro Industrial de Navarra. Empresas división C",
-          "accessUrl": "https://datosabiertos.navarra.es/dataset/f1ee8311-a5ca-4680-a80e-8133142c2d1c/resource/5548b6ec-c66e-4671-8d1c-fe9161b5f72d/download/resultadorindivc.csv",
-          "format": "CSV",
-          "identifier": "https://datosabiertos.navarra.es/dataset/f1ee8311-a5ca-4680-a80e-8133142c2d1c/resource/5548b6ec-c66e-4671-8d1c-fe9161b5f72d/download/resultadorindivc.csv"
-        },
-        {
-          "title": "Registro Industrial de Navarra. Empresas división C - XML",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/5548b6ec-c66e-4671-8d1c-fe9161b5f72d?format=xml&bom=True",
-          "format": "XML",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/5548b6ec-c66e-4671-8d1c-fe9161b5f72d?format=xml&bom=True"
-        },
-        {
-          "title": "Registro Industrial de Navarra. Empresas división C - JSON",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/5548b6ec-c66e-4671-8d1c-fe9161b5f72d?format=json&bom=True",
-          "format": "JSON",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/5548b6ec-c66e-4671-8d1c-fe9161b5f72d?format=json&bom=True"
-        },
-        {
-          "title": "Registro Industrial de Navarra. Empresas división C - JSON - API",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/5548b6ec-c66e-4671-8d1c-fe9161b5f72d?format=json&bom=True",
-          "format": "JSON",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/5548b6ec-c66e-4671-8d1c-fe9161b5f72d?format=json&bom=True"
-        },
-        {
-          "title": "Registro Industrial de Navarra. Empresas división C - TSV",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/5548b6ec-c66e-4671-8d1c-fe9161b5f72d?format=tsv&bom=True",
-          "format": "TSV",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/5548b6ec-c66e-4671-8d1c-fe9161b5f72d?format=tsv&bom=True"
-        },
-        {
-          "title": "Registro Industrial de Navarra. Empresas división C - Tabla",
-          "accessUrl": "https://datosabiertos.navarra.es/dataset/registro-industrial-de-navarra-empresas-divisi-n-c/resource/5548b6ec-c66e-4671-8d1c-fe9161b5f72d?view_id=949aa11d-72af-4b8a-b15f-c0a7e979ec3d",
-          "format": "HTML",
-          "identifier": "https://datosabiertos.navarra.es/dataset/registro-industrial-de-navarra-empresas-divisi-n-c/resource/5548b6ec-c66e-4671-8d1c-fe9161b5f72d?view_id=949aa11d-72af-4b8a-b15f-c0a7e979ec3d"
-        }
-      ],
-      "score": 59,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Industria, Legislacion Justicia.",
-        "Publicador: A15002917.",
-        "Cobertura geografica principal: Comunidad Foral Navarra."
-      ]
-    },
-    {
-      "id": "https://datosabiertos.navarra.es/dataset/subcontrataciones",
-      "title": "Subcontrataciones",
-      "description": "Las empresas que contratan o subcontratan trabajos en obras de construcción deben verificar que sus empresas contratistas o subcontratistas cumplen los requisitos exigidos legalmente. El modo de cumplir ese deber de comprobación es la solicitud y obtención de una certificación de la autoridad laboral que acredite que la empresa está inscrita en el Registro de Empresas Acreditadas.\n\nEsta inscripción en dicho Registro es obligatoria y será única y válida para todo el territorio nacional, permitirá a las empresas incluidas en el mismo intervenir en la subcontratación en el Sector de la Construcción como contratistas o subcontratistas.\nEmpresas de construcción que vayan a subcontratar deberán habilitar el libro de subcontratación de empresas del sector de la construcción, que consistirá en la verificación de que el Libro de Subcontratación reúne los requisitos establecidos en el Real Decreto 1109/2007, de 24 de agosto, por el que se desarrolla la Ley 32/2006, de 18 de octubre, reguladora de la subcontratación en el Sector de la Construcción.\n\nEn esta ficha se pueden consultar las empresas subcontratadas en el sector de la construcción.",
-      "issued": "mié, 23 jun 2021 12:44:45 GMT+0000",
-      "modified": "vie, 21 ago 2026 22:03:17 GMT+0000",
-      "publisher": "A15002917",
-      "spatial": "Comunidad Foral Navarra",
-      "themes": [
-        "Comercio",
-        "Legislacion Justicia"
-      ],
-      "keywords": [
-        "AAPP",
-        "Administrazio publikoak",
-        "Contratación",
-        "Erregistroa",
-        "Kontratazioa",
-        "Lana"
-      ],
-      "formats": [
-        "TSV",
-        "JSON",
-        "ODS",
-        "XLSX",
-        "XML",
-        "CSV",
-        "HTML"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a15002917-subcontrataciones1",
-      "distributions": [
-        {
-          "title": "Subcontrataciones - TSV",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/11b8dd08-57af-4d6c-bf2c-a8d1bfac206b?format=tsv&bom=True",
-          "format": "TSV",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/11b8dd08-57af-4d6c-bf2c-a8d1bfac206b?format=tsv&bom=True"
-        },
-        {
-          "title": "Subcontrataciones - JSON - API",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/11b8dd08-57af-4d6c-bf2c-a8d1bfac206b?format=json&bom=True",
-          "format": "JSON",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/11b8dd08-57af-4d6c-bf2c-a8d1bfac206b?format=json&bom=True"
-        },
-        {
-          "title": "Subcontrataciones - ODS",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/11b8dd08-57af-4d6c-bf2c-a8d1bfac206b?format=ods&bom=True",
-          "format": "ODS",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/11b8dd08-57af-4d6c-bf2c-a8d1bfac206b?format=ods&bom=True"
-        },
-        {
-          "title": "Subcontrataciones - XLSX",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/11b8dd08-57af-4d6c-bf2c-a8d1bfac206b?format=xlsx&bom=True",
-          "format": "XLSX",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/11b8dd08-57af-4d6c-bf2c-a8d1bfac206b?format=xlsx&bom=True"
-        },
-        {
-          "title": "Subcontrataciones - XML",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/11b8dd08-57af-4d6c-bf2c-a8d1bfac206b?format=xml&bom=True",
-          "format": "XML",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/11b8dd08-57af-4d6c-bf2c-a8d1bfac206b?format=xml&bom=True"
-        },
-        {
-          "title": "Subcontrataciones - JSON",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/11b8dd08-57af-4d6c-bf2c-a8d1bfac206b?format=json&bom=True",
-          "format": "JSON",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/11b8dd08-57af-4d6c-bf2c-a8d1bfac206b?format=json&bom=True"
-        }
-      ],
-      "score": 59,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Comercio, Legislacion Justicia.",
-        "Publicador: A15002917.",
-        "Cobertura geografica principal: Comunidad Foral Navarra."
-      ]
-    },
-    {
-      "id": "https://datos.lorca.es/catalogo/calle-cortada/",
-      "title": "Calle cortada",
-      "description": "Calles cortadas al tráfico rodado",
-      "issued": "sáb, 05 jul 2014 22:00:00 GMT+0000",
-      "modified": "vie, 21 ago 2026 22:00:00 GMT+0000",
-      "publisher": "L01300243",
+      "id": "https://datos.canarias.es/catalogos/general/dataset/instalaciones-baja-tension-canarias",
+      "title": "Instalaciones eléctricas de baja tensión de Canarias",
+      "description": "Instalaciones eléctricas de baja tensión en servicio en la Comunidad Autónoma de Canarias, excluidas las instalaciones de autoconsumo. Cada registro corresponde a una instalación con información sobre su número de expediente, tipo, municipio, isla, potencia y estado. Los datos pueden consultarse también en el portal del organismo publicador: https://www.gobiernodecanarias.org/energia/materias/energia-electrica/bajatension/index.html",
+      "issued": "mar, 02 jun 2026 05:52:22 GMT+0000",
+      "modified": "mié, 26 ago 2026 04:11:19 GMT+0000",
+      "publisher": "A05003638",
       "spatial": "Sin dato",
       "themes": [
-        "Transporte"
+        "Energia"
       ],
       "keywords": [
-        "calle cortada",
-        "movilidad",
-        "tráfico"
+        "electricidad"
       ],
       "formats": [
-        "CSV",
-        "XML",
-        "JSON"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/l01300243-calle-cortada",
-      "distributions": [
-        {
-          "title": "Formato HTML",
-          "accessUrl": "https://datos.lorca.es/catalogo/calle-cortada/calle-cortada.html",
-          "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/calle-cortada/HTML"
-        },
-        {
-          "title": "Formato csv separado por ;",
-          "accessUrl": "https://datos.lorca.es/catalogo/calle-cortada/calle-cortada.csv",
-          "format": "CSV",
-          "identifier": "https://datos.lorca.es/catalogo/calle-cortada/CSV"
-        },
-        {
-          "title": "Formato Excel",
-          "accessUrl": "https://datos.lorca.es/catalogo/calle-cortada/calle-cortada.excel",
-          "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/calle-cortada/Excel"
-        },
-        {
-          "title": "Formato xml",
-          "accessUrl": "https://datos.lorca.es/catalogo/calle-cortada/calle-cortada.xml",
-          "format": "XML",
-          "identifier": "https://datos.lorca.es/catalogo/calle-cortada/XML"
-        },
-        {
-          "title": "Formato json",
-          "accessUrl": "https://datos.lorca.es/catalogo/calle-cortada/calle-cortada.json",
-          "format": "JSON",
-          "identifier": "https://datos.lorca.es/catalogo/calle-cortada/JSON"
-        }
-      ],
-      "score": 58,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Transporte.",
-        "Publicador: L01300243."
-      ]
-    },
-    {
-      "id": "https://datos.lorca.es/catalogo/cursos-formacion-empleo/",
-      "title": "Cursos de formación profesional",
-      "description": "Cursos de formación profesional realizados por la Concejalía de Empleo del Ayuntamiento de Lorca",
-      "issued": "jue, 17 jul 2014 22:00:00 GMT+0000",
-      "modified": "vie, 21 ago 2026 22:00:00 GMT+0000",
-      "publisher": "L01300243",
-      "spatial": "Sin dato",
-      "themes": [
-        "Empleo"
-      ],
-      "keywords": [
-        "cursos",
-        "empleo",
-        "formación",
-        "profesional"
-      ],
-      "formats": [
-        "XML",
-        "CSV",
-        "JSON"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/l01300243-cursos-de-formacion-profesional",
-      "distributions": [
-        {
-          "title": "Distribucion",
-          "accessUrl": "https://datos.lorca.es/catalogo/cursos-formacion-empleo/cursos-formacion-empleo.xml",
-          "format": "XML",
-          "identifier": "https://datos.lorca.es/catalogo/cursos-formacion-empleo/XML"
-        },
-        {
-          "title": "Distribucion",
-          "accessUrl": "https://datos.lorca.es/catalogo/cursos-formacion-empleo/cursos-formacion-empleo.rss",
-          "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/cursos-formacion-empleo/RSS"
-        },
-        {
-          "title": "Distribucion",
-          "accessUrl": "https://datos.lorca.es/catalogo/cursos-formacion-empleo/cursos-formacion-empleo.html",
-          "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/cursos-formacion-empleo/HTML"
-        },
-        {
-          "title": "Distribucion",
-          "accessUrl": "https://datos.lorca.es/catalogo/cursos-formacion-empleo/cursos-formacion-empleo.csv",
-          "format": "CSV",
-          "identifier": "https://datos.lorca.es/catalogo/cursos-formacion-empleo/CSV"
-        },
-        {
-          "title": "Distribucion",
-          "accessUrl": "https://datos.lorca.es/catalogo/cursos-formacion-empleo/cursos-formacion-empleo.json",
-          "format": "JSON",
-          "identifier": "https://datos.lorca.es/catalogo/cursos-formacion-empleo/JSON"
-        },
-        {
-          "title": "Distribucion",
-          "accessUrl": "https://datos.lorca.es/catalogo/cursos-formacion-empleo/cursos-formacion-empleo.excel",
-          "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/cursos-formacion-empleo/Excel"
-        }
-      ],
-      "score": 58,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Empleo.",
-        "Publicador: L01300243."
-      ]
-    },
-    {
-      "id": "https://datos.lorca.es/catalogo/empleo-privado/",
-      "title": "Empleo privado",
-      "description": "Ofertas de empleo privado publicadas por la Concejalía de empleo de Lorca",
-      "issued": "mié, 10 dic 2014 23:00:00 GMT+0000",
-      "modified": "vie, 21 ago 2026 22:00:00 GMT+0000",
-      "publisher": "L01300243",
-      "spatial": "Sin dato",
-      "themes": [
-        "Empleo"
-      ],
-      "keywords": [
-        "empleo",
-        "ofertas",
-        "trabajo"
-      ],
-      "formats": [
-        "JSON",
-        "XML",
         "CSV"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/l01300243-empleo-privado",
+      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-instalaciones-electricas-de-baja-tension-de-canarias",
       "distributions": [
         {
-          "title": "Distribucion",
-          "accessUrl": "https://datos.lorca.es/catalogo/empleo-privado/empleo-privado.json",
-          "format": "JSON",
-          "identifier": "https://datos.lorca.es/catalogo/empleo-privado/JSON"
-        },
-        {
-          "title": "Distribucion",
-          "accessUrl": "https://datos.lorca.es/catalogo/empleo-privado/empleo-privado.excel",
-          "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/empleo-privado/Excel"
-        },
-        {
-          "title": "Ofertas de empleo privado",
-          "accessUrl": "https://datos.lorca.es/catalogo/empleo-privado/empleo-privado.xml",
-          "format": "XML",
-          "identifier": "https://datos.lorca.es/catalogo/empleo-privado/XML"
-        },
-        {
-          "title": "Distribucion",
-          "accessUrl": "https://datos.lorca.es/catalogo/empleo-privado/empleo-privado.csv",
+          "title": "Diccionario de datos",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/b0123b00-7ecb-44d5-aedd-5e4470fa5e04/resource/b38b47d7-19b5-46f9-8815-a161e8985f18/download/diccionario_datos_instalaciones_baja_tension.csv",
           "format": "CSV",
-          "identifier": "https://datos.lorca.es/catalogo/empleo-privado/CSV"
+          "identifier": ""
         },
         {
-          "title": "Distribucion",
-          "accessUrl": "https://datos.lorca.es/catalogo/empleo-privado/empleo-privado.html",
-          "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/empleo-privado/HTML"
+          "title": "Instalaciones eléctricas de baja tensión de Canarias. (CSV)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/b0123b00-7ecb-44d5-aedd-5e4470fa5e04/resource/62dfe381-c2de-48aa-9623-9e0a601663e6/download/registros_baja_tension.csv",
+          "format": "CSV",
+          "identifier": ""
         }
       ],
-      "score": 58,
+      "score": 26,
       "notes": [
         "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Empleo.",
-        "Publicador: L01300243."
+        "Tematicas detectadas: Energia.",
+        "Publicador: A05003638."
       ]
     },
     {
-      "id": "https://datos.lorca.es/catalogo/empleo-publico/",
-      "title": "Empleo público",
-      "description": "Ofertas de empleo público del Ayuntamiento de Lorca",
-      "issued": "mar, 08 jul 2014 22:00:00 GMT+0000",
-      "modified": "vie, 21 ago 2026 22:00:00 GMT+0000",
-      "publisher": "L01300243",
+      "id": "https://datos.canarias.es/catalogos/general/dataset/retribuciones-del-personal-de-confianza-al-servicio-de-la-administracion-publica-de-canarias",
+      "title": "Retribuciones del personal de confianza al servicio de la Administración Pública de Canarias",
+      "description": "Datos de las retribuciones percibidas por el personal de confianza al servicio de la Administración Pública de Canarias.\nTener presente que en las retribuciones no se computan los trienios, ni el coste de la cuota patronal.",
+      "issued": "jue, 03 dic 2020 13:30:12 GMT+0000",
+      "modified": "lun, 24 ago 2026 07:39:51 GMT+0000",
+      "publisher": "A05003638",
       "spatial": "Sin dato",
       "themes": [
-        "Empleo"
+        "Sector Publico"
       ],
       "keywords": [
-        "empleo",
-        "oposiciones",
-        "público"
+        "organigrama",
+        "personal de confianza",
+        "retribuciones"
       ],
       "formats": [
-        "CSV",
-        "JSON",
-        "XML"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/l01300243-empleo-publico",
-      "distributions": [
-        {
-          "title": "Formato csv separado por comas",
-          "accessUrl": "https://datos.lorca.es/catalogo/empleo-publico/empleo-publico.csv",
-          "format": "CSV",
-          "identifier": "https://datos.lorca.es/catalogo/empleo-publico/CSV"
-        },
-        {
-          "title": "Formato Excel",
-          "accessUrl": "https://datos.lorca.es/catalogo/empleo-publico/empleo-publico.excel",
-          "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/empleo-publico/Excel"
-        },
-        {
-          "title": "Formato json",
-          "accessUrl": "https://datos.lorca.es/catalogo/empleo-publico/empleo-publico.json",
-          "format": "JSON",
-          "identifier": "https://datos.lorca.es/catalogo/empleo-publico/JSON"
-        },
-        {
-          "title": "Formato xml",
-          "accessUrl": "https://datos.lorca.es/catalogo/empleo-publico/empleo-publico.xml",
-          "format": "XML",
-          "identifier": "https://datos.lorca.es/catalogo/empleo-publico/XML"
-        },
-        {
-          "title": "Formato HTML",
-          "accessUrl": "https://datos.lorca.es/catalogo/empleo-publico/empleo-publico.html",
-          "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/empleo-publico/HTML"
-        }
-      ],
-      "score": 58,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Empleo.",
-        "Publicador: L01300243."
-      ]
-    },
-    {
-      "id": "https://datos.lorca.es/catalogo/estrechamiento-calzada/",
-      "title": "Estrechamiento de calzada",
-      "description": "Estrechamientos de calzada en el termino municipal de Lorca",
-      "issued": "sáb, 05 jul 2014 22:00:00 GMT+0000",
-      "modified": "vie, 21 ago 2026 22:00:00 GMT+0000",
-      "publisher": "L01300243",
-      "spatial": "Sin dato",
-      "themes": [
-        "Transporte"
-      ],
-      "keywords": [
-        "estrechamiento calzada",
-        "movilidad",
-        "tráfico"
-      ],
-      "formats": [
-        "CSV",
-        "JSON",
-        "XML"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/l01300243-estrechamiento-de-calzada",
-      "distributions": [
-        {
-          "title": "Formato HTML",
-          "accessUrl": "https://datos.lorca.es/catalogo/estrechamiento-calzada/estrechamiento-calzada.html",
-          "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/estrechamiento-calzada/HTML"
-        },
-        {
-          "title": "Formato csv separado por ;",
-          "accessUrl": "https://datos.lorca.es/catalogo/estrechamiento-calzada/estrechamiento-calzada.csv",
-          "format": "CSV",
-          "identifier": "https://datos.lorca.es/catalogo/estrechamiento-calzada/CSV"
-        },
-        {
-          "title": "Formato json",
-          "accessUrl": "https://datos.lorca.es/catalogo/estrechamiento-calzada/estrechamiento-calzada.json",
-          "format": "JSON",
-          "identifier": "https://datos.lorca.es/catalogo/estrechamiento-calzada/JSON"
-        },
-        {
-          "title": "Formato Excel",
-          "accessUrl": "https://datos.lorca.es/catalogo/estrechamiento-calzada/estrechamiento-calzada.excel",
-          "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/estrechamiento-calzada/Excel"
-        },
-        {
-          "title": "Distribucion",
-          "accessUrl": "https://datos.lorca.es/catalogo/estrechamiento-calzada/estrechamiento-calzada.xml",
-          "format": "XML",
-          "identifier": "https://datos.lorca.es/catalogo/estrechamiento-calzada/XML"
-        }
-      ],
-      "score": 58,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Transporte.",
-        "Publicador: L01300243."
-      ]
-    },
-    {
-      "id": "https://datos.lorca.es/catalogo/otras-incidencias-trafico/",
-      "title": "Otras incidencias de tráfico",
-      "description": "Otras incidencia de tráfico en la ciudad de Lorca",
-      "issued": "sáb, 05 jul 2014 22:00:00 GMT+0000",
-      "modified": "vie, 21 ago 2026 22:00:00 GMT+0000",
-      "publisher": "L01300243",
-      "spatial": "Sin dato",
-      "themes": [
-        "Transporte"
-      ],
-      "keywords": [
-        "movilidad",
-        "otras",
-        "tráfico"
-      ],
-      "formats": [
-        "XML",
-        "CSV",
-        "JSON"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/l01300243-otras-incidencias-de-trafico",
-      "distributions": [
-        {
-          "title": "Formato HTML",
-          "accessUrl": "https://datos.lorca.es/catalogo/otras-incidencias-trafico/otras-incidencias-trafico.html",
-          "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/otras-incidencias-trafico/HTML"
-        },
-        {
-          "title": "formato xml",
-          "accessUrl": "https://datos.lorca.es/catalogo/otras-incidencias-trafico/otras-incidencias-trafico.xml",
-          "format": "XML",
-          "identifier": "https://datos.lorca.es/catalogo/otras-incidencias-trafico/XML"
-        },
-        {
-          "title": "Formato csv separado por ;",
-          "accessUrl": "https://datos.lorca.es/catalogo/otras-incidencias-trafico/otras-incidencias-trafico.csv",
-          "format": "CSV",
-          "identifier": "https://datos.lorca.es/catalogo/otras-incidencias-trafico/CSV"
-        },
-        {
-          "title": "Formato Excel",
-          "accessUrl": "https://datos.lorca.es/catalogo/otras-incidencias-trafico/otras-incidencias-trafico.excel",
-          "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/otras-incidencias-trafico/Excel"
-        },
-        {
-          "title": "Formato json",
-          "accessUrl": "https://datos.lorca.es/catalogo/otras-incidencias-trafico/otras-incidencias-trafico.json",
-          "format": "JSON",
-          "identifier": "https://datos.lorca.es/catalogo/otras-incidencias-trafico/JSON"
-        }
-      ],
-      "score": 58,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Transporte.",
-        "Publicador: L01300243."
-      ]
-    },
-    {
-      "id": "https://datos.lorca.es/catalogo/reserva-espacio/",
-      "title": "Reservas de espacio",
-      "description": "Reservas de espacio por obras, mantenimiento, carga y descarga...",
-      "issued": "sáb, 05 jul 2014 22:00:00 GMT+0000",
-      "modified": "vie, 21 ago 2026 22:00:00 GMT+0000",
-      "publisher": "L01300243",
-      "spatial": "Sin dato",
-      "themes": [
-        "Transporte"
-      ],
-      "keywords": [
-        "movilidad",
-        "reserva",
-        "tráfico"
-      ],
-      "formats": [
-        "XML",
-        "CSV",
-        "JSON"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/l01300243-reservas-de-espacio",
-      "distributions": [
-        {
-          "title": "Formato xml",
-          "accessUrl": "https://datos.lorca.es/catalogo/reserva-espacio/reserva-espacio.xml",
-          "format": "XML",
-          "identifier": "https://datos.lorca.es/catalogo/reserva-espacio/XML"
-        },
-        {
-          "title": "Formato csv separado por ;",
-          "accessUrl": "https://datos.lorca.es/catalogo/reserva-espacio/reserva-espacio.csv",
-          "format": "CSV",
-          "identifier": "https://datos.lorca.es/catalogo/reserva-espacio/CSV"
-        },
-        {
-          "title": "Formato Excel",
-          "accessUrl": "https://datos.lorca.es/catalogo/reserva-espacio/reserva-espacio.excel",
-          "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/reserva-espacio/Excel"
-        },
-        {
-          "title": "Formato HTML",
-          "accessUrl": "https://datos.lorca.es/catalogo/reserva-espacio/reserva-espacio.html",
-          "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/reserva-espacio/HTML"
-        },
-        {
-          "title": "Formato json",
-          "accessUrl": "https://datos.lorca.es/catalogo/reserva-espacio/reserva-espacio.json",
-          "format": "JSON",
-          "identifier": "https://datos.lorca.es/catalogo/reserva-espacio/JSON"
-        }
-      ],
-      "score": 58,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Transporte.",
-        "Publicador: L01300243."
-      ]
-    },
-    {
-      "id": "https://datos.lorca.es/catalogo/reserva-espacio/",
-      "title": "Reservas de espacio",
-      "description": "Reservas de espacio por obras, mantenimiento, carga y descarga...",
-      "issued": "sáb, 05 jul 2014 22:00:00 GMT+0000",
-      "modified": "vie, 21 ago 2026 22:00:00 GMT+0000",
-      "publisher": "L01300243",
-      "spatial": "Sin dato",
-      "themes": [
-        "Transporte"
-      ],
-      "keywords": [
-        "movilidad",
-        "reserva",
-        "tráfico"
-      ],
-      "formats": [
-        "XML",
-        "CSV",
-        "JSON"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/l01300243-reservas-de-espacio",
-      "distributions": [
-        {
-          "title": "Formato xml",
-          "accessUrl": "https://datos.lorca.es/catalogo/reserva-espacio/reserva-espacio.xml",
-          "format": "XML",
-          "identifier": "https://datos.lorca.es/catalogo/reserva-espacio/XML"
-        },
-        {
-          "title": "Formato csv separado por ;",
-          "accessUrl": "https://datos.lorca.es/catalogo/reserva-espacio/reserva-espacio.csv",
-          "format": "CSV",
-          "identifier": "https://datos.lorca.es/catalogo/reserva-espacio/CSV"
-        },
-        {
-          "title": "Formato Excel",
-          "accessUrl": "https://datos.lorca.es/catalogo/reserva-espacio/reserva-espacio.excel",
-          "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/reserva-espacio/Excel"
-        },
-        {
-          "title": "Formato HTML",
-          "accessUrl": "https://datos.lorca.es/catalogo/reserva-espacio/reserva-espacio.html",
-          "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/reserva-espacio/HTML"
-        },
-        {
-          "title": "Formato json",
-          "accessUrl": "https://datos.lorca.es/catalogo/reserva-espacio/reserva-espacio.json",
-          "format": "JSON",
-          "identifier": "https://datos.lorca.es/catalogo/reserva-espacio/JSON"
-        }
-      ],
-      "score": 58,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Transporte.",
-        "Publicador: L01300243."
-      ]
-    },
-    {
-      "id": "https://datos.icane.es/dataset/06d86aa7-dc92-422d-bf17-db1026403e21",
-      "title": "Accidentes de trabajo y enfermedades profesionales",
-      "description": "Accidentes de trabajo y enfermedades profesionales",
-      "issued": "vie, 14 mar 2025 07:45:36 GMT+0000",
-      "modified": "vie, 21 ago 2026 11:17:54 GMT+0000",
-      "publisher": "A06004074",
-      "spatial": "Sin dato",
-      "themes": [
-        "Empleo"
-      ],
-      "keywords": [
-        "Condiciones De Trabajo Y Relaciones Laborales"
-      ],
-      "formats": [
-        "RDF",
-        "JSON",
         "CSV"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-accidentes-de-trabajo-y-enfermedades-profesionales",
+      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-retribuciones-del-personal-de-confianza",
       "distributions": [
         {
-          "title": "Accidentes de trabajo con baja según tipo de accidente, gravedad, sexo y actividad (CNAE 09)",
-          "accessUrl": "https://www.icane.es/data/api/accidentes-trabajo-baja-tipo-gravedad-sexo-actividad-cnae09.rdf",
-          "format": "RDF",
-          "identifier": ""
-        },
-        {
-          "title": "Accidentes de trabajo con baja según tipo de accidente, gravedad, sexo y grupo de edad",
-          "accessUrl": "https://www.icane.es/data/api/accidentes-trabajo-baja-tipo-gravedad-sexo-grupo-edad.sdmx",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Accidentes de trabajo con baja según tipo de accidente, gravedad, sexo y ocupación (CNO 11)",
-          "accessUrl": "https://www.icane.es/data/api/accidentes-trabajo-baja-tipo-gravedad-sexo-ocupacion-cno11.json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Accidentes de trabajo con baja según tipo de accidente, gravedad, sexo y tipo de contrato",
-          "accessUrl": "https://www.icane.es/data/api/accidentes-trabajo-baja-tipo-gravedad-sexo-tipo-contrato.json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Enfermedades profesionales según sexo y grupo de edad",
-          "accessUrl": "https://www.icane.es/data/api/enfermedades-profesionales-segun-sexo-grupo-edad.csv",
+          "title": "Retribuciones del personal de confianza al servicio de la Administración Pública de Canarias. 24/01/2025 (CSV)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/b6d804af-5bc1-4d43-97cc-063856898d7a/resource/46ef431d-56bf-420a-ac87-3a3273ec55f2/download/personal-eventual-transparencia-24012025.csv",
           "format": "CSV",
           "identifier": ""
         },
         {
-          "title": "Accidentes de trabajo con baja según tipo de accidente, gravedad, sexo y tipo de contrato",
-          "accessUrl": "https://www.icane.es/data/api/accidentes-trabajo-baja-tipo-gravedad-sexo-tipo-contrato.pc-axis",
-          "format": "SIN DATO",
+          "title": "Retribuciones del personal de confianza al servicio de la Administración Pública de Canarias. 17/10/2023 (CSV)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/b6d804af-5bc1-4d43-97cc-063856898d7a/resource/1ccd46fa-1a7a-4a37-8426-203f1378f3b4/download/personal-eventual-transparencia-17102023.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Retribuciones del personal de confianza al servicio de la Administración Pública de Canarias. 17/05/2024 (CSV)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/b6d804af-5bc1-4d43-97cc-063856898d7a/resource/f2f3555b-92c7-48d7-a82f-f2f46cee93a4/download/personal-eventual-transparencia-17052024.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Retribuciones del personal de confianza al servicio de la Administración Pública de Canarias. 26/05/2025 (CSV)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/b6d804af-5bc1-4d43-97cc-063856898d7a/resource/a7f6f7a0-e02f-4c4f-99d8-d9e22eb3fb73/download/personal-eventual-transparencia-26052025.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Retribuciones del personal de confianza al servicio de la Administración Pública de Canarias. 21/11/2025 (CSV)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/b6d804af-5bc1-4d43-97cc-063856898d7a/resource/ca9d21af-9b42-48a4-b502-02415bccc8d2/download/personal-eventual-transparencia-21112025.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Retribuciones del personal de confianza al servicio de la Administración Pública de Canarias. 15/11/2024 (CSV)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/b6d804af-5bc1-4d43-97cc-063856898d7a/resource/9109c9c3-41ae-41bf-99e9-2052f9f7715c/download/personal-eventual-transparencia-15112024.csv",
+          "format": "CSV",
           "identifier": ""
         }
       ],
-      "score": 54,
+      "score": 26,
       "notes": [
         "Incluye formatos reutilizables para prototipos y analisis.",
         "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Empleo.",
-        "Publicador: A06004074."
+        "Tematicas detectadas: Sector Publico.",
+        "Publicador: A05003638."
       ]
     },
     {
-      "id": "https://datos.icane.es/dataset/4bc86715-997f-4846-aebb-89b9ce4f0869",
-      "title": "Adjudicaciones de Obras del Grupo MITMA",
-      "description": "Adjudicaciones de obras del Grupo MITMA",
-      "issued": "vie, 14 mar 2025 07:45:36 GMT+0000",
-      "modified": "vie, 21 ago 2026 11:17:54 GMT+0000",
-      "publisher": "A06004074",
-      "spatial": "Sin dato",
+      "id": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/ventas-empleo-salarios-declaraciones-tributarias/avance-ventas-interiores-trimestrales.html",
+      "title": "Avance de Ventas Interiores en Grandes Empresas y Pymes",
+      "description": "El objeto de la publicación Avance de Ventas Interiores en Grandes Empresas y Pymes es, a partir de toda la información disponible del SII, obtener dos indicadores adelantados de las ventas interiores de la estadística trimestral de Ventas, Empleo y Salarios en las declaraciones tributarias.",
+      "issued": "mar, 02 abr 2024 22:00:00 GMT+0000",
+      "modified": "mar, 25 ago 2026 22:00:00 GMT+0000",
+      "publisher": "EA0028512",
+      "spatial": "España",
       "themes": [
-        "Economia"
+        "Economia",
+        "Hacienda"
       ],
       "keywords": [
-        "Construcción"
+        "Grandes empresas",
+        "Pymes",
+        "SII",
+        "Ventas"
       ],
       "formats": [
-        "JSON",
-        "CSV",
-        "RDF"
+        "SIN DATO"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-adjudicaciones-de-obras-del-grupo-mitma",
+      "datasetUrl": "https://datos.gob.es/catalogo/ea0028512-avance-de-ventas-interiores-en-grandes-empresas-y-pymes",
       "distributions": [
         {
-          "title": "Adjudicaciones de Obras del Grupo MITMA",
-          "accessUrl": "https://www.icane.es/data/api/adjudicaciones-obras-fomento-series.excel",
+          "title": "Última publicación",
+          "accessUrl": "https://sede.agenciatributaria.gob.es/static_files/AEAT/Estudios/Estadisticas/Informes_Estadisticos/Informes_Ventas/Avance_VI_trimestrales/Informe_avance_VESGEP.pdf",
           "format": "SIN DATO",
           "identifier": ""
         },
         {
-          "title": "Adjudicaciones de Obras del Grupo MITMA: Entidades Públicas Estatales",
-          "accessUrl": "https://www.icane.es/data/api/adjudicaciones-obras-fomento-entidades-publicas.google-json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Adjudicaciones de Obras del Grupo MITMA: Entidades Públicas Estatales",
-          "accessUrl": "https://www.icane.es/data/api/adjudicaciones-obras-fomento-entidades-publicas.json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Adjudicaciones de Obras del Grupo MITMA: Entidades Públicas Estatales",
-          "accessUrl": "https://www.icane.es/data/api/adjudicaciones-obras-fomento-entidades-publicas.sdmx",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Adjudicaciones de Obras del Grupo MITMA",
-          "accessUrl": "https://www.icane.es/data/api/adjudicaciones-obras-fomento-series.google-json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Adjudicaciones de Obras del Grupo MITMA: Entidades Públicas Estatales",
-          "accessUrl": "https://www.icane.es/data/api/adjudicaciones-obras-fomento-entidades-publicas.pc-axis",
+          "title": "Avance de Ventas Interiores en Grandes Empresas y Pymes",
+          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/ventas-empleo-salarios-declaraciones-tributarias/avance-ventas-interiores-trimestrales.html",
           "format": "SIN DATO",
           "identifier": ""
         }
       ],
-      "score": 54,
+      "score": 23,
       "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Economia.",
-        "Publicador: A06004074."
+        "Tematicas detectadas: Economia, Hacienda.",
+        "Publicador: EA0028512.",
+        "Cobertura geografica principal: España."
       ]
     },
     {
-      "id": "https://datos.icane.es/dataset/67cee06c-b730-4505-a2bb-a36923887d20",
-      "title": "Afiliación a la Seguridad Social a último día de mes",
-      "description": "Afiliación a la Seguridad Social a último día de mes",
-      "issued": "vie, 14 mar 2025 07:48:52 GMT+0000",
-      "modified": "vie, 21 ago 2026 11:17:17 GMT+0000",
-      "publisher": "A06004074",
-      "spatial": "Sin dato",
+      "id": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/ventas-empleos-salarios-declaraciones-tributarias/ventas-diarias.html",
+      "title": "Ventas diarias (Información semanal SII)",
+      "description": "La estadística recoge el nivel y la evolución diaria de las ventas que realizan las empresas incluidas en el sistema de Suministro Inmediato de Información (SII).\nDesde su entrada en vigor este sistema ha permitido disponer de datos de ventas con mayor actualidad, diarios frente a los datos mensuales o trimestrales característicos de las declaraciones del IVA. Los obligados a cumplimentar sus obligaciones tributarias a través del SII son las Grandes Empresas (aquellas con un volumen de operaciones en el año anterior superior a 6 millones de euros), los grupos del IVA y las empresas inscritas en el Registro de Devolución Mensual. Las ventas diarias suponen alrededor del 70% del total de ventas interiores del conjunto de contribuyentes del IVA (el porcentaje es superior si se considera el volumen de operaciones total declarado).\nLa publicación está compuesta por un informe y por las series históricas desde el 1 de julio de 2017. A partir de estas últimas, convenientemente tratadas, se proporciona una señal de la coyuntura económica, que complementa y anticipa la información de ventas contenida en los informes de recaudación tributaria y en la estadística mensual de Ventas, Empleo y Salarios en las Grandes Empresas (VESGE) y en la trimestral de Ventas, Empleo y Salarios en Grandes Empresas y Pymes (VESGEP).",
+      "issued": "mar, 21 dic 2021 23:00:00 GMT+0000",
+      "modified": "mar, 25 ago 2026 22:00:00 GMT+0000",
+      "publisher": "EA0028512",
+      "spatial": "España",
       "themes": [
-        "Empleo"
+        "Economia",
+        "Hacienda"
       ],
       "keywords": [
-        "Estadísticas De Empleo Y Paro"
+        "SII",
+        "Suministro Inmediato de Información",
+        "Ventas SII"
       ],
       "formats": [
-        "JSON",
-        "CSV",
-        "RDF"
+        "SIN DATO"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a06004074-afiliacion-a-la-seguridad-social-a-ultimo-dia-de-mes",
+      "datasetUrl": "https://datos.gob.es/catalogo/ea0028512-ventas-diarias-informacion-semanal-sii",
       "distributions": [
         {
-          "title": "Afiliados a último día de mes en alta laboral. Régimen General y R.E.T.A. por sección de actividad según CNAE09",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-ultimo-dia-mes-alta-laboral-regimen-general-reta-actividad-cnae09.google-json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Afiliados a último día de mes en alta laboral. Régimen General y R.E.T.A. por sección de actividad según CNAE25",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-ultimo-dia-mes-alta-laboral-regimen-general-reta-actividad-cnae25.excel",
+          "title": "Ventas diarias Seguimiento semanal",
+          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/ventas-empleos-salarios-declaraciones-tributarias/ventas-diarias.html",
           "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Afiliados a último día de mes en alta laboral según régimen y sexo",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-ultimo-dia-mes-alta-laboral-regimen-sexo.excel",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Afiliados a último día de mes en alta laboral. Régimen General y R.E.T.A. por sección de actividad según CNAE93",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-ultimo-dia-mes-alta-laboral-regimen-general-reta-actividad-cnae93.sdmx",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Afiliados a último día de mes en alta laboral. Régimen General y R.E.T.A. por sección de actividad según CNAE25",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-ultimo-dia-mes-alta-laboral-regimen-general-reta-actividad-cnae25.json-stat",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Afiliados a último día de mes en alta laboral. Régimen General y R.E.T.A. por sección de actividad según CNAE93",
-          "accessUrl": "https://www.icane.es/data/api/afiliados-ultimo-dia-mes-alta-laboral-regimen-general-reta-actividad-cnae93.json",
-          "format": "JSON",
           "identifier": ""
         }
       ],
-      "score": 54,
+      "score": 23,
+      "notes": [
+        "Tematicas detectadas: Economia, Hacienda.",
+        "Publicador: EA0028512.",
+        "Cobertura geografica principal: España."
+      ]
+    },
+    {
+      "id": "https://datos.canarias.es/catalogos/general/dataset/entidades-y-organos-de-contratacion-del-gobierno-de-canarias",
+      "title": "Entidades y órganos de contratación del Gobierno de Canarias",
+      "description": "Listado de entidades y órganos de contratación del Gobierno de Canarias.",
+      "issued": "vie, 04 dic 2020 12:41:37 GMT+0000",
+      "modified": "lun, 24 ago 2026 09:10:08 GMT+0000",
+      "publisher": "A05003638",
+      "spatial": "Sin dato",
+      "themes": [
+        "Hacienda",
+        "Sector Publico"
+      ],
+      "keywords": [
+        "contratación",
+        "entidades"
+      ],
+      "formats": [
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-entidades-y-organos-de-contratacion",
+      "distributions": [
+        {
+          "title": "Entidades y órganos de contratación del Gobierno de Canarias. (ODS)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/84e22953-8f23-4bb7-b214-a21796709ba8/resource/e2d5855d-dd02-4b3e-9799-8c7ad7d111cc/download/organos_contratacion.ods",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Entidades y órganos de contratación del Gobierno de Canarias. (CSV)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/84e22953-8f23-4bb7-b214-a21796709ba8/resource/c2ee88f4-5629-4adb-accc-4c31abc9ad4b/download/organos_contratacion.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Diccionario de datos",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/84e22953-8f23-4bb7-b214-a21796709ba8/resource/693d4ba8-9053-4dbe-bcdd-20cd22a618f8/download/diccionario_datos_entidades_y_organos_de_contratacion_del_gobierno_de_canarias.csv",
+          "format": "CSV",
+          "identifier": ""
+        }
+      ],
+      "score": 22,
       "notes": [
         "Incluye formatos reutilizables para prototipos y analisis.",
         "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Empleo.",
-        "Publicador: A06004074."
+        "Tematicas detectadas: Hacienda, Sector Publico.",
+        "Publicador: A05003638."
+      ]
+    },
+    {
+      "id": "https://datos.canarias.es/catalogos/general/dataset/entidades-publicas-del-gobierno-de-canarias",
+      "title": "Entidades públicas del Gobierno de Canarias",
+      "description": "Listado de las entidades públicas del Gobierno de Canarias.",
+      "issued": "vie, 06 ago 2021 09:07:23 GMT+0000",
+      "modified": "mié, 26 ago 2026 01:31:01 GMT+0000",
+      "publisher": "A05003638",
+      "spatial": "Sin dato",
+      "themes": [
+        "Sector Publico"
+      ],
+      "keywords": [
+        "entidades",
+        "entidades públicas",
+        "organigrama"
+      ],
+      "formats": [
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-entidades-publicas",
+      "distributions": [
+        {
+          "title": "Entidades públicas del Gobierno de Canarias. (CSV)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/c24a205e-29f8-40c0-96ea-24883b4acac4/resource/e9513559-1169-4fcb-a655-dce836cbeeb7/download/entidades_publicas.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Diccionario de datos",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/c24a205e-29f8-40c0-96ea-24883b4acac4/resource/0c6bafd6-6e68-4530-893a-e0ee18b73509/download/diccionario_datos_de_las_entidades_publicas_del_gobierno_de_canarias.csv",
+          "format": "CSV",
+          "identifier": ""
+        }
+      ],
+      "score": 18,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tematicas detectadas: Sector Publico.",
+        "Publicador: A05003638."
+      ]
+    },
+    {
+      "id": "https://datos.canarias.es/catalogos/general/dataset/entidades-publicas-empresariales-del-gobierno-de-canarias",
+      "title": "Entidades públicas empresariales del Gobierno de Canarias",
+      "description": "Listado de las entidades públicas empresariales del Gobierno de Canarias.",
+      "issued": "vie, 06 ago 2021 09:20:03 GMT+0000",
+      "modified": "mié, 26 ago 2026 00:31:02 GMT+0000",
+      "publisher": "A05003638",
+      "spatial": "Sin dato",
+      "themes": [
+        "Sector Publico"
+      ],
+      "keywords": [
+        "entidades",
+        "entidades públicas",
+        "entidades públicas empresariales",
+        "organigrama"
+      ],
+      "formats": [
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-entidades-publicas-empresariales",
+      "distributions": [
+        {
+          "title": "Diccionario de datos",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/b83090ff-04f9-4222-a65b-556feaba17c9/resource/e9061dca-f5e3-4dc2-b728-dd47323dafb5/download/diccionario_datos_de_las_entidades_publicas_empresariales_del_gobierno_de_canarias.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Entidades públicas empresariales del Gobierno de Canarias. (CSV)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/b83090ff-04f9-4222-a65b-556feaba17c9/resource/46adb5d0-3732-40b8-af21-5ac83c60d7dc/download/entidades_publicas_empresariales.csv",
+          "format": "CSV",
+          "identifier": ""
+        }
+      ],
+      "score": 18,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tematicas detectadas: Sector Publico.",
+        "Publicador: A05003638."
+      ]
+    },
+    {
+      "id": "https://datos.canarias.es/catalogos/general/dataset/fundaciones-publicas-del-gobierno-de-canarias",
+      "title": "Fundaciones públicas del Gobierno de Canarias",
+      "description": "Listado de las fundaciones públicas del Gobierno de Canarias.",
+      "issued": "vie, 04 dic 2020 11:48:12 GMT+0000",
+      "modified": "mié, 26 ago 2026 00:44:01 GMT+0000",
+      "publisher": "A05003638",
+      "spatial": "Sin dato",
+      "themes": [
+        "Sector Publico"
+      ],
+      "keywords": [
+        "fundaciones",
+        "fundaciones públicas",
+        "organigrama"
+      ],
+      "formats": [
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-fundaciones-publicas",
+      "distributions": [
+        {
+          "title": "Fundaciones públicas del Gobierno de Canarias. (CSV)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/dd3a925b-7164-4fa1-acd4-e5c660f7fd7f/resource/683c516e-4be3-4339-8879-7f852909bcdd/download/fundaciones_publicas.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Diccionario de datos",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/dd3a925b-7164-4fa1-acd4-e5c660f7fd7f/resource/fad51b03-2b30-4fd4-901c-b6baceb5a984/download/diccionario_datos_fundaciones_publicas_del_gobierno_de_canarias.csv",
+          "format": "CSV",
+          "identifier": ""
+        }
+      ],
+      "score": 18,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tematicas detectadas: Sector Publico.",
+        "Publicador: A05003638."
+      ]
+    },
+    {
+      "id": "https://datos.canarias.es/catalogos/general/dataset/localizaciones-de-las-entidades-publicas-del-gobierno-de-canarias",
+      "title": "Localizaciones de las entidades públicas del Gobierno de Canarias",
+      "description": "Listado de las localizaciones de las entidades públicas del Gobierno de Canarias.",
+      "issued": "jue, 11 ago 2022 06:48:04 GMT+0000",
+      "modified": "mié, 26 ago 2026 00:33:01 GMT+0000",
+      "publisher": "A05003638",
+      "spatial": "Sin dato",
+      "themes": [
+        "Sector Publico"
+      ],
+      "keywords": [
+        "entidades",
+        "entidades públicas",
+        "organigrama"
+      ],
+      "formats": [
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-localizaciones-de-las-entidades-publicas-del-gobierno-de-canarias",
+      "distributions": [
+        {
+          "title": "Diccionario de datos",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/76575330-183b-48a2-aa43-d6d665b9cafd/resource/ebf10222-af7b-40fb-ab5c-72bf7646c263/download/diccionario_datos_localizaciones_de_las_entidades_publicas_del_gobierno_de_canarias.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Localizaciones de las entidades públicas del Gobierno de Canarias. (CSV)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/76575330-183b-48a2-aa43-d6d665b9cafd/resource/8483439c-b5de-4fb6-ab61-d1da5d23c575/download/localizaciones_entidades_publicas.csv",
+          "format": "CSV",
+          "identifier": ""
+        }
+      ],
+      "score": 18,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tematicas detectadas: Sector Publico.",
+        "Publicador: A05003638."
+      ]
+    },
+    {
+      "id": "https://datos.canarias.es/catalogos/general/dataset/localizaciones-de-las-entidades-publicas-empresariales-del-gobierno-de-canarias",
+      "title": "Localizaciones de las entidades públicas empresariales del Gobierno de Canarias",
+      "description": "Listado de las localizaciones de entidades públicas empresariales del Gobierno de Canarias.",
+      "issued": "jue, 11 ago 2022 11:59:04 GMT+0000",
+      "modified": "mié, 26 ago 2026 00:32:01 GMT+0000",
+      "publisher": "A05003638",
+      "spatial": "Sin dato",
+      "themes": [
+        "Sector Publico"
+      ],
+      "keywords": [
+        "entidades",
+        "entidades públicas",
+        "entidades públicas empresariales",
+        "organigrama"
+      ],
+      "formats": [
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-localizaciones-de-las-entidades-publicas-empresariales-del-gobierno-de-canarias",
+      "distributions": [
+        {
+          "title": "Diccionario de datos",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/2faf11ac-f8cb-4ab5-8508-006456dea343/resource/149614da-17b9-4f41-b05b-2b6561c17f3e/download/diccionario_datos_localizaciones_de_las_entidades_publicas_empresariales_del_gobierno_de_canaria.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Localizaciones de las entidades públicas empresariales del Gobierno de Canarias. (CSV)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/2faf11ac-f8cb-4ab5-8508-006456dea343/resource/73ab7feb-9cc2-43b5-a9e0-e6fa9d6d6032/download/localizaciones_entidades_publicas_empresariales.csv",
+          "format": "CSV",
+          "identifier": ""
+        }
+      ],
+      "score": 18,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tematicas detectadas: Sector Publico.",
+        "Publicador: A05003638."
+      ]
+    },
+    {
+      "id": "https://datos.canarias.es/catalogos/general/dataset/localizaciones-de-las-fundaciones-publicas-del-gobierno-de-canarias",
+      "title": "Localizaciones de las fundaciones públicas del Gobierno de Canarias",
+      "description": "Listado de las localizaciones de las fundaciones públicas del Gobierno de Canarias.",
+      "issued": "jue, 11 ago 2022 17:15:49 GMT+0000",
+      "modified": "mié, 26 ago 2026 00:40:19 GMT+0000",
+      "publisher": "A05003638",
+      "spatial": "Sin dato",
+      "themes": [
+        "Sector Publico"
+      ],
+      "keywords": [
+        "fundaciones",
+        "fundaciones públicas",
+        "organigrama"
+      ],
+      "formats": [
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-localizaciones-de-las-fundaciones-publicas-del-gobierno-de-canarias",
+      "distributions": [
+        {
+          "title": "Localizaciones de las fundaciones públicas del Gobierno de Canarias. (CSV)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/fcf1c99d-02c0-41c6-8214-2bfdd1d9d0cd/resource/dee18c34-abe2-49d8-8455-38f578c3f131/download/localizacion_fundaciones_publicas.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Diccionario de datos",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/fcf1c99d-02c0-41c6-8214-2bfdd1d9d0cd/resource/3198cbbb-c824-4c74-99f7-9a5f8e035b0e/download/diccionario_datos_localizaciones_fundaciones_publicas_del_gobierno_de_canarias.csv",
+          "format": "CSV",
+          "identifier": ""
+        }
+      ],
+      "score": 18,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tematicas detectadas: Sector Publico.",
+        "Publicador: A05003638."
+      ]
+    },
+    {
+      "id": "https://datos.canarias.es/catalogos/general/dataset/localizaciones-de-las-sociedades-mercantiles-publicas-del-gobierno-de-canarias",
+      "title": "Localizaciones de las sociedades mercantiles públicas del Gobierno de Canarias",
+      "description": "Listado de las localizaciones de las sociedades mercantiles públicas del Gobierno de Canarias.",
+      "issued": "jue, 11 ago 2022 14:41:29 GMT+0000",
+      "modified": "mié, 26 ago 2026 00:43:02 GMT+0000",
+      "publisher": "A05003638",
+      "spatial": "Sin dato",
+      "themes": [
+        "Sector Publico"
+      ],
+      "keywords": [
+        "organigrama",
+        "sociedades mercantiles",
+        "sociedades mercantiles públicas"
+      ],
+      "formats": [
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-localizaciones-de-las-sociedades-mercantiles-publicas-del-gobierno-de-canarias",
+      "distributions": [
+        {
+          "title": "Diccionario de datos",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/8548f12e-f29a-4dc2-bff2-ee30c4206ff8/resource/b7760f62-0caa-4e54-ae30-680643f5a138/download/diccionario_datos_localizaciones_de_las_sociedades_mercantiles_publicas_del_gobierno_de_canarias.csv",
+          "format": "CSV",
+          "identifier": ""
+        },
+        {
+          "title": "Localizaciones de las sociedades mercantiles públicas del Gobierno de Canarias. (CSV)",
+          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/8548f12e-f29a-4dc2-bff2-ee30c4206ff8/resource/53494fcc-c500-42d8-b3a2-f888736e0782/download/localizaciones_sociedades_mercantiles.csv",
+          "format": "CSV",
+          "identifier": ""
+        }
+      ],
+      "score": 18,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tematicas detectadas: Sector Publico.",
+        "Publicador: A05003638."
       ]
     }
   ]
