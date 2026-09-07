@@ -1,1258 +1,1709 @@
 {
-  "generatedAt": "2026-08-31T07:23:49.943Z",
+  "generatedAt": "2026-09-07T07:24:59.473Z",
   "window": {
-    "start": "2026-08-24T07:23:48.871Z",
-    "end": "2026-08-31T07:23:48.871Z",
+    "start": "2026-08-31T07:24:55.087Z",
+    "end": "2026-09-07T07:24:55.087Z",
     "label": "Ultimos 7 dias"
   },
   "source": {
     "name": "datos.gob.es API",
-    "url": "https://datos.gob.es/apidata/catalog/dataset/modified/begin/2026-08-24T07:23Z/end/2026-08-31T07:23Z.json?_sort=-modified&_pageSize=50&_page=0"
+    "url": "https://datos.gob.es/apidata/catalog/dataset/modified/begin/2026-08-31T07:24Z/end/2026-09-07T07:24Z.json?_sort=-modified&_pageSize=50&_page=0"
   },
   "summary": {
     "totalReviewed": 24,
-    "topScore": 58,
+    "topScore": 71,
     "topFormats": [
       {
-        "label": "CSV",
-        "count": 22
+        "label": "JSON",
+        "count": 24
       },
       {
-        "label": "JSON",
-        "count": 12
+        "label": "XML",
+        "count": 23
       },
       {
         "label": "XLSX",
-        "count": 11
+        "count": 17
       },
       {
-        "label": "SIN DATO",
-        "count": 2
+        "label": "GEOJSON",
+        "count": 13
       }
     ],
     "topThemes": [
       {
         "label": "Turismo",
-        "count": 11
-      },
-      {
-        "label": "Sector Publico",
         "count": 10
       },
       {
-        "label": "Hacienda",
-        "count": 3
+        "label": "Medio Ambiente",
+        "count": 5
+      },
+      {
+        "label": "Empleo",
+        "count": 4
       },
       {
         "label": "Economia",
-        "count": 2
+        "count": 3
       }
     ],
-    "headline": "Se han detectado 24 datasets recientes con CSV como formato dominante."
+    "headline": "Se han detectado 24 datasets recientes con JSON como formato dominante."
   },
   "items": [
     {
-      "id": "https://datos.canarias.es/catalogos/general/dataset/actividades-complementarias-inscritas-en-el-registro-general-turistico-de-canarias",
-      "title": "Actividades complementarias inscritas en el Registro General Turístico de Canarias",
-      "description": "Listado de Actividades complementarias inscritas en el Registro General Turístico de Canarias.",
-      "issued": "vie, 12 ene 2024 09:32:46 GMT+0000",
-      "modified": "mar, 25 ago 2026 22:30:20 GMT+0000",
-      "publisher": "A05003638",
-      "spatial": "Sin dato",
+      "id": "https://opendata.euskadi.eus/catalogo/-/agenda-turistica-de-euskadi/",
+      "title": "Agenda turística de Euskadi",
+      "description": "Información para acceder a los principales eventos que se celebran en Euskadi: fiestas, conciertos, exposiciones, festivales de música, cine, mercados gastronómicos, etc.",
+      "issued": "lun, 19 ene 2015 23:00:00 GMT+0000",
+      "modified": "vie, 04 sep 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
       "themes": [
         "Turismo"
       ],
       "keywords": [
-        "actividad",
-        "actividad complementaria",
-        "actividad turística",
-        "actividades",
-        "complementaria"
-      ],
-      "formats": [
-        "XLSX",
-        "CSV",
-        "JSON"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-actividades-complementarias-inscritas-en-el-registro-general-turistico-de-canarias",
-      "distributions": [
-        {
-          "title": "Actividades complementarias inscritas en el Registro General Turístico de Canarias (XLSX)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/70c6c9b5-4781-4c22-9be3-0eb4c2c03218/resource/72daf59c-a859-4be6-8158-e79c200626f2/download/actividades-complementarias-inscritas-en-el-registro-general-turistico-de-canarias.xlsx",
-          "format": "XLSX",
-          "identifier": ""
-        },
-        {
-          "title": "Actividades complementarias inscritas en el Registro General Turístico de Canarias (CSV)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/70c6c9b5-4781-4c22-9be3-0eb4c2c03218/resource/710650ac-a8ce-4d48-bc9c-ff168ca2b492/download/actividades-complementarias-inscritas-en-el-registro-general-turistico-de-canarias.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Actividades complementarias inscritas en el Registro General Turístico de Canarias (JSON)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/70c6c9b5-4781-4c22-9be3-0eb4c2c03218/resource/29650e2d-0c0f-403d-b596-b62845987426/download/actividades-complementarias-inscritas-en-el-registro-general-turistico-de-canarias.json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Diccionario de datos",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/70c6c9b5-4781-4c22-9be3-0eb4c2c03218/resource/c87c8c11-1844-4eb1-9e79-00a5bea7a50e/download/listado-de-actividades-complementarias-inscritos-en-el-registro-general-turistico-de-canarias.csv",
-          "format": "CSV",
-          "identifier": ""
-        }
-      ],
-      "score": 58,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Turismo.",
-        "Publicador: A05003638."
-      ]
-    },
-    {
-      "id": "https://datos.canarias.es/catalogos/general/dataset/actividades-de-turismo-activo-inscritas-en-el-registro-general-turistico-de-canarias",
-      "title": "Actividades de turismo activo inscritas en el Registro General Turístico de Canarias",
-      "description": "Listado de actividades de turismo activo inscritas en el Registro General Turístico de Canarias.",
-      "issued": "vie, 12 ene 2024 09:32:50 GMT+0000",
-      "modified": "mar, 25 ago 2026 22:30:25 GMT+0000",
-      "publisher": "A05003638",
-      "spatial": "Sin dato",
-      "themes": [
-        "Turismo"
-      ],
-      "keywords": [
-        "actividad turística",
-        "actividades",
-        "activo",
-        "turismo",
-        "turismo activo"
-      ],
-      "formats": [
-        "CSV",
-        "JSON",
-        "XLSX"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-actividades-de-turismo-activo-inscritas-en-el-registro-general-turistico-de-canarias",
-      "distributions": [
-        {
-          "title": "Diccionario de datos",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/46d17de9-4644-4e3f-bc07-aadfca2a2758/resource/f254e28f-bbdd-4954-bbcc-795b3e4f57ef/download/listado-de-actividades-de-turismo-activo-inscritas-en-el-registro-general-turistico-de-canarias.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Actividades de Turismo Activo inscritas en el Registro General Turístico (JSON)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/46d17de9-4644-4e3f-bc07-aadfca2a2758/resource/0ba9d9df-c866-4cde-b881-550758a41908/download/actividades-de-turismo-activo-inscritas-en-el-registro-general-turistico.json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Actividades de Turismo Activo inscritas en el Registro General Turístico (XLSX)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/46d17de9-4644-4e3f-bc07-aadfca2a2758/resource/6a98d38d-0682-47c1-839d-2d1039402246/download/actividades-de-turismo-activo-inscritas-en-el-registro-general-turistico.xlsx",
-          "format": "XLSX",
-          "identifier": ""
-        },
-        {
-          "title": "Actividades de Turismo Activo inscritas en el Registro General Turístico (CSV)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/46d17de9-4644-4e3f-bc07-aadfca2a2758/resource/b56bdbed-8ce8-419d-ad78-78230cf20f65/download/actividades-de-turismo-activo-inscritas-en-el-registro-general-turistico.csv",
-          "format": "CSV",
-          "identifier": ""
-        }
-      ],
-      "score": 58,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Turismo.",
-        "Publicador: A05003638."
-      ]
-    },
-    {
-      "id": "https://datos.canarias.es/catalogos/general/dataset/agencias-de-viaje-inscritas-en-el-registro-general-turistico-de-canarias",
-      "title": "Agencias de viaje inscritas en el Registro General Turístico de Canarias",
-      "description": "Listado de agencias de viaje inscritas en el Registro General Turístico de Canarias.",
-      "issued": "vie, 12 ene 2024 09:22:57 GMT+0000",
-      "modified": "mar, 25 ago 2026 22:40:29 GMT+0000",
-      "publisher": "A05003638",
-      "spatial": "Sin dato",
-      "themes": [
-        "Turismo"
-      ],
-      "keywords": [
-        "actividad turística",
-        "actividades",
-        "agencia",
-        "agencia de viajes",
-        "viajes"
-      ],
-      "formats": [
-        "XLSX",
-        "CSV",
-        "JSON"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-agencias-de-viaje-inscritas-en-el-registro-general-turistico-de-canarias",
-      "distributions": [
-        {
-          "title": "Agencia de Viajes inscritas en el Registro General Turístico (XLSX)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/8e57cc5d-8e83-4e3d-9049-950869b2948e/resource/2dbd5ab4-cdf4-4711-804b-4324f0d5c930/download/agencia-de-viajes-inscritas-en-el-registro-general-turistico.xlsx",
-          "format": "XLSX",
-          "identifier": ""
-        },
-        {
-          "title": "Diccionario de datos",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/8e57cc5d-8e83-4e3d-9049-950869b2948e/resource/355d6408-b7cc-4940-8c70-69272f49edeb/download/listado-de-agencias-de-viaje-inscritas-en-el-registro-general-turistico-de-canarias.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Agencia de Viajes inscritas en el Registro General Turístico (JSON)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/8e57cc5d-8e83-4e3d-9049-950869b2948e/resource/5ad69a56-abdb-40f1-b185-c69b9294fe8e/download/agencia-de-viajes-inscritas-en-el-registro-general-turistico.json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Agencia de Viajes inscritas en el Registro General Turístico (CSV)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/8e57cc5d-8e83-4e3d-9049-950869b2948e/resource/937453b8-c6bf-46e8-82d1-53957c215f47/download/agencia-de-viajes-inscritas-en-el-registro-general-turistico.csv",
-          "format": "CSV",
-          "identifier": ""
-        }
-      ],
-      "score": 58,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Turismo.",
-        "Publicador: A05003638."
-      ]
-    },
-    {
-      "id": "https://datos.canarias.es/catalogos/general/dataset/agencias-de-viaje-on-line-inscritas-en-el-registro-general-turistico-de-canarias",
-      "title": "Agencias de viaje on line inscritas en el Registro General Turístico de Canarias",
-      "description": "Agencias de viaje on line inscritas en el Registro General Turístico de Canarias.",
-      "issued": "vie, 12 ene 2024 09:23:01 GMT+0000",
-      "modified": "mar, 25 ago 2026 22:40:33 GMT+0000",
-      "publisher": "A05003638",
-      "spatial": "Sin dato",
-      "themes": [
-        "Turismo"
-      ],
-      "keywords": [
-        "actividad turística",
-        "actividades",
-        "agencia",
-        "agencia de viajes",
-        "viajes"
-      ],
-      "formats": [
-        "XLSX",
-        "CSV",
-        "JSON"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-agencias-de-viaje-on-line-inscritas-en-el-registro-general-turistico-de-canarias",
-      "distributions": [
-        {
-          "title": "Agencia de Viajes ON LINE inscritas en el Registro General Turístico (XLSX)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/e42bf818-67c4-4087-874b-2af738bcd1bb/resource/cef56aee-9fc5-4f88-ba00-a73b13b1d5af/download/agencia-de-viajes-on-line-inscritas-en-el-registro-general-turistico.xlsx",
-          "format": "XLSX",
-          "identifier": ""
-        },
-        {
-          "title": "Diccionario de datos",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/e42bf818-67c4-4087-874b-2af738bcd1bb/resource/3fe4821d-093c-4150-bc9d-c57080eebad0/download/listado-de-agencias-de-viaje-on-line-inscritas-en-el-registro-general-turistico-de-canarias.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Agencia de Viajes ON LINE inscritas en el Registro General Turístico (CSV)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/e42bf818-67c4-4087-874b-2af738bcd1bb/resource/598c5a32-8610-482f-887e-8c3373a19cbb/download/agencia-de-viajes-on-line-inscritas-en-el-registro-general-turistico.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Agencia de Viajes ON LINE inscritas en el Registro General Turístico (JSON)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/e42bf818-67c4-4087-874b-2af738bcd1bb/resource/379099db-79dc-470e-93d5-67975e770066/download/agencia-de-viajes-on-line-inscritas-en-el-registro-general-turistico.json",
-          "format": "JSON",
-          "identifier": ""
-        }
-      ],
-      "score": 58,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Turismo.",
-        "Publicador: A05003638."
-      ]
-    },
-    {
-      "id": "https://datos.canarias.es/catalogos/general/dataset/embarcaciones-de-observacion-de-cetaceos-inscritas-en-el-registro-general-turistico",
-      "title": "Embarcaciones de observación de cetáceos inscritas en el Registro General Turístico",
-      "description": "Listado de Embarcaciones de Observación de Cetáceos inscritas en el Registro General Turístico.",
-      "issued": "vie, 12 ene 2024 09:32:54 GMT+0000",
-      "modified": "mar, 25 ago 2026 22:30:29 GMT+0000",
-      "publisher": "A05003638",
-      "spatial": "Sin dato",
-      "themes": [
-        "Turismo"
-      ],
-      "keywords": [
-        "actividad turística",
-        "cetáceos",
-        "embarcaciones",
-        "observación de cetáceos"
-      ],
-      "formats": [
-        "CSV",
-        "JSON",
-        "XLSX"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-embarcaciones-de-observacion-de-cetaceos-inscritas-en-el-registro-general-turistico1",
-      "distributions": [
-        {
-          "title": "Embarcaciones de observación de cetáceos inscritas en el Registro General Turístico (CSV)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/2d304e13-25d7-4500-aca9-83d28b4146dc/resource/d844aa34-5525-4a94-9181-30bfad55db88/download/embarcaciones-de-observacion-de-cetaceos-inscritas-en-el-registro-general-turistico.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Diccionario de datos",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/2d304e13-25d7-4500-aca9-83d28b4146dc/resource/ff25cf72-5af5-4f10-9f2a-2a74d417c0af/download/listado-de-actividades-de-observacion-de-cetaceos-inscritas-en-el-registro-general-turistico-de-.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Embarcaciones de observación de cetáceos inscritas en el Registro General Turístico (JSON)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/2d304e13-25d7-4500-aca9-83d28b4146dc/resource/66677dbe-40a1-4bb3-bae9-df8cc87cbd64/download/embarcaciones-de-observacion-de-cetaceos-inscritas-en-el-registro-general-turistico.json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Embarcaciones de observación de cetáceos inscritas en el Registro General Turístico (XLSX)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/2d304e13-25d7-4500-aca9-83d28b4146dc/resource/577cd92b-82e6-4f44-856c-8971783648ed/download/embarcaciones-de-observacion-de-cetaceos-inscritas-en-el-registro-general-turistico.xlsx",
-          "format": "XLSX",
-          "identifier": ""
-        }
-      ],
-      "score": 58,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Turismo.",
-        "Publicador: A05003638."
-      ]
-    },
-    {
-      "id": "https://datos.canarias.es/catalogos/general/dataset/establecimientos-de-restauracion-inscritos-en-el-registro-general-turistico-de-canarias",
-      "title": "Establecimientos de restauración inscritos en el Registro General Turístico de Canarias",
-      "description": "Listado de establecimientos de restauración inscritos en el Registro General Turístico de Canarias.",
-      "issued": "mié, 13 dic 2023 12:34:15 GMT+0000",
-      "modified": "mar, 25 ago 2026 22:51:27 GMT+0000",
-      "publisher": "A05003638",
-      "spatial": "Sin dato",
-      "themes": [
-        "Turismo"
-      ],
-      "keywords": [
-        "actividad",
-        "actividad turística",
-        "actividades de restauración",
-        "establecimientos",
-        "restauración"
-      ],
-      "formats": [
-        "CSV",
-        "JSON",
-        "XLSX"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-establecimientos-de-restauracion-inscritos-en-el-registro-general-turistico-de-canarias1",
-      "distributions": [
-        {
-          "title": "Diccionario de datos",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/f7e177cd-1b8a-448e-a37d-94f53fc8205a/resource/9f56e332-66d1-413c-8e0a-893508dbd17f/download/diccionario_datos_establecimientos-de-restauracion.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Establecimientos de restauración inscritos en el Registro General Turístico de Canarias. (JSON)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/f7e177cd-1b8a-448e-a37d-94f53fc8205a/resource/ce68c3b8-71e7-4d8e-89dd-5a9fe0b6ac64/download/establecimientos-de-restauracion-inscritos-en-el-registro-general-turistico-de-canarias.json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Establecimientos de restauración inscritos en el Registro General Turístico de Canarias. (XLSX)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/f7e177cd-1b8a-448e-a37d-94f53fc8205a/resource/5120da1a-4686-4bde-b55c-46644169f5d6/download/establecimientos-de-restauracion-inscritos-en-el-registro-general-turistico-de-canarias.xlsx",
-          "format": "XLSX",
-          "identifier": ""
-        },
-        {
-          "title": "Establecimientos de restauración inscritos en el Registro General Turístico de Canarias. (CSV)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/f7e177cd-1b8a-448e-a37d-94f53fc8205a/resource/18573636-d975-4a1a-ac77-cfa9d8b56b12/download/establecimientos-de-restauracion-inscritos-en-el-registro-general-turistico-de-canarias.csv",
-          "format": "CSV",
-          "identifier": ""
-        }
-      ],
-      "score": 58,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Turismo.",
-        "Publicador: A05003638."
-      ]
-    },
-    {
-      "id": "https://datos.canarias.es/catalogos/general/dataset/establecimientos-extrahoteleros-de-tipologia-vivienda-vacacional-inscritos-en-el-registro",
-      "title": "Establecimientos extrahoteleros de tipología vivienda vacacional inscritos en el Registro General Turístico de Canarias",
-      "description": "Listado de establecimientos extrahoteleros de tipología vivienda vacacional inscritos en el Registro General Turístico de Canarias.",
-      "issued": "mié, 13 dic 2023 12:34:29 GMT+0000",
-      "modified": "mar, 25 ago 2026 22:53:07 GMT+0000",
-      "publisher": "A05003638",
-      "spatial": "Sin dato",
-      "themes": [
-        "Turismo"
-      ],
-      "keywords": [
-        "actividad turística",
-        "actividades",
-        "actividades extrahoteleras",
-        "establecimientos hoteleros",
-        "vacacional",
-        "viviendas vacacionales"
-      ],
-      "formats": [
-        "CSV",
-        "XLSX",
-        "JSON"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-establecimientos-extrahoteleros-de-tipologia-vivienda-vacacional-inscritos-en-el-registro-general-turistico-de-canarias1",
-      "distributions": [
-        {
-          "title": "Establecimientos extrahoteleros de tipología vivienda vacacional inscritos en el Registro General Turístico de Canarias. (CSV)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/9f4355a2-d086-4384-ba72-d8c99aa2d544/resource/8ff8cc43-c00b-4513-8f42-a5b961c579e1/download/establecimientos-extrahoteleros-de-tipologia-vivienda-vacacional-inscritos-en-el-registro-genera.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Establecimientos extrahoteleros de tipología vivienda vacacional inscritos en el Registro General Turístico de Canarias. (XLSX)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/9f4355a2-d086-4384-ba72-d8c99aa2d544/resource/3b32402f-58e8-4170-8bc1-17f881fb6f61/download/establecimientos-extrahoteleros-de-tipologia-vivienda-vacacional-inscritos-en-el-registro-gener.xlsx",
-          "format": "XLSX",
-          "identifier": ""
-        },
-        {
-          "title": "Establecimientos extrahoteleros de tipología vivienda vacacional inscritos en el Registro General Turístico de Canarias. (JSON)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/9f4355a2-d086-4384-ba72-d8c99aa2d544/resource/2507a1c1-acf6-4c6a-a3cc-1d414849d1c5/download/establecimientos-extrahoteleros-de-tipologia-vivienda-vacacional-inscritos-en-el-registro-gener.json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Diccionario de datos",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/9f4355a2-d086-4384-ba72-d8c99aa2d544/resource/07e101fc-ee77-4a0f-b1ae-b466dbb9e427/download/diccionario_datos_establecimientos-extrahoteleros-vivienda-vacacional.csv",
-          "format": "CSV",
-          "identifier": ""
-        }
-      ],
-      "score": 58,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Turismo.",
-        "Publicador: A05003638."
-      ]
-    },
-    {
-      "id": "https://datos.canarias.es/catalogos/general/dataset/establecimientos-extrahoteleros-sin-viviendas-vacacionales-inscritos-en-el-registro",
-      "title": "Establecimientos extrahoteleros sin viviendas vacacionales inscritos en el Registro General Turístico de Canarias",
-      "description": "Listado de establecimientos extrahoteleros sin viviendas vacacionales inscritos en el Registro General Turístico de Canarias.",
-      "issued": "vie, 12 ene 2024 09:16:14 GMT+0000",
-      "modified": "mar, 25 ago 2026 22:51:37 GMT+0000",
-      "publisher": "A05003638",
-      "spatial": "Sin dato",
-      "themes": [
-        "Turismo"
-      ],
-      "keywords": [
-        "actividad turística",
-        "actividades",
-        "actividades extrahoteleras",
-        "establecimientos hoteleros"
-      ],
-      "formats": [
-        "XLSX",
-        "CSV",
-        "JSON"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-establecimientos-extrahoteleros-sin-viviendas-vacacionales-inscritos-en-el-registro-general-turistico-de-canarias1",
-      "distributions": [
-        {
-          "title": "Establecimientos extrahoteleros sin viviendas vacacionales inscritos en el Registro General Turístico de Canarias. (XLSX)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/1364104c-b86c-4ab9-8ef5-12fdf399aa01/resource/3c464663-3e73-4685-b181-f7b6ab0f0529/download/establecimientos-extrahoteleros-sin-viviendas-vacacionales-inscritos-en-el-registro-general-tur.xlsx",
-          "format": "XLSX",
-          "identifier": ""
-        },
-        {
-          "title": "Establecimientos extrahoteleros sin viviendas vacacionales inscritos en el Registro General Turístico de Canarias. (CSV)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/1364104c-b86c-4ab9-8ef5-12fdf399aa01/resource/d98c2617-db26-4d15-8ee4-3b2da1130bd0/download/establecimientos-extrahoteleros-sin-viviendas-vacacionales-inscritos-en-el-registro-general-turi.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Establecimientos extrahoteleros sin viviendas vacacionales inscritos en el Registro General Turístico de Canarias. (JSON)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/1364104c-b86c-4ab9-8ef5-12fdf399aa01/resource/94d0b931-9e96-45dc-a10f-7605a69c4050/download/establecimientos-extrahoteleros-sin-viviendas-vacacionales-inscritos-en-el-registro-general-tur.json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Diccionario de datos",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/1364104c-b86c-4ab9-8ef5-12fdf399aa01/resource/8dc2389f-4fe0-466b-a686-4d47afd533c2/download/diccionario_datos_establecimientos-extrahoteleros-sin-viviendas-vacacionales.csv",
-          "format": "CSV",
-          "identifier": ""
-        }
-      ],
-      "score": 58,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Turismo.",
-        "Publicador: A05003638."
-      ]
-    },
-    {
-      "id": "https://datos.canarias.es/catalogos/general/dataset/establecimientos-hoteleros-inscritos-en-el-registro-general-turistico-de-canarias",
-      "title": "Establecimientos hoteleros inscritos en el Registro General Turístico de Canarias",
-      "description": "Listado de establecimientos hoteleros inscritos en el Registro General Turístico de Canarias.",
-      "issued": "mié, 13 dic 2023 12:34:21 GMT+0000",
-      "modified": "mar, 25 ago 2026 22:51:31 GMT+0000",
-      "publisher": "A05003638",
-      "spatial": "Sin dato",
-      "themes": [
-        "Turismo"
-      ],
-      "keywords": [
-        "actividad turística",
-        "actividades",
-        "actividades hoteleras",
-        "establecimientos hoteleros"
-      ],
-      "formats": [
-        "CSV",
-        "JSON",
-        "XLSX"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-establecimientos-hoteleros-inscritos-en-el-registro-general-turistico-de-canarias1",
-      "distributions": [
-        {
-          "title": "Establecimientos hoteleros inscritos en el Registro General Turístico de Canarias. (CSV)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/429db33d-cbce-4920-b1b6-b4dde9e5f90f/resource/87741d75-2ce2-4a45-8131-ad8263257664/download/establecimientos-hoteleros-inscritos-en-el-registro-general-turistico-de-canarias.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Establecimientos hoteleros inscritos en el Registro General Turístico de Canarias. (JSON)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/429db33d-cbce-4920-b1b6-b4dde9e5f90f/resource/d98f6ce7-e045-4d1b-9c8c-0b4233b4889a/download/establecimientos-hoteleros-inscritos-en-el-registro-general-turistico-de-canarias.json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Diccionario de datos",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/429db33d-cbce-4920-b1b6-b4dde9e5f90f/resource/7ff27379-f243-428a-9f7f-f5165aff0554/download/diccionario_datos_establecimientos-hoteleros.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Establecimientos hoteleros inscritos en el Registro General Turístico de Canarias. (XLSX)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/429db33d-cbce-4920-b1b6-b4dde9e5f90f/resource/eda77ef5-b5e3-4007-b10d-9b2b4906dd23/download/establecimientos-hoteleros-inscritos-en-el-registro-general-turistico-de-canarias.xlsx",
-          "format": "XLSX",
-          "identifier": ""
-        }
-      ],
-      "score": 58,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Turismo.",
-        "Publicador: A05003638."
-      ]
-    },
-    {
-      "id": "https://datos.canarias.es/catalogos/general/dataset/intermediadores-turisticos-inscritos-en-el-registro-general-turistico-de-canarias",
-      "title": "Intermediadores turísticos inscritos en el Registro General Turístico de Canarias",
-      "description": "Listado de intermediadores turísticos inscritos en el Registro General Turístico de Canarias.",
-      "issued": "vie, 12 ene 2024 09:22:53 GMT+0000",
-      "modified": "mar, 25 ago 2026 22:40:25 GMT+0000",
-      "publisher": "A05003638",
-      "spatial": "Sin dato",
-      "themes": [
-        "Turismo"
-      ],
-      "keywords": [
-        "actividad turística",
-        "actividades",
-        "intermediación",
-        "intermediadores",
-        "turísiticos"
-      ],
-      "formats": [
-        "CSV",
-        "JSON",
-        "XLSX"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-intermediadores-turisticos-inscritos-en-el-registro-general-turistico-de-canarias",
-      "distributions": [
-        {
-          "title": "Intermediadores turísticos inscritos en el Registro General Turístico (CSV)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/e7a2e1a5-855d-480b-b865-6aa28314e04b/resource/31d139ce-886e-440c-a296-221a63f8f36c/download/intermediadores-turisticos-inscritos-en-el-registro-general-turistico.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Intermediadores turísticos inscritos en el Registro General Turístico (JSON)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/e7a2e1a5-855d-480b-b865-6aa28314e04b/resource/978e475b-519b-4c28-85ff-ab1aa858a405/download/intermediadores-turisticos-inscritos-en-el-registro-general-turistico.json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Diccionario de datos",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/e7a2e1a5-855d-480b-b865-6aa28314e04b/resource/4d98a8e0-4f44-48af-ba88-f5add56cbe0e/download/listado-de-intermediadores-turisticos-inscritos-en-el-registro-general-turistico-de-canarias.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Intermediadores turísticos inscritos en el Registro General Turístico (XLSX)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/e7a2e1a5-855d-480b-b865-6aa28314e04b/resource/b2bbaa0b-75bf-409a-ad43-4ee10f032fd0/download/intermediadores-turisticos-inscritos-en-el-registro-general-turistico.xlsx",
-          "format": "XLSX",
-          "identifier": ""
-        }
-      ],
-      "score": 58,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Turismo.",
-        "Publicador: A05003638."
-      ]
-    },
-    {
-      "id": "https://datos.canarias.es/catalogos/general/dataset/intermediadores-turisticos-on-line-inscritos-en-el-registro-general-turistico-de-canaria",
-      "title": "Intermediadores turísticos on line inscritos en el Registro General Turístico de Canarias",
-      "description": "Listado de intermediadores turísticos on line inscritos en el Registro General Turístico de Canarias.",
-      "issued": "vie, 12 ene 2024 09:22:49 GMT+0000",
-      "modified": "mar, 25 ago 2026 22:40:20 GMT+0000",
-      "publisher": "A05003638",
-      "spatial": "Sin dato",
-      "themes": [
-        "Turismo"
-      ],
-      "keywords": [
-        "actividad turística",
-        "actividades",
-        "intermediación",
-        "intermediadores",
-        "turísiticos"
+        "agenda",
+        "agenda",
+        "ekitaldiak",
+        "eventos",
+        "festak",
+        "festividades"
       ],
       "formats": [
         "JSON",
-        "CSV",
+        "XML",
+        "GEOJSON",
         "XLSX"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-intermediadores-turisticos-on-line-inscritos-en-el-registro-general-turistico-de-canarias",
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-agenda-turistica-de-euskadi1",
       "distributions": [
         {
-          "title": "Intermediadores turísticos ON LINE inscritos en el Registro General Turístico (JSON)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/296a0448-6f8a-4dfc-8ff5-c356431b183c/resource/da651f08-754b-4e82-a3ae-67c786bf7b94/download/intermediadores-turisticos-on-line-inscritos-en-el-registro-general-turistico-de-canarias.json",
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_turisticos/opendata/agenda.jsonp",
           "format": "JSON",
           "identifier": ""
         },
         {
-          "title": "Diccionario de datos",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/296a0448-6f8a-4dfc-8ff5-c356431b183c/resource/bb325f7b-56f5-4a45-97d6-c23183c0769b/download/listado-de-intermediadores-turisticos-on-line-inscritos-en-el-registro-general-turistico-de-cana.csv",
-          "format": "CSV",
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_turisticos/opendata/agenda.xml",
+          "format": "XML",
           "identifier": ""
         },
         {
-          "title": "Intermediadores turísticos ON LINE inscritos en el Registro General Turístico (CSV)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/296a0448-6f8a-4dfc-8ff5-c356431b183c/resource/31c7b81e-90f1-4ab7-ac9a-4d3012f59c9f/download/intermediadores-turisticos-on-line-inscritos-en-el-registro-general-turistico-de-canarias.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Intermediadores turísticos ON LINE inscritos en el Registro General Turístico (XLSX)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/296a0448-6f8a-4dfc-8ff5-c356431b183c/resource/dd89bda2-6616-43c8-9aa0-68dae52a1ebd/download/intermediadores-turisticos-on-line-inscritos-en-el-registro-general-turistico-de-canarias.xlsx",
-          "format": "XLSX",
-          "identifier": ""
-        }
-      ],
-      "score": 58,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Turismo.",
-        "Publicador: A05003638."
-      ]
-    },
-    {
-      "id": "https://datos.canarias.es/catalogos/general/dataset/organigrama-del-gobierno-de-canarias",
-      "title": "Organigrama del Gobierno de Canarias",
-      "description": "Organigrama que contiene la estructura orgánica del Gobierno de Canarias.",
-      "issued": "vie, 04 dic 2020 12:14:40 GMT+0000",
-      "modified": "mié, 26 ago 2026 00:41:02 GMT+0000",
-      "publisher": "A05003638",
-      "spatial": "Sin dato",
-      "themes": [
-        "Sector Publico"
-      ],
-      "keywords": [
-        "organigrama"
-      ],
-      "formats": [
-        "CSV",
-        "JSON"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-organigrama",
-      "distributions": [
-        {
-          "title": "Organigrama del Gobierno de Canarias. (CSV)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/019f9d7e-64bc-4603-a306-45ca1902b13e/resource/59abb23f-1087-4996-8697-a447b28aaf87/download/organigrama.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Diccionario de datos",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/019f9d7e-64bc-4603-a306-45ca1902b13e/resource/717a238b-0baf-4941-af72-fd6385101156/download/diccionario_datos_organigrama_del_gobierno_de_canarias.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Organigrama del Gobierno de Canarias. (JSON)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/019f9d7e-64bc-4603-a306-45ca1902b13e/resource/8ce6229b-9d3e-41f6-bb4c-a5149f11b702/download/organigrama.json",
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_turisticos/opendata/agenda.json",
           "format": "JSON",
           "identifier": ""
-        }
-      ],
-      "score": 32,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Sector Publico.",
-        "Publicador: A05003638."
-      ]
-    },
-    {
-      "id": "https://datos.canarias.es/catalogos/general/dataset/instalaciones-baja-tension-canarias",
-      "title": "Instalaciones eléctricas de baja tensión de Canarias",
-      "description": "Instalaciones eléctricas de baja tensión en servicio en la Comunidad Autónoma de Canarias, excluidas las instalaciones de autoconsumo. Cada registro corresponde a una instalación con información sobre su número de expediente, tipo, municipio, isla, potencia y estado. Los datos pueden consultarse también en el portal del organismo publicador: https://www.gobiernodecanarias.org/energia/materias/energia-electrica/bajatension/index.html",
-      "issued": "mar, 02 jun 2026 05:52:22 GMT+0000",
-      "modified": "mié, 26 ago 2026 04:11:19 GMT+0000",
-      "publisher": "A05003638",
-      "spatial": "Sin dato",
-      "themes": [
-        "Energia"
-      ],
-      "keywords": [
-        "electricidad"
-      ],
-      "formats": [
-        "CSV"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-instalaciones-electricas-de-baja-tension-de-canarias",
-      "distributions": [
+        },
         {
-          "title": "Diccionario de datos",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/b0123b00-7ecb-44d5-aedd-5e4470fa5e04/resource/b38b47d7-19b5-46f9-8815-a161e8985f18/download/diccionario_datos_instalaciones_baja_tension.csv",
-          "format": "CSV",
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_turisticos/opendata/agenda.geojson",
+          "format": "GEOJSON",
           "identifier": ""
         },
         {
-          "title": "Instalaciones eléctricas de baja tensión de Canarias. (CSV)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/b0123b00-7ecb-44d5-aedd-5e4470fa5e04/resource/62dfe381-c2de-48aa-9623-9e0a601663e6/download/registros_baja_tension.csv",
-          "format": "CSV",
-          "identifier": ""
-        }
-      ],
-      "score": 26,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tematicas detectadas: Energia.",
-        "Publicador: A05003638."
-      ]
-    },
-    {
-      "id": "https://datos.canarias.es/catalogos/general/dataset/retribuciones-del-personal-de-confianza-al-servicio-de-la-administracion-publica-de-canarias",
-      "title": "Retribuciones del personal de confianza al servicio de la Administración Pública de Canarias",
-      "description": "Datos de las retribuciones percibidas por el personal de confianza al servicio de la Administración Pública de Canarias.\nTener presente que en las retribuciones no se computan los trienios, ni el coste de la cuota patronal.",
-      "issued": "jue, 03 dic 2020 13:30:12 GMT+0000",
-      "modified": "lun, 24 ago 2026 07:39:51 GMT+0000",
-      "publisher": "A05003638",
-      "spatial": "Sin dato",
-      "themes": [
-        "Sector Publico"
-      ],
-      "keywords": [
-        "organigrama",
-        "personal de confianza",
-        "retribuciones"
-      ],
-      "formats": [
-        "CSV"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-retribuciones-del-personal-de-confianza",
-      "distributions": [
-        {
-          "title": "Retribuciones del personal de confianza al servicio de la Administración Pública de Canarias. 24/01/2025 (CSV)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/b6d804af-5bc1-4d43-97cc-063856898d7a/resource/46ef431d-56bf-420a-ac87-3a3273ec55f2/download/personal-eventual-transparencia-24012025.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Retribuciones del personal de confianza al servicio de la Administración Pública de Canarias. 17/10/2023 (CSV)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/b6d804af-5bc1-4d43-97cc-063856898d7a/resource/1ccd46fa-1a7a-4a37-8426-203f1378f3b4/download/personal-eventual-transparencia-17102023.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Retribuciones del personal de confianza al servicio de la Administración Pública de Canarias. 17/05/2024 (CSV)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/b6d804af-5bc1-4d43-97cc-063856898d7a/resource/f2f3555b-92c7-48d7-a82f-f2f46cee93a4/download/personal-eventual-transparencia-17052024.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Retribuciones del personal de confianza al servicio de la Administración Pública de Canarias. 26/05/2025 (CSV)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/b6d804af-5bc1-4d43-97cc-063856898d7a/resource/a7f6f7a0-e02f-4c4f-99d8-d9e22eb3fb73/download/personal-eventual-transparencia-26052025.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Retribuciones del personal de confianza al servicio de la Administración Pública de Canarias. 21/11/2025 (CSV)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/b6d804af-5bc1-4d43-97cc-063856898d7a/resource/ca9d21af-9b42-48a4-b502-02415bccc8d2/download/personal-eventual-transparencia-21112025.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Retribuciones del personal de confianza al servicio de la Administración Pública de Canarias. 15/11/2024 (CSV)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/b6d804af-5bc1-4d43-97cc-063856898d7a/resource/9109c9c3-41ae-41bf-99e9-2052f9f7715c/download/personal-eventual-transparencia-15112024.csv",
-          "format": "CSV",
-          "identifier": ""
-        }
-      ],
-      "score": 26,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Sector Publico.",
-        "Publicador: A05003638."
-      ]
-    },
-    {
-      "id": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/ventas-empleo-salarios-declaraciones-tributarias/avance-ventas-interiores-trimestrales.html",
-      "title": "Avance de Ventas Interiores en Grandes Empresas y Pymes",
-      "description": "El objeto de la publicación Avance de Ventas Interiores en Grandes Empresas y Pymes es, a partir de toda la información disponible del SII, obtener dos indicadores adelantados de las ventas interiores de la estadística trimestral de Ventas, Empleo y Salarios en las declaraciones tributarias.",
-      "issued": "mar, 02 abr 2024 22:00:00 GMT+0000",
-      "modified": "mar, 25 ago 2026 22:00:00 GMT+0000",
-      "publisher": "EA0028512",
-      "spatial": "España",
-      "themes": [
-        "Economia",
-        "Hacienda"
-      ],
-      "keywords": [
-        "Grandes empresas",
-        "Pymes",
-        "SII",
-        "Ventas"
-      ],
-      "formats": [
-        "SIN DATO"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/ea0028512-avance-de-ventas-interiores-en-grandes-empresas-y-pymes",
-      "distributions": [
-        {
-          "title": "Última publicación",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/static_files/AEAT/Estudios/Estadisticas/Informes_Estadisticos/Informes_Ventas/Avance_VI_trimestrales/Informe_avance_VESGEP.pdf",
+          "title": "Agenda",
+          "accessUrl": "http://www.euskadi.net/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&r01kQry=tC:euskadi;tT:evento;m:documentLanguage.EQ.es,templateType.EQ.M1;p:Inter;pp:r01NavBarBlockSize.10,r01PageSize.300",
           "format": "SIN DATO",
           "identifier": ""
         },
         {
-          "title": "Avance de Ventas Interiores en Grandes Empresas y Pymes",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/ventas-empleo-salarios-declaraciones-tributarias/avance-ventas-interiores-trimestrales.html",
-          "format": "SIN DATO",
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_turisticos/opendata/agenda.xlsx",
+          "format": "XLSX",
           "identifier": ""
         }
       ],
-      "score": 23,
-      "notes": [
-        "Tematicas detectadas: Economia, Hacienda.",
-        "Publicador: EA0028512.",
-        "Cobertura geografica principal: España."
-      ]
-    },
-    {
-      "id": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/ventas-empleos-salarios-declaraciones-tributarias/ventas-diarias.html",
-      "title": "Ventas diarias (Información semanal SII)",
-      "description": "La estadística recoge el nivel y la evolución diaria de las ventas que realizan las empresas incluidas en el sistema de Suministro Inmediato de Información (SII).\nDesde su entrada en vigor este sistema ha permitido disponer de datos de ventas con mayor actualidad, diarios frente a los datos mensuales o trimestrales característicos de las declaraciones del IVA. Los obligados a cumplimentar sus obligaciones tributarias a través del SII son las Grandes Empresas (aquellas con un volumen de operaciones en el año anterior superior a 6 millones de euros), los grupos del IVA y las empresas inscritas en el Registro de Devolución Mensual. Las ventas diarias suponen alrededor del 70% del total de ventas interiores del conjunto de contribuyentes del IVA (el porcentaje es superior si se considera el volumen de operaciones total declarado).\nLa publicación está compuesta por un informe y por las series históricas desde el 1 de julio de 2017. A partir de estas últimas, convenientemente tratadas, se proporciona una señal de la coyuntura económica, que complementa y anticipa la información de ventas contenida en los informes de recaudación tributaria y en la estadística mensual de Ventas, Empleo y Salarios en las Grandes Empresas (VESGE) y en la trimestral de Ventas, Empleo y Salarios en Grandes Empresas y Pymes (VESGEP).",
-      "issued": "mar, 21 dic 2021 23:00:00 GMT+0000",
-      "modified": "mar, 25 ago 2026 22:00:00 GMT+0000",
-      "publisher": "EA0028512",
-      "spatial": "España",
-      "themes": [
-        "Economia",
-        "Hacienda"
-      ],
-      "keywords": [
-        "SII",
-        "Suministro Inmediato de Información",
-        "Ventas SII"
-      ],
-      "formats": [
-        "SIN DATO"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/ea0028512-ventas-diarias-informacion-semanal-sii",
-      "distributions": [
-        {
-          "title": "Ventas diarias Seguimiento semanal",
-          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/ventas-empleos-salarios-declaraciones-tributarias/ventas-diarias.html",
-          "format": "SIN DATO",
-          "identifier": ""
-        }
-      ],
-      "score": 23,
-      "notes": [
-        "Tematicas detectadas: Economia, Hacienda.",
-        "Publicador: EA0028512.",
-        "Cobertura geografica principal: España."
-      ]
-    },
-    {
-      "id": "https://datos.canarias.es/catalogos/general/dataset/entidades-y-organos-de-contratacion-del-gobierno-de-canarias",
-      "title": "Entidades y órganos de contratación del Gobierno de Canarias",
-      "description": "Listado de entidades y órganos de contratación del Gobierno de Canarias.",
-      "issued": "vie, 04 dic 2020 12:41:37 GMT+0000",
-      "modified": "lun, 24 ago 2026 09:10:08 GMT+0000",
-      "publisher": "A05003638",
-      "spatial": "Sin dato",
-      "themes": [
-        "Hacienda",
-        "Sector Publico"
-      ],
-      "keywords": [
-        "contratación",
-        "entidades"
-      ],
-      "formats": [
-        "CSV"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-entidades-y-organos-de-contratacion",
-      "distributions": [
-        {
-          "title": "Entidades y órganos de contratación del Gobierno de Canarias. (ODS)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/84e22953-8f23-4bb7-b214-a21796709ba8/resource/e2d5855d-dd02-4b3e-9799-8c7ad7d111cc/download/organos_contratacion.ods",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Entidades y órganos de contratación del Gobierno de Canarias. (CSV)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/84e22953-8f23-4bb7-b214-a21796709ba8/resource/c2ee88f4-5629-4adb-accc-4c31abc9ad4b/download/organos_contratacion.csv",
-          "format": "CSV",
-          "identifier": ""
-        },
-        {
-          "title": "Diccionario de datos",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/84e22953-8f23-4bb7-b214-a21796709ba8/resource/693d4ba8-9053-4dbe-bcdd-20cd22a618f8/download/diccionario_datos_entidades_y_organos_de_contratacion_del_gobierno_de_canarias.csv",
-          "format": "CSV",
-          "identifier": ""
-        }
-      ],
-      "score": 22,
+      "score": 71,
       "notes": [
         "Incluye formatos reutilizables para prototipos y analisis.",
         "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Hacienda, Sector Publico.",
-        "Publicador: A05003638."
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
       ]
     },
     {
-      "id": "https://datos.canarias.es/catalogos/general/dataset/entidades-publicas-del-gobierno-de-canarias",
-      "title": "Entidades públicas del Gobierno de Canarias",
-      "description": "Listado de las entidades públicas del Gobierno de Canarias.",
-      "issued": "vie, 06 ago 2021 09:07:23 GMT+0000",
-      "modified": "mié, 26 ago 2026 01:31:01 GMT+0000",
-      "publisher": "A05003638",
-      "spatial": "Sin dato",
+      "id": "https://opendata.euskadi.eus/catalogo/-/albergues-turisticos-de-euskadi/",
+      "title": "Albergues turisticos de Euskadi",
+      "description": "Información sobre los albergues turísticos de Euskadi.",
+      "issued": "lun, 07 mar 2016 23:00:00 GMT+0000",
+      "modified": "vie, 04 sep 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
       "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "albergues",
+        "albergues turísticos",
+        "alojamientos",
+        "aterpe-turistikoak",
+        "aterpeak",
+        "aterpetxeak"
+      ],
+      "formats": [
+        "GEOJSON",
+        "JSON",
+        "XML",
+        "XLSX"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-albergues-turisticos-de-euskadi",
+      "distributions": [
+        {
+          "title": "Albergues",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/albergues_de_euskadi/opendata/alojamientos.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Albergues",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/albergues_de_euskadi/opendata/alojamientos.jsonp",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Albergues",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tF:turismo;tT:a_alojamiento;m:documentLanguage.EQ.es,lodgingType.IN.%28B%29;p:Inter_portal,Inter;",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Albergues",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/albergues_de_euskadi/opendata/alojamientos-padding.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Aeropuertos",
+          "accessUrl": "http://turismo.euskadi.net/x65-15809/es/s12GoogleMapsWar/gMapsJSP/VisorGMapsNP.jsp?lang=es",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Albergues",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/albergues_de_euskadi/opendata/alojamientos.xml",
+          "format": "XML",
+          "identifier": ""
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/alojamientos-rurales-de-euskadi/",
+      "title": "Alojamientos rurales de Euskadi",
+      "description": "Información sobre agroturismos y casas rurales de Euskadi.",
+      "issued": "lun, 07 mar 2016 23:00:00 GMT+0000",
+      "modified": "vie, 04 sep 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "agroturismo",
+        "alojamientos",
+        "casas rurales",
+        "landa",
+        "landa-etxeak",
+        "nekazal"
+      ],
+      "formats": [
+        "JSON",
+        "XLSX",
+        "GEOJSON",
+        "XML"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-alojamientos-rurales-de-euskadi",
+      "distributions": [
+        {
+          "title": "Alojamientos rurales",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamientos_rurales_euskadi/opendata/alojamientos.jsonp",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Alojamientos rurales",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamientos_rurales_euskadi/opendata/alojamientos.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Alojamientos rurales",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamientos_rurales_euskadi/opendata/alojamientos.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Aeropuertos",
+          "accessUrl": "http://turismo.euskadi.net/x65-15809/es/s12GoogleMapsWar/gMapsJSP/VisorGMapsNP.jsp?lang=es",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Alojamientos rurales",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamientos_rurales_euskadi/opendata/alojamientos.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Alojamientos rurales",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamientos_rurales_euskadi/opendata/alojamientos.xml",
+          "format": "XML",
+          "identifier": ""
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/alojamientos/",
+      "title": "Alojamientos turísticos de Euskadi",
+      "description": "Información sobre los distintos tipos de alojamientos turísticos de Euskadi: hoteles, pensiones, apartamentos, alojamientos rurales, campings y albergues turísticos. Los datos se extraen del Registro de Empresas y Actividades Turísticas de Euskadi (REATE).",
+      "issued": "mié, 24 mar 2010 23:00:00 GMT+0000",
+      "modified": "vie, 04 sep 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "albergues turísticos",
+        "apartamentos",
+        "apartamentuak",
+        "aterpetxe turistikoak",
+        "camping",
+        "casas rurales"
+      ],
+      "formats": [
+        "GEOJSON",
+        "JSON",
+        "XML",
+        "XLSX"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-alojamientos-turisticos-de-euskadi",
+      "distributions": [
+        {
+          "title": "Alojamientos",
+          "accessUrl": "http://www.euskadi.net/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&r01kQry=tC:euskadi;tT:a_alojamiento;m:documentLanguage.EQ.es;p:Inter_portal,Inter;pp:r01NavBarBlockSize.10,r01PageSize.100",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Alojamientos",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tF:turismo;tT:a_alojamiento;m:documentLanguage.EQ.es;p:Inter_portal,Inter;",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Alojamientos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamiento_de_euskadi/opendata/alojamientos.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Alojamientos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamiento_de_euskadi/opendata/alojamientos.jsonp",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Alojamientos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamiento_de_euskadi/opendata/alojamientos.xml",
+          "format": "XML",
+          "identifier": ""
+        },
+        {
+          "title": "Aeropuertos",
+          "accessUrl": "http://turismo.euskadi.net/x65-15809/es/s12GoogleMapsWar/gMapsJSP/VisorGMapsNP.jsp?lang=es",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://datosabiertos.navarra.es/dataset/calidad-del-aire-en-navarra-ltimos-60-d-as",
+      "title": "Calidad del aire en Navarra, últimos 60 días",
+      "description": "La [evaluación de la calidad del aire](https://www.miteco.gob.es/images/es/Cap3_Criterios%20evaluacion_tcm30-186479.pdf) se define como el resultado de aplicar cualquier método que permita medir, calcular, predecir o estimar las concentraciones de un contaminante en el aire ambiente o su depósito en superficies en un momento determinado. En Navarra se realiza mediante [mediciones](https://www.miteco.gob.es/es/calidad-y-evaluacion-ambiental/temas/atmosfera-y-calidad-del-aire/calidad-del-aire/evaluacion-datos/redes/default.aspx) en una serie de puntos de muestreo que se consideran representativos de cada una de las zonas en que se ha dividido el territorio y que componen la Red de Vigilancia de la Calidad del Aire de Navarra.\n\nEsta Red dispone de analizadores y sensores que miden los contaminantes que marca la normativa en materia de calidad del aire, principalmente dióxido de azufre (SO2), óxidos de nitrógeno (NO y NO2), ozono troposférico, monóxido de carbono (CO), benceno y partículas en suspensión (PM10 y PM2.5). Además se miden parámetros meteorológicos como velocidad y dirección del viento, temperatura, humedad relativa, presión, radiación y precipitación.\n\nEn esta ficha se pueden descargar los *datos horarios sin validar actualizados con frecuencia horaria*, recogidos en los últimos 60 días. Los datos horarios validados del año en curso se actualizan mensualmente y se pueden descargar en la ficha de  [Calidad del Aire en Navarra](/es/dataset/calidad-del-aire-en-navarra). La estructura de los ficheros e interpretación de los datos, se incluye en el [documento explicativo](https://gobiernoabierto.navarra.es/sites/default/files/opendata/manual_calidad_del_aire.pdf). Para ampliar información y ver los datos en tiempo real, puede acceder a la [web de calidad del aire en Navarra](https://www.navarra.es/es/calidaddelaire)",
+      "issued": "mié, 23 jun 2021 12:29:41 GMT+0000",
+      "modified": "vie, 04 sep 2026 22:05:03 GMT+0000",
+      "publisher": "A15002917",
+      "spatial": "Comunidad Foral Navarra",
+      "themes": [
+        "Medio Ambiente"
+      ],
+      "keywords": [
+        "Aire",
+        "Airea",
+        "Contaminación",
+        "Contaminantes",
+        "Kutsadura",
+        "Kutsatzaileak"
+      ],
+      "formats": [
+        "HTML",
+        "ODS",
+        "CSV",
+        "XLSX",
+        "JSON",
+        "TSV",
+        "XML",
+        "ZIP"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a15002917-calidad-del-aire-en-navarra-ultimos-60-dias1",
+      "distributions": [
+        {
+          "title": "Datos estación Altsasu - Tabla",
+          "accessUrl": "https://datosabiertos.navarra.es/dataset/calidad-del-aire-en-navarra-ltimos-60-d-as/resource/21276cc6-01ad-4d5a-af50-83a0c65fdf28?view_id=ca3e3ffe-45de-4f1a-b55e-3e65c5d8c40e",
+          "format": "HTML",
+          "identifier": "https://datosabiertos.navarra.es/dataset/calidad-del-aire-en-navarra-ltimos-60-d-as/resource/21276cc6-01ad-4d5a-af50-83a0c65fdf28?view_id=ca3e3ffe-45de-4f1a-b55e-3e65c5d8c40e"
+        },
+        {
+          "title": "Datos estación Funes - ODS",
+          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/fd433344-7c7f-426b-bc2b-5e31a3801065?format=ods&bom=True",
+          "format": "ODS",
+          "identifier": "https://datosabiertos.navarra.es/datastore/dump/fd433344-7c7f-426b-bc2b-5e31a3801065?format=ods&bom=True"
+        },
+        {
+          "title": "Datos estación UPNA",
+          "accessUrl": "https://datosabiertos.navarra.es/dataset/2f191abb-e1b8-4a96-a40a-26ac97b434b2/resource/8e788b22-c858-45be-985d-e883afc58504/download/upna_auto_2026.csv",
+          "format": "CSV",
+          "identifier": "https://datosabiertos.navarra.es/dataset/2f191abb-e1b8-4a96-a40a-26ac97b434b2/resource/8e788b22-c858-45be-985d-e883afc58504/download/upna_auto_2026.csv"
+        },
+        {
+          "title": "Datos estación Altsasu - ODS",
+          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/21276cc6-01ad-4d5a-af50-83a0c65fdf28?format=ods&bom=True",
+          "format": "ODS",
+          "identifier": "https://datosabiertos.navarra.es/datastore/dump/21276cc6-01ad-4d5a-af50-83a0c65fdf28?format=ods&bom=True"
+        },
+        {
+          "title": "Datos estación Pamplona - Felisa Munárriz - Tabla",
+          "accessUrl": "https://datosabiertos.navarra.es/dataset/calidad-del-aire-en-navarra-ltimos-60-d-as/resource/39334b0f-be23-40c5-a336-dcb6825286e3?view_id=0878ef4d-786f-4a15-b195-ee0028600392",
+          "format": "HTML",
+          "identifier": "https://datosabiertos.navarra.es/dataset/calidad-del-aire-en-navarra-ltimos-60-d-as/resource/39334b0f-be23-40c5-a336-dcb6825286e3?view_id=0878ef4d-786f-4a15-b195-ee0028600392"
+        },
+        {
+          "title": "Datos estación Altsasu",
+          "accessUrl": "https://datosabiertos.navarra.es/dataset/2f191abb-e1b8-4a96-a40a-26ac97b434b2/resource/21276cc6-01ad-4d5a-af50-83a0c65fdf28/download/alsasua_auto_2026.csv",
+          "format": "CSV",
+          "identifier": "https://datosabiertos.navarra.es/dataset/2f191abb-e1b8-4a96-a40a-26ac97b434b2/resource/21276cc6-01ad-4d5a-af50-83a0c65fdf28/download/alsasua_auto_2026.csv"
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Medio Ambiente.",
+        "Publicador: A15002917.",
+        "Cobertura geografica principal: Comunidad Foral Navarra."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/campings-de-euskadi/",
+      "title": "Campings de Euskadi",
+      "description": "Información sobre campings y áreas de autocaravanas de Euskadi.",
+      "issued": "lun, 07 mar 2016 23:00:00 GMT+0000",
+      "modified": "vie, 04 sep 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "acampada",
+        "alojamientos",
+        "autocaravanas",
+        "autokarabana eremuak",
+        "autokarabanak",
+        "camping"
+      ],
+      "formats": [
+        "GEOJSON",
+        "JSON",
+        "XML",
+        "XLSX"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-campings-de-euskadi",
+      "distributions": [
+        {
+          "title": "Campings",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/campings_de_euskadi/opendata/alojamientos-padding.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Campings",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/campings_de_euskadi/opendata/alojamientos.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Campings",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/campings_de_euskadi/opendata/alojamientos.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Campings",
+          "accessUrl": "http://www.euskadi.net/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&r01kQry=tC:euskadi;tF:turismo;tT:a_alojamiento;m:documentLanguage.EQ.es,lodgingType.IN.(P,V);p:Inter_portal,Inter;pp:r01NavBarBlockSize.10,r01PageSize.100",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Campings",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/campings_de_euskadi/opendata/alojamientos.xml",
+          "format": "XML",
+          "identifier": ""
+        },
+        {
+          "title": "Aeropuertos",
+          "accessUrl": "http://turismo.euskadi.net/x65-15809/es/s12GoogleMapsWar/gMapsJSP/VisorGMapsNP.jsp?lang=es",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://analisi.transparenciacatalunya.cat/api/views/jdcj-za6r",
+      "title": "Cursos programados y en programación por el Consorcio para la Formación Continua de Cataluña para la integración de datos con la Oferta FPCAT 365",
+      "description": "Dades de les accions formatives programades i en programació pel Consorci per a la Formació  Contínua de Catalunya. Amb el detall de les dates d’inici i final, la modalitat, la població on s’impartirà, l’entitat gestora i el contacte per sol·licitar la inscripció o resoldre qualsevol dubte al respecte.",
+      "issued": "lun, 22 may 2023 22:00:00 GMT+0000",
+      "modified": "vie, 04 sep 2026 22:00:00 GMT+0000",
+      "publisher": "A09002970",
+      "spatial": "Cataluna",
+      "themes": [
+        "Empleo"
+      ],
+      "keywords": [
+        "cursos",
+        "formació",
+        "formació contínua",
+        "formació professional",
+        "ods8_treball decent i creixement econòmic",
+        "treball"
+      ],
+      "formats": [
+        "XML",
+        "JSON",
+        "GEOJSON",
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a09002970-cursos-programados-y-en-programacion-por-el-consorcio-para-la-formacion-continua-de-cataluna-para-la-integracion-de-datos-con-la-oferta-fpcat-365",
+      "distributions": [
+        {
+          "title": "Cursos programados y en programación por el Consorcio para la Formación Continua de Cataluña para la integración de datos con la Oferta FPCAT 365",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/jdcj-za6r/query.xml?accessType=DOWNLOAD",
+          "format": "XML",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/jdcj-za6r"
+        },
+        {
+          "title": "Cursos programados y en programación por el Consorcio para la Formación Continua de Cataluña para la integración de datos con la Oferta FPCAT 365",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/jdcj-za6r/query.json?accessType=DOWNLOAD",
+          "format": "JSON",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/jdcj-za6r"
+        },
+        {
+          "title": "Cursos programados y en programación por el Consorcio para la Formación Continua de Cataluña para la integración de datos con la Oferta FPCAT 365",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/jdcj-za6r/query.geojson?accessType=DOWNLOAD",
+          "format": "GEOJSON",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/jdcj-za6r"
+        },
+        {
+          "title": "Cursos programados y en programación por el Consorcio para la Formación Continua de Cataluña para la integración de datos con la Oferta FPCAT 365",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/jdcj-za6r/export.csv?accessType=DOWNLOAD",
+          "format": "CSV",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/jdcj-za6r"
+        },
+        {
+          "title": "Cursos programados y en programación por el Consorcio para la Formación Continua de Cataluña para la integración de datos con la Oferta FPCAT 365",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/jdcj-za6r/export.kmz?accessType=DOWNLOAD",
+          "format": "SIN DATO",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/jdcj-za6r"
+        },
+        {
+          "title": "Cursos programados y en programación por el Consorcio para la Formación Continua de Cataluña para la integración de datos con la Oferta FPCAT 365",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/jdcj-za6r/export.kml?accessType=DOWNLOAD",
+          "format": "SIN DATO",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/jdcj-za6r"
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Empleo.",
+        "Publicador: A09002970.",
+        "Cobertura geografica principal: Cataluna."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/cursos-jornadas-congresos-y-ferias-organizadas-por-el-ivap/",
+      "title": "Cursos, jornadas, congresos y ferias organizadas por el IVAP",
+      "description": "En este conjunto de datos puedes acceder a los cursos, jornadas, congresos y ferias que organiza el IVAP (Instituto Vasco de Administración Pública). Los eventos están dirigidos principalmente a trabajadores públicos y se encuentran en diversos formatos.",
+      "issued": "lun, 19 ene 2015 23:00:00 GMT+0000",
+      "modified": "vie, 04 sep 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Empleo",
         "Sector Publico"
       ],
       "keywords": [
-        "entidades",
-        "entidades públicas",
-        "organigrama"
+        "agenda",
+        "agenda",
+        "azokak",
+        "congresos",
+        "cursos",
+        "ekitaldiak"
       ],
       "formats": [
-        "CSV"
+        "GEOJSON",
+        "XML",
+        "JSON",
+        "XLSX"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-entidades-publicas",
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-cursos-jornadas-congresos-y-ferias-organizadas-por-el-ivap1",
       "distributions": [
         {
-          "title": "Entidades públicas del Gobierno de Canarias. (CSV)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/c24a205e-29f8-40c0-96ea-24883b4acac4/resource/e9513559-1169-4fcb-a655-dce836cbeeb7/download/entidades_publicas.csv",
+          "title": "Cursos",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tT:evento;cA:r01e00000ff26d461d4a470b89cb18e96d2ace15a;m:documentLanguage.EQ.es;p:Inter",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Cursos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/cursos_jornadas_ivap/opendata/cursos-padding.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Cursos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/cursos_jornadas_ivap/opendata/cursos.xml",
+          "format": "XML",
+          "identifier": ""
+        },
+        {
+          "title": "Cursos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/cursos_jornadas_ivap/opendata/cursos.jsonp",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Cursos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/cursos_jornadas_ivap/opendata/cursos.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Cursos",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/cursos_jornadas_ivap/opendata/cursos.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Empleo, Sector Publico.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://analisi.transparenciacatalunya.cat/api/views/tb2m-m33b",
+      "title": "Estaciones de recarga para vehículos eléctricos en Cataluña",
+      "description": "Informació descarregable de les estacions de recàrrega superràpida (potència elèctrica > 50kW), ràpida (potència elèctrica de 50kW), semiràpida (potència elèctrica de 22kW) per a vehicle elèctric a Catalunya. \nHi ha informació relativa a la ubicació geogràfica (adreça i coordinades) i responsable de la gestió de les estacions. També del tipus d’estació i de quins connectors hi ha disponibles (Combo CSS2, ChadeMo, Mennekes (Tipus 2) o Shucko.",
+      "issued": "mié, 13 jul 2022 22:00:00 GMT+0000",
+      "modified": "vie, 04 sep 2026 22:00:00 GMT+0000",
+      "publisher": "A09002970",
+      "spatial": "Cataluna",
+      "themes": [
+        "Transporte"
+      ],
+      "keywords": [
+        "eficiència energètica",
+        "energia",
+        "estacions de recàrrega",
+        "mobilitat elèctrica",
+        "ods7_energia assequible i no contaminant",
+        "punts de recàrrega"
+      ],
+      "formats": [
+        "GEOJSON",
+        "XML",
+        "CSV",
+        "JSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a09002970-estaciones-de-recarga-para-vehiculos-electricos-en-cataluna",
+      "distributions": [
+        {
+          "title": "Estaciones de recarga para vehículos eléctricos en Cataluña",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/tb2m-m33b/export.kmz?accessType=DOWNLOAD",
+          "format": "SIN DATO",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/tb2m-m33b"
+        },
+        {
+          "title": "Estaciones de recarga para vehículos eléctricos en Cataluña",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/tb2m-m33b/export.kml?accessType=DOWNLOAD",
+          "format": "SIN DATO",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/tb2m-m33b"
+        },
+        {
+          "title": "Estaciones de recarga para vehículos eléctricos en Cataluña",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/tb2m-m33b/query.geojson?accessType=DOWNLOAD",
+          "format": "GEOJSON",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/tb2m-m33b"
+        },
+        {
+          "title": "Estaciones de recarga para vehículos eléctricos en Cataluña",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/tb2m-m33b/query.xml?accessType=DOWNLOAD",
+          "format": "XML",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/tb2m-m33b"
+        },
+        {
+          "title": "Estaciones de recarga para vehículos eléctricos en Cataluña",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/tb2m-m33b/export.csv?accessType=DOWNLOAD",
+          "format": "CSV",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/tb2m-m33b"
+        },
+        {
+          "title": "Estaciones de recarga para vehículos eléctricos en Cataluña",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/tb2m-m33b/query.json?accessType=DOWNLOAD",
+          "format": "JSON",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/tb2m-m33b"
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Transporte.",
+        "Publicador: A09002970.",
+        "Cobertura geografica principal: Cataluna."
+      ]
+    },
+    {
+      "id": "https://opendata.aragon.es/datos/catalogo/dataset/fechas-de-aprobaciones-y-publicaciones-de-plantillas-de-personal-de-entidades-publicas",
+      "title": "Fechas de aprobaciones y publicaciones de Plantillas de Personal de entidades públicas",
+      "description": "Fechas de aprobaciones y publicaciones de Plantillas de Personal de entidades públicas",
+      "issued": "jue, 13 mar 2025 23:00:00 GMT+0000",
+      "modified": "vie, 04 sep 2026 22:00:00 GMT+0000",
+      "publisher": "A02002834",
+      "spatial": "Aragon",
+      "themes": [
+        "Empleo"
+      ],
+      "keywords": [
+        "Administración local",
+        "Convocatorias de personal público",
+        "Diputación provincial",
+        "Empleo",
+        "Empleo Público",
+        "Mancomunidad"
+      ],
+      "formats": [
+        "CSV",
+        "XLSX",
+        "JSON",
+        "XML"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a02002834-fechas-de-aprobaciones-y-publicaciones-de-plantillas-de-personal-de-entidades-publicas",
+      "distributions": [
+        {
+          "title": "Datos de Plantillas - CSV",
+          "accessUrl": "https://opendata.aragon.es/GA_OD_Core/download?resource_id=31&formato=csv",
+          "format": "CSV",
+          "identifier": "https://opendata.aragon.es/GA_OD_Core/download?resource_id=31&formato=csv"
+        },
+        {
+          "title": "Datos de Plantillas - XLSX",
+          "accessUrl": "https://opendata.aragon.es/GA_OD_Core/download?resource_id=31&formato=xlsx",
+          "format": "XLSX",
+          "identifier": "https://opendata.aragon.es/GA_OD_Core/download?resource_id=31&formato=xlsx"
+        },
+        {
+          "title": "Datos de Plantillas - JSON",
+          "accessUrl": "https://opendata.aragon.es/GA_OD_Core/download?resource_id=31&formato=json",
+          "format": "JSON",
+          "identifier": "https://opendata.aragon.es/GA_OD_Core/download?resource_id=31&formato=json"
+        },
+        {
+          "title": "Datos de Plantillas - XML",
+          "accessUrl": "https://opendata.aragon.es/GA_OD_Core/download?resource_id=31&formato=xml",
+          "format": "XML",
+          "identifier": "https://opendata.aragon.es/GA_OD_Core/download?resource_id=31&formato=xml"
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Empleo.",
+        "Publicador: A02002834.",
+        "Cobertura geografica principal: Aragon."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/hoteles-de-euskadi/",
+      "title": "Hoteles de Euskadi",
+      "description": "Información sobre hoteles, apartamentos, pensiones y hoteles-apartamentos de Euskadi.",
+      "issued": "lun, 07 mar 2016 23:00:00 GMT+0000",
+      "modified": "vie, 04 sep 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "alojamientos",
+        "apartamentos",
+        "apartamentuak",
+        "hotelak",
+        "hoteles",
+        "hoteles-apartamento"
+      ],
+      "formats": [
+        "XLSX",
+        "GEOJSON",
+        "JSON",
+        "XML"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-hoteles-de-euskadi",
+      "distributions": [
+        {
+          "title": "Hoteles",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/hoteles_de_euskadi/opendata/alojamientos.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Hoteles",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/hoteles_de_euskadi/opendata/alojamientos-padding.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Hoteles",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/hoteles_de_euskadi/opendata/alojamientos.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Hoteles",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/hoteles_de_euskadi/opendata/alojamientos.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Hoteles",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tF:turismo;tT:a_alojamiento;m:documentLanguage.EQ.es,lodgingType.IN.(H,6,7,T);p:Inter_portal,Inter;",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Hoteles",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/hoteles_de_euskadi/opendata/alojamientos.jsonp",
+          "format": "JSON",
+          "identifier": ""
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://datosabiertos.navarra.es/dataset/informaci-n-sobre-el-estado-de-las-carreteras-de-navarra",
+      "title": "Información sobre el estado de las carreteras de Navarra",
+      "description": "El Gobierno de Navarra le informa del estado de la Red de Carreteras de la Comunidad Foral. El Centro de Control de Conservación de Carreteras presta servicio las 24 horas del día durante los 365 días del año y mantiene actualizada la información sobre el estado de la Red de Carreteras de Navarra. La información que se actualiza cada 15 minutos en Open Data incluye: \n\t\tIncidencias meteorológicas\n\t\tIncidencias en la Red Viaria\n\t\tIncidencias por obras\n\nConsulte en el mapa las incidencias previstas en su ruta. Teléfono de información: 848 423 500",
+      "issued": "mié, 23 jun 2021 12:37:41 GMT+0000",
+      "modified": "vie, 04 sep 2026 22:30:01 GMT+0000",
+      "publisher": "A15002917",
+      "spatial": "Comunidad Foral Navarra",
+      "themes": [
+        "Transporte"
+      ],
+      "keywords": [
+        "Incidencias de tráfico",
+        "Trafikoa",
+        "Trafikoko gorabeherak",
+        "Tráfico"
+      ],
+      "formats": [
+        "TSV",
+        "JSON",
+        "XLSX",
+        "HTML",
+        "XML",
+        "CSV",
+        "ODS"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a15002917-informacion-sobre-el-estado-de-las-carreteras-de-navarra1",
+      "distributions": [
+        {
+          "title": "Información sobre el estado de las carreteras de Navarra - TSV",
+          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=tsv&bom=True",
+          "format": "TSV",
+          "identifier": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=tsv&bom=True"
+        },
+        {
+          "title": "Información sobre el estado de las carreteras de Navarra - JSON",
+          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=json&bom=True",
+          "format": "JSON",
+          "identifier": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=json&bom=True"
+        },
+        {
+          "title": "Información sobre el estado de las carreteras de Navarra - XLSX",
+          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=xlsx&bom=True",
+          "format": "XLSX",
+          "identifier": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=xlsx&bom=True"
+        },
+        {
+          "title": "Información sobre el estado de las carreteras de Navarra - Tabla",
+          "accessUrl": "https://datosabiertos.navarra.es/dataset/informaci-n-sobre-el-estado-de-las-carreteras-de-navarra/resource/9323f68f-9c8f-47e1-884c-d6985b957606?view_id=6294f0fb-b999-4045-9867-0004a9dd645b",
+          "format": "HTML",
+          "identifier": "https://datosabiertos.navarra.es/dataset/informaci-n-sobre-el-estado-de-las-carreteras-de-navarra/resource/9323f68f-9c8f-47e1-884c-d6985b957606?view_id=6294f0fb-b999-4045-9867-0004a9dd645b"
+        },
+        {
+          "title": "Información sobre el estado de las carreteras de Navarra - XML",
+          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=xml&bom=True",
+          "format": "XML",
+          "identifier": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=xml&bom=True"
+        },
+        {
+          "title": "Información sobre el estado de las carreteras de Navarra - JSON - API",
+          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=json&bom=True",
+          "format": "JSON",
+          "identifier": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=json&bom=True"
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Transporte.",
+        "Publicador: A15002917.",
+        "Cobertura geografica principal: Comunidad Foral Navarra."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/informes-de-inspeccion-ambiental/",
+      "title": "Informes de inspección ambiental",
+      "description": "Este conjunto de datos ofrece las inspecciones ambientales realizadas por el área de Medio Ambiente del Gobierno Vasco.",
+      "issued": "jue, 14 jul 2016 22:00:00 GMT+0000",
+      "modified": "vie, 04 sep 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Medio Ambiente"
+      ],
+      "keywords": [
+        "contaminación",
+        "empresas",
+        "enpresak",
+        "ikuskaritza",
+        "ingurumena",
+        "inspecciones"
+      ],
+      "formats": [
+        "GEOJSON",
+        "JSON",
+        "XLSX",
+        "XML"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-informes-de-inspeccion-ambiental1",
+      "distributions": [
+        {
+          "title": "Informes",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_informes_estudios/informes_aai/opendata/informes.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Informes",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_informes_estudios/informes_aai/opendata/informes_aai.jsonp",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Informes",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_informes_estudios/informes_aai/opendata/informes_aai.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "XML",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tF:documentacion_expedientes;tT:documentacion_autorizacion;m:documentLanguage.EQ.es;",
+          "format": "XML",
+          "identifier": ""
+        },
+        {
+          "title": "Informes",
+          "accessUrl": "http://www.euskadi.net/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&r01kQry=tC:euskadi;tF:documentacion_expedientes;tT:documentacion_autorizacion;m:documentLanguage.EQ.es;p:Inter;",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Informes",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_informes_estudios/informes_aai/opendata/informes-padding.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Medio Ambiente.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/restaurantes-asadores-y-sidrerias-de-euskadi/",
+      "title": "Restaurantes, asadores y sidrerías de Euskadi",
+      "description": "Información sobre los restaurantes, asadores y sidrerías de Euskadi.",
+      "issued": "lun, 07 mar 2016 23:00:00 GMT+0000",
+      "modified": "vie, 04 sep 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "asadores",
+        "erretegiak",
+        "jatetxeak",
+        "restauración",
+        "restaurantes",
+        "sagardotegiak"
+      ],
+      "formats": [
+        "XLSX",
+        "GEOJSON",
+        "JSON",
+        "XML"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-restaurantes-asadores-y-sidrerias-de-euskadi",
+      "distributions": [
+        {
+          "title": "Aeropuertos",
+          "accessUrl": "http://turismo.euskadi.net/x65-15809/es/s12GoogleMapsWar/gMapsJSP/VisorGMapsNP.jsp?lang=es",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Restaurantes, asadores y sidrerías",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tF:turismo;tT:b_restauracion;m:restorationType.IN.(1,42,3),documentLanguage.EQ.es;p:Inter;",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Restaurantes, asadores y sidrerías",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/restaurantes_asador_sidrerias/opendata/restaurantes.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Restaurantes, asadores y sidrerías",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/restaurantes_asador_sidrerias/opendata/restaurantes.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Restaurantes, asadores y sidrerías",
+          "accessUrl": "https://www.euskadi.eus/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&r01kQry=tT:b_restauracion;m:documentLanguage.EQ.es,templateType.EQ.B1&restorationType.IN.(1,3,42);p:Inter_portal,Inter;pp:r01NavBarBlockSize.10,r01PageSize.100",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Restaurantes, asadores y sidrerías",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/restaurantes_asador_sidrerias/opendata/restaurantes.json",
+          "format": "JSON",
+          "identifier": ""
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/restaurantes-asadores-sidrerias-bodegas-y-bares-de-pintxos-de-euskadi/",
+      "title": "Restaurantes, asadores, sidrerías, bodegas y bares de pintxos de Euskadi",
+      "description": "Información sobre los establecimientos de restauración de Euskadi: restaurantes, asadores, sidrerías, bodegas y bares de pintxos.",
+      "issued": "lun, 19 abr 2010 22:00:00 GMT+0000",
+      "modified": "vie, 04 sep 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "Jatetxeak",
+        "Restaurantes",
+        "asadores",
+        "bares",
+        "bodegas",
+        "erretegiak"
+      ],
+      "formats": [
+        "GEOJSON",
+        "JSON",
+        "XLSX",
+        "XML"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-restaurantes-asadores-sidrerias-bodegas-y-bares-de-pintxos-de-euskadi",
+      "distributions": [
+        {
+          "title": "Restaurantes",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tF:turismo;tT:b_restauracion;m:documentLanguage.EQ.es;p:Inter_portal,Inter;",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Restaurantes",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/restaurantes_sidrerias_bodegas/opendata/restaurantes.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Restaurantes",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/restaurantes_sidrerias_bodegas/opendata/restaurantes.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Restaurantes",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/restaurantes_sidrerias_bodegas/opendata/restaurantes-padding.geojson",
+          "format": "GEOJSON",
+          "identifier": ""
+        },
+        {
+          "title": "Aeropuertos",
+          "accessUrl": "http://turismo.euskadi.net/x65-15809/es/s12GoogleMapsWar/gMapsJSP/VisorGMapsNP.jsp?lang=es",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Restaurantes",
+          "accessUrl": "http://www.euskadi.net/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&r01kQry=tC:euskadi;tT:b_restauracion;m:documentLanguage.EQ.es;p:Inter_portal,Inter;pp:r01NavBarBlockSize.10,r01PageSize.100",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://datosabiertos.navarra.es/dataset/sistema-autom-tico-de-informaci-n-hidrol-gica-saih-",
+      "title": "Sistema Automático de Información Hidrológica (SAIH)",
+      "description": "EL SAIH es un sistema de información encargado de captar, transmitir en tiempo real, procesar y presentar datos que describen el estado hidrológico a lo largo de la red fluvial y de los disositivos de control que en ellas se ubican. Para captar estasa variables se utilizan dispositivos (sensores), que están en contacto con el medio, dotados de unos codificadores que proporcionan la señal eléctrica o lógica del estado de la variable que se mide. Como tal sistema de información se apoya en una red de comunicaciones, y como elementos inteligentes de la misma, utiliza sistemas de adquisición y proceso de datos. La red mide de forma directa el nivel de agua en puntos concretos de la red fluvial. Este dato de nivel medido (en metros de altura de agua) permite calcular de forma indirecta el caudal circulante en m3/s.\nEn esta ficha se pueden descargar los datos diezminutales no validados (provisionales y sujetos a revisión), pero medidos en tiempo real, recogidos en los últimos 7 días por la Red de SAIH de Navarra. \nLos datos no validados se actualizan con frecuencia diezminutal y se pueden descargar de los archivos adjuntos \"Nivel y caudal en tiempo real en estaciones de aforo del Gobierno de Navarra\".\nPara ampliar información y ver los datos en tiempo real, puede acceder a la [web del agua en Navarra](https://administracionelectronica.navarra.es/aguaEnNavarra/ctaMapa.aspx?IDOrigenDatos=2&IDMapa=1 \"Web del agua\")",
+      "issued": "mié, 23 jun 2021 12:44:41 GMT+0000",
+      "modified": "vie, 04 sep 2026 22:40:06 GMT+0000",
+      "publisher": "A15002917",
+      "spatial": "Comunidad Foral Navarra",
+      "themes": [
+        "Medio Ambiente"
+      ],
+      "keywords": [
+        "Agua",
+        "Hidrologia",
+        "Hidrología",
+        "Ura"
+      ],
+      "formats": [
+        "XLSX",
+        "CSV",
+        "ODS",
+        "JSON",
+        "TSV",
+        "XML",
+        "HTML"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a15002917-sistema-automatico-de-informacion-hidrologica-saih1",
+      "distributions": [
+        {
+          "title": "Sistema Automático de Información Hidrológica (SAIH) - XLSX",
+          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=xlsx&bom=True",
+          "format": "XLSX",
+          "identifier": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=xlsx&bom=True"
+        },
+        {
+          "title": "Sistema Automático de Información Hidrológica (SAIH) - CSV",
+          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=csv&bom=True",
+          "format": "CSV",
+          "identifier": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=csv&bom=True"
+        },
+        {
+          "title": "Sistema Automático de Información Hidrológica (SAIH) - ODS",
+          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=ods&bom=True",
+          "format": "ODS",
+          "identifier": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=ods&bom=True"
+        },
+        {
+          "title": "Sistema Automático de Información Hidrológica (SAIH) - JSON - API",
+          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=json&bom=True",
+          "format": "JSON",
+          "identifier": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=json&bom=True"
+        },
+        {
+          "title": "Sistema Automático de Información Hidrológica (SAIH) - JSON",
+          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=json&bom=True",
+          "format": "JSON",
+          "identifier": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=json&bom=True"
+        },
+        {
+          "title": "Sistema Automático de Información Hidrológica (SAIH) - TSV",
+          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=tsv&bom=True",
+          "format": "TSV",
+          "identifier": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=tsv&bom=True"
+        }
+      ],
+      "score": 71,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Medio Ambiente.",
+        "Publicador: A15002917.",
+        "Cobertura geografica principal: Comunidad Foral Navarra."
+      ]
+    },
+    {
+      "id": "https://analisi.transparenciacatalunya.cat/api/views/qsgb-mu78",
+      "title": "Puntos de orientación del Consorci per a la Formació Continua de Catalunya",
+      "description": "Dades dels punts d’orientació professional que hi ha disponible per tot el territori català que formen part dels programes d’orientació del Consorci per a la Formació Contínua.",
+      "issued": "dom, 28 may 2023 22:00:00 GMT+0000",
+      "modified": "vie, 04 sep 2026 22:00:00 GMT+0000",
+      "publisher": "A09002970",
+      "spatial": "Cataluna",
+      "themes": [
+        "Empleo"
+      ],
+      "keywords": [
+        "orientació professional",
+        "punt orientació"
+      ],
+      "formats": [
+        "CSV",
+        "GEOJSON",
+        "XML",
+        "JSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a09002970-puntos-de-orientacion-del-consorci-per-a-la-formacio-continua-de-catalunya",
+      "distributions": [
+        {
+          "title": "Puntos de orientación del Consorci per a la Formació Continua de Catalunya",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/qsgb-mu78/export.csv?accessType=DOWNLOAD",
+          "format": "CSV",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/qsgb-mu78"
+        },
+        {
+          "title": "Puntos de orientación del Consorci per a la Formació Continua de Catalunya",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/qsgb-mu78/export.kml?accessType=DOWNLOAD",
+          "format": "SIN DATO",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/qsgb-mu78"
+        },
+        {
+          "title": "Puntos de orientación del Consorci per a la Formació Continua de Catalunya",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/qsgb-mu78/query.geojson?accessType=DOWNLOAD",
+          "format": "GEOJSON",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/qsgb-mu78"
+        },
+        {
+          "title": "Puntos de orientación del Consorci per a la Formació Continua de Catalunya",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/qsgb-mu78/export.kmz?accessType=DOWNLOAD",
+          "format": "SIN DATO",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/qsgb-mu78"
+        },
+        {
+          "title": "Puntos de orientación del Consorci per a la Formació Continua de Catalunya",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/qsgb-mu78/query.xml?accessType=DOWNLOAD",
+          "format": "XML",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/qsgb-mu78"
+        },
+        {
+          "title": "Puntos de orientación del Consorci per a la Formació Continua de Catalunya",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/qsgb-mu78/query.json?accessType=DOWNLOAD",
+          "format": "JSON",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/qsgb-mu78"
+        }
+      ],
+      "score": 67,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Empleo.",
+        "Publicador: A09002970.",
+        "Cobertura geografica principal: Cataluna."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/agenda-de-interes-para-jovenes-en-euskadi/",
+      "title": "Agenda de interés para jóvenes en Euskadi",
+      "description": "Gazte Informazioa es una red de más de 70 servicios que componen el Servicio de Información juvenil de Euskadi, formado por entidades dependientes de administraciones públicas (como Gobierno Vasco diputaciones o ayuntamientos), universidad y entidades privadas (asociaciones).",
+      "issued": "dom, 18 ene 2015 23:00:00 GMT+0000",
+      "modified": "vie, 04 sep 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Cultura Ocio",
+        "Turismo"
+      ],
+      "keywords": [
+        "actividades",
+        "agenda",
+        "agenda",
+        "conciertos",
+        "cursos",
+        "ekitaldiak"
+      ],
+      "formats": [
+        "JSON",
+        "XML",
+        "XLSX"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-agenda-de-interes-para-jovenes-en-euskadi1",
+      "distributions": [
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_gazte_informazioa/opendata/agenda.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_gazte_informazioa/opendata/agenda.jsonp",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_gazte_informazioa/opendata/agenda.xml",
+          "format": "XML",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_gazte_informazioa/opendata/agenda.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Agenda",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tT:evento;cA:r01epd012982674f7923a83e0e9ab363a0790c534;o:documentCreateDate.DESC;m:documentLanguage.EQ.es;p:Inter",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 61,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Cultura Ocio, Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/calidad-aire-en-euskadi-2026/",
+      "title": "Calidad del aire en Euskadi durante el 2026",
+      "description": "El departamento de Medio Ambiente y Política Territorial del Gobierno Vasco se encarga de controlar y vigilar a través de la Red de Control de Calidad del Aire los niveles de contaminación en la Comunidad Autónoma Vasca, en cumplimiento de la obligación que tienen las Comunidades Autónomas de evaluar la calidad del aire en su territorio.",
+      "issued": "mié, 31 dic 2025 23:00:00 GMT+0000",
+      "modified": "vie, 04 sep 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Medio Ambiente"
+      ],
+      "keywords": [
+        "aire",
+        "airea",
+        "calidad",
+        "contaminación",
+        "kalitatea",
+        "kutsadura"
+      ],
+      "formats": [
+        "XLSX",
+        "JSON",
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-calidad-del-aire-en-euskadi-durante-el-2026",
+      "distributions": [
+        {
+          "title": "Estaciones de medición",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2026/es_def/adjuntos/estaciones.xlsx",
+          "format": "XLSX",
+          "identifier": ""
+        },
+        {
+          "title": "Estaciones de medición",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2026/es_def/adjuntos/estaciones.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Estaciones de medición",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2026/es_def/adjuntos/estaciones.csv",
           "format": "CSV",
           "identifier": ""
         },
         {
-          "title": "Diccionario de datos",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/c24a205e-29f8-40c0-96ea-24883b4acac4/resource/0c6bafd6-6e68-4530-893a-e0ee18b73509/download/diccionario_datos_de_las_entidades_publicas_del_gobierno_de_canarias.csv",
-          "format": "CSV",
-          "identifier": ""
-        }
-      ],
-      "score": 18,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tematicas detectadas: Sector Publico.",
-        "Publicador: A05003638."
-      ]
-    },
-    {
-      "id": "https://datos.canarias.es/catalogos/general/dataset/entidades-publicas-empresariales-del-gobierno-de-canarias",
-      "title": "Entidades públicas empresariales del Gobierno de Canarias",
-      "description": "Listado de las entidades públicas empresariales del Gobierno de Canarias.",
-      "issued": "vie, 06 ago 2021 09:20:03 GMT+0000",
-      "modified": "mié, 26 ago 2026 00:31:02 GMT+0000",
-      "publisher": "A05003638",
-      "spatial": "Sin dato",
-      "themes": [
-        "Sector Publico"
-      ],
-      "keywords": [
-        "entidades",
-        "entidades públicas",
-        "entidades públicas empresariales",
-        "organigrama"
-      ],
-      "formats": [
-        "CSV"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-entidades-publicas-empresariales",
-      "distributions": [
-        {
-          "title": "Diccionario de datos",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/b83090ff-04f9-4222-a65b-556feaba17c9/resource/e9061dca-f5e3-4dc2-b728-dd47323dafb5/download/diccionario_datos_de_las_entidades_publicas_empresariales_del_gobierno_de_canarias.csv",
-          "format": "CSV",
+          "title": "Diarios y horarios",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2026/es_def/adjuntos/datos_historicos_csv.zip",
+          "format": "SIN DATO",
           "identifier": ""
         },
         {
-          "title": "Entidades públicas empresariales del Gobierno de Canarias. (CSV)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/b83090ff-04f9-4222-a65b-556feaba17c9/resource/46adb5d0-3732-40b8-af21-5ac83c60d7dc/download/entidades_publicas_empresariales.csv",
-          "format": "CSV",
-          "identifier": ""
-        }
-      ],
-      "score": 18,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tematicas detectadas: Sector Publico.",
-        "Publicador: A05003638."
-      ]
-    },
-    {
-      "id": "https://datos.canarias.es/catalogos/general/dataset/fundaciones-publicas-del-gobierno-de-canarias",
-      "title": "Fundaciones públicas del Gobierno de Canarias",
-      "description": "Listado de las fundaciones públicas del Gobierno de Canarias.",
-      "issued": "vie, 04 dic 2020 11:48:12 GMT+0000",
-      "modified": "mié, 26 ago 2026 00:44:01 GMT+0000",
-      "publisher": "A05003638",
-      "spatial": "Sin dato",
-      "themes": [
-        "Sector Publico"
-      ],
-      "keywords": [
-        "fundaciones",
-        "fundaciones públicas",
-        "organigrama"
-      ],
-      "formats": [
-        "CSV"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-fundaciones-publicas",
-      "distributions": [
-        {
-          "title": "Fundaciones públicas del Gobierno de Canarias. (CSV)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/dd3a925b-7164-4fa1-acd4-e5c660f7fd7f/resource/683c516e-4be3-4339-8879-7f852909bcdd/download/fundaciones_publicas.csv",
-          "format": "CSV",
+          "title": "Calidad del aire",
+          "accessUrl": "https://opendata.euskadi.eus/api-air-quality/?api=air-quality",
+          "format": "SIN DATO",
           "identifier": ""
         },
         {
-          "title": "Diccionario de datos",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/dd3a925b-7164-4fa1-acd4-e5c660f7fd7f/resource/fad51b03-2b30-4fd4-901c-b6baceb5a984/download/diccionario_datos_fundaciones_publicas_del_gobierno_de_canarias.csv",
-          "format": "CSV",
+          "title": "Diarios, horarios e índices de calidad del aire",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2026/es_def/adjuntos/index.json",
+          "format": "JSON",
           "identifier": ""
         }
       ],
-      "score": 18,
+      "score": 61,
       "notes": [
         "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tematicas detectadas: Sector Publico.",
-        "Publicador: A05003638."
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Medio Ambiente.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
       ]
     },
     {
-      "id": "https://datos.canarias.es/catalogos/general/dataset/localizaciones-de-las-entidades-publicas-del-gobierno-de-canarias",
-      "title": "Localizaciones de las entidades públicas del Gobierno de Canarias",
-      "description": "Listado de las localizaciones de las entidades públicas del Gobierno de Canarias.",
-      "issued": "jue, 11 ago 2022 06:48:04 GMT+0000",
-      "modified": "mié, 26 ago 2026 00:33:01 GMT+0000",
-      "publisher": "A05003638",
-      "spatial": "Sin dato",
+      "id": "https://analisi.transparenciacatalunya.cat/api/views/ybgg-dgi6",
+      "title": "Contratación pública en Catalunya: publicaciones en la Plataforma de servicios de contratación pública",
+      "description": "Publicacions de l’activitat contractual de tots els òrgans de contractació de Catalunya a la Plataforma de serveis de contractació pública (PSCP), entre altres, anuncis de licitació, d’avaluació, d’adjudicació i de formalització de contractes. \n\nCada fila representa:\n\n- Un expedient\n- Un lot de l’expedient, per als expedients amb lots\n- Un expedient per a les publicacions agregades\n\nLes publicacions de la fase d&rsquo;execuci&oacute; estan contingudes al conjunt de dades \"Contractaci&oacute; p&uacute;blica a Catalunya: publicacions de la fase d&rsquo;execuci&oacute; a la Plataforma de serveis de contractaci&oacute; p&uacute;blica\", que trobareu a l'enlla&ccedil;&nbsp;https://analisi.transparenciacatalunya.cat/Economia/Contractaci-p-blica-a-Catalunya-publicacions-de-la/8idu-wkjv/about_data\nCom a conseq&uuml;&egrave;ncia d'una incid&egrave;ncia t&egrave;cnica, aquest conjunt de dades presenta informaci&oacute; incompleta (manquen expedients) en les versions anteriors del conjunt de dades durant el per&iacute;ode compr&egrave;s entre el 15.06.2026 i el 19.06.2026. Disculpeu les mol&egrave;sties.",
+      "issued": "lun, 26 jun 2023 22:00:00 GMT+0000",
+      "modified": "vie, 04 sep 2026 22:00:00 GMT+0000",
+      "publisher": "A09002970",
+      "spatial": "Cataluna",
       "themes": [
-        "Sector Publico"
+        "Economia"
       ],
       "keywords": [
-        "entidades",
-        "entidades públicas",
-        "organigrama"
+        "adjudicació",
+        "anunci formalització",
+        "anunci licitació",
+        "contractació pública",
+        "contractes",
+        "empreses"
       ],
       "formats": [
-        "CSV"
+        "CSV",
+        "JSON",
+        "XML"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-localizaciones-de-las-entidades-publicas-del-gobierno-de-canarias",
+      "datasetUrl": "https://datos.gob.es/catalogo/a09002970-contratacion-publica-en-catalunya-publicaciones-en-la-plataforma-de-servicios-de-contratacion-publica",
       "distributions": [
         {
-          "title": "Diccionario de datos",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/76575330-183b-48a2-aa43-d6d665b9cafd/resource/ebf10222-af7b-40fb-ab5c-72bf7646c263/download/diccionario_datos_localizaciones_de_las_entidades_publicas_del_gobierno_de_canarias.csv",
+          "title": "Contratación pública en Catalunya: publicaciones en la Plataforma de servicios de contratación pública",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/ybgg-dgi6/export.csv?accessType=DOWNLOAD",
           "format": "CSV",
-          "identifier": ""
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/ybgg-dgi6"
         },
         {
-          "title": "Localizaciones de las entidades públicas del Gobierno de Canarias. (CSV)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/76575330-183b-48a2-aa43-d6d665b9cafd/resource/8483439c-b5de-4fb6-ab61-d1da5d23c575/download/localizaciones_entidades_publicas.csv",
-          "format": "CSV",
-          "identifier": ""
+          "title": "Contratación pública en Catalunya: publicaciones en la Plataforma de servicios de contratación pública",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/ybgg-dgi6/query.json?accessType=DOWNLOAD",
+          "format": "JSON",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/ybgg-dgi6"
+        },
+        {
+          "title": "Contratación pública en Catalunya: publicaciones en la Plataforma de servicios de contratación pública",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/ybgg-dgi6/query.xml?accessType=DOWNLOAD",
+          "format": "XML",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/ybgg-dgi6"
         }
       ],
-      "score": 18,
+      "score": 61,
       "notes": [
         "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tematicas detectadas: Sector Publico.",
-        "Publicador: A05003638."
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Economia.",
+        "Publicador: A09002970.",
+        "Cobertura geografica principal: Cataluna."
       ]
     },
     {
-      "id": "https://datos.canarias.es/catalogos/general/dataset/localizaciones-de-las-entidades-publicas-empresariales-del-gobierno-de-canarias",
-      "title": "Localizaciones de las entidades públicas empresariales del Gobierno de Canarias",
-      "description": "Listado de las localizaciones de entidades públicas empresariales del Gobierno de Canarias.",
-      "issued": "jue, 11 ago 2022 11:59:04 GMT+0000",
-      "modified": "mié, 26 ago 2026 00:32:01 GMT+0000",
-      "publisher": "A05003638",
-      "spatial": "Sin dato",
+      "id": "https://analisi.transparenciacatalunya.cat/api/views/t3wj-j4pu",
+      "title": "Contratación pública en Cataluña: inscripciones y clasificaciones en el Registro de Empresas Licitadoras",
+      "description": "Relació de les empreses inscrites en el Registre d'Empreses Licitadores i Classificades de Catalunya (RELIC), amb indicació de l'última data d'actualització i, si escau, la situació de prohibició de contractar i/o la classificació empresarial vigent.",
+      "issued": "jue, 11 dic 2025 23:00:00 GMT+0000",
+      "modified": "vie, 04 sep 2026 22:00:00 GMT+0000",
+      "publisher": "A09002970",
+      "spatial": "Cataluna",
       "themes": [
-        "Sector Publico"
+        "Economia"
       ],
       "keywords": [
-        "entidades",
-        "entidades públicas",
-        "entidades públicas empresariales",
-        "organigrama"
+        "ods16_pau justícies i institucions sòlides",
+        "ods8_treball decent i creixement econòmic",
+        "treball decent i creixement econòmic"
       ],
       "formats": [
-        "CSV"
+        "XML",
+        "CSV",
+        "JSON"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-localizaciones-de-las-entidades-publicas-empresariales-del-gobierno-de-canarias",
+      "datasetUrl": "https://datos.gob.es/catalogo/a09002970-contratacion-publica-en-cataluna-inscripciones-y-clasificaciones-en-el-registro-de-empresas-licitadoras",
       "distributions": [
         {
-          "title": "Diccionario de datos",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/2faf11ac-f8cb-4ab5-8508-006456dea343/resource/149614da-17b9-4f41-b05b-2b6561c17f3e/download/diccionario_datos_localizaciones_de_las_entidades_publicas_empresariales_del_gobierno_de_canaria.csv",
-          "format": "CSV",
-          "identifier": ""
+          "title": "Contratación pública en Cataluña: inscripciones y clasificaciones en el Registro de Empresas Licitadoras",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/t3wj-j4pu/query.xml?accessType=DOWNLOAD",
+          "format": "XML",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/t3wj-j4pu"
         },
         {
-          "title": "Localizaciones de las entidades públicas empresariales del Gobierno de Canarias. (CSV)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/2faf11ac-f8cb-4ab5-8508-006456dea343/resource/73ab7feb-9cc2-43b5-a9e0-e6fa9d6d6032/download/localizaciones_entidades_publicas_empresariales.csv",
+          "title": "Contratación pública en Cataluña: inscripciones y clasificaciones en el Registro de Empresas Licitadoras",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/t3wj-j4pu/export.csv?accessType=DOWNLOAD",
           "format": "CSV",
-          "identifier": ""
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/t3wj-j4pu"
+        },
+        {
+          "title": "Contratación pública en Cataluña: inscripciones y clasificaciones en el Registro de Empresas Licitadoras",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/t3wj-j4pu/query.json?accessType=DOWNLOAD",
+          "format": "JSON",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/t3wj-j4pu"
         }
       ],
-      "score": 18,
+      "score": 61,
       "notes": [
         "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tematicas detectadas: Sector Publico.",
-        "Publicador: A05003638."
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Economia.",
+        "Publicador: A09002970.",
+        "Cobertura geografica principal: Cataluna."
       ]
     },
     {
-      "id": "https://datos.canarias.es/catalogos/general/dataset/localizaciones-de-las-fundaciones-publicas-del-gobierno-de-canarias",
-      "title": "Localizaciones de las fundaciones públicas del Gobierno de Canarias",
-      "description": "Listado de las localizaciones de las fundaciones públicas del Gobierno de Canarias.",
-      "issued": "jue, 11 ago 2022 17:15:49 GMT+0000",
-      "modified": "mié, 26 ago 2026 00:40:19 GMT+0000",
-      "publisher": "A05003638",
-      "spatial": "Sin dato",
+      "id": "https://analisi.transparenciacatalunya.cat/api/views/8idu-wkjv",
+      "title": "Contratación pública en Cataluña: publicaciones de la fase de ejecución en la Plataforma de servicios de contratación pública",
+      "description": "Publicacions de la fase d’execució dels contractes de tots els òrgans de contractació de Catalunya a la Plataforma de serveis de contractació pública (PSCP), entre altres, modificacions, cessions, successions, pròrrogues, ampliacions del termini d'execució, subcontractacions, suspensions, imposicions de penalitats, indemnitzacions i extincions.\nCada fila representa:\n\n- Un expedient\n- Un lot de l’expedient, per als expedients amb lots\n- Un expedient per a les publicacions agregades\n\nAquest conjunt de dades únicament inclou les publicacions de la fase d’execució. Per consultar la resta de publicacions us heu de dirigir al conjunt de dades \"Contractació pública a Catalunya: publicacions a la Plataforma de serveis de contractació pública\", que trobareu a l'enllaç https://analisi.transparenciacatalunya.cat/Economia/Contractaci-p-blica-a-Catalunya-publicacions-a-la-/ybgg-dgi6/about_data",
+      "issued": "mar, 14 abr 2026 22:00:00 GMT+0000",
+      "modified": "vie, 04 sep 2026 22:00:00 GMT+0000",
+      "publisher": "A09002970",
+      "spatial": "Cataluna",
       "themes": [
-        "Sector Publico"
+        "Economia"
       ],
       "keywords": [
-        "fundaciones",
-        "fundaciones públicas",
-        "organigrama"
+        "ampliacions del termini d'execució",
+        "cessions",
+        "contractació pública",
+        "contractes",
+        "empreses",
+        "extincions"
       ],
       "formats": [
-        "CSV"
+        "XML",
+        "CSV",
+        "JSON"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-localizaciones-de-las-fundaciones-publicas-del-gobierno-de-canarias",
+      "datasetUrl": "https://datos.gob.es/catalogo/a09002970-contratacion-publica-en-cataluna-publicaciones-de-la-fase-de-ejecucion-en-la-plataforma-de-servicios-de-contratacion-publica",
       "distributions": [
         {
-          "title": "Localizaciones de las fundaciones públicas del Gobierno de Canarias. (CSV)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/fcf1c99d-02c0-41c6-8214-2bfdd1d9d0cd/resource/dee18c34-abe2-49d8-8455-38f578c3f131/download/localizacion_fundaciones_publicas.csv",
-          "format": "CSV",
-          "identifier": ""
+          "title": "Contratación pública en Cataluña: publicaciones de la fase de ejecución en la Plataforma de servicios de contratación pública",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/8idu-wkjv/query.xml?accessType=DOWNLOAD",
+          "format": "XML",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/8idu-wkjv"
         },
         {
-          "title": "Diccionario de datos",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/fcf1c99d-02c0-41c6-8214-2bfdd1d9d0cd/resource/3198cbbb-c824-4c74-99f7-9a5f8e035b0e/download/diccionario_datos_localizaciones_fundaciones_publicas_del_gobierno_de_canarias.csv",
+          "title": "Contratación pública en Cataluña: publicaciones de la fase de ejecución en la Plataforma de servicios de contratación pública",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/8idu-wkjv/export.csv?accessType=DOWNLOAD",
           "format": "CSV",
-          "identifier": ""
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/8idu-wkjv"
+        },
+        {
+          "title": "Contratación pública en Cataluña: publicaciones de la fase de ejecución en la Plataforma de servicios de contratación pública",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/8idu-wkjv/query.json?accessType=DOWNLOAD",
+          "format": "JSON",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/8idu-wkjv"
         }
       ],
-      "score": 18,
+      "score": 61,
       "notes": [
         "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tematicas detectadas: Sector Publico.",
-        "Publicador: A05003638."
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Economia.",
+        "Publicador: A09002970.",
+        "Cobertura geografica principal: Cataluna."
       ]
     },
     {
-      "id": "https://datos.canarias.es/catalogos/general/dataset/localizaciones-de-las-sociedades-mercantiles-publicas-del-gobierno-de-canarias",
-      "title": "Localizaciones de las sociedades mercantiles públicas del Gobierno de Canarias",
-      "description": "Listado de las localizaciones de las sociedades mercantiles públicas del Gobierno de Canarias.",
-      "issued": "jue, 11 ago 2022 14:41:29 GMT+0000",
-      "modified": "mié, 26 ago 2026 00:43:02 GMT+0000",
-      "publisher": "A05003638",
-      "spatial": "Sin dato",
+      "id": "https://analisi.transparenciacatalunya.cat/api/views/nzvn-apee",
+      "title": "Datos meteorológicos de la XEMA",
+      "description": "Dades meteorològiques registrades a totes les estacions de la Xarxa d’Estacions Meteorològiques Automàtiques (XEMA) del Servei Meteorològic de Catalunya (METEOCAT). Aquest data base conté variables mesurades amb una freqüència inferior a la diària, generalment semi-horària.\n\nÉs possible trobar informació sobre les metadades d'estacions i variables a:\n- Variables: https://analisi.transparenciacatalunya.cat/d/4fb2-n3yi\n- Estacions: https://analisi.transparenciacatalunya.cat/d/yqwd-vj5e\n\nTipus de Llicència: Propietat intel·lectual i industrial de METEOCAT - http://www.meteo.cat/wpweb/avis-legal/",
+      "issued": "vie, 17 ene 2020 23:00:00 GMT+0000",
+      "modified": "vie, 04 sep 2026 22:00:00 GMT+0000",
+      "publisher": "A09002970",
+      "spatial": "Cataluna",
       "themes": [
-        "Sector Publico"
+        "Medio Ambiente"
       ],
       "keywords": [
-        "organigrama",
-        "sociedades mercantiles",
-        "sociedades mercantiles públicas"
+        "estació",
+        "mesura",
+        "meteorologia",
+        "ods13_acció pel clima",
+        "smartcatalonia"
       ],
       "formats": [
-        "CSV"
+        "CSV",
+        "XML",
+        "JSON"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a05003638-localizaciones-de-las-sociedades-mercantiles-publicas-del-gobierno-de-canarias",
+      "datasetUrl": "https://datos.gob.es/catalogo/a09002970-datos-meteorologicos-de-la-xema",
       "distributions": [
         {
-          "title": "Diccionario de datos",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/8548f12e-f29a-4dc2-bff2-ee30c4206ff8/resource/b7760f62-0caa-4e54-ae30-680643f5a138/download/diccionario_datos_localizaciones_de_las_sociedades_mercantiles_publicas_del_gobierno_de_canarias.csv",
+          "title": "Datos meteorológicos de la XEMA",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/nzvn-apee/export.csv?accessType=DOWNLOAD",
           "format": "CSV",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/nzvn-apee"
+        },
+        {
+          "title": "Datos meteorológicos de la XEMA",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/nzvn-apee/query.xml?accessType=DOWNLOAD",
+          "format": "XML",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/nzvn-apee"
+        },
+        {
+          "title": "Datos meteorológicos de la XEMA",
+          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/nzvn-apee/query.json?accessType=DOWNLOAD",
+          "format": "JSON",
+          "identifier": "https://analisi.transparenciacatalunya.cat/d/nzvn-apee"
+        }
+      ],
+      "score": 61,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Medio Ambiente.",
+        "Publicador: A09002970.",
+        "Cobertura geografica principal: Cataluna."
+      ]
+    },
+    {
+      "id": "https://opendata.euskadi.eus/catalogo/-/noticias-de-interes-turistico/",
+      "title": "Noticias de interés turístico",
+      "description": "Noticias de interés turístico.",
+      "issued": "mié, 20 jul 2011 22:00:00 GMT+0000",
+      "modified": "vie, 04 sep 2026 22:00:00 GMT+0000",
+      "publisher": "A16003011",
+      "spatial": "Pais Vasco",
+      "themes": [
+        "Turismo"
+      ],
+      "keywords": [
+        "albisteak",
+        "comunicación",
+        "komunikazioa",
+        "noticias",
+        "prensa",
+        "prentsa"
+      ],
+      "formats": [
+        "XML",
+        "JSON",
+        "XLSX"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-noticias-de-interes-turistico1",
+      "distributions": [
+        {
+          "title": "Noticias",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_noticias/noticias_turismo/opendata/noticias.xml",
+          "format": "XML",
           "identifier": ""
         },
         {
-          "title": "Localizaciones de las sociedades mercantiles públicas del Gobierno de Canarias. (CSV)",
-          "accessUrl": "https://datos.canarias.es/catalogos/general/dataset/8548f12e-f29a-4dc2-bff2-ee30c4206ff8/resource/53494fcc-c500-42d8-b3a2-f888736e0782/download/localizaciones_sociedades_mercantiles.csv",
-          "format": "CSV",
+          "title": "Noticias",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_noticias/noticias_turismo/opendata/noticias.json",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Noticias",
+          "accessUrl": "http://www.euskadi.net/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&r01kQry=tC:euskadi;tT:noticia;m:documentLanguage.EQ.es,templateType.EQ.O1;p:Inter;pp:r01NavBarBlockSize.10,r01PageSize.100",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Noticias",
+          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tT:noticia;m:documentLanguage.EQ.es,templateType.EQ.O1;p:Inter",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Noticias",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_noticias/noticias_turismo/opendata/noticias.jsonp",
+          "format": "JSON",
+          "identifier": ""
+        },
+        {
+          "title": "Noticias",
+          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_noticias/noticias_turismo/opendata/noticias.xlsx",
+          "format": "XLSX",
           "identifier": ""
         }
       ],
-      "score": 18,
+      "score": 61,
       "notes": [
         "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tematicas detectadas: Sector Publico.",
-        "Publicador: A05003638."
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Turismo.",
+        "Publicador: A16003011.",
+        "Cobertura geografica principal: Pais Vasco."
       ]
     }
   ]
