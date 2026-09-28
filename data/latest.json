@@ -1,1722 +1,1090 @@
 {
-  "generatedAt": "2026-09-21T07:28:17.647Z",
+  "generatedAt": "2026-09-28T07:35:19.303Z",
   "window": {
-    "start": "2026-09-14T07:28:12.889Z",
-    "end": "2026-09-21T07:28:12.889Z",
+    "start": "2026-09-21T07:35:18.342Z",
+    "end": "2026-09-28T07:35:18.342Z",
     "label": "Ultimos 7 dias"
   },
   "source": {
     "name": "datos.gob.es API",
-    "url": "https://datos.gob.es/apidata/catalog/dataset/modified/begin/2026-09-14T07:28Z/end/2026-09-21T07:28Z.json?_sort=-modified&_pageSize=50&_page=0"
+    "url": "https://datos.gob.es/apidata/catalog/dataset/modified/begin/2026-09-21T07:35Z/end/2026-09-28T07:35Z.json?_sort=-modified&_pageSize=50&_page=0"
   },
   "summary": {
-    "totalReviewed": 24,
-    "topScore": 71,
+    "totalReviewed": 22,
+    "topScore": 49,
     "topFormats": [
       {
-        "label": "XML",
-        "count": 24
-      },
-      {
-        "label": "JSON",
-        "count": 24
-      },
-      {
-        "label": "XLSX",
-        "count": 16
-      },
-      {
         "label": "GEOJSON",
-        "count": 13
+        "count": 15
+      },
+      {
+        "label": "SIN DATO",
+        "count": 6
+      },
+      {
+        "label": "CSV",
+        "count": 1
       }
     ],
     "topThemes": [
       {
         "label": "Turismo",
-        "count": 10
+        "count": 9
       },
       {
-        "label": "Medio Ambiente",
-        "count": 4
+        "label": "Cultura Ocio",
+        "count": 6
       },
       {
-        "label": "Empleo",
-        "count": 3
+        "label": "Hacienda",
+        "count": 6
       },
       {
-        "label": "Transporte",
+        "label": "Economia",
         "count": 3
       }
     ],
-    "headline": "Se han detectado 24 datasets recientes con XML como formato dominante."
+    "headline": "Se han detectado 22 datasets recientes con GEOJSON como formato dominante."
   },
   "items": [
     {
-      "id": "https://opendata.euskadi.eus/catalogo/-/agenda-turistica-de-euskadi/",
-      "title": "Agenda turística de Euskadi",
-      "description": "Información para acceder a los principales eventos que se celebran en Euskadi: fiestas, conciertos, exposiciones, festivales de música, cine, mercados gastronómicos, etc.",
-      "issued": "lun, 19 ene 2015 23:00:00 GMT+0000",
-      "modified": "vie, 18 sep 2026 22:00:00 GMT+0000",
-      "publisher": "A16003011",
-      "spatial": "Pais Vasco",
+      "id": "https://opendata.alcoi.org/data/dataset/estaciones",
+      "title": "Estaciones",
+      "description": "Estaciones en la ciudad de Alcoy",
+      "issued": "jue, 07 may 2020 06:34:30 GMT+0000",
+      "modified": "vie, 25 sep 2026 04:23:52 GMT+0000",
+      "publisher": "L01030092",
+      "spatial": "Alicante",
       "themes": [
+        "Transporte",
         "Turismo"
       ],
       "keywords": [
-        "agenda",
-        "agenda",
-        "ekitaldiak",
-        "eventos",
-        "festak",
-        "festividades"
+        "transporte"
       ],
       "formats": [
-        "GEOJSON",
-        "XML",
-        "XLSX",
-        "JSON"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-agenda-turistica-de-euskadi1",
-      "distributions": [
-        {
-          "title": "Agenda",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_turisticos/opendata/agenda-padding.geojson",
-          "format": "GEOJSON",
-          "identifier": ""
-        },
-        {
-          "title": "Agenda",
-          "accessUrl": "http://www.euskadi.net/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&r01kQry=tC:euskadi;tT:evento;m:documentLanguage.EQ.es,templateType.EQ.M1;p:Inter;pp:r01NavBarBlockSize.10,r01PageSize.300",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Agenda",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_turisticos/opendata/agenda.xml",
-          "format": "XML",
-          "identifier": ""
-        },
-        {
-          "title": "Agenda",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_turisticos/opendata/agenda.xlsx",
-          "format": "XLSX",
-          "identifier": ""
-        },
-        {
-          "title": "Agenda",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_turisticos/opendata/agenda.geojson",
-          "format": "GEOJSON",
-          "identifier": ""
-        },
-        {
-          "title": "Agenda",
-          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tT:evento;m:documentLanguage.EQ.es,templateType.EQ.M1;p:Inter",
-          "format": "SIN DATO",
-          "identifier": ""
-        }
-      ],
-      "score": 71,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Turismo.",
-        "Publicador: A16003011.",
-        "Cobertura geografica principal: Pais Vasco."
-      ]
-    },
-    {
-      "id": "https://opendata.euskadi.eus/catalogo/-/albergues-turisticos-de-euskadi/",
-      "title": "Albergues turisticos de Euskadi",
-      "description": "Información sobre los albergues turísticos de Euskadi.",
-      "issued": "lun, 07 mar 2016 23:00:00 GMT+0000",
-      "modified": "vie, 18 sep 2026 22:00:00 GMT+0000",
-      "publisher": "A16003011",
-      "spatial": "Pais Vasco",
-      "themes": [
-        "Turismo"
-      ],
-      "keywords": [
-        "albergues",
-        "albergues turísticos",
-        "alojamientos",
-        "aterpe-turistikoak",
-        "aterpeak",
-        "aterpetxeak"
-      ],
-      "formats": [
-        "GEOJSON",
-        "XLSX",
-        "JSON",
-        "XML"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-albergues-turisticos-de-euskadi",
-      "distributions": [
-        {
-          "title": "Albergues",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/albergues_de_euskadi/opendata/alojamientos.geojson",
-          "format": "GEOJSON",
-          "identifier": ""
-        },
-        {
-          "title": "Albergues",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/albergues_de_euskadi/opendata/alojamientos.xlsx",
-          "format": "XLSX",
-          "identifier": ""
-        },
-        {
-          "title": "Albergues",
-          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tF:turismo;tT:a_alojamiento;m:documentLanguage.EQ.es,lodgingType.IN.%28B%29;p:Inter_portal,Inter;",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Albergues",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/albergues_de_euskadi/opendata/alojamientos.jsonp",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Albergues",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/albergues_de_euskadi/opendata/alojamientos-padding.geojson",
-          "format": "GEOJSON",
-          "identifier": ""
-        },
-        {
-          "title": "Albergues",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/albergues_de_euskadi/opendata/alojamientos.json",
-          "format": "JSON",
-          "identifier": ""
-        }
-      ],
-      "score": 71,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Turismo.",
-        "Publicador: A16003011.",
-        "Cobertura geografica principal: Pais Vasco."
-      ]
-    },
-    {
-      "id": "https://opendata.euskadi.eus/catalogo/-/alojamientos-rurales-de-euskadi/",
-      "title": "Alojamientos rurales de Euskadi",
-      "description": "Información sobre agroturismos y casas rurales de Euskadi.",
-      "issued": "lun, 07 mar 2016 23:00:00 GMT+0000",
-      "modified": "vie, 18 sep 2026 22:00:00 GMT+0000",
-      "publisher": "A16003011",
-      "spatial": "Pais Vasco",
-      "themes": [
-        "Turismo"
-      ],
-      "keywords": [
-        "agroturismo",
-        "alojamientos",
-        "casas rurales",
-        "landa",
-        "landa-etxeak",
-        "nekazal"
-      ],
-      "formats": [
-        "XML",
-        "GEOJSON",
-        "JSON",
-        "XLSX"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-alojamientos-rurales-de-euskadi",
-      "distributions": [
-        {
-          "title": "Alojamientos rurales",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamientos_rurales_euskadi/opendata/alojamientos.xml",
-          "format": "XML",
-          "identifier": ""
-        },
-        {
-          "title": "Alojamientos rurales",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamientos_rurales_euskadi/opendata/alojamientos.geojson",
-          "format": "GEOJSON",
-          "identifier": ""
-        },
-        {
-          "title": "Alojamientos rurales",
-          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tF:turismo;tT:a_alojamiento;m:documentLanguage.EQ.es,lodgingType.IN.%28K,X%29;p:Inter_portal,Inter;",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Alojamientos rurales",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamientos_rurales_euskadi/opendata/alojamientos.jsonp",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Alojamientos rurales",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamientos_rurales_euskadi/opendata/alojamientos.xlsx",
-          "format": "XLSX",
-          "identifier": ""
-        },
-        {
-          "title": "Alojamientos rurales",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamientos_rurales_euskadi/opendata/alojamientos.json",
-          "format": "JSON",
-          "identifier": ""
-        }
-      ],
-      "score": 71,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Turismo.",
-        "Publicador: A16003011.",
-        "Cobertura geografica principal: Pais Vasco."
-      ]
-    },
-    {
-      "id": "https://opendata.euskadi.eus/catalogo/-/alojamientos/",
-      "title": "Alojamientos turísticos de Euskadi",
-      "description": "Información sobre los distintos tipos de alojamientos turísticos de Euskadi: hoteles, pensiones, apartamentos, alojamientos rurales, campings y albergues turísticos. Los datos se extraen del Registro de Empresas y Actividades Turísticas de Euskadi (REATE).",
-      "issued": "mié, 24 mar 2010 23:00:00 GMT+0000",
-      "modified": "vie, 18 sep 2026 22:00:00 GMT+0000",
-      "publisher": "A16003011",
-      "spatial": "Pais Vasco",
-      "themes": [
-        "Turismo"
-      ],
-      "keywords": [
-        "albergues turísticos",
-        "apartamentos",
-        "apartamentuak",
-        "aterpetxe turistikoak",
-        "camping",
-        "casas rurales"
-      ],
-      "formats": [
-        "GEOJSON",
-        "XLSX",
-        "JSON",
-        "XML"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-alojamientos-turisticos-de-euskadi",
-      "distributions": [
-        {
-          "title": "Alojamientos",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamiento_de_euskadi/opendata/alojamientos.geojson",
-          "format": "GEOJSON",
-          "identifier": ""
-        },
-        {
-          "title": "Alojamientos",
-          "accessUrl": "http://www.euskadi.net/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&r01kQry=tC:euskadi;tT:a_alojamiento;m:documentLanguage.EQ.es;p:Inter_portal,Inter;pp:r01NavBarBlockSize.10,r01PageSize.100",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Alojamientos",
-          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tF:turismo;tT:a_alojamiento;m:documentLanguage.EQ.es;p:Inter_portal,Inter;",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Alojamientos",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamiento_de_euskadi/opendata/alojamientos.xlsx",
-          "format": "XLSX",
-          "identifier": ""
-        },
-        {
-          "title": "Aeropuertos",
-          "accessUrl": "http://turismo.euskadi.net/x65-15809/es/s12GoogleMapsWar/gMapsJSP/VisorGMapsNP.jsp?lang=es",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Alojamientos",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/alojamiento_de_euskadi/opendata/alojamientos.json",
-          "format": "JSON",
-          "identifier": ""
-        }
-      ],
-      "score": 71,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Turismo.",
-        "Publicador: A16003011.",
-        "Cobertura geografica principal: Pais Vasco."
-      ]
-    },
-    {
-      "id": "https://datosabiertos.navarra.es/dataset/calidad-del-aire-en-navarra-ltimos-60-d-as",
-      "title": "Calidad del aire en Navarra, últimos 60 días",
-      "description": "La [evaluación de la calidad del aire](https://www.miteco.gob.es/images/es/Cap3_Criterios%20evaluacion_tcm30-186479.pdf) se define como el resultado de aplicar cualquier método que permita medir, calcular, predecir o estimar las concentraciones de un contaminante en el aire ambiente o su depósito en superficies en un momento determinado. En Navarra se realiza mediante [mediciones](https://www.miteco.gob.es/es/calidad-y-evaluacion-ambiental/temas/atmosfera-y-calidad-del-aire/evaluacion-y-datos-de-calidad-del-aire/redes.html) en una serie de puntos de muestreo que se consideran representativos de cada una de las zonas en que se ha dividido el territorio y que componen la Red de Vigilancia de la Calidad del Aire de Navarra.\n\nEsta Red dispone de analizadores y sensores que miden los contaminantes que marca la normativa en materia de calidad del aire, principalmente dióxido de azufre (SO2), óxidos de nitrógeno (NO y NO2), ozono troposférico, monóxido de carbono (CO), benceno y partículas en suspensión (PM10 y PM2.5). Además se miden parámetros meteorológicos como velocidad y dirección del viento, temperatura, humedad relativa, presión, radiación y precipitación.\n\nEn esta ficha se pueden descargar los *datos horarios sin validar actualizados con frecuencia horaria*, recogidos en los últimos 60 días. Los datos horarios validados del año en curso se actualizan mensualmente y se pueden descargar en la ficha de  [Calidad del Aire en Navarra](/es/dataset/calidad-del-aire-en-navarra). La estructura de los ficheros e interpretación de los datos, se incluye en el [documento explicativo](https://gobiernoabierto.navarra.es/sites/default/files/opendata/manual_calidad_del_aire.pdf). Para ampliar información y ver los datos en tiempo real, puede acceder a la [web de calidad del aire en Navarra](https://www.navarra.es/es/calidaddelaire)",
-      "issued": "mié, 23 jun 2021 12:29:41 GMT+0000",
-      "modified": "vie, 18 sep 2026 22:01:20 GMT+0000",
-      "publisher": "A15002917",
-      "spatial": "Comunidad Foral Navarra",
-      "themes": [
-        "Medio Ambiente"
-      ],
-      "keywords": [
-        "Aire",
-        "Airea",
-        "Contaminación",
-        "Contaminantes",
-        "Kutsadura",
-        "Kutsatzaileak"
-      ],
-      "formats": [
-        "XML",
-        "CSV",
-        "ZIP",
-        "HTML",
-        "TSV",
-        "JSON",
-        "XLSX",
-        "ODS"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a15002917-calidad-del-aire-en-navarra-ultimos-60-dias1",
-      "distributions": [
-        {
-          "title": "Datos estación UPNA - XML",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/8e788b22-c858-45be-985d-e883afc58504?format=xml&bom=True",
-          "format": "XML",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/8e788b22-c858-45be-985d-e883afc58504?format=xml&bom=True"
-        },
-        {
-          "title": "Datos estación Pamplona - Iturrama - CSV",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/8dd42589-cd20-46db-a4ef-19f42a1aa4d2?format=csv&bom=True",
-          "format": "CSV",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/8dd42589-cd20-46db-a4ef-19f42a1aa4d2?format=csv&bom=True"
-        },
-        {
-          "title": "Calidad del aire en Navarra, todas las estaciones",
-          "accessUrl": "https://datosabiertos.navarra.es/dataset/2f191abb-e1b8-4a96-a40a-26ac97b434b2/resource/be446b64-3639-4e77-880c-bf6b433261fa/download/calidadairesinvalidar_csv.zip",
-          "format": "ZIP",
-          "identifier": "https://datosabiertos.navarra.es/dataset/2f191abb-e1b8-4a96-a40a-26ac97b434b2/resource/be446b64-3639-4e77-880c-bf6b433261fa/download/calidadairesinvalidar_csv.zip"
-        },
-        {
-          "title": "Datos estación Olite",
-          "accessUrl": "https://datosabiertos.navarra.es/dataset/2f191abb-e1b8-4a96-a40a-26ac97b434b2/resource/ee909a85-d412-44bd-9c44-3cf8a1cc7ade/download/olite_auto_2026.csv",
-          "format": "CSV",
-          "identifier": "https://datosabiertos.navarra.es/dataset/2f191abb-e1b8-4a96-a40a-26ac97b434b2/resource/ee909a85-d412-44bd-9c44-3cf8a1cc7ade/download/olite_auto_2026.csv"
-        },
-        {
-          "title": "Datos estación Tudela – Centro - Tabla",
-          "accessUrl": "https://datosabiertos.navarra.es/dataset/calidad-del-aire-en-navarra-ltimos-60-d-as/resource/75de846f-faa7-4319-957b-009916910690?view_id=aa9d7f35-e116-41d2-a213-cc93496d29ee",
-          "format": "HTML",
-          "identifier": "https://datosabiertos.navarra.es/dataset/calidad-del-aire-en-navarra-ltimos-60-d-as/resource/75de846f-faa7-4319-957b-009916910690?view_id=aa9d7f35-e116-41d2-a213-cc93496d29ee"
-        },
-        {
-          "title": "Datos estación Altsasu - TSV",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/21276cc6-01ad-4d5a-af50-83a0c65fdf28?format=tsv&bom=True",
-          "format": "TSV",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/21276cc6-01ad-4d5a-af50-83a0c65fdf28?format=tsv&bom=True"
-        }
-      ],
-      "score": 71,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Medio Ambiente.",
-        "Publicador: A15002917.",
-        "Cobertura geografica principal: Comunidad Foral Navarra."
-      ]
-    },
-    {
-      "id": "https://opendata.euskadi.eus/catalogo/-/campings-de-euskadi/",
-      "title": "Campings de Euskadi",
-      "description": "Información sobre campings y áreas de autocaravanas de Euskadi.",
-      "issued": "lun, 07 mar 2016 23:00:00 GMT+0000",
-      "modified": "vie, 18 sep 2026 22:00:00 GMT+0000",
-      "publisher": "A16003011",
-      "spatial": "Pais Vasco",
-      "themes": [
-        "Turismo"
-      ],
-      "keywords": [
-        "acampada",
-        "alojamientos",
-        "autocaravanas",
-        "autokarabana eremuak",
-        "autokarabanak",
-        "camping"
-      ],
-      "formats": [
-        "JSON",
-        "XML",
-        "XLSX",
         "GEOJSON"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-campings-de-euskadi",
+      "datasetUrl": "https://datos.gob.es/catalogo/l01030092-estaciones",
       "distributions": [
         {
-          "title": "Campings",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/campings_de_euskadi/opendata/alojamientos.jsonp",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Campings",
-          "accessUrl": "http://www.euskadi.net/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&r01kQry=tC:euskadi;tF:turismo;tT:a_alojamiento;m:documentLanguage.EQ.es,lodgingType.IN.(P,V);p:Inter_portal,Inter;pp:r01NavBarBlockSize.10,r01PageSize.100",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Campings",
-          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tF:turismo;tT:a_alojamiento;m:documentLanguage.EQ.es,lodgingType.IN.(P,V);p:Inter_portal,Inter;",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Aeropuertos",
-          "accessUrl": "http://turismo.euskadi.net/x65-15809/es/s12GoogleMapsWar/gMapsJSP/VisorGMapsNP.jsp?lang=es",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Campings",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/campings_de_euskadi/opendata/alojamientos.json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Campings",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/campings_de_euskadi/opendata/alojamientos.xml",
-          "format": "XML",
-          "identifier": ""
-        }
-      ],
-      "score": 71,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Turismo.",
-        "Publicador: A16003011.",
-        "Cobertura geografica principal: Pais Vasco."
-      ]
-    },
-    {
-      "id": "https://analisi.transparenciacatalunya.cat/api/views/jdcj-za6r",
-      "title": "Cursos programados y en programación por el Consorcio para la Formación Continua de Cataluña para la integración de datos con la Oferta FPCAT 365",
-      "description": "Dades de les accions formatives programades i en programació pel Consorci per a la Formació  Contínua de Catalunya. Amb el detall de les dates d’inici i final, la modalitat, la població on s’impartirà, l’entitat gestora i el contacte per sol·licitar la inscripció o resoldre qualsevol dubte al respecte.",
-      "issued": "lun, 22 may 2023 22:00:00 GMT+0000",
-      "modified": "vie, 18 sep 2026 22:00:00 GMT+0000",
-      "publisher": "A09002970",
-      "spatial": "Cataluna",
-      "themes": [
-        "Empleo"
-      ],
-      "keywords": [
-        "cursos",
-        "formació",
-        "formació contínua",
-        "formació professional",
-        "ods8_treball decent i creixement econòmic",
-        "treball"
-      ],
-      "formats": [
-        "JSON",
-        "GEOJSON",
-        "XML",
-        "CSV"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a09002970-cursos-programados-y-en-programacion-por-el-consorcio-para-la-formacion-continua-de-cataluna-para-la-integracion-de-datos-con-la-oferta-fpcat-365",
-      "distributions": [
-        {
-          "title": "Cursos programados y en programación por el Consorcio para la Formación Continua de Cataluña para la integración de datos con la Oferta FPCAT 365",
-          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/jdcj-za6r/query.json?accessType=DOWNLOAD",
-          "format": "JSON",
-          "identifier": "https://analisi.transparenciacatalunya.cat/d/jdcj-za6r"
-        },
-        {
-          "title": "Cursos programados y en programación por el Consorcio para la Formación Continua de Cataluña para la integración de datos con la Oferta FPCAT 365",
-          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/jdcj-za6r/export.kmz?accessType=DOWNLOAD",
-          "format": "SIN DATO",
-          "identifier": "https://analisi.transparenciacatalunya.cat/d/jdcj-za6r"
-        },
-        {
-          "title": "Cursos programados y en programación por el Consorcio para la Formación Continua de Cataluña para la integración de datos con la Oferta FPCAT 365",
-          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/jdcj-za6r/query.geojson?accessType=DOWNLOAD",
+          "title": "Estaciones",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/c2503a3a-b70d-4259-9b7d-27fe07b0d5ce/resource/80d75814-fefa-4bf1-9935-ee2c458c6be9/download/estaciones.geojson",
           "format": "GEOJSON",
-          "identifier": "https://analisi.transparenciacatalunya.cat/d/jdcj-za6r"
+          "identifier": "https://opendata.alcoi.org/data/dataset/estaciones/resource/80d75814-fefa-4bf1-9935-ee2c458c6be9"
         },
         {
-          "title": "Cursos programados y en programación por el Consorcio para la Formación Continua de Cataluña para la integración de datos con la Oferta FPCAT 365",
-          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/jdcj-za6r/export.kml?accessType=DOWNLOAD",
+          "title": "Estaciones",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/c2503a3a-b70d-4259-9b7d-27fe07b0d5ce/resource/ac99192f-94f6-47fc-b18f-8412a5caf68c/download/estaciones.shp",
           "format": "SIN DATO",
-          "identifier": "https://analisi.transparenciacatalunya.cat/d/jdcj-za6r"
+          "identifier": "https://opendata.alcoi.org/data/dataset/estaciones/resource/ac99192f-94f6-47fc-b18f-8412a5caf68c"
         },
         {
-          "title": "Cursos programados y en programación por el Consorcio para la Formación Continua de Cataluña para la integración de datos con la Oferta FPCAT 365",
-          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/jdcj-za6r/query.xml?accessType=DOWNLOAD",
-          "format": "XML",
-          "identifier": "https://analisi.transparenciacatalunya.cat/d/jdcj-za6r"
-        },
-        {
-          "title": "Cursos programados y en programación por el Consorcio para la Formación Continua de Cataluña para la integración de datos con la Oferta FPCAT 365",
-          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/jdcj-za6r/export.csv?accessType=DOWNLOAD",
-          "format": "CSV",
-          "identifier": "https://analisi.transparenciacatalunya.cat/d/jdcj-za6r"
+          "title": "Estaciones",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/c2503a3a-b70d-4259-9b7d-27fe07b0d5ce/resource/347e3601-c328-4471-af77-0e0252735a0c/download/estaciones.kml",
+          "format": "SIN DATO",
+          "identifier": "https://opendata.alcoi.org/data/dataset/estaciones/resource/347e3601-c328-4471-af77-0e0252735a0c"
         }
       ],
-      "score": 71,
+      "score": 49,
       "notes": [
         "Incluye formatos reutilizables para prototipos y analisis.",
         "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Empleo.",
-        "Publicador: A09002970.",
-        "Cobertura geografica principal: Cataluna."
+        "Tematicas detectadas: Transporte, Turismo.",
+        "Publicador: L01030092.",
+        "Cobertura geografica principal: Alicante."
       ]
     },
     {
-      "id": "https://opendata.euskadi.eus/catalogo/-/cursos-jornadas-congresos-y-ferias-organizadas-por-el-ivap/",
-      "title": "Cursos, jornadas, congresos y ferias organizadas por el IVAP",
-      "description": "En este conjunto de datos puedes acceder a los cursos, jornadas, congresos y ferias que organiza el IVAP (Instituto Vasco de Administración Pública). Los eventos están dirigidos principalmente a trabajadores públicos y se encuentran en diversos formatos.",
-      "issued": "lun, 19 ene 2015 23:00:00 GMT+0000",
-      "modified": "vie, 18 sep 2026 22:00:00 GMT+0000",
-      "publisher": "A16003011",
-      "spatial": "Pais Vasco",
+      "id": "https://opendata.alcoi.org/data/dataset/parcs",
+      "title": "Parques",
+      "description": "Parques en la ciudad de Alcoy",
+      "issued": "vie, 14 dic 2018 10:01:08 GMT+0000",
+      "modified": "vie, 25 sep 2026 04:27:34 GMT+0000",
+      "publisher": "L01030092",
+      "spatial": "Alicante",
       "themes": [
-        "Empleo",
-        "Sector Publico"
-      ],
-      "keywords": [
-        "agenda",
-        "agenda",
-        "azokak",
-        "congresos",
-        "cursos",
-        "ekitaldiak"
-      ],
-      "formats": [
-        "XML",
-        "JSON",
-        "GEOJSON",
-        "XLSX"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-cursos-jornadas-congresos-y-ferias-organizadas-por-el-ivap1",
-      "distributions": [
-        {
-          "title": "Cursos",
-          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tT:evento;cA:r01e00000ff26d461d4a470b89cb18e96d2ace15a;m:documentLanguage.EQ.es;p:Inter",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Cursos",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/cursos_jornadas_ivap/opendata/cursos.xml",
-          "format": "XML",
-          "identifier": ""
-        },
-        {
-          "title": "Cursos",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/cursos_jornadas_ivap/opendata/cursos.json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Cursos",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/cursos_jornadas_ivap/opendata/cursos-padding.geojson",
-          "format": "GEOJSON",
-          "identifier": ""
-        },
-        {
-          "title": "Cursos",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/cursos_jornadas_ivap/opendata/cursos.xlsx",
-          "format": "XLSX",
-          "identifier": ""
-        },
-        {
-          "title": "Cursos",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/cursos_jornadas_ivap/opendata/cursos.geojson",
-          "format": "GEOJSON",
-          "identifier": ""
-        }
-      ],
-      "score": 71,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Empleo, Sector Publico.",
-        "Publicador: A16003011.",
-        "Cobertura geografica principal: Pais Vasco."
-      ]
-    },
-    {
-      "id": "https://datosabiertos.navarra.es/dataset/datos-centros-sociales-covid-19-01-07",
-      "title": "Datos centros sociales, covid-19",
-      "description": "Datos relativos a la afectación que la situación del coronavirus (covid-19), está teniendo en los centros de servicios sociales de carácter residencial conforme a las medidas de ubicación y aislamiento establecidos en la Orden [SND/265/2020](https://www.boe.es/boe/dias/2020/03/21/pdfs/BOE-A-2020-3951.pdf), de 19 de marzo, de adopción de medidas relativas a las residencias de personas mayores y centros socio-sanitarios, ante la situación de crisis sanitaria ocasionada por el COVID-19 y conforme al anexo de la Orden [SND/322/2020](https://www.boe.es/boe/dias/2020/04/04/pdfs/BOE-A-2020-4300.pdf), de 3 de abril, por la que se modifican la Orden SND/275/2020, de 23 de marzo y la Orden SND/295/2020, de 26 de marzo, y se establecen nuevas medidas para atender necesidades urgentes de carácter social o sanitario en el ámbito de la situación de la crisis sanitaria ocasionada por el COVID-19. La información está dividida por un lado, hasta el 30 de abril de 2020 incluido y por otro lado, de esa fecha en adelante",
-      "issued": "mié, 23 jun 2021 12:32:09 GMT+0000",
-      "modified": "vie, 18 sep 2026 20:00:29 GMT+0000",
-      "publisher": "A15002917",
-      "spatial": "Comunidad Foral Navarra",
-      "themes": [
-        "Salud",
-        "Sociedad Bienestar"
-      ],
-      "keywords": [
-        "Covid-19",
-        "Desgaitasuna",
-        "Gizarte zerbitzuak",
-        "Handiagoa",
-        "Kobid-19",
-        "Koronabirusa"
-      ],
-      "formats": [
-        "HTML",
-        "XLSX",
-        "XML",
-        "ODS",
-        "JSON",
-        "TSV",
-        "CSV"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a15002917-datos-centros-sociales-covid-191",
-      "distributions": [
-        {
-          "title": "Datos centros sociales, covid-19 hasta el 30-06-2021 - Tabla",
-          "accessUrl": "https://datosabiertos.navarra.es/dataset/datos-centros-sociales-covid-19-01-07/resource/d87bfcc9-368b-4442-82d0-38d2291aef83?view_id=1204e87f-f79a-4e61-88bc-bdfd278b4ed7",
-          "format": "HTML",
-          "identifier": "https://datosabiertos.navarra.es/dataset/datos-centros-sociales-covid-19-01-07/resource/d87bfcc9-368b-4442-82d0-38d2291aef83?view_id=1204e87f-f79a-4e61-88bc-bdfd278b4ed7"
-        },
-        {
-          "title": "Datos centros sociales, covid-19 desde el 1-7-2020 - Tabla",
-          "accessUrl": "https://datosabiertos.navarra.es/dataset/datos-centros-sociales-covid-19-01-07/resource/6ef98721-d186-411c-8849-5144196712a1?view_id=d407e7a4-40c7-44b3-9839-1b863a3c11c2",
-          "format": "HTML",
-          "identifier": "https://datosabiertos.navarra.es/dataset/datos-centros-sociales-covid-19-01-07/resource/6ef98721-d186-411c-8849-5144196712a1?view_id=d407e7a4-40c7-44b3-9839-1b863a3c11c2"
-        },
-        {
-          "title": "Datos centros sociales, covid-19 hasta el 30-06-2021 - XLSX",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/d87bfcc9-368b-4442-82d0-38d2291aef83?format=xlsx&bom=True",
-          "format": "XLSX",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/d87bfcc9-368b-4442-82d0-38d2291aef83?format=xlsx&bom=True"
-        },
-        {
-          "title": "Datos centros sociales, covid-19 desde el 1-7-2020 - XML",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/6ef98721-d186-411c-8849-5144196712a1?format=xml&bom=True",
-          "format": "XML",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/6ef98721-d186-411c-8849-5144196712a1?format=xml&bom=True"
-        },
-        {
-          "title": "Datos centros sociales, covid-19 desde el 1-7-2020 - ODS",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/6ef98721-d186-411c-8849-5144196712a1?format=ods&bom=True",
-          "format": "ODS",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/6ef98721-d186-411c-8849-5144196712a1?format=ods&bom=True"
-        },
-        {
-          "title": "Datos centros sociales, covid-19 hasta el 30-06-2021 - JSON - API",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/d87bfcc9-368b-4442-82d0-38d2291aef83?format=json&bom=True",
-          "format": "JSON",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/d87bfcc9-368b-4442-82d0-38d2291aef83?format=json&bom=True"
-        }
-      ],
-      "score": 71,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Salud, Sociedad Bienestar.",
-        "Publicador: A15002917.",
-        "Cobertura geografica principal: Comunidad Foral Navarra."
-      ]
-    },
-    {
-      "id": "https://analisi.transparenciacatalunya.cat/api/views/tb2m-m33b",
-      "title": "Estaciones de recarga para vehículos eléctricos en Cataluña",
-      "description": "Informació descarregable de les estacions de recàrrega superràpida (potència elèctrica > 50kW), ràpida (potència elèctrica de 50kW), semiràpida (potència elèctrica de 22kW) per a vehicle elèctric a Catalunya. \nHi ha informació relativa a la ubicació geogràfica (adreça i coordinades) i responsable de la gestió de les estacions. També del tipus d’estació i de quins connectors hi ha disponibles (Combo CSS2, ChadeMo, Mennekes (Tipus 2) o Shucko.",
-      "issued": "mié, 13 jul 2022 22:00:00 GMT+0000",
-      "modified": "vie, 18 sep 2026 22:00:00 GMT+0000",
-      "publisher": "A09002970",
-      "spatial": "Cataluna",
-      "themes": [
-        "Transporte"
-      ],
-      "keywords": [
-        "eficiència energètica",
-        "energia",
-        "estacions de recàrrega",
-        "mobilitat elèctrica",
-        "ods7_energia assequible i no contaminant",
-        "punts de recàrrega"
-      ],
-      "formats": [
-        "XML",
-        "GEOJSON",
-        "JSON",
-        "CSV"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a09002970-estaciones-de-recarga-para-vehiculos-electricos-en-cataluna",
-      "distributions": [
-        {
-          "title": "Estaciones de recarga para vehículos eléctricos en Cataluña",
-          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/tb2m-m33b/query.xml?accessType=DOWNLOAD",
-          "format": "XML",
-          "identifier": "https://analisi.transparenciacatalunya.cat/d/tb2m-m33b"
-        },
-        {
-          "title": "Estaciones de recarga para vehículos eléctricos en Cataluña",
-          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/tb2m-m33b/query.geojson?accessType=DOWNLOAD",
-          "format": "GEOJSON",
-          "identifier": "https://analisi.transparenciacatalunya.cat/d/tb2m-m33b"
-        },
-        {
-          "title": "Estaciones de recarga para vehículos eléctricos en Cataluña",
-          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/tb2m-m33b/query.json?accessType=DOWNLOAD",
-          "format": "JSON",
-          "identifier": "https://analisi.transparenciacatalunya.cat/d/tb2m-m33b"
-        },
-        {
-          "title": "Estaciones de recarga para vehículos eléctricos en Cataluña",
-          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/tb2m-m33b/export.kml?accessType=DOWNLOAD",
-          "format": "SIN DATO",
-          "identifier": "https://analisi.transparenciacatalunya.cat/d/tb2m-m33b"
-        },
-        {
-          "title": "Estaciones de recarga para vehículos eléctricos en Cataluña",
-          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/tb2m-m33b/export.csv?accessType=DOWNLOAD",
-          "format": "CSV",
-          "identifier": "https://analisi.transparenciacatalunya.cat/d/tb2m-m33b"
-        },
-        {
-          "title": "Estaciones de recarga para vehículos eléctricos en Cataluña",
-          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/tb2m-m33b/export.kmz?accessType=DOWNLOAD",
-          "format": "SIN DATO",
-          "identifier": "https://analisi.transparenciacatalunya.cat/d/tb2m-m33b"
-        }
-      ],
-      "score": 71,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Transporte.",
-        "Publicador: A09002970.",
-        "Cobertura geografica principal: Cataluna."
-      ]
-    },
-    {
-      "id": "https://opendata.euskadi.eus/catalogo/-/hoteles-de-euskadi/",
-      "title": "Hoteles de Euskadi",
-      "description": "Información sobre hoteles, apartamentos, pensiones y hoteles-apartamentos de Euskadi.",
-      "issued": "lun, 07 mar 2016 23:00:00 GMT+0000",
-      "modified": "vie, 18 sep 2026 22:00:00 GMT+0000",
-      "publisher": "A16003011",
-      "spatial": "Pais Vasco",
-      "themes": [
+        "Medio Ambiente",
         "Turismo"
       ],
       "keywords": [
-        "alojamientos",
-        "apartamentos",
-        "apartamentuak",
-        "hotelak",
-        "hoteles",
-        "hoteles-apartamento"
+        "parcs"
       ],
       "formats": [
-        "GEOJSON",
-        "XML",
-        "JSON",
-        "XLSX"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-hoteles-de-euskadi",
-      "distributions": [
-        {
-          "title": "Hoteles",
-          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tF:turismo;tT:a_alojamiento;m:documentLanguage.EQ.es,lodgingType.IN.(H,6,7,T);p:Inter_portal,Inter;",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Hoteles",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/hoteles_de_euskadi/opendata/alojamientos.geojson",
-          "format": "GEOJSON",
-          "identifier": ""
-        },
-        {
-          "title": "Hoteles",
-          "accessUrl": "http://www.euskadi.net/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&r01kQry=tC:euskadi;tF:turismo;tT:a_alojamiento;m:documentLanguage.EQ.es,lodgingType.IN.%28H,6,7,T%29;p:Inter_portal,Inter;pp:r01NavBarBlockSize.10,r01PageSize.100",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Hoteles",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/hoteles_de_euskadi/opendata/alojamientos-padding.geojson",
-          "format": "GEOJSON",
-          "identifier": ""
-        },
-        {
-          "title": "Hoteles",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/hoteles_de_euskadi/opendata/alojamientos.xml",
-          "format": "XML",
-          "identifier": ""
-        },
-        {
-          "title": "Hoteles",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/hoteles_de_euskadi/opendata/alojamientos.jsonp",
-          "format": "JSON",
-          "identifier": ""
-        }
-      ],
-      "score": 71,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Turismo.",
-        "Publicador: A16003011.",
-        "Cobertura geografica principal: Pais Vasco."
-      ]
-    },
-    {
-      "id": "https://datosabiertos.navarra.es/dataset/informaci-n-sobre-el-estado-de-las-carreteras-de-navarra",
-      "title": "Información sobre el estado de las carreteras de Navarra",
-      "description": "El Gobierno de Navarra le informa del estado de la Red de Carreteras de la Comunidad Foral. El Centro de Control de Conservación de Carreteras presta servicio las 24 horas del día durante los 365 días del año y mantiene actualizada la información sobre el estado de la Red de Carreteras de Navarra. La información que se actualiza cada 15 minutos en Open Data incluye: \n\t\tIncidencias meteorológicas\n\t\tIncidencias en la Red Viaria\n\t\tIncidencias por obras\n\nConsulte en el mapa las incidencias previstas en su ruta. Teléfono de información: 848 423 500",
-      "issued": "mié, 23 jun 2021 12:37:41 GMT+0000",
-      "modified": "vie, 18 sep 2026 22:45:01 GMT+0000",
-      "publisher": "A15002917",
-      "spatial": "Comunidad Foral Navarra",
-      "themes": [
-        "Transporte"
-      ],
-      "keywords": [
-        "Incidencias de tráfico",
-        "Trafikoa",
-        "Trafikoko gorabeherak",
-        "Tráfico"
-      ],
-      "formats": [
-        "ODS",
-        "XML",
-        "TSV",
-        "JSON",
-        "CSV",
-        "XLSX",
-        "HTML"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a15002917-informacion-sobre-el-estado-de-las-carreteras-de-navarra1",
-      "distributions": [
-        {
-          "title": "Información sobre el estado de las carreteras de Navarra - ODS",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=ods&bom=True",
-          "format": "ODS",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=ods&bom=True"
-        },
-        {
-          "title": "Información sobre el estado de las carreteras de Navarra - XML",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=xml&bom=True",
-          "format": "XML",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=xml&bom=True"
-        },
-        {
-          "title": "Información sobre el estado de las carreteras",
-          "accessUrl": "https://datosabiertos.navarra.es/dataset/f7cafe87-6a49-452e-b846-336c12d6a279/resource/d1d616a1-f10f-48b9-80da-f4d7eaa4d391/download/incidenciasdecarreteras.xsd",
-          "format": "XML",
-          "identifier": "https://datosabiertos.navarra.es/dataset/f7cafe87-6a49-452e-b846-336c12d6a279/resource/d1d616a1-f10f-48b9-80da-f4d7eaa4d391/download/incidenciasdecarreteras.xsd"
-        },
-        {
-          "title": "Información sobre el estado de las carreteras de Navarra - TSV",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=tsv&bom=True",
-          "format": "TSV",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=tsv&bom=True"
-        },
-        {
-          "title": "Información sobre el estado de las carreteras de Navarra - JSON - API",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=json&bom=True",
-          "format": "JSON",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/9323f68f-9c8f-47e1-884c-d6985b957606?format=json&bom=True"
-        },
-        {
-          "title": "Información sobre el estado de las carreteras de Navarra",
-          "accessUrl": "https://datosabiertos.navarra.es/dataset/f7cafe87-6a49-452e-b846-336c12d6a279/resource/9323f68f-9c8f-47e1-884c-d6985b957606/download/incidenciasdecarreteras.csv",
-          "format": "CSV",
-          "identifier": "https://datosabiertos.navarra.es/dataset/f7cafe87-6a49-452e-b846-336c12d6a279/resource/9323f68f-9c8f-47e1-884c-d6985b957606/download/incidenciasdecarreteras.csv"
-        }
-      ],
-      "score": 71,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Transporte.",
-        "Publicador: A15002917.",
-        "Cobertura geografica principal: Comunidad Foral Navarra."
-      ]
-    },
-    {
-      "id": "https://opendata.euskadi.eus/catalogo/-/informes-de-inspeccion-ambiental/",
-      "title": "Informes de inspección ambiental",
-      "description": "Este conjunto de datos ofrece las inspecciones ambientales realizadas por el área de Medio Ambiente del Gobierno Vasco.",
-      "issued": "jue, 14 jul 2016 22:00:00 GMT+0000",
-      "modified": "vie, 18 sep 2026 22:00:00 GMT+0000",
-      "publisher": "A16003011",
-      "spatial": "Pais Vasco",
-      "themes": [
-        "Medio Ambiente"
-      ],
-      "keywords": [
-        "contaminación",
-        "empresas",
-        "enpresak",
-        "ikuskaritza",
-        "ingurumena",
-        "inspecciones"
-      ],
-      "formats": [
-        "GEOJSON",
-        "XLSX",
-        "JSON",
-        "XML"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-informes-de-inspeccion-ambiental1",
-      "distributions": [
-        {
-          "title": "Informes",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_informes_estudios/informes_aai/opendata/informes-padding.geojson",
-          "format": "GEOJSON",
-          "identifier": ""
-        },
-        {
-          "title": "Informes",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_informes_estudios/informes_aai/opendata/informes_aai.xlsx",
-          "format": "XLSX",
-          "identifier": ""
-        },
-        {
-          "title": "Informes",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_informes_estudios/informes_aai/opendata/informes_aai.json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Informes",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_informes_estudios/informes_aai/opendata/informes_aai.jsonp",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Informes",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_informes_estudios/informes_aai/opendata/informes_aai.xml",
-          "format": "XML",
-          "identifier": ""
-        },
-        {
-          "title": "Informes",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_informes_estudios/informes_aai/opendata/informes.geojson",
-          "format": "GEOJSON",
-          "identifier": ""
-        }
-      ],
-      "score": 71,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Medio Ambiente.",
-        "Publicador: A16003011.",
-        "Cobertura geografica principal: Pais Vasco."
-      ]
-    },
-    {
-      "id": "https://opendata.euskadi.eus/catalogo/-/restaurantes-asadores-y-sidrerias-de-euskadi/",
-      "title": "Restaurantes, asadores y sidrerías de Euskadi",
-      "description": "Información sobre los restaurantes, asadores y sidrerías de Euskadi.",
-      "issued": "lun, 07 mar 2016 23:00:00 GMT+0000",
-      "modified": "vie, 18 sep 2026 22:00:00 GMT+0000",
-      "publisher": "A16003011",
-      "spatial": "Pais Vasco",
-      "themes": [
-        "Turismo"
-      ],
-      "keywords": [
-        "asadores",
-        "erretegiak",
-        "jatetxeak",
-        "restauración",
-        "restaurantes",
-        "sagardotegiak"
-      ],
-      "formats": [
-        "GEOJSON",
-        "JSON",
-        "XML",
-        "XLSX"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-restaurantes-asadores-y-sidrerias-de-euskadi",
-      "distributions": [
-        {
-          "title": "Restaurantes, asadores y sidrerías",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/restaurantes_asador_sidrerias/opendata/restaurantes.geojson",
-          "format": "GEOJSON",
-          "identifier": ""
-        },
-        {
-          "title": "Restaurantes, asadores y sidrerías",
-          "accessUrl": "https://www.euskadi.eus/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&r01kQry=tT:b_restauracion;m:documentLanguage.EQ.es,templateType.EQ.B1&restorationType.IN.(1,3,42);p:Inter_portal,Inter;pp:r01NavBarBlockSize.10,r01PageSize.100",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Restaurantes, asadores y sidrerías",
-          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tF:turismo;tT:b_restauracion;m:restorationType.IN.(1,42,3),documentLanguage.EQ.es;p:Inter;",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Restaurantes, asadores y sidrerías",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/restaurantes_asador_sidrerias/opendata/restaurantes-padding.geojson",
-          "format": "GEOJSON",
-          "identifier": ""
-        },
-        {
-          "title": "Restaurantes, asadores y sidrerías",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/restaurantes_asador_sidrerias/opendata/restaurantes.jsonp",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Restaurantes, asadores y sidrerías",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/restaurantes_asador_sidrerias/opendata/restaurantes.json",
-          "format": "JSON",
-          "identifier": ""
-        }
-      ],
-      "score": 71,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Turismo.",
-        "Publicador: A16003011.",
-        "Cobertura geografica principal: Pais Vasco."
-      ]
-    },
-    {
-      "id": "https://opendata.euskadi.eus/catalogo/-/restaurantes-asadores-sidrerias-bodegas-y-bares-de-pintxos-de-euskadi/",
-      "title": "Restaurantes, asadores, sidrerías, bodegas y bares de pintxos de Euskadi",
-      "description": "Información sobre los establecimientos de restauración de Euskadi: restaurantes, asadores, sidrerías, bodegas y bares de pintxos.",
-      "issued": "lun, 19 abr 2010 22:00:00 GMT+0000",
-      "modified": "vie, 18 sep 2026 22:00:00 GMT+0000",
-      "publisher": "A16003011",
-      "spatial": "Pais Vasco",
-      "themes": [
-        "Turismo"
-      ],
-      "keywords": [
-        "Jatetxeak",
-        "Restaurantes",
-        "asadores",
-        "bares",
-        "bodegas",
-        "erretegiak"
-      ],
-      "formats": [
-        "GEOJSON",
-        "XLSX",
-        "JSON",
-        "XML"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-restaurantes-asadores-sidrerias-bodegas-y-bares-de-pintxos-de-euskadi",
-      "distributions": [
-        {
-          "title": "Restaurantes",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/restaurantes_sidrerias_bodegas/opendata/restaurantes.geojson",
-          "format": "GEOJSON",
-          "identifier": ""
-        },
-        {
-          "title": "Restaurantes",
-          "accessUrl": "http://www.euskadi.net/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&r01kQry=tC:euskadi;tT:b_restauracion;m:documentLanguage.EQ.es;p:Inter_portal,Inter;pp:r01NavBarBlockSize.10,r01PageSize.100",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Aeropuertos",
-          "accessUrl": "http://turismo.euskadi.net/x65-15809/es/s12GoogleMapsWar/gMapsJSP/VisorGMapsNP.jsp?lang=es",
-          "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Restaurantes",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/restaurantes_sidrerias_bodegas/opendata/restaurantes.xlsx",
-          "format": "XLSX",
-          "identifier": ""
-        },
-        {
-          "title": "Restaurantes",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/restaurantes_sidrerias_bodegas/opendata/restaurantes.json",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Restaurantes",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/restaurantes_sidrerias_bodegas/opendata/restaurantes.xml",
-          "format": "XML",
-          "identifier": ""
-        }
-      ],
-      "score": 71,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Turismo.",
-        "Publicador: A16003011.",
-        "Cobertura geografica principal: Pais Vasco."
-      ]
-    },
-    {
-      "id": "https://datosabiertos.navarra.es/dataset/sistema-autom-tico-de-informaci-n-hidrol-gica-saih-",
-      "title": "Sistema Automático de Información Hidrológica (SAIH)",
-      "description": "EL SAIH es un sistema de información encargado de captar, transmitir en tiempo real, procesar y presentar datos que describen el estado hidrológico a lo largo de la red fluvial y de los disositivos de control que en ellas se ubican. Para captar estasa variables se utilizan dispositivos (sensores), que están en contacto con el medio, dotados de unos codificadores que proporcionan la señal eléctrica o lógica del estado de la variable que se mide. Como tal sistema de información se apoya en una red de comunicaciones, y como elementos inteligentes de la misma, utiliza sistemas de adquisición y proceso de datos. La red mide de forma directa el nivel de agua en puntos concretos de la red fluvial. Este dato de nivel medido (en metros de altura de agua) permite calcular de forma indirecta el caudal circulante en m3/s.\nEn esta ficha se pueden descargar los datos diezminutales no validados (provisionales y sujetos a revisión), pero medidos en tiempo real, recogidos en los últimos 7 días por la Red de SAIH de Navarra. \nLos datos no validados se actualizan con frecuencia diezminutal y se pueden descargar de los archivos adjuntos \"Nivel y caudal en tiempo real en estaciones de aforo del Gobierno de Navarra\".\nPara ampliar información y ver los datos en tiempo real, puede acceder a la [web del agua en Navarra](https://administracionelectronica.navarra.es/aguaEnNavarra/ctaMapa.aspx?IDOrigenDatos=2&IDMapa=1 \"Web del agua\")",
-      "issued": "mié, 23 jun 2021 12:44:41 GMT+0000",
-      "modified": "vie, 18 sep 2026 22:50:20 GMT+0000",
-      "publisher": "A15002917",
-      "spatial": "Comunidad Foral Navarra",
-      "themes": [
-        "Medio Ambiente"
-      ],
-      "keywords": [
-        "Agua",
-        "Hidrologia",
-        "Hidrología",
-        "Ura"
-      ],
-      "formats": [
-        "JSON",
-        "ODS",
-        "XML",
-        "CSV",
-        "XLSX",
-        "HTML",
-        "TSV"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a15002917-sistema-automatico-de-informacion-hidrologica-saih1",
-      "distributions": [
-        {
-          "title": "Sistema Automático de Información Hidrológica (SAIH) - JSON",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=json&bom=True",
-          "format": "JSON",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=json&bom=True"
-        },
-        {
-          "title": "Sistema Automático de Información Hidrológica (SAIH) - ODS",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=ods&bom=True",
-          "format": "ODS",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=ods&bom=True"
-        },
-        {
-          "title": "Sistema Automático de Información Hidrológica (SAIH)",
-          "accessUrl": "https://datosabiertos.navarra.es/dataset/8eb8a61b-678f-4316-bee6-58ace8d0866e/resource/5c6fb1ce-a146-4fcd-a5cd-3a572667ff35/download/saih.xsd",
-          "format": "XML",
-          "identifier": "https://datosabiertos.navarra.es/dataset/8eb8a61b-678f-4316-bee6-58ace8d0866e/resource/5c6fb1ce-a146-4fcd-a5cd-3a572667ff35/download/saih.xsd"
-        },
-        {
-          "title": "Sistema Automático de Información Hidrológica (SAIH)",
-          "accessUrl": "https://datosabiertos.navarra.es/dataset/8eb8a61b-678f-4316-bee6-58ace8d0866e/resource/c736f9a3-3efc-4b89-9d31-ef859607bc27/download/saih.csv",
-          "format": "CSV",
-          "identifier": "https://datosabiertos.navarra.es/dataset/8eb8a61b-678f-4316-bee6-58ace8d0866e/resource/c736f9a3-3efc-4b89-9d31-ef859607bc27/download/saih.csv"
-        },
-        {
-          "title": "Sistema Automático de Información Hidrológica (SAIH) - XLSX",
-          "accessUrl": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=xlsx&bom=True",
-          "format": "XLSX",
-          "identifier": "https://datosabiertos.navarra.es/datastore/dump/c736f9a3-3efc-4b89-9d31-ef859607bc27?format=xlsx&bom=True"
-        },
-        {
-          "title": "Sistema Automático de Información Hidrológica (SAIH) - Tabla",
-          "accessUrl": "https://datosabiertos.navarra.es/dataset/sistema-autom-tico-de-informaci-n-hidrol-gica-saih-/resource/c736f9a3-3efc-4b89-9d31-ef859607bc27?view_id=0d64e2dd-bc19-483f-8722-a10eb7a9e25d",
-          "format": "HTML",
-          "identifier": "https://datosabiertos.navarra.es/dataset/sistema-autom-tico-de-informaci-n-hidrol-gica-saih-/resource/c736f9a3-3efc-4b89-9d31-ef859607bc27?view_id=0d64e2dd-bc19-483f-8722-a10eb7a9e25d"
-        }
-      ],
-      "score": 71,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Medio Ambiente.",
-        "Publicador: A15002917.",
-        "Cobertura geografica principal: Comunidad Foral Navarra."
-      ]
-    },
-    {
-      "id": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/",
-      "title": "Plazas de parking para personas con movilidad reducida",
-      "description": "Plazas de parking geoposicionadas reservadas a personas con discapacidad",
-      "issued": "vie, 04 jul 2014 22:00:00 GMT+0000",
-      "modified": "vie, 18 sep 2026 22:00:00 GMT+0000",
-      "publisher": "L01300243",
-      "spatial": "Sin dato",
-      "themes": [
-        "Transporte"
-      ],
-      "keywords": [
-        "Movilidad reducida",
-        "parking",
-        "tráfico"
-      ],
-      "formats": [
-        "XML",
-        "RDF",
-        "JSON",
-        "CSV"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/l01300243-plazas-de-parking-para-personas-con-movilidad-reducida",
-      "distributions": [
-        {
-          "title": "Formato Excel",
-          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.excel",
-          "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/Excel"
-        },
-        {
-          "title": "Formato xml",
-          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.xml",
-          "format": "XML",
-          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/XML"
-        },
-        {
-          "title": "Formato rdf-xml",
-          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.rdf",
-          "format": "RDF",
-          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/RDF-XML"
-        },
-        {
-          "title": "Formato json",
-          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.json",
-          "format": "JSON",
-          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/JSON"
-        },
-        {
-          "title": "Formato csv separado por ;",
-          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.csv",
-          "format": "CSV",
-          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/CSV"
-        },
-        {
-          "title": "Formato HTML",
-          "accessUrl": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/parking-movilidad-reducida.html",
-          "format": "SIN DATO",
-          "identifier": "https://datos.lorca.es/catalogo/parking-movilidad-reducida/HTML"
-        }
-      ],
-      "score": 68,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Transporte.",
-        "Publicador: L01300243."
-      ]
-    },
-    {
-      "id": "https://analisi.transparenciacatalunya.cat/api/views/qsgb-mu78",
-      "title": "Puntos de orientación del Consorci per a la Formació Continua de Catalunya",
-      "description": "Dades dels punts d’orientació professional que hi ha disponible per tot el territori català que formen part dels programes d’orientació del Consorci per a la Formació Contínua.",
-      "issued": "dom, 28 may 2023 22:00:00 GMT+0000",
-      "modified": "vie, 18 sep 2026 22:00:00 GMT+0000",
-      "publisher": "A09002970",
-      "spatial": "Cataluna",
-      "themes": [
-        "Empleo"
-      ],
-      "keywords": [
-        "orientació professional",
-        "punt orientació"
-      ],
-      "formats": [
-        "JSON",
-        "XML",
-        "CSV",
         "GEOJSON"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a09002970-puntos-de-orientacion-del-consorci-per-a-la-formacio-continua-de-catalunya",
+      "datasetUrl": "https://datos.gob.es/catalogo/l01030092-parques1",
       "distributions": [
         {
-          "title": "Puntos de orientación del Consorci per a la Formació Continua de Catalunya",
-          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/qsgb-mu78/query.json?accessType=DOWNLOAD",
-          "format": "JSON",
-          "identifier": "https://analisi.transparenciacatalunya.cat/d/qsgb-mu78"
+          "title": "Parques",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/7386134f-5065-4470-8323-45fd076d7619/resource/2d1a93ac-91d4-4c1e-8aa2-51116c5d8b77/download/parques.shp",
+          "format": "SIN DATO",
+          "identifier": "https://opendata.alcoi.org/data/dataset/parcs/resource/2d1a93ac-91d4-4c1e-8aa2-51116c5d8b77"
         },
         {
-          "title": "Puntos de orientación del Consorci per a la Formació Continua de Catalunya",
-          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/qsgb-mu78/query.xml?accessType=DOWNLOAD",
-          "format": "XML",
-          "identifier": "https://analisi.transparenciacatalunya.cat/d/qsgb-mu78"
-        },
-        {
-          "title": "Puntos de orientación del Consorci per a la Formació Continua de Catalunya",
-          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/qsgb-mu78/export.csv?accessType=DOWNLOAD",
-          "format": "CSV",
-          "identifier": "https://analisi.transparenciacatalunya.cat/d/qsgb-mu78"
-        },
-        {
-          "title": "Puntos de orientación del Consorci per a la Formació Continua de Catalunya",
-          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/qsgb-mu78/query.geojson?accessType=DOWNLOAD",
+          "title": "Parques",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/7386134f-5065-4470-8323-45fd076d7619/resource/828c9632-e234-49a2-9e3f-656cbe57ab2b/download/parques.geojson",
           "format": "GEOJSON",
-          "identifier": "https://analisi.transparenciacatalunya.cat/d/qsgb-mu78"
+          "identifier": "https://opendata.alcoi.org/data/dataset/parcs/resource/828c9632-e234-49a2-9e3f-656cbe57ab2b"
         },
         {
-          "title": "Puntos de orientación del Consorci per a la Formació Continua de Catalunya",
-          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/qsgb-mu78/export.kmz?accessType=DOWNLOAD",
+          "title": "Parques",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/7386134f-5065-4470-8323-45fd076d7619/resource/387fdca3-a8a8-4dc0-91f8-2eb80c3e8933/download/parques.kml",
           "format": "SIN DATO",
-          "identifier": "https://analisi.transparenciacatalunya.cat/d/qsgb-mu78"
-        },
-        {
-          "title": "Puntos de orientación del Consorci per a la Formació Continua de Catalunya",
-          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/qsgb-mu78/export.kml?accessType=DOWNLOAD",
-          "format": "SIN DATO",
-          "identifier": "https://analisi.transparenciacatalunya.cat/d/qsgb-mu78"
+          "identifier": "https://opendata.alcoi.org/data/dataset/parcs/resource/387fdca3-a8a8-4dc0-91f8-2eb80c3e8933"
         }
       ],
-      "score": 67,
+      "score": 49,
       "notes": [
         "Incluye formatos reutilizables para prototipos y analisis.",
         "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Empleo.",
-        "Publicador: A09002970.",
-        "Cobertura geografica principal: Cataluna."
+        "Tematicas detectadas: Medio Ambiente, Turismo.",
+        "Publicador: L01030092.",
+        "Cobertura geografica principal: Alicante."
       ]
     },
     {
-      "id": "https://opendata.euskadi.eus/catalogo/-/agenda-de-interes-para-jovenes-en-euskadi/",
-      "title": "Agenda de interés para jóvenes en Euskadi",
-      "description": "Gazte Informazioa es una red de más de 70 servicios que componen el Servicio de Información juvenil de Euskadi, formado por entidades dependientes de administraciones públicas (como Gobierno Vasco diputaciones o ayuntamientos), universidad y entidades privadas (asociaciones).",
-      "issued": "dom, 18 ene 2015 23:00:00 GMT+0000",
-      "modified": "vie, 18 sep 2026 22:00:00 GMT+0000",
-      "publisher": "A16003011",
-      "spatial": "Pais Vasco",
+      "id": "https://opendata.alcoi.org/data/dataset/filaes-moros-i-cristians",
+      "title": "Filaes Moros y Cristianos",
+      "description": "Filaes Moros y Cristianos en la ciudad de Alcoy",
+      "issued": "vie, 14 dic 2018 09:28:45 GMT+0000",
+      "modified": "vie, 25 sep 2026 04:24:26 GMT+0000",
+      "publisher": "L01030092",
+      "spatial": "Alicante",
       "themes": [
         "Cultura Ocio",
         "Turismo"
       ],
       "keywords": [
-        "actividades",
-        "agenda",
-        "agenda",
-        "conciertos",
-        "cursos",
-        "ekitaldiak"
+        "festes",
+        "filaes",
+        "moros i cristians"
       ],
       "formats": [
-        "XLSX",
-        "XML",
-        "JSON"
+        "GEOJSON"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-agenda-de-interes-para-jovenes-en-euskadi1",
+      "datasetUrl": "https://datos.gob.es/catalogo/l01030092-filaes-moros-y-cristianos1",
       "distributions": [
         {
-          "title": "Agenda",
-          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tT:evento;cA:r01epd012982674f7923a83e0e9ab363a0790c534;o:documentCreateDate.DESC;m:documentLanguage.EQ.es;p:Inter",
+          "title": "Filaes Moros y Cristianos",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/862d956d-bc42-4c37-9ecc-88951709e4f0/resource/4ee8ab45-93ed-4a6a-929d-f0508bba5a5b/download/filaes.kml",
           "format": "SIN DATO",
-          "identifier": ""
+          "identifier": "https://opendata.alcoi.org/data/dataset/filaes-moros-i-cristians/resource/4ee8ab45-93ed-4a6a-929d-f0508bba5a5b"
         },
         {
-          "title": "Agenda",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_gazte_informazioa/opendata/agenda.xlsx",
-          "format": "XLSX",
-          "identifier": ""
+          "title": "Filaes Moros y Cristianos",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/862d956d-bc42-4c37-9ecc-88951709e4f0/resource/9739ee4c-5161-4fcf-9bac-296ebd469034/download/filaes.geojson",
+          "format": "GEOJSON",
+          "identifier": "https://opendata.alcoi.org/data/dataset/filaes-moros-i-cristians/resource/9739ee4c-5161-4fcf-9bac-296ebd469034"
         },
         {
-          "title": "Agenda",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_gazte_informazioa/opendata/agenda.xml",
-          "format": "XML",
-          "identifier": ""
-        },
-        {
-          "title": "Agenda",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_gazte_informazioa/opendata/agenda.jsonp",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Agenda",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_eventos/eventos_gazte_informazioa/opendata/agenda.json",
-          "format": "JSON",
-          "identifier": ""
+          "title": "Filaes Moros y Cristianos",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/862d956d-bc42-4c37-9ecc-88951709e4f0/resource/66b637a6-ab5c-462b-8ec7-f6863af7b775/download/filaes.shp",
+          "format": "SIN DATO",
+          "identifier": "https://opendata.alcoi.org/data/dataset/filaes-moros-i-cristians/resource/66b637a6-ab5c-462b-8ec7-f6863af7b775"
         }
       ],
-      "score": 61,
+      "score": 41,
       "notes": [
         "Incluye formatos reutilizables para prototipos y analisis.",
         "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
         "Tematicas detectadas: Cultura Ocio, Turismo.",
-        "Publicador: A16003011.",
-        "Cobertura geografica principal: Pais Vasco."
+        "Publicador: L01030092.",
+        "Cobertura geografica principal: Alicante."
       ]
     },
     {
-      "id": "https://analisi.transparenciacatalunya.cat/api/views/ybgg-dgi6",
-      "title": "Contratación pública en Catalunya: publicaciones en la Plataforma de servicios de contratación pública",
-      "description": "Publicacions de l’activitat contractual de tots els òrgans de contractació de Catalunya a la Plataforma de serveis de contractació pública (PSCP), entre altres, anuncis de licitació, d’avaluació, d’adjudicació i de formalització de contractes. \n\nCada fila representa:\n\n- Un expedient\n- Un lot de l’expedient, per als expedients amb lots\n- Un expedient per a les publicacions agregades\n\nLes publicacions de la fase d&rsquo;execuci&oacute; estan contingudes al conjunt de dades \"Contractaci&oacute; p&uacute;blica a Catalunya: publicacions de la fase d&rsquo;execuci&oacute; a la Plataforma de serveis de contractaci&oacute; p&uacute;blica\", que trobareu a l'enlla&ccedil;&nbsp;https://analisi.transparenciacatalunya.cat/Economia/Contractaci-p-blica-a-Catalunya-publicacions-de-la/8idu-wkjv/about_data\nCom a conseq&uuml;&egrave;ncia d'una incid&egrave;ncia t&egrave;cnica, aquest conjunt de dades presenta informaci&oacute; incompleta (manquen expedients) en les versions anteriors del conjunt de dades durant el per&iacute;ode compr&egrave;s entre el 15.06.2026 i el 19.06.2026. Disculpeu les mol&egrave;sties.",
-      "issued": "lun, 26 jun 2023 22:00:00 GMT+0000",
-      "modified": "vie, 18 sep 2026 22:00:00 GMT+0000",
-      "publisher": "A09002970",
-      "spatial": "Cataluna",
+      "id": "https://opendata.alcoi.org/data/dataset/clinicas-privadas",
+      "title": "Clínicas Privadas",
+      "description": "Clínicas Privadas en la ciudad de Alcoy",
+      "issued": "jue, 07 may 2020 05:48:05 GMT+0000",
+      "modified": "vie, 25 sep 2026 04:23:12 GMT+0000",
+      "publisher": "L01030092",
+      "spatial": "Alicante",
       "themes": [
-        "Economia"
+        "Salud"
       ],
       "keywords": [
-        "adjudicació",
-        "anunci formalització",
-        "anunci licitació",
-        "contractació pública",
-        "contractes",
-        "empreses"
+        "salud"
       ],
       "formats": [
-        "CSV",
-        "JSON",
-        "XML"
+        "GEOJSON"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a09002970-contratacion-publica-en-catalunya-publicaciones-en-la-plataforma-de-servicios-de-contratacion-publica",
+      "datasetUrl": "https://datos.gob.es/catalogo/l01030092-clinicas-privadas",
       "distributions": [
         {
-          "title": "Contratación pública en Catalunya: publicaciones en la Plataforma de servicios de contratación pública",
-          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/ybgg-dgi6/export.csv?accessType=DOWNLOAD",
-          "format": "CSV",
-          "identifier": "https://analisi.transparenciacatalunya.cat/d/ybgg-dgi6"
+          "title": "Clínicas Privadas",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/2810577f-9625-4dbc-ad29-cc1c82381399/resource/afb7dcc9-7171-42d2-90f0-c05efd3e49fc/download/clinica_privada.kml",
+          "format": "SIN DATO",
+          "identifier": "https://opendata.alcoi.org/data/dataset/clinicas-privadas/resource/afb7dcc9-7171-42d2-90f0-c05efd3e49fc"
         },
         {
-          "title": "Contratación pública en Catalunya: publicaciones en la Plataforma de servicios de contratación pública",
-          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/ybgg-dgi6/query.json?accessType=DOWNLOAD",
-          "format": "JSON",
-          "identifier": "https://analisi.transparenciacatalunya.cat/d/ybgg-dgi6"
+          "title": "Clínicas Privadas",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/2810577f-9625-4dbc-ad29-cc1c82381399/resource/5c3064a9-a1e9-414f-92d1-3951e7a01f24/download/clinica_privada.shp",
+          "format": "SIN DATO",
+          "identifier": "https://opendata.alcoi.org/data/dataset/clinicas-privadas/resource/5c3064a9-a1e9-414f-92d1-3951e7a01f24"
         },
         {
-          "title": "Contratación pública en Catalunya: publicaciones en la Plataforma de servicios de contratación pública",
-          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/ybgg-dgi6/query.xml?accessType=DOWNLOAD",
-          "format": "XML",
-          "identifier": "https://analisi.transparenciacatalunya.cat/d/ybgg-dgi6"
+          "title": "Clínicas Privadas",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/2810577f-9625-4dbc-ad29-cc1c82381399/resource/ad20f4a2-f85e-4e2f-9a84-a8ff0830e4a4/download/clinicas-privadas.geojson",
+          "format": "GEOJSON",
+          "identifier": "https://opendata.alcoi.org/data/dataset/clinicas-privadas/resource/ad20f4a2-f85e-4e2f-9a84-a8ff0830e4a4"
         }
       ],
-      "score": 61,
+      "score": 37,
       "notes": [
         "Incluye formatos reutilizables para prototipos y analisis.",
         "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Economia.",
-        "Publicador: A09002970.",
-        "Cobertura geografica principal: Cataluna."
+        "Tematicas detectadas: Salud.",
+        "Publicador: L01030092.",
+        "Cobertura geografica principal: Alicante."
       ]
     },
     {
-      "id": "https://analisi.transparenciacatalunya.cat/api/views/t3wj-j4pu",
-      "title": "Contratación pública en Cataluña: inscripciones y clasificaciones en el Registro de Empresas Licitadoras",
-      "description": "Relació de les empreses inscrites en el Registre d'Empreses Licitadores i Classificades de Catalunya (RELIC), amb indicació de l'última data d'actualització i, si escau, la situació de prohibició de contractar i/o la classificació empresarial vigent.",
-      "issued": "jue, 11 dic 2025 23:00:00 GMT+0000",
-      "modified": "vie, 18 sep 2026 22:00:00 GMT+0000",
-      "publisher": "A09002970",
-      "spatial": "Cataluna",
+      "id": "https://opendata.alcoi.org/data/dataset/gasolineres",
+      "title": "Gasolineras",
+      "description": "Gasolineras en la ciudad de Alcoy",
+      "issued": "vie, 14 dic 2018 09:35:21 GMT+0000",
+      "modified": "vie, 25 sep 2026 04:26:02 GMT+0000",
+      "publisher": "L01030092",
+      "spatial": "Alicante",
       "themes": [
-        "Economia"
+        "Transporte"
       ],
       "keywords": [
-        "ods16_pau justícies i institucions sòlides",
-        "ods8_treball decent i creixement econòmic",
-        "treball decent i creixement econòmic"
+        "economía",
+        "gasolinera"
       ],
       "formats": [
-        "CSV",
-        "XML",
-        "JSON"
+        "GEOJSON"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a09002970-contratacion-publica-en-cataluna-inscripciones-y-clasificaciones-en-el-registro-de-empresas-licitadoras",
+      "datasetUrl": "https://datos.gob.es/catalogo/l01030092-gasolineras1",
       "distributions": [
         {
-          "title": "Contratación pública en Cataluña: inscripciones y clasificaciones en el Registro de Empresas Licitadoras",
-          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/t3wj-j4pu/export.csv?accessType=DOWNLOAD",
-          "format": "CSV",
-          "identifier": "https://analisi.transparenciacatalunya.cat/d/t3wj-j4pu"
+          "title": "Gasolineras",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/eaa35b18-783f-425f-be0d-e469188b487e/resource/20f0fcee-ca1d-4318-8f33-02c06ed0c7bb/download/gasolineras.kml",
+          "format": "SIN DATO",
+          "identifier": "https://opendata.alcoi.org/data/dataset/gasolineres/resource/20f0fcee-ca1d-4318-8f33-02c06ed0c7bb"
         },
         {
-          "title": "Contratación pública en Cataluña: inscripciones y clasificaciones en el Registro de Empresas Licitadoras",
-          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/t3wj-j4pu/query.xml?accessType=DOWNLOAD",
-          "format": "XML",
-          "identifier": "https://analisi.transparenciacatalunya.cat/d/t3wj-j4pu"
+          "title": "Gasolineras",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/eaa35b18-783f-425f-be0d-e469188b487e/resource/fb583582-0a7b-4ae1-a515-dd01d094cf72/download/gasolineras.geojson",
+          "format": "GEOJSON",
+          "identifier": "https://opendata.alcoi.org/data/dataset/gasolineres/resource/fb583582-0a7b-4ae1-a515-dd01d094cf72"
         },
         {
-          "title": "Contratación pública en Cataluña: inscripciones y clasificaciones en el Registro de Empresas Licitadoras",
-          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/t3wj-j4pu/query.json?accessType=DOWNLOAD",
-          "format": "JSON",
-          "identifier": "https://analisi.transparenciacatalunya.cat/d/t3wj-j4pu"
+          "title": "Gasolineras",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/eaa35b18-783f-425f-be0d-e469188b487e/resource/9cecd553-811c-4ce4-9930-f7546322ae4f/download/gasolineras.shp",
+          "format": "SIN DATO",
+          "identifier": "https://opendata.alcoi.org/data/dataset/gasolineres/resource/9cecd553-811c-4ce4-9930-f7546322ae4f"
         }
       ],
-      "score": 61,
+      "score": 37,
       "notes": [
         "Incluye formatos reutilizables para prototipos y analisis.",
         "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Economia.",
-        "Publicador: A09002970.",
-        "Cobertura geografica principal: Cataluna."
+        "Tematicas detectadas: Transporte.",
+        "Publicador: L01030092.",
+        "Cobertura geografica principal: Alicante."
       ]
     },
     {
-      "id": "https://analisi.transparenciacatalunya.cat/api/views/8idu-wkjv",
-      "title": "Contratación pública en Cataluña: publicaciones de la fase de ejecución en la Plataforma de servicios de contratación pública",
-      "description": "Publicacions de la fase d’execució dels contractes de tots els òrgans de contractació de Catalunya a la Plataforma de serveis de contractació pública (PSCP), entre altres, modificacions, cessions, successions, pròrrogues, ampliacions del termini d'execució, subcontractacions, suspensions, imposicions de penalitats, indemnitzacions i extincions.\nCada fila representa:\n\n- Un expedient\n- Un lot de l’expedient, per als expedients amb lots\n- Un expedient per a les publicacions agregades\n\nAquest conjunt de dades únicament inclou les publicacions de la fase d’execució. Per consultar la resta de publicacions us heu de dirigir al conjunt de dades \"Contractació pública a Catalunya: publicacions a la Plataforma de serveis de contractació pública\", que trobareu a l'enllaç https://analisi.transparenciacatalunya.cat/Economia/Contractaci-p-blica-a-Catalunya-publicacions-a-la-/ybgg-dgi6/about_data",
-      "issued": "mar, 14 abr 2026 22:00:00 GMT+0000",
-      "modified": "vie, 18 sep 2026 22:00:00 GMT+0000",
-      "publisher": "A09002970",
-      "spatial": "Cataluna",
-      "themes": [
-        "Economia"
-      ],
-      "keywords": [
-        "ampliacions del termini d'execució",
-        "cessions",
-        "contractació pública",
-        "contractes",
-        "empreses",
-        "extincions"
-      ],
-      "formats": [
-        "JSON",
-        "XML",
-        "CSV"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a09002970-contratacion-publica-en-cataluna-publicaciones-de-la-fase-de-ejecucion-en-la-plataforma-de-servicios-de-contratacion-publica",
-      "distributions": [
-        {
-          "title": "Contratación pública en Cataluña: publicaciones de la fase de ejecución en la Plataforma de servicios de contratación pública",
-          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/8idu-wkjv/query.json?accessType=DOWNLOAD",
-          "format": "JSON",
-          "identifier": "https://analisi.transparenciacatalunya.cat/d/8idu-wkjv"
-        },
-        {
-          "title": "Contratación pública en Cataluña: publicaciones de la fase de ejecución en la Plataforma de servicios de contratación pública",
-          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/8idu-wkjv/query.xml?accessType=DOWNLOAD",
-          "format": "XML",
-          "identifier": "https://analisi.transparenciacatalunya.cat/d/8idu-wkjv"
-        },
-        {
-          "title": "Contratación pública en Cataluña: publicaciones de la fase de ejecución en la Plataforma de servicios de contratación pública",
-          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/8idu-wkjv/export.csv?accessType=DOWNLOAD",
-          "format": "CSV",
-          "identifier": "https://analisi.transparenciacatalunya.cat/d/8idu-wkjv"
-        }
-      ],
-      "score": 61,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Economia.",
-        "Publicador: A09002970.",
-        "Cobertura geografica principal: Cataluna."
-      ]
-    },
-    {
-      "id": "https://analisi.transparenciacatalunya.cat/api/views/nzvn-apee",
-      "title": "Datos meteorológicos de la XEMA",
-      "description": "Dades meteorològiques registrades a totes les estacions de la Xarxa d’Estacions Meteorològiques Automàtiques (XEMA) del Servei Meteorològic de Catalunya (METEOCAT). Aquest data base conté variables mesurades amb una freqüència inferior a la diària, generalment semi-horària.\n\nÉs possible trobar informació sobre les metadades d'estacions i variables a:\n- Variables: https://analisi.transparenciacatalunya.cat/d/4fb2-n3yi\n- Estacions: https://analisi.transparenciacatalunya.cat/d/yqwd-vj5e\n\nTipus de Llicència: Propietat intel·lectual i industrial de METEOCAT - http://www.meteo.cat/wpweb/avis-legal/",
-      "issued": "vie, 17 ene 2020 23:00:00 GMT+0000",
-      "modified": "vie, 18 sep 2026 22:00:00 GMT+0000",
-      "publisher": "A09002970",
-      "spatial": "Cataluna",
-      "themes": [
-        "Medio Ambiente"
-      ],
-      "keywords": [
-        "estació",
-        "mesura",
-        "meteorologia",
-        "ods13_acció pel clima",
-        "smartcatalonia"
-      ],
-      "formats": [
-        "JSON",
-        "CSV",
-        "XML"
-      ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a09002970-datos-meteorologicos-de-la-xema",
-      "distributions": [
-        {
-          "title": "Datos meteorológicos de la XEMA",
-          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/nzvn-apee/query.json?accessType=DOWNLOAD",
-          "format": "JSON",
-          "identifier": "https://analisi.transparenciacatalunya.cat/d/nzvn-apee"
-        },
-        {
-          "title": "Datos meteorológicos de la XEMA",
-          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/nzvn-apee/export.csv?accessType=DOWNLOAD",
-          "format": "CSV",
-          "identifier": "https://analisi.transparenciacatalunya.cat/d/nzvn-apee"
-        },
-        {
-          "title": "Datos meteorológicos de la XEMA",
-          "accessUrl": "https://analisi.transparenciacatalunya.cat/api/v3/views/nzvn-apee/query.xml?accessType=DOWNLOAD",
-          "format": "XML",
-          "identifier": "https://analisi.transparenciacatalunya.cat/d/nzvn-apee"
-        }
-      ],
-      "score": 61,
-      "notes": [
-        "Incluye formatos reutilizables para prototipos y analisis.",
-        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
-        "Tematicas detectadas: Medio Ambiente.",
-        "Publicador: A09002970.",
-        "Cobertura geografica principal: Cataluna."
-      ]
-    },
-    {
-      "id": "https://opendata.euskadi.eus/catalogo/-/noticias-de-interes-turistico/",
-      "title": "Noticias de interés turístico",
-      "description": "Noticias de interés turístico.",
-      "issued": "mié, 20 jul 2011 22:00:00 GMT+0000",
-      "modified": "vie, 18 sep 2026 22:00:00 GMT+0000",
-      "publisher": "A16003011",
-      "spatial": "Pais Vasco",
+      "id": "https://opendata.alcoi.org/data/dataset/hoteles",
+      "title": "Hoteles",
+      "description": "Hoteles en la ciudad de Alcoy",
+      "issued": "jue, 07 may 2020 06:30:49 GMT+0000",
+      "modified": "vie, 25 sep 2026 04:26:42 GMT+0000",
+      "publisher": "L01030092",
+      "spatial": "Alicante",
       "themes": [
         "Turismo"
       ],
       "keywords": [
-        "albisteak",
-        "comunicación",
-        "komunikazioa",
-        "noticias",
-        "prensa",
-        "prentsa"
+        "turismo"
       ],
       "formats": [
-        "XLSX",
-        "JSON",
-        "XML"
+        "GEOJSON"
       ],
-      "datasetUrl": "https://datos.gob.es/catalogo/a16003011-noticias-de-interes-turistico1",
+      "datasetUrl": "https://datos.gob.es/catalogo/l01030092-hoteles",
       "distributions": [
         {
-          "title": "Noticias",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_noticias/noticias_turismo/opendata/noticias.xlsx",
-          "format": "XLSX",
-          "identifier": ""
+          "title": "Hoteles",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/1e3fd057-0b79-4997-9422-ae8f8a6e6ea2/resource/5977e13f-1e25-4271-9df3-c75de18a94bd/download/hoteles.geojson",
+          "format": "GEOJSON",
+          "identifier": "https://opendata.alcoi.org/data/dataset/hoteles/resource/5977e13f-1e25-4271-9df3-c75de18a94bd"
         },
         {
-          "title": "Noticias",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_noticias/noticias_turismo/opendata/noticias.jsonp",
-          "format": "JSON",
-          "identifier": ""
-        },
-        {
-          "title": "Noticias",
-          "accessUrl": "https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tC:euskadi;tT:noticia;m:documentLanguage.EQ.es,templateType.EQ.O1;p:Inter",
+          "title": "Hoteles",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/1e3fd057-0b79-4997-9422-ae8f8a6e6ea2/resource/7f8c5b7e-a62a-4097-9011-7970399e4d94/download/hoteles.shp",
           "format": "SIN DATO",
-          "identifier": ""
+          "identifier": "https://opendata.alcoi.org/data/dataset/hoteles/resource/7f8c5b7e-a62a-4097-9011-7970399e4d94"
         },
         {
-          "title": "Noticias",
-          "accessUrl": "http://www.euskadi.net/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&r01kQry=tC:euskadi;tT:noticia;m:documentLanguage.EQ.es,templateType.EQ.O1;p:Inter;pp:r01NavBarBlockSize.10,r01PageSize.100",
+          "title": "Hoteles",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/1e3fd057-0b79-4997-9422-ae8f8a6e6ea2/resource/58182c8d-1806-45a5-bdfb-c8e427ba959e/download/hoteles.kml",
           "format": "SIN DATO",
-          "identifier": ""
-        },
-        {
-          "title": "Noticias",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_noticias/noticias_turismo/opendata/noticias.xml",
-          "format": "XML",
-          "identifier": ""
-        },
-        {
-          "title": "Noticias",
-          "accessUrl": "https://opendata.euskadi.eus/contenidos/ds_noticias/noticias_turismo/opendata/noticias.json",
-          "format": "JSON",
-          "identifier": ""
+          "identifier": "https://opendata.alcoi.org/data/dataset/hoteles/resource/58182c8d-1806-45a5-bdfb-c8e427ba959e"
         }
       ],
-      "score": 61,
+      "score": 37,
       "notes": [
         "Incluye formatos reutilizables para prototipos y analisis.",
         "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
         "Tematicas detectadas: Turismo.",
-        "Publicador: A16003011.",
-        "Cobertura geografica principal: Pais Vasco."
+        "Publicador: L01030092.",
+        "Cobertura geografica principal: Alicante."
+      ]
+    },
+    {
+      "id": "https://opendata.alcoi.org/data/dataset/mediciones-calidad-del-aire",
+      "title": "Mediciones de calidad del aire",
+      "description": "Los datos mostrados a continuación representan las medidas recolectadas por los sensores ambientales de la ciudad.\nSe debe tener en cuenta que los datos recogidos son en bruto y sin validar. En general, los datos que generan los sensores de gases y partículas deben ser sometidos a un proceso de validación complejo por personal técnico cualificado. Este proceso consiste en realizar una revisión de todos y cada unos de los valores de los parámetros recibidos, con el objeto de verificar si dichos datos son correctos y responden al estado real de la calidad del aire en el lugar en que se ubica la estación de medición, y en cada momento de medida.\n\nPor otro lado, los propios fabricantes de sensórica ambiental indican que se debe tener en cuanta que en los datos se pueden observar picos erróneos que se deben filtrar. Algunos de estos picos pueden ser provocados por fenómenos cercanos a los sensores como incendios, trabajos que generen gases, etc. En el caso de haber detectado anomalías se verán especificadas en la descripción del archivo perteneciente al periodo de tiempo correspondiente.\n\nRespecto a los sensores de gases, aportan medidas del NO2, O3, SO2, CO2, siendo nulos el resto de valores. En cambio, los sensores de partículas proporcionan información relativa al PM10, PM25, PM1. Del mismo modo, las sondas de CO2 contiene únicamente los valores del CO2. En el caso de encontrarse el dispositivo en mantenimiento los valores nombrados anteriormente serán 0.\n\nFinalmente, los nombres de las entidades están conformados por una primera parte donde se identifica el tipo de sensor y una segunda parte separada por un guion, la cual determina la localización de este.",
+      "issued": "jue, 28 jul 2022 13:44:33 GMT+0000",
+      "modified": "mié, 23 sep 2026 06:07:58 GMT+0000",
+      "publisher": "L01030092",
+      "spatial": "Alicante",
+      "themes": [
+        "Medio Ambiente"
+      ],
+      "keywords": [
+        "medio ambiente"
+      ],
+      "formats": [
+        "CSV"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/l01030092-mediciones-de-calidad-del-aire",
+      "distributions": [
+        {
+          "title": "Archivo calidad del aire 2022-01-01 - 2022-03-31",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/69631e0c-5ec6-4400-b547-0d05fb346cbc/resource/5fdae7fd-45d7-4c76-9f21-c6918d6f06cc/download/2022-01-01__2022-03-31.csv",
+          "format": "CSV",
+          "identifier": "https://opendata.alcoi.org/data/dataset/mediciones-calidad-del-aire/resource/5fdae7fd-45d7-4c76-9f21-c6918d6f06cc"
+        },
+        {
+          "title": "Archivo calidad del aire 2023-07-01 - 2023-09-30",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/69631e0c-5ec6-4400-b547-0d05fb346cbc/resource/3527fb06-99c2-418c-a30b-321c06c5cec5/download/2023-07-01__2023-09-30.csv",
+          "format": "CSV",
+          "identifier": "https://opendata.alcoi.org/data/dataset/mediciones-calidad-del-aire/resource/3527fb06-99c2-418c-a30b-321c06c5cec5"
+        },
+        {
+          "title": "Archivo calidad del aire 2024-04-01 - 2024-06-30",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/69631e0c-5ec6-4400-b547-0d05fb346cbc/resource/4ac0222b-515e-4abf-a196-3715afd31c68/download/2024-04-01__2024-06-30.csv",
+          "format": "CSV",
+          "identifier": "https://opendata.alcoi.org/data/dataset/mediciones-calidad-del-aire/resource/4ac0222b-515e-4abf-a196-3715afd31c68"
+        },
+        {
+          "title": "Archivo calidad del aire 2025-01-01 - 2025-03-31",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/69631e0c-5ec6-4400-b547-0d05fb346cbc/resource/834549b1-fbdd-4c2a-bb30-6b6100364f52/download/2025-01-01__2025-03-31.csv",
+          "format": "CSV",
+          "identifier": "https://opendata.alcoi.org/data/dataset/mediciones-calidad-del-aire/resource/834549b1-fbdd-4c2a-bb30-6b6100364f52"
+        },
+        {
+          "title": "Archivo calidad del aire 2024-07-01 - 2024-09-30",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/69631e0c-5ec6-4400-b547-0d05fb346cbc/resource/cb6a7336-835d-4796-805a-6fca2adec544/download/2024-07-01__2024-09-30.csv",
+          "format": "CSV",
+          "identifier": "https://opendata.alcoi.org/data/dataset/mediciones-calidad-del-aire/resource/cb6a7336-835d-4796-805a-6fca2adec544"
+        },
+        {
+          "title": "Archivo calidad del aire 2025-07-01 - 2025-09-30",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/69631e0c-5ec6-4400-b547-0d05fb346cbc/resource/bc488b73-07aa-463b-9276-53c0083464d2/download/2025-07-01__2025-09-30.csv",
+          "format": "CSV",
+          "identifier": "https://opendata.alcoi.org/data/dataset/mediciones-calidad-del-aire/resource/bc488b73-07aa-463b-9276-53c0083464d2"
+        }
+      ],
+      "score": 37,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Medio Ambiente.",
+        "Publicador: L01030092.",
+        "Cobertura geografica principal: Alicante."
+      ]
+    },
+    {
+      "id": "https://opendata.alcoi.org/data/dataset/punts-wifi",
+      "title": "Puntos WiFi",
+      "description": "Puntos WiFi en la ciudad de Alcoy",
+      "issued": "vie, 14 dic 2018 10:18:51 GMT+0000",
+      "modified": "vie, 25 sep 2026 04:31:28 GMT+0000",
+      "publisher": "L01030092",
+      "spatial": "Alicante",
+      "themes": [
+        "Ciencia Tecnologia",
+        "Sector Publico",
+        "Turismo"
+      ],
+      "keywords": [
+        "wifi"
+      ],
+      "formats": [
+        "GEOJSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/l01030092-puntos-wifi1",
+      "distributions": [
+        {
+          "title": "Puntos WiFi",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/87ffa879-1fe1-48e0-91e8-c1e04a1729ef/resource/804b3744-9d1f-4a14-af56-22f0628c3a48/download/puntos_wifi.shp",
+          "format": "SIN DATO",
+          "identifier": "https://opendata.alcoi.org/data/dataset/punts-wifi/resource/804b3744-9d1f-4a14-af56-22f0628c3a48"
+        },
+        {
+          "title": "Puntos WiFi",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/87ffa879-1fe1-48e0-91e8-c1e04a1729ef/resource/eb0b40c1-7615-4881-902a-0e17ec3024ef/download/puntos_wifi.geojson",
+          "format": "GEOJSON",
+          "identifier": "https://opendata.alcoi.org/data/dataset/punts-wifi/resource/eb0b40c1-7615-4881-902a-0e17ec3024ef"
+        },
+        {
+          "title": "Puntos WiFi",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/87ffa879-1fe1-48e0-91e8-c1e04a1729ef/resource/7fca4f39-fff3-40dd-80fb-d8d905664882/download/puntos_wifi.kml",
+          "format": "SIN DATO",
+          "identifier": "https://opendata.alcoi.org/data/dataset/punts-wifi/resource/7fca4f39-fff3-40dd-80fb-d8d905664882"
+        }
+      ],
+      "score": 37,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Ciencia Tecnologia, Sector Publico, Turismo.",
+        "Publicador: L01030092.",
+        "Cobertura geografica principal: Alicante."
+      ]
+    },
+    {
+      "id": "https://opendata.alcoi.org/data/dataset/ruta-ciudad-dormida",
+      "title": "Ruta Alcoy: La ciudad dormida",
+      "description": "Ruta Alcoy: La ciudad dormida en la ciudad de Alcoy",
+      "issued": "mié, 19 may 2021 05:10:00 GMT+0000",
+      "modified": "vie, 25 sep 2026 04:42:15 GMT+0000",
+      "publisher": "L01030092",
+      "spatial": "Alicante",
+      "themes": [
+        "Cultura Ocio",
+        "Turismo"
+      ],
+      "keywords": [
+        "tour"
+      ],
+      "formats": [
+        "GEOJSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/l01030092-ruta-alcoy-la-ciudad-dormida",
+      "distributions": [
+        {
+          "title": "Ruta Alcoy: La ciudad dormida",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/cef5d93a-ea5e-47be-b28f-17a63802d289/resource/6dd1fea6-4da9-4116-ac81-d13d28cada8b/download/ruta_ciudad_dormida.shp",
+          "format": "SIN DATO",
+          "identifier": "https://opendata.alcoi.org/data/dataset/ruta-ciudad-dormida/resource/6dd1fea6-4da9-4116-ac81-d13d28cada8b"
+        },
+        {
+          "title": "Ruta Alcoy: La ciudad dormida",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/cef5d93a-ea5e-47be-b28f-17a63802d289/resource/672920b6-220e-434e-8afe-aa34145d899f/download/ruta_ciudad_dormida.geojson",
+          "format": "GEOJSON",
+          "identifier": "https://opendata.alcoi.org/data/dataset/ruta-ciudad-dormida/resource/672920b6-220e-434e-8afe-aa34145d899f"
+        },
+        {
+          "title": "Ruta Alcoy: La ciudad dormida",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/cef5d93a-ea5e-47be-b28f-17a63802d289/resource/76ae4f67-6cc5-4e05-b7e4-342ddb6f62f6/download/ruta_ciudad_dormida.kml",
+          "format": "SIN DATO",
+          "identifier": "https://opendata.alcoi.org/data/dataset/ruta-ciudad-dormida/resource/76ae4f67-6cc5-4e05-b7e4-342ddb6f62f6"
+        }
+      ],
+      "score": 37,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Cultura Ocio, Turismo.",
+        "Publicador: L01030092.",
+        "Cobertura geografica principal: Alicante."
+      ]
+    },
+    {
+      "id": "https://opendata.alcoi.org/data/dataset/ruta-camilo-sesto",
+      "title": "Ruta Camilo Sesto",
+      "description": "Ruta Camilo Sesto en la ciudad de Alcoy",
+      "issued": "lun, 01 abr 2019 15:36:20 GMT+0000",
+      "modified": "vie, 25 sep 2026 04:32:11 GMT+0000",
+      "publisher": "L01030092",
+      "spatial": "Alicante",
+      "themes": [
+        "Cultura Ocio",
+        "Turismo"
+      ],
+      "keywords": [
+        "tour"
+      ],
+      "formats": [
+        "GEOJSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/l01030092-ruta-camilo-sesto1",
+      "distributions": [
+        {
+          "title": "Ruta Camilo Sesto",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/afebbf99-6580-488c-8538-9a8145de54a2/resource/871ab35c-3ed9-48b6-8f5c-ab40a08a5ef9/download/ruta_camilo_sesto.kml",
+          "format": "SIN DATO",
+          "identifier": "https://opendata.alcoi.org/data/dataset/ruta-camilo-sesto/resource/871ab35c-3ed9-48b6-8f5c-ab40a08a5ef9"
+        },
+        {
+          "title": "Ruta Camilo Sesto",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/afebbf99-6580-488c-8538-9a8145de54a2/resource/65eaea21-78a8-4fce-a99c-357b370e0eb9/download/ruta_camilo_sesto.shp",
+          "format": "SIN DATO",
+          "identifier": "https://opendata.alcoi.org/data/dataset/ruta-camilo-sesto/resource/65eaea21-78a8-4fce-a99c-357b370e0eb9"
+        },
+        {
+          "title": "Ruta Camilo Sesto",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/afebbf99-6580-488c-8538-9a8145de54a2/resource/6ccc9c6c-63da-4b67-a2da-6741207d8826/download/ruta_camilo_sesto.geojson",
+          "format": "GEOJSON",
+          "identifier": "https://opendata.alcoi.org/data/dataset/ruta-camilo-sesto/resource/6ccc9c6c-63da-4b67-a2da-6741207d8826"
+        }
+      ],
+      "score": 37,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Cultura Ocio, Turismo.",
+        "Publicador: L01030092.",
+        "Cobertura geografica principal: Alicante."
+      ]
+    },
+    {
+      "id": "https://opendata.alcoi.org/data/dataset/ruta-industrial",
+      "title": "Ruta Industrial",
+      "description": "Ruta Industrial en la ciudad de Alcoy",
+      "issued": "lun, 01 abr 2019 15:43:37 GMT+0000",
+      "modified": "vie, 25 sep 2026 04:42:56 GMT+0000",
+      "publisher": "L01030092",
+      "spatial": "Alicante",
+      "themes": [
+        "Cultura Ocio",
+        "Turismo"
+      ],
+      "keywords": [
+        "tour"
+      ],
+      "formats": [
+        "GEOJSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/l01030092-ruta-industrial1",
+      "distributions": [
+        {
+          "title": "Ruta Industrial",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/d9394450-5857-447a-8c8b-1a5c44656f0d/resource/d7c7728a-e7c4-4fa2-a1dc-c15f2a28cc51/download/ruta_industrial.kml",
+          "format": "SIN DATO",
+          "identifier": "https://opendata.alcoi.org/data/dataset/ruta-industrial/resource/d7c7728a-e7c4-4fa2-a1dc-c15f2a28cc51"
+        },
+        {
+          "title": "Ruta Industrial",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/d9394450-5857-447a-8c8b-1a5c44656f0d/resource/a9630681-f256-4068-a5d0-75279660900c/download/ruta_industrial.shp",
+          "format": "SIN DATO",
+          "identifier": "https://opendata.alcoi.org/data/dataset/ruta-industrial/resource/a9630681-f256-4068-a5d0-75279660900c"
+        },
+        {
+          "title": "Ruta Industrial",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/d9394450-5857-447a-8c8b-1a5c44656f0d/resource/2ddfd19c-9c70-4a6c-8460-8e73eb1ad2d0/download/ruta_industrial.geojson",
+          "format": "GEOJSON",
+          "identifier": "https://opendata.alcoi.org/data/dataset/ruta-industrial/resource/2ddfd19c-9c70-4a6c-8460-8e73eb1ad2d0"
+        }
+      ],
+      "score": 37,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Cultura Ocio, Turismo.",
+        "Publicador: L01030092.",
+        "Cobertura geografica principal: Alicante."
+      ]
+    },
+    {
+      "id": "https://opendata.alcoi.org/data/dataset/ruta-ovidi",
+      "title": "Ruta Ovidi",
+      "description": "Ruta Ovidi en la ciudad de Alcoy",
+      "issued": "lun, 01 abr 2019 16:03:48 GMT+0000",
+      "modified": "vie, 25 sep 2026 04:43:32 GMT+0000",
+      "publisher": "L01030092",
+      "spatial": "Alicante",
+      "themes": [
+        "Cultura Ocio",
+        "Turismo"
+      ],
+      "keywords": [
+        "tour"
+      ],
+      "formats": [
+        "GEOJSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/l01030092-ruta-ovidi1",
+      "distributions": [
+        {
+          "title": "Ruta Ovidi",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/8bae00bc-bae7-4c10-93ad-3c6c6fb121c3/resource/f7ffb02f-3cf8-4629-801d-0dfeb1a32c7c/download/ruta_ovidi.kml",
+          "format": "SIN DATO",
+          "identifier": "https://opendata.alcoi.org/data/dataset/ruta-ovidi/resource/f7ffb02f-3cf8-4629-801d-0dfeb1a32c7c"
+        },
+        {
+          "title": "Ruta Ovidi",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/8bae00bc-bae7-4c10-93ad-3c6c6fb121c3/resource/821a26b9-dd21-40ee-9bb1-8014ccc59b4d/download/ruta_ovidi.geojson",
+          "format": "GEOJSON",
+          "identifier": "https://opendata.alcoi.org/data/dataset/ruta-ovidi/resource/821a26b9-dd21-40ee-9bb1-8014ccc59b4d"
+        },
+        {
+          "title": "Ruta Ovidi",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/8bae00bc-bae7-4c10-93ad-3c6c6fb121c3/resource/bcc39729-376e-4b1d-8ed0-3de0fc6b17d0/download/ruta_ovidi.shp",
+          "format": "SIN DATO",
+          "identifier": "https://opendata.alcoi.org/data/dataset/ruta-ovidi/resource/bcc39729-376e-4b1d-8ed0-3de0fc6b17d0"
+        }
+      ],
+      "score": 37,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Cultura Ocio, Turismo.",
+        "Publicador: L01030092.",
+        "Cobertura geografica principal: Alicante."
+      ]
+    },
+    {
+      "id": "https://opendata.alcoi.org/data/dataset/centros-de-asistencia",
+      "title": "Centros de asistencia",
+      "description": "Centros de asistencia en la ciudad de Alcoy",
+      "issued": "mié, 06 may 2020 12:03:59 GMT+0000",
+      "modified": "vie, 25 sep 2026 04:21:28 GMT+0000",
+      "publisher": "L01030092",
+      "spatial": "Alicante",
+      "themes": [
+        "Sociedad Bienestar"
+      ],
+      "keywords": [
+        "salud"
+      ],
+      "formats": [
+        "GEOJSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/l01030092-centros-de-asistencia",
+      "distributions": [
+        {
+          "title": "Centros de asistencia",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/8049b77a-580c-4944-9bbc-2c7cccbf45dc/resource/e44e58cb-cb17-4920-ba25-ea19d6a0aaa8/download/centros_sociales.shp",
+          "format": "SIN DATO",
+          "identifier": "https://opendata.alcoi.org/data/dataset/centros-de-asistencia/resource/e44e58cb-cb17-4920-ba25-ea19d6a0aaa8"
+        },
+        {
+          "title": "Centros de asistencia",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/8049b77a-580c-4944-9bbc-2c7cccbf45dc/resource/69ac9c59-92ff-41d4-a9e7-d02ffc85e2bf/download/centros_sociales.geojson",
+          "format": "GEOJSON",
+          "identifier": "https://opendata.alcoi.org/data/dataset/centros-de-asistencia/resource/69ac9c59-92ff-41d4-a9e7-d02ffc85e2bf"
+        },
+        {
+          "title": "Centros de asistencia",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/8049b77a-580c-4944-9bbc-2c7cccbf45dc/resource/9b35456d-c852-4cab-b5ea-17aa451ae84a/download/centros_sociales.kml",
+          "format": "SIN DATO",
+          "identifier": "https://opendata.alcoi.org/data/dataset/centros-de-asistencia/resource/9b35456d-c852-4cab-b5ea-17aa451ae84a"
+        }
+      ],
+      "score": 25,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Sociedad Bienestar.",
+        "Publicador: L01030092.",
+        "Cobertura geografica principal: Alicante."
+      ]
+    },
+    {
+      "id": "https://opendata.alcoi.org/data/dataset/centros-deportivos",
+      "title": "Centros Deportivos",
+      "description": "Centros Deportivos en la ciudad de Alcoy",
+      "issued": "jue, 07 may 2020 05:59:04 GMT+0000",
+      "modified": "vie, 25 sep 2026 04:22:14 GMT+0000",
+      "publisher": "L01030092",
+      "spatial": "Alicante",
+      "themes": [
+        "Deporte"
+      ],
+      "keywords": [
+        "deporte"
+      ],
+      "formats": [
+        "GEOJSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/l01030092-centros-deportivos",
+      "distributions": [
+        {
+          "title": "Centros Deportivos",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/73088621-45b9-41a0-9060-c90ab20daf76/resource/4dfe0a1b-164c-4a87-b1d1-a8ffe96cf311/download/centros_deportivos.shp",
+          "format": "SIN DATO",
+          "identifier": "https://opendata.alcoi.org/data/dataset/centros-deportivos/resource/4dfe0a1b-164c-4a87-b1d1-a8ffe96cf311"
+        },
+        {
+          "title": "Centros Deportivos",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/73088621-45b9-41a0-9060-c90ab20daf76/resource/f461d0c0-8d6a-43df-b0fa-0c4437732c9a/download/centros_deportivos.kml",
+          "format": "SIN DATO",
+          "identifier": "https://opendata.alcoi.org/data/dataset/centros-deportivos/resource/f461d0c0-8d6a-43df-b0fa-0c4437732c9a"
+        },
+        {
+          "title": "Centros Deportivos",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/73088621-45b9-41a0-9060-c90ab20daf76/resource/1d9e38a7-4ff1-4eb6-a018-ddd71bb52b08/download/centros_deportivos.geojson",
+          "format": "GEOJSON",
+          "identifier": "https://opendata.alcoi.org/data/dataset/centros-deportivos/resource/1d9e38a7-4ff1-4eb6-a018-ddd71bb52b08"
+        }
+      ],
+      "score": 25,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Deporte.",
+        "Publicador: L01030092.",
+        "Cobertura geografica principal: Alicante."
+      ]
+    },
+    {
+      "id": "https://opendata.alcoi.org/data/dataset/piscines-publiques",
+      "title": "Piscinas públicas",
+      "description": "Piscinas públicas en la ciudad de Alcoy",
+      "issued": "vie, 14 dic 2018 08:00:19 GMT+0000",
+      "modified": "vie, 25 sep 2026 04:29:37 GMT+0000",
+      "publisher": "L01030092",
+      "spatial": "Alicante",
+      "themes": [
+        "Cultura Ocio",
+        "Deporte"
+      ],
+      "keywords": [
+        "piscina",
+        "públic"
+      ],
+      "formats": [
+        "GEOJSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/l01030092-piscinas-publicas1",
+      "distributions": [
+        {
+          "title": "Piscinas públicas",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/d4543768-4d8d-42ab-a708-c1d4b68ae74d/resource/fd433eec-ae22-435f-8f6c-60dbbaffbec4/download/piscinas_publicas.shp",
+          "format": "SIN DATO",
+          "identifier": "https://opendata.alcoi.org/data/dataset/piscines-publiques/resource/fd433eec-ae22-435f-8f6c-60dbbaffbec4"
+        },
+        {
+          "title": "Piscinas públicas",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/d4543768-4d8d-42ab-a708-c1d4b68ae74d/resource/ba8e46cc-4018-4cee-94d8-b20e415b23df/download/piscinas_publicas.kml",
+          "format": "SIN DATO",
+          "identifier": "https://opendata.alcoi.org/data/dataset/piscines-publiques/resource/ba8e46cc-4018-4cee-94d8-b20e415b23df"
+        },
+        {
+          "title": "Piscinas públicas",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/d4543768-4d8d-42ab-a708-c1d4b68ae74d/resource/7d53fa04-40da-4fd1-b2c9-4ac31ab66dab/download/piscinas_publicas.geojson",
+          "format": "GEOJSON",
+          "identifier": "https://opendata.alcoi.org/data/dataset/piscines-publiques/resource/7d53fa04-40da-4fd1-b2c9-4ac31ab66dab"
+        }
+      ],
+      "score": 25,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Cultura Ocio, Deporte.",
+        "Publicador: L01030092.",
+        "Cobertura geografica principal: Alicante."
+      ]
+    },
+    {
+      "id": "https://opendata.alcoi.org/data/dataset/policia",
+      "title": "Policía",
+      "description": "Policía en la ciudad de Alcoy",
+      "issued": "vie, 14 dic 2018 10:06:41 GMT+0000",
+      "modified": "vie, 25 sep 2026 04:30:11 GMT+0000",
+      "publisher": "L01030092",
+      "spatial": "Alicante",
+      "themes": [
+        "Sector Publico"
+      ],
+      "keywords": [
+        "policia",
+        "seguretat"
+      ],
+      "formats": [
+        "GEOJSON"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/l01030092-policia1",
+      "distributions": [
+        {
+          "title": "Policía",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/6e95f359-2d97-4faf-9891-3ea11f1ae23e/resource/eceba9db-3c11-4216-9681-202551774b57/download/policia.shp",
+          "format": "SIN DATO",
+          "identifier": "https://opendata.alcoi.org/data/dataset/policia/resource/eceba9db-3c11-4216-9681-202551774b57"
+        },
+        {
+          "title": "Policía",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/6e95f359-2d97-4faf-9891-3ea11f1ae23e/resource/ab19a076-f105-4e61-9023-fc9018d093b8/download/policia.geojson",
+          "format": "GEOJSON",
+          "identifier": "https://opendata.alcoi.org/data/dataset/policia/resource/ab19a076-f105-4e61-9023-fc9018d093b8"
+        },
+        {
+          "title": "Policía",
+          "accessUrl": "https://opendata.alcoi.org/data/dataset/6e95f359-2d97-4faf-9891-3ea11f1ae23e/resource/91f30501-7660-47ff-8f93-e0ddd609fac6/download/policia.kml",
+          "format": "SIN DATO",
+          "identifier": "https://opendata.alcoi.org/data/dataset/policia/resource/91f30501-7660-47ff-8f93-e0ddd609fac6"
+        }
+      ],
+      "score": 25,
+      "notes": [
+        "Incluye formatos reutilizables para prototipos y analisis.",
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Sector Publico.",
+        "Publicador: L01030092.",
+        "Cobertura geografica principal: Alicante."
+      ]
+    },
+    {
+      "id": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/ventas-empleo-salarios-declaraciones-tributarias/avance-ventas-interiores-trimestrales.html",
+      "title": "Avance de Ventas Interiores en Grandes Empresas y Pymes",
+      "description": "El objeto de la publicación Avance de Ventas Interiores en Grandes Empresas y Pymes es, a partir de toda la información disponible del SII, obtener dos indicadores adelantados de las ventas interiores de la estadística trimestral de Ventas, Empleo y Salarios en las declaraciones tributarias.",
+      "issued": "mar, 02 abr 2024 22:00:00 GMT+0000",
+      "modified": "mar, 22 sep 2026 22:00:00 GMT+0000",
+      "publisher": "EA0028512",
+      "spatial": "España",
+      "themes": [
+        "Economia",
+        "Hacienda"
+      ],
+      "keywords": [
+        "Grandes empresas",
+        "Pymes",
+        "SII",
+        "Ventas"
+      ],
+      "formats": [
+        "SIN DATO"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/ea0028512-avance-de-ventas-interiores-en-grandes-empresas-y-pymes",
+      "distributions": [
+        {
+          "title": "Última publicación",
+          "accessUrl": "https://sede.agenciatributaria.gob.es/static_files/AEAT/Estudios/Estadisticas/Informes_Estadisticos/Informes_Ventas/Avance_VI_trimestrales/Informe_avance_VESGEP.pdf",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Avance de Ventas Interiores en Grandes Empresas y Pymes",
+          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/ventas-empleo-salarios-declaraciones-tributarias/avance-ventas-interiores-trimestrales.html",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 23,
+      "notes": [
+        "Tematicas detectadas: Economia, Hacienda.",
+        "Publicador: EA0028512.",
+        "Cobertura geografica principal: España."
+      ]
+    },
+    {
+      "id": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/ventas-empleos-salarios-declaraciones-tributarias/ventas-diarias.html",
+      "title": "Ventas diarias (Información semanal SII)",
+      "description": "La estadística recoge el nivel y la evolución diaria de las ventas que realizan las empresas incluidas en el sistema de Suministro Inmediato de Información (SII).\nDesde su entrada en vigor este sistema ha permitido disponer de datos de ventas con mayor actualidad, diarios frente a los datos mensuales o trimestrales característicos de las declaraciones del IVA. Los obligados a cumplimentar sus obligaciones tributarias a través del SII son las Grandes Empresas (aquellas con un volumen de operaciones en el año anterior superior a 6 millones de euros), los grupos del IVA y las empresas inscritas en el Registro de Devolución Mensual. Las ventas diarias suponen alrededor del 70% del total de ventas interiores del conjunto de contribuyentes del IVA (el porcentaje es superior si se considera el volumen de operaciones total declarado).\nLa publicación está compuesta por un informe y por las series históricas desde el 1 de julio de 2017. A partir de estas últimas, convenientemente tratadas, se proporciona una señal de la coyuntura económica, que complementa y anticipa la información de ventas contenida en los informes de recaudación tributaria y en la estadística mensual de Ventas, Empleo y Salarios en las Grandes Empresas (VESGE) y en la trimestral de Ventas, Empleo y Salarios en Grandes Empresas y Pymes (VESGEP).",
+      "issued": "mar, 21 dic 2021 23:00:00 GMT+0000",
+      "modified": "mar, 22 sep 2026 22:00:00 GMT+0000",
+      "publisher": "EA0028512",
+      "spatial": "España",
+      "themes": [
+        "Economia",
+        "Hacienda"
+      ],
+      "keywords": [
+        "SII",
+        "Suministro Inmediato de Información",
+        "Ventas SII"
+      ],
+      "formats": [
+        "SIN DATO"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/ea0028512-ventas-diarias-informacion-semanal-sii",
+      "distributions": [
+        {
+          "title": "Ventas diarias Seguimiento semanal",
+          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/ventas-empleos-salarios-declaraciones-tributarias/ventas-diarias.html",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 23,
+      "notes": [
+        "Tematicas detectadas: Economia, Hacienda.",
+        "Publicador: EA0028512.",
+        "Cobertura geografica principal: España."
+      ]
+    },
+    {
+      "id": "ea0028512-flash-de-ventas-interiores-diarias",
+      "title": "Flash de Ventas Interiores Diarias",
+      "description": "Esta publicación se presenta como un avance de una semana sobre el Informe de Seguimiento de Ventas Diarias en lo concerniente a ventas interiores, donde además se aporta información de su componente de ciclo tendencia, así como la variación de ésta en el muy corto plazo. Ello favorece la detección temprana de cambios en la facturación, así como una mejor visualización de la evolución subyacente de la misma.\n\nLa publicación está compuesta por un informe que presenta el ajuste de las series para el total de ramas de actividad y para el total sin las ramas de comportamiento más volátil (las asociadas a la energía y financieras, fundamentalmente) desde el 1 de julio de 2017. La metodología de ajuste (ver la metodología para un mayor detalle) proporciona una señal de muy corto plazo de la coyuntura económica, que complementa y anticipa la información de ventas interiores contenida en el Informe de Seguimiento de Ventas Diarias.\n",
+      "issued": "mar, 14 oct 2025 22:00:00 GMT+0000",
+      "modified": "mar, 22 sep 2026 22:00:00 GMT+0000",
+      "publisher": "EA0028512",
+      "spatial": "Sin dato",
+      "themes": [
+        "Comercio",
+        "Economia",
+        "Hacienda"
+      ],
+      "keywords": [],
+      "formats": [
+        "SIN DATO"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/ea0028512-flash-de-ventas-interiores-diarias",
+      "distributions": [
+        {
+          "title": "Base de datos",
+          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/ventas-empleo-salarios-declaraciones-tributarias/flash-vid.html",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Informe Flash Ventas Interiores Diarias",
+          "accessUrl": "https://sede.agenciatributaria.gob.es/static_files/AEAT/Estudios/Estadisticas/Informes_Estadisticos/Informes_Ventas/Flash_VI_diarias/Flash_VId.pdf",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 16,
+      "notes": [
+        "Tematicas detectadas: Comercio, Economia, Hacienda.",
+        "Publicador: EA0028512."
+      ]
+    },
+    {
+      "id": "ea0028512-estadistica-de-comercio-exterior",
+      "title": "Estadística de Comercio Exterior",
+      "description": "Se facilita información estadística, incluida en el Plan Estadístico Nacional, y obligatoria por distintos reglamentos comunitarios.\nBajo la denominación de \"Estadísticas de Comercio Exterior\" se incluyen:\n- Informes mensuales, anuarios estadísticos y las posiciones sometidas a confidencialidad (artículo 11 del Reglamento UE 638/2004) actualizados mensualmente y mostrados en formato PDF.\n- Ficheros resúmenes y ficheros de máxima desagregación de datos mensuales y anuales, en formato TXT comprimidos, para la descarga de datos estadísticos.\n- A partir de 2013, en formato excel y con carácter mensual, un resumen de los ficheros estadísticos publicados.",
+      "issued": "mié, 19 ene 2000 23:00:00 GMT+0000",
+      "modified": "lun, 21 sep 2026 22:00:00 GMT+0000",
+      "publisher": "EA0028512",
+      "spatial": "España",
+      "themes": [
+        "Hacienda"
+      ],
+      "keywords": [],
+      "formats": [
+        "SIN DATO"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/ea0028512-estadistica-de-comercio-exterior",
+      "distributions": [
+        {
+          "title": "Metodología",
+          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/estadisticas-comercio-exterior/metodologia.html",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Calendario de difusión",
+          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/estadisticas-comercio-exterior/calendario-publicacion.html",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Estadísticas: series mensuales",
+          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/estadisticas-comercio-exterior.html",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 15,
+      "notes": [
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Hacienda.",
+        "Publicador: EA0028512.",
+        "Cobertura geografica principal: España."
+      ]
+    },
+    {
+      "id": "https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Estadistica_del_Impuesto_sobre_Matriculacion_de_Vehiculos_Automoviles.shtml",
+      "title": "Estadística del Impuesto de Matriculación",
+      "description": "Publicación estadística basada en las declaraciones del modelo 576, Impuesto Especial sobre determinados medios de transporte (IEDMT), que se debe presentar obligatoriamente de forma telemática, con la primera matriculación definitiva en España de automóviles nuevos o usados, accionados a motor para circular por vías o terrenos píublicos.\nLa información se clasifica desde distintas perspectivas: epígrafe, tipo de combustible, ciilindrada, Comunidad Autónoma y tramos de base imponible equivalente al valor del vehículo en el momento de su adquisición.\nLa información, que se presenta en un avance mensual y una estadística anaul, aporta un enfoque más tributario a información que en gran medida ya aparece recogida y puesta a disposición del público desde otros organismos.",
+      "issued": "sáb, 31 dic 2005 23:00:00 GMT+0000",
+      "modified": "lun, 21 sep 2026 22:00:00 GMT+0000",
+      "publisher": "EA0028512",
+      "spatial": "España",
+      "themes": [
+        "Hacienda"
+      ],
+      "keywords": [],
+      "formats": [
+        "SIN DATO"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/ea0028512-estadistica-del-impuesto-de-matriculacion",
+      "distributions": [
+        {
+          "title": "Estadística (avances mensuales)",
+          "accessUrl": "https://sede.agenciatributaria.gob.es/AEAT/Contenidos_Comunes/La_Agencia_Tributaria/Estadisticas/Publicaciones/sites/matriculaciones/mes/home.html",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Todas las publicaciones",
+          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Estadistica_del_Impuesto_sobre_Matriculacion_de_Vehiculos_Automoviles.shtml",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Estadística del año 2025",
+          "accessUrl": "https://sede.agenciatributaria.gob.es/AEAT/Contenidos_Comunes/La_Agencia_Tributaria/Estadisticas/Publicaciones/sites/matriculaciones/2025/home.html",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Metodología",
+          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/estadisticas-impuesto/impuesto-matriculacion-vehiculos-automoviles/metodologia.html",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 15,
+      "notes": [
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Hacienda.",
+        "Publicador: EA0028512.",
+        "Cobertura geografica principal: España."
+      ]
+    },
+    {
+      "id": "https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Resultados_economicos_y_tributarios_en_el_Impuesto_sobre_el_Valor_Anadido.shtml",
+      "title": "Resultados económicos y tributarios en el Impuesto sobre el Valor Añadido (IVA)",
+      "description": "El análisis de los datos recaudatorios del IVA pretende proporcionar una herramienta adecuada para  cuantificar los efectos recaudatorios imputables a cada factor económico. El análisis se enmarca en el entorno de la empresa como unidad declarante, y en las magnitudes determinantes de su cuenta de producción: ventas (interiores y exteriores); compras (corrientes o de inversión); valor añadido (incorporado en el proceso de producción o adquirido del exterior). También se analizan las conexiones o repercusiones tributarias de cada uno de los citado elementos. \nEl objetivo final es analizar el Impuesto correspondiente al consumo final interior mediante el análisis indirecto que nos proporcionan las declaraciones-liquidaciones del mismo; esto es, el impuesto correspondiente a la agregación de los valores añadidos incorporados a la producción por todas las unidades económicas del sistema (unidades declarantes).",
+      "issued": "vie, 29 oct 1999 22:00:00 GMT+0000",
+      "modified": "mié, 23 sep 2026 22:00:00 GMT+0000",
+      "publisher": "EA0028512",
+      "spatial": "España",
+      "themes": [
+        "Hacienda"
+      ],
+      "keywords": [],
+      "formats": [
+        "SIN DATO"
+      ],
+      "datasetUrl": "https://datos.gob.es/catalogo/ea0028512-resultados-economicos-y-tributarios-en-el-impuesto-sobre-el-valor-anadido-iva",
+      "distributions": [
+        {
+          "title": "Metodología",
+          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/estadisticas-impuesto/resultados-economicos-tributarios-impuesto-sobre-anadido/metodologia.html",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Estadística (todos los ejercicios)",
+          "accessUrl": "https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Resultados_economicos_y_tributarios_en_el_Impuesto_sobre_el_Valor_Anadido.shtml",
+          "format": "SIN DATO",
+          "identifier": ""
+        },
+        {
+          "title": "Estadística 2025",
+          "accessUrl": "https://sede.agenciatributaria.gob.es/AEAT/Contenidos_Comunes/La_Agencia_Tributaria/Estadisticas/Publicaciones/sites/iva/2025/home.html",
+          "format": "SIN DATO",
+          "identifier": ""
+        }
+      ],
+      "score": 15,
+      "notes": [
+        "Tiene varias distribuciones, senal de dataset mantenido o explotable.",
+        "Tematicas detectadas: Hacienda.",
+        "Publicador: EA0028512.",
+        "Cobertura geografica principal: España."
       ]
     }
   ]
